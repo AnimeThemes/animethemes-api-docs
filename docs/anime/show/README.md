@@ -1,0 +1,55 @@
+---
+title: Anime Show
+---
+
+<Block>
+
+# Anime Show Endpoint
+
+The Anime Show endpoint returns an Anime Resource.
+
+## URL
+
+```sh
+GET /api/anime/{slug}
+```
+
+## Parameters
+
+| Name    | Required | Description                                             |
+| :-----: | :------: | :------------------------------------------------------ |
+| fields  | No       | Sparse fieldsets for resource types                     |
+| include | No       | Inclusion of related resources                          |
+| filter  | No       | Filters to constrain the inclusion of related resources |
+
+## Response
+
+```json
+Status: 200
+
+{
+    anime: {
+        id: id,
+        name: "name",
+        slug: "slug",
+        year: year,
+        season: "season",
+        synopsis: "synopsis",
+        created_at: "created_at",
+        updated_at: "updated_at",
+        deleted_at: "deleted_at",
+    }
+}
+```
+
+<Example>
+
+<CURL>
+```bash
+curl https://staging.animethemes.moe/api/anime/bakemonogatari
+```
+</CURL>
+
+</Example>
+
+</Block>

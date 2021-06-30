@@ -1,17 +1,17 @@
 ---
-title: Anime Index
+title: Song Index
 ---
 
 <Block>
 
-# Anime Index Endpoint
+# Song Index Endpoint
 
-The anime index endpoint returns a listing of anime resources.
+The song index endpoint returns a listing of song resources.
 
 ## URL
 
 ```sh
-GET /api/anime/
+GET /api/song/
 ```
 
 ## Parameters
@@ -20,27 +20,22 @@ GET /api/anime/
 | :----------: | :------: | :---------------------------------------------------------------------------- |
 | fields       | No       | Sparse fieldsets for resource types                                           |
 | include      | No       | Inclusion of related resources                                                |
-| filter       | No       | Filters for anime resources & constraining the inclusion of related resources |
+| filter       | No       | Filters for song resources & constraining the inclusion of related resources  |
 | sort         | No       | The list of fields to sort the resources. Ignored if search query is present. |
-| q            | No       | The query to search for matching anime resources                              |
-| page[size]   | No       | The number of anime resources to display for the current page                 |
-| page[number] | No       | The page of anime resources to display                                        |
+| q            | No       | The query to search for matching song resources                               |
+| page[size]   | No       | The number of song resources to display for the current page                  |
+| page[number] | No       | The page of song resources to display                                         |
 
 ## Allowed Sort Fields
 
-* anime_id
-* name
-* slug
-* year
-* season
+* song_id
+* title
 * created_at
 * updated_at
 * deleted_at
 
 ## Filters
 
-* year
-* season
 * created_at
 * updated_at
 * deleted_at
@@ -52,14 +47,10 @@ GET /api/anime/
 Status: 200
 
 {
-    anime: [
+    songs: [
         {
             id: id,
-            name: "name",
-            slug: "slug",
-            year: year,
-            season: "season",
-            synopsis: "synopsis",
+            title: "title",
             created_at: "created_at",
             updated_at: "updated_at",
             deleted_at: "deleted_at"
@@ -86,7 +77,7 @@ Status: 200
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/anime/
+curl https://staging.animethemes.moe/api/song/
 ```
 </CURL>
 

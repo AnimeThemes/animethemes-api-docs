@@ -6,7 +6,9 @@ title: Artist Show
 
 # Artist Show Endpoint
 
-The Artist Show endpoint returns an Artist Resource.
+The artist show endpoint returns an artist resource.
+
+For example, the `/api/artist/chiwa_saito` endpoint will return the artist resource for the artist Chiwa Saito.
 
 ## URL
 
@@ -34,7 +36,7 @@ Status: 200
         slug: "slug",
         created_at: "created_at",
         updated_at: "updated_at",
-        deleted_at: "deleted_at",
+        deleted_at: "deleted_at"
     }
 }
 ```

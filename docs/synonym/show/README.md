@@ -1,19 +1,19 @@
 ---
-title: Anime Show
+title: Synonym Show
 ---
 
 <Block>
 
-# Anime Show Endpoint
+# Synonym Show Endpoint
 
-The anime show endpoint returns an anime resource.
+The synonym show endpoint returns a synonym resource.
 
-For example, the `/api/anime/bakemonogatari` endpoint will return the Bakemonogatari resource for the Bakemonogatari anime.
+For example, the `/api/synonym/1523` endpoint will return the synonym resource "Ghostory" for the anime Bakemonogatari.
 
 ## URL
 
 ```sh
-GET /api/anime/{slug}
+GET /api/synonym/{id}
 ```
 
 ## Parameters
@@ -30,13 +30,9 @@ GET /api/anime/{slug}
 Status: 200
 
 {
-    anime: {
+    synonym: {
         id: id,
-        name: "name",
-        slug: "slug",
-        year: year,
-        season: "season",
-        synopsis: "synopsis",
+        text: "text",
         created_at: "created_at",
         updated_at: "updated_at",
         deleted_at: "deleted_at"
@@ -48,7 +44,7 @@ Status: 200
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/anime/bakemonogatari
+curl https://staging.animethemes.moe/api/synonym/1523
 ```
 </CURL>
 

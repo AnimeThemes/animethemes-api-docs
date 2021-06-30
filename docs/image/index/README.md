@@ -1,17 +1,17 @@
 ---
-title: Anime Index
+title: Image Index
 ---
 
 <Block>
 
-# Anime Index Endpoint
+# Image Index Endpoint
 
-The anime index endpoint returns a listing of anime resources.
+The image index endpoint returns a listing of image resources.
 
 ## URL
 
 ```sh
-GET /api/anime/
+GET /api/image/
 ```
 
 ## Parameters
@@ -20,27 +20,25 @@ GET /api/anime/
 | :----------: | :------: | :---------------------------------------------------------------------------- |
 | fields       | No       | Sparse fieldsets for resource types                                           |
 | include      | No       | Inclusion of related resources                                                |
-| filter       | No       | Filters for anime resources & constraining the inclusion of related resources |
-| sort         | No       | The list of fields to sort the resources. Ignored if search query is present. |
-| q            | No       | The query to search for matching anime resources                              |
-| page[size]   | No       | The number of anime resources to display for the current page                 |
-| page[number] | No       | The page of anime resources to display                                        |
+| filter       | No       | Filters for image resources & constraining the inclusion of related resources |
+| sort         | No       | The list of fields to sort the image resources                                |
+| page[size]   | No       | The number of image resources to display for the current page                 |
+| page[number] | No       | The page of image resources to display                                        |
 
 ## Allowed Sort Fields
 
-* anime_id
-* name
-* slug
-* year
-* season
+* image_id
+* path
+* size
+* mimetype
+* facet
 * created_at
 * updated_at
 * deleted_at
 
 ## Filters
 
-* year
-* season
+* facet
 * created_at
 * updated_at
 * deleted_at
@@ -52,17 +50,17 @@ GET /api/anime/
 Status: 200
 
 {
-    anime: [
+    images: [
         {
             id: id,
-            name: "name",
-            slug: "slug",
-            year: year,
-            season: "season",
-            synopsis: "synopsis",
+            path: "path",
+            size: size,
+            mimetype: "mimetype",
+            facet: "facet",
             created_at: "created_at",
             updated_at: "updated_at",
-            deleted_at: "deleted_at"
+            deleted_at: "deleted_at",
+            link: "link"
         },
         ...
     ],
@@ -86,7 +84,7 @@ Status: 200
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/anime/
+curl https://staging.animethemes.moe/api/image/
 ```
 </CURL>
 

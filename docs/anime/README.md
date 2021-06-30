@@ -6,7 +6,9 @@ title: Anime
 
 ---
 
-An Anime API Resource represents a production with at least one opening or ending sequence.
+An anime API resource represents a production with at least one opening or ending sequence.
+
+For example, Bakemonogatari is an anime production with five opening sequences and one ending sequence.
 
 ### Fields
 
@@ -37,16 +39,16 @@ An Anime API Resource represents a production with at least one opening or endin
 
 **[Anime Show](/anime/show/)**
 
-The Anime Show endpoint returns an Anime Resource.
+The anime show endpoint returns an anime resource.
 
 **[Anime Index](/anime/index/)**
 
-The Anime Index endpoint displays a listing of Anime Resources.
+The anime index endpoint displays a listing of anime resources.
 
-**Year Show**
+**[Year Show](/year/show/)**
 
-The Year Show endpoint
+The year show endpoint return a listing of anime resources for a given year grouped by season and ordered by name.
 
-**Year Index**
+**[Year Index](/year/index/)**
 
-The Year Index endpoint
+The year index endpoint returns a list of unique years from all anime resources.

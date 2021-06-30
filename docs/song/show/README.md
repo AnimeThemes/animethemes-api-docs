@@ -1,19 +1,19 @@
 ---
-title: Anime Show
+title: Song Show
 ---
 
 <Block>
 
-# Anime Show Endpoint
+# Song Show Endpoint
 
-The anime show endpoint returns an anime resource.
+The song show endpoint returns a song resource.
 
-For example, the `/api/anime/bakemonogatari` endpoint will return the Bakemonogatari resource for the Bakemonogatari anime.
+For example, the `/api/song/3373` endpoint will return the song resource for the Staple Stable song.
 
 ## URL
 
 ```sh
-GET /api/anime/{slug}
+GET /api/song/{id}
 ```
 
 ## Parameters
@@ -30,13 +30,9 @@ GET /api/anime/{slug}
 Status: 200
 
 {
-    anime: {
+    song: {
         id: id,
-        name: "name",
-        slug: "slug",
-        year: year,
-        season: "season",
-        synopsis: "synopsis",
+        title: "title",
         created_at: "created_at",
         updated_at: "updated_at",
         deleted_at: "deleted_at"
@@ -48,7 +44,7 @@ Status: 200
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/anime/bakemonogatari
+curl https://staging.animethemes.moe/api/song/3373
 ```
 </CURL>
 

@@ -1,19 +1,17 @@
 ---
-title: Anime Show
+title: Transaction Show
 ---
 
 <Block>
 
-# Anime Show Endpoint
+# Transaction Show Endpoint
 
-The anime show endpoint returns an anime resource.
-
-For example, the `/api/anime/bakemonogatari` endpoint will return the Bakemonogatari resource for the Bakemonogatari anime.
+The transaction show endpoint returns a transaction resource.
 
 ## URL
 
 ```sh
-GET /api/anime/{slug}
+GET /api/transaction/{id}
 ```
 
 ## Parameters
@@ -30,13 +28,13 @@ GET /api/anime/{slug}
 Status: 200
 
 {
-    anime: {
+    transaction: {
         id: id,
-        name: "name",
-        slug: "slug",
-        year: year,
-        season: "season",
-        synopsis: "synopsis",
+        date: "date",
+        service: "service",
+        description: "description",
+        amount: amount,
+        external_id: external_id,
         created_at: "created_at",
         updated_at: "updated_at",
         deleted_at: "deleted_at"
@@ -48,7 +46,7 @@ Status: 200
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/anime/bakemonogatari
+curl https://staging.animethemes.moe/api/transaction/1
 ```
 </CURL>
 

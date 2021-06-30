@@ -1,19 +1,17 @@
 ---
-title: Anime Show
+title: Balance Show
 ---
 
 <Block>
 
-# Anime Show Endpoint
+# Balance Show Endpoint
 
-The anime show endpoint returns an anime resource.
-
-For example, the `/api/anime/bakemonogatari` endpoint will return the Bakemonogatari resource for the Bakemonogatari anime.
+The balance show endpoint returns a balance resource.
 
 ## URL
 
 ```sh
-GET /api/anime/{slug}
+GET /api/balance/{id}
 ```
 
 ## Parameters
@@ -30,13 +28,13 @@ GET /api/anime/{slug}
 Status: 200
 
 {
-    anime: {
+    balance: {
         id: id,
-        name: "name",
-        slug: "slug",
-        year: year,
-        season: "season",
-        synopsis: "synopsis",
+        date: "date",
+        service: "service",
+        frequency: "frequency",
+        usage: usage,
+        month_to_date_balance: month_to_date_balance,
         created_at: "created_at",
         updated_at: "updated_at",
         deleted_at: "deleted_at"
@@ -48,7 +46,7 @@ Status: 200
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/anime/bakemonogatari
+curl https://staging.animethemes.moe/api/balance/1
 ```
 </CURL>
 

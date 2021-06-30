@@ -1,17 +1,17 @@
-0---
-title: Artist Index
+---
+title: Series Index
 ---
 
 <Block>
 
-# Artist Index Endpoint
+# Series Index Endpoint
 
-The artist index endpoint returns a listing of artist resources.
+The series index endpoint returns a listing of series resources.
 
 ## URL
 
 ```sh
-GET /api/artist/
+GET /api/series/
 ```
 
 ## Parameters
@@ -20,15 +20,15 @@ GET /api/artist/
 | :----------: | :------: | :----------------------------------------------------------------------------- |
 | fields       | No       | Sparse fieldsets for resource types                                            |
 | include      | No       | Inclusion of related resources                                                 |
-| filter       | No       | Filters for artist resources & constraining the inclusion of related resources |
+| filter       | No       | Filters for series resources & constraining the inclusion of related resources |
 | sort         | No       | The list of fields to sort the resources. Ignored if search query is present.  |
-| q            | No       | The query to search for matching artist resources                              |
-| page[size]   | No       | The number of artist resources to display for the current page                 |
-| page[number] | No       | The page of artist resources to display                                        |
+| q            | No       | The query to search for matching series resources                              |
+| page[size]   | No       | The number of series resources to display for the current page                 |
+| page[number] | No       | The page of series resources to display                                        |
 
 ## Allowed Sort Fields
 
-* artist_id
+* series_id
 * name
 * slug
 * created_at
@@ -48,7 +48,7 @@ GET /api/artist/
 Status: 200
 
 {
-    artists: [
+    series: [
         {
             id: id,
             name: "name",
@@ -79,7 +79,7 @@ Status: 200
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/artist/
+curl https://staging.animethemes.moe/api/series/
 ```
 </CURL>
 

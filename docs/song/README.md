@@ -1,22 +1,21 @@
 ---
-title: Artist
+title: Song
 ---
 
-# Artist
+# Song
 
 ---
 
-An artist API resource represents a musical performer of anime sequences.
+A song API resource represents the composition that accompanies an anime theme.
 
-For example, Chiwa Saito is the musical performer of the Bakemonogatari OP1 theme, among many others.
+For example, Staple Stable is the song for the Bakemonogatari OP1 theme.
 
 ### Fields
 
 |    Name    |  Type   | Description                                                     |
 | :--------: | :-----: | :-------------------------------------------------------------- |
 | id         | Integer | The primary key of the resource                                 |
-| name       | String  | The primary title of the artist                                 |
-| slug       | String  | The URL slug & route key of the resource                        |
+| title      | String  | The name of the composition                                     |
 | as         | String  | Used to distinguish a performance by alias, character or group  |
 | created_at | Date    | The date that the resource was created                          |
 | updated_at | Date    | The date that the resource was last modified                    |
@@ -24,20 +23,16 @@ For example, Chiwa Saito is the musical performer of the Bakemonogatari OP1 them
 
 ### Allowed Include Paths
 
-* songs
-* songs.themes
-* songs.themes.anime
-* members
-* groups
-* resources
-* images
+* themes
+* themes.anime
+* artists
 
 ### Endpoints
 
-**[Artist Show](/artist/show/)**
+**[Song Show](/song/show/)**
 
-The artist show endpoint returns an artist resource.
+The song show endpoint returns a song resource.
 
-**[Artist Index](/artist/index/)**
+**[Song Index](/song/index/)**
 
-The artist index endpoint displays a listing of artist resources.
+The song index endpoint displays a listing of song resources.

@@ -1,19 +1,19 @@
 ---
-title: Anime Show
+title: Image Show
 ---
 
 <Block>
 
-# Anime Show Endpoint
+# Image Show Endpoint
 
-The anime show endpoint returns an anime resource.
+The image show endpoint returns an image resource.
 
-For example, the `/api/anime/bakemonogatari` endpoint will return the Bakemonogatari resource for the Bakemonogatari anime.
+For example, `/api/image/435` endpoint will return the large cover image for the Bakemonogatari anime.
 
 ## URL
 
 ```sh
-GET /api/anime/{slug}
+GET /api/image/{id}
 ```
 
 ## Parameters
@@ -30,16 +30,16 @@ GET /api/anime/{slug}
 Status: 200
 
 {
-    anime: {
+    image: {
         id: id,
-        name: "name",
-        slug: "slug",
-        year: year,
-        season: "season",
-        synopsis: "synopsis",
+        path: "path",
+        size: size,
+        mimetype: "mimetype",
+        facet: "facet",
         created_at: "created_at",
         updated_at: "updated_at",
-        deleted_at: "deleted_at"
+        deleted_at: "deleted_at",
+        link: "link"
     }
 }
 ```
@@ -48,7 +48,7 @@ Status: 200
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/anime/bakemonogatari
+curl https://staging.animethemes.moe/api/image/435
 ```
 </CURL>
 

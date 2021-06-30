@@ -1,17 +1,17 @@
 ---
-title: Anime Index
+title: Theme Index
 ---
 
 <Block>
 
-# Anime Index Endpoint
+# Theme Index Endpoint
 
-The anime index endpoint returns a listing of anime resources.
+The theme index endpoint returns a listing of theme resources.
 
 ## URL
 
 ```sh
-GET /api/anime/
+GET /api/theme/
 ```
 
 ## Parameters
@@ -20,27 +20,30 @@ GET /api/anime/
 | :----------: | :------: | :---------------------------------------------------------------------------- |
 | fields       | No       | Sparse fieldsets for resource types                                           |
 | include      | No       | Inclusion of related resources                                                |
-| filter       | No       | Filters for anime resources & constraining the inclusion of related resources |
+| filter       | No       | Filters for theme resources & constraining the inclusion of related resources |
 | sort         | No       | The list of fields to sort the resources. Ignored if search query is present. |
-| q            | No       | The query to search for matching anime resources                              |
-| page[size]   | No       | The number of anime resources to display for the current page                 |
-| page[number] | No       | The page of anime resources to display                                        |
+| q            | No       | The query to search for matching theme resources                              |
+| page[size]   | No       | The number of theme resources to display for the current page                 |
+| page[number] | No       | The page of theme resources to display                                        |
 
 ## Allowed Sort Fields
 
-* anime_id
-* name
+* theme_id
+* type
+* sequence
+* group
 * slug
-* year
-* season
 * created_at
 * updated_at
 * deleted_at
+* anime_id
+* song_id
 
 ## Filters
 
-* year
-* season
+* type
+* sequence
+* group
 * created_at
 * updated_at
 * deleted_at
@@ -52,14 +55,13 @@ GET /api/anime/
 Status: 200
 
 {
-    anime: [
+    themes: [
         {
             id: id,
-            name: "name",
+            type: "type",
+            sequence: sequence,
+            group: "group",
             slug: "slug",
-            year: year,
-            season: "season",
-            synopsis: "synopsis",
             created_at: "created_at",
             updated_at: "updated_at",
             deleted_at: "deleted_at"
@@ -86,7 +88,7 @@ Status: 200
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/anime/
+curl https://staging.animethemes.moe/api/theme/
 ```
 </CURL>
 

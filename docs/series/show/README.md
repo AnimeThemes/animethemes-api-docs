@@ -27,8 +27,6 @@ GET /api/series/{slug}
 ## Response
 
 ```json
-Status: 200
-
 {
     series: {
         id: id,

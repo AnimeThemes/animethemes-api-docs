@@ -16,11 +16,11 @@ The AnimeThemes API selectively implements the [**JSON:API Specification**](http
 
 We provide an overview of where the AnimeThemes API adheres to or deviates from the specification.
 
-## Rate Limiting
+## [Rate Limiting](/ratelimiting)
 
 The AnimeThemes API applies the standard named rate limiter of the Laravel Framework.
 
-Please limit requests to 1/sec.
+We provide an overview of managing request quotas.
 
 ## Terms of Use
 
@@ -32,4 +32,4 @@ For API support, please make use of the **#development** channel in the [**Disco
 
 To report an issue with or request a new feature for the API, please make use of the [**animethemes-server**](https://github.com/AnimeThemes/animethemes-server) Github.
 
-To report an issue with or request a new feature for this documentation, please make use of the [**animethemes-api-docs**](https://github.com/AnimeThemes/animethemes-server) Github.
+To report an issue with or request a new feature for this documentation, please make use of the [**animethemes-api-docs**](https://github.com/AnimeThemes/animethemes-api-docs) Github.

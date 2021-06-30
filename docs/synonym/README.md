@@ -12,13 +12,13 @@ For example, the anime Bakemonogatari has the synonym "Ghostory".
 
 ### Fields
 
-|    Name    |  Type   | Description                                                     |
-| :--------: | :-----: | :-------------------------------------------------------------- |
-| id         | Integer | The primary key of the resource                                 |
-| text       | String  | The alternate title or common abbreviations                     |
-| created_at | Date    | The date that the resource was created                          |
-| updated_at | Date    | The date that the resource was last modified                    |
-| deleted_at | Date    | The date that the resource was deleted                          |
+|    Name    |  Type   | Nullable | Description                                  |
+| :--------: | :-----: | :------: | :------------------------------------------- |
+| id         | Integer | No       | The primary key of the resource              |
+| text       | String  | Yes      | The alternate title or common abbreviations  |
+| created_at | Date    | No       | The date that the resource was created       |
+| updated_at | Date    | No       | The date that the resource was last modified |
+| deleted_at | Date    | Yes      | The date that the resource was deleted       |
 
 ### Allowed Include Paths
 

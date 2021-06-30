@@ -27,8 +27,6 @@ GET /api/song/{id}
 ## Response
 
 ```json
-Status: 200
-
 {
     song: {
         id: id,

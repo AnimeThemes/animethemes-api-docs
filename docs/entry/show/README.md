@@ -27,8 +27,6 @@ GET /api/entry/{id}
 ## Response
 
 ```json
-Status: 200
-
 {
     entry: {
         id: id,

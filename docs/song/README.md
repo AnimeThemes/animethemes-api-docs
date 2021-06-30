@@ -12,14 +12,14 @@ For example, Staple Stable is the song for the Bakemonogatari OP1 theme.
 
 ### Fields
 
-|    Name    |  Type   | Description                                                     |
-| :--------: | :-----: | :-------------------------------------------------------------- |
-| id         | Integer | The primary key of the resource                                 |
-| title      | String  | The name of the composition                                     |
-| as         | String  | Used to distinguish a performance by alias, character or group  |
-| created_at | Date    | The date that the resource was created                          |
-| updated_at | Date    | The date that the resource was last modified                    |
-| deleted_at | Date    | The date that the resource was deleted                          |
+|    Name    |  Type   | Nullable | Description                                                    |
+| :--------: | :-----: | :------: | :------------------------------------------------------------- |
+| id         | Integer | No       | The primary key of the resource                                |
+| title      | String  | Yes      | The name of the composition                                    |
+| as         | String  | Yes      | Used to distinguish a performance by alias, character or group |
+| created_at | Date    | No       | The date that the resource was created                         |
+| updated_at | Date    | No       | The date that the resource was last modified                   |
+| deleted_at | Date    | Yes      | The date that the resource was deleted                         |
 
 ### Allowed Include Paths
 

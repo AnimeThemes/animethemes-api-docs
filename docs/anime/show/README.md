@@ -27,8 +27,6 @@ GET /api/anime/{slug}
 ## Response
 
 ```json
-Status: 200
-
 {
     anime: {
         id: id,

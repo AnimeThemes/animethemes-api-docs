@@ -27,8 +27,6 @@ GET /api/artist/{slug}
 ## Response
 
 ```json
-Status: 200
-
 {
     artist: {
         id: id,

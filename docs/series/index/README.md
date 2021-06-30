@@ -45,8 +45,6 @@ GET /api/series/
 ## Response
 
 ```json
-Status: 200
-
 {
     series: [
         {

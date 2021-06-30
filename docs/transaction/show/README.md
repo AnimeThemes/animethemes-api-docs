@@ -25,8 +25,6 @@ GET /api/transaction/{id}
 ## Response
 
 ```json
-Status: 200
-
 {
     transaction: {
         id: id,

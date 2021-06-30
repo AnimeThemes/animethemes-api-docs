@@ -44,8 +44,6 @@ GET /api/song/
 ## Response
 
 ```json
-Status: 200
-
 {
     songs: [
         {

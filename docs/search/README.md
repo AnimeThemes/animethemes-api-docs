@@ -27,8 +27,6 @@ GET /api/search/
 ## Response
 
 ```json
-Status: 200
-
 {
     search: {
         anime: [

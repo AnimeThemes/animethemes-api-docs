@@ -27,8 +27,6 @@ GET /api/synonym/{id}
 ## Response
 
 ```json
-Status: 200
-
 {
     synonym: {
         id: id,

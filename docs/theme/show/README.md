@@ -27,8 +27,6 @@ GET /api/theme/{id}
 ## Response
 
 ```json
-Status: 200
-
 {
     theme: {
         id: id,

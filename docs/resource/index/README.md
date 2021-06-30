@@ -46,8 +46,6 @@ GET /api/resource/
 ## Response
 
 ```json
-Status: 200
-
 {
     resources: [
         {

@@ -52,8 +52,6 @@ GET /api/theme/
 ## Response
 
 ```json
-Status: 200
-
 {
     themes: [
         {

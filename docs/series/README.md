@@ -12,14 +12,14 @@ For example, the Monogatari series is the collection of the Bakemonogatari anime
 
 ### Fields
 
-|    Name    |  Type   | Description                                                     |
-| :--------: | :-----: | :-------------------------------------------------------------- |
-| id         | Integer | The primary key of the resource                                 |
-| name       | String  | The primary title of the series                                 |
-| slug       | String  | The URL slug & route key of the resource                        |
-| created_at | Date    | The date that the resource was created                          |
-| updated_at | Date    | The date that the resource was last modified                    |
-| deleted_at | Date    | The date that the resource was deleted                          |
+|    Name    |  Type   | Nullable | Description                                  |
+| :--------: | :-----: | :------: | :------------------------------------------- |
+| id         | Integer | No       | The primary key of the resource              |
+| name       | String  | No       | The primary title of the series              |
+| slug       | String  | No       | The URL slug & route key of the resource     |
+| created_at | Date    | No       | The date that the resource was created       |
+| updated_at | Date    | No       | The date that the resource was last modified |
+| deleted_at | Date    | Yes      | The date that the resource was deleted       |
 
 ### Allowed Include Paths
 

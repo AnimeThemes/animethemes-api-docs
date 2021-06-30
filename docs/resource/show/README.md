@@ -27,8 +27,6 @@ GET /api/resource/{id}
 ## Response
 
 ```json
-Status: 200
-
 {
     resource: {
         id: id,

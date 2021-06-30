@@ -9,8 +9,8 @@ node_modules/
 dist/
 
 # Local Env Files
-.env.local
-.env.*.local
+.env
+.env
 
 # Log files
 *.log

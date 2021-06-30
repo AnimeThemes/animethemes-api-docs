@@ -50,8 +50,6 @@ GET /api/balance/
 ## Response
 
 ```json
-Status: 200
-
 {
     balances: [
         {

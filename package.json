@@ -17,6 +17,7 @@
     "vuepress": "^1.5.3"
   },
   "dependencies": {
+    "dotenv": "^8.6.0",
     "vuepress-theme-api": "^1.0.1"
   }
 }

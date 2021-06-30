@@ -27,8 +27,6 @@ GET /api/image/{id}
 ## Response
 
 ```json
-Status: 200
-
 {
     image: {
         id: id,

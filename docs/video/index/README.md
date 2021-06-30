@@ -62,8 +62,6 @@ GET /api/video/
 ## Response
 
 ```json
-Status: 200
-
 {
     videos: [
         {

@@ -25,8 +25,6 @@ GET /api/announcement/{id}
 ## Response
 
 ```json
-Status: 200
-
 {
     announcement: {
         id: id,

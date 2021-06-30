@@ -1,4 +1,7 @@
+require('dotenv').config()
+
 module.exports = {
+  base: process.env.VUEPRESS_BASE,
   description: 'AnimeThemes API Documentation',
   theme: 'api',
   themeConfig: {
@@ -10,6 +13,10 @@ module.exports = {
           {
             title: 'JSON:API',
             to: '/jsonapi'
+          },
+          {
+            title: 'Rate Limiting',
+            to: '/ratelimiting'
           }
         ]
       },

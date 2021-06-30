@@ -49,8 +49,6 @@ GET /api/transaction/
 ## Response
 
 ```json
-Status: 200
-
 {
     transactions: [
         {

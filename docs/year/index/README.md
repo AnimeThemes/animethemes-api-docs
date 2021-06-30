@@ -21,8 +21,6 @@ None
 ## Response
 
 ```json
-Status: 200
-
 [
     1963,
     1964,

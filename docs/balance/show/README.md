@@ -25,8 +25,6 @@ GET /api/balance/{id}
 ## Response
 
 ```json
-Status: 200
-
 {
     balance: {
         id: id,

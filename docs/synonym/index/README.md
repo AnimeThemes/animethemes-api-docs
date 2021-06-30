@@ -45,8 +45,6 @@ GET /api/synonym/
 ## Response
 
 ```json
-Status: 200
-
 {
     synonyms: [
         {

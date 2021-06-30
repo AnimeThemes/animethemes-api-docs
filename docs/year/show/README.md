@@ -27,8 +27,6 @@ GET /api/year/{year}
 ## Response
 
 ```json
-Status: 200
-
 {
     winter: [
         {

@@ -45,8 +45,6 @@ GET /api/artist/
 ## Response
 
 ```json
-Status: 200
-
 {
     artists: [
         {

@@ -42,8 +42,6 @@ GET /api/announcement/
 ## Response
 
 ```json
-Status: 200
-
 {
     announcements: [
         {

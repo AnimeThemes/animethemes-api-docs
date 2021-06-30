@@ -50,8 +50,6 @@ GET /api/entry/
 ## Response
 
 ```json
-Status: 200
-
 {
     entries: [
         {

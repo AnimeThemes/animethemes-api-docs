@@ -27,8 +27,6 @@ GET /api/video/{basename}
 ## Response
 
 ```json
-Status: 200
-
 {
     video: {
         id: id,

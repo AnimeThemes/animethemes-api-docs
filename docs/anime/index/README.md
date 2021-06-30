@@ -49,8 +49,6 @@ GET /api/anime/
 ## Response
 
 ```json
-Status: 200
-
 {
     anime: [
         {

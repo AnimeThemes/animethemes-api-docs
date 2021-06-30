@@ -47,8 +47,6 @@ GET /api/image/
 ## Response
 
 ```json
-Status: 200
-
 {
     images: [
         {

@@ -30,7 +30,7 @@ Push upstream changes to the forked remote main branch if needed.
 
 ## Feature Branch Workflow
 
-Once the release branch is even with upstream, create a new feature branch from the release branch. The new feature branch name should be descriptive.
+Once the main branch is even with upstream, create a new feature branch from the main branch. The new feature branch name should be descriptive.
 
 `git branch new-feature-branch`
 
@@ -38,29 +38,23 @@ Switch to the new feature branch.
 
 `git checkout new-feature-branch`
 
-Make changes in the new feature branch. Once completed, run tests.
-
-`php artisan config:clear && php artisan test --parallel`
-
-Execute static code analysis.
-
-`./vendor/bin/phpstan analyse --memory-limit=-1`
+Make changes in the new feature branch.
 
 Stage changes. Commit changes. Please include ticket ID's and use [Semantic Commit Messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716).
 
 ## Cleanup Before Pull Request
 
-Fetch the upstream release branch and merge with the fork repo's release branch.
+Fetch the upstream main branch and merge with the fork repo's main branch.
 ```
-git fetch upstream wiki
-git checkout wiki
-git merge upstream/wiki
+git fetch upstream main
+git checkout main
+git merge upstream/main
 ```
 
 If there were any new commits, rebase the new feature branch.
 ```
 git checkout new-feature-branch
-git rebase wiki
+git rebase main
 ```
 
 ## Pull Request
@@ -69,9 +63,7 @@ Push changes to remote.
 
 `git push --set-upstream origin new-feature-branch`
 
-Confirm StyleCI passing status on push.
-
-Create Pull Request from the new feature branch to the upstream release branch.
+Create Pull Request from the new feature branch to the upstream main branch.
 
 ## Pruning
 
@@ -83,9 +75,9 @@ Delete the remote feature branch.
 
 `git push origin --delete new-feature-branch`
 
-Pull upstream changes so that the fork release branch is even with upstream.
+Pull upstream changes so that the fork main branch is even with upstream.
 
-`git pull upstream release-branch`
+`git pull upstream main`
 
 Push upstream changes to the fork's remote if needed.
 

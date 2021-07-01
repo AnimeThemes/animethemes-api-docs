@@ -10,13 +10,13 @@ AnimeThemes is a simple and consistent repository of anime opening and ending th
 
 The AnimeThemes API provides access to our repository resources for your development needs.
 
-## [JSON:API](/jsonapi)
+## [JSON:API](./jsonapi)
 
 The AnimeThemes API selectively implements the [**JSON:API Specification**](https://jsonapi.org/format/).
 
 We provide an overview of where the AnimeThemes API adheres to or deviates from the specification.
 
-## [Rate Limiting](/ratelimiting)
+## [Rate Limiting](./ratelimiting)
 
 The AnimeThemes API applies the standard named rate limiter of the Laravel Framework.
 

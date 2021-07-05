@@ -1,13 +1,13 @@
 {
   "name": "animethemes-api-docs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "AnimeThemes.moe API Documentation",
   "main": "index.js",
   "authors": {
     "name": "AnimeThemes",
     "email": "admin@animethemes.moe"
   },
-  "repository": "https://github.com/AnimeThemes/animethemes-api-docs/animethemes-api-docs",
+  "repository": "https://github.com/AnimeThemes/animethemes-api-docs",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"

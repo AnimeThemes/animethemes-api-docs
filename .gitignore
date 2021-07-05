@@ -10,7 +10,6 @@ dist/
 
 # Local Env Files
 .env
-.env
 
 # Log files
 *.log

@@ -21,7 +21,7 @@ GET /api/anime/
 | fields       | No       | Sparse fieldsets for resource types                                           |
 | include      | No       | Inclusion of related resources                                                |
 | filter       | No       | Filters for anime resources & constraining the inclusion of related resources |
-| sort         | No       | The list of fields to sort the resources. Ignored if search query is present. |
+| sort         | No       | The list of fields to sort the resources.                                     |
 | q            | No       | The query to search for matching anime resources                              |
 | page[size]   | No       | The number of anime resources to display for the current page                 |
 | page[number] | No       | The page of anime resources to display                                        |

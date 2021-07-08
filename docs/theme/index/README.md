@@ -21,7 +21,7 @@ GET /api/theme/
 | fields       | No       | Sparse fieldsets for resource types                                           |
 | include      | No       | Inclusion of related resources                                                |
 | filter       | No       | Filters for theme resources & constraining the inclusion of related resources |
-| sort         | No       | The list of fields to sort the resources. Ignored if search query is present. |
+| sort         | No       | The list of fields to sort the resources.                                     |
 | q            | No       | The query to search for matching theme resources                              |
 | page[size]   | No       | The number of theme resources to display for the current page                 |
 | page[number] | No       | The page of theme resources to display                                        |

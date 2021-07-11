@@ -21,7 +21,7 @@ GET /api/video/
 | fields       | No       | Sparse fieldsets for resource types                                           |
 | include      | No       | Inclusion of related resources                                                |
 | filter       | No       | Filters for video resources & constraining the inclusion of related resources |
-| sort         | No       | The list of fields to sort the resources.                                     |
+| sort         | No       | The list of fields to sort the resources                                      |
 | q            | No       | The query to search for matching video resources                              |
 | page[size]   | No       | The number of video resources to display for the current page                 |
 | page[number] | No       | The page of video resources to display                                        |
@@ -47,6 +47,11 @@ GET /api/video/
 
 ## Filters
 
+* basename
+* filename
+* path
+* size
+* mimetype
 * resolution
 * nc
 * subbed

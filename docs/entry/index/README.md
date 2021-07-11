@@ -21,7 +21,7 @@ GET /api/entry/
 | fields       | No       | Sparse fieldsets for resource types                                           |
 | include      | No       | Inclusion of related resources                                                |
 | filter       | No       | Filters for entry resources & constraining the inclusion of related resources |
-| sort         | No       | The list of fields to sort the resources.                                     |
+| sort         | No       | The list of fields to sort the resources                                      |
 | q            | No       | The query to search for matching entry resources                              |
 | page[size]   | No       | The number of entry resources to display for the current page                 |
 | page[number] | No       | The page of entry resources to display                                        |
@@ -40,8 +40,10 @@ GET /api/entry/
 ## Filters
 
 * version
+* episodes
 * nsfw
 * spoiler
+* notes
 * created_at
 * updated_at
 * deleted_at

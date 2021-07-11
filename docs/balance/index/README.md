@@ -42,6 +42,7 @@ GET /api/balance/
 * date
 * service
 * frequency
+* usage
 * created_at
 * updated_at
 * deleted_at

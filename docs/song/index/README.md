@@ -21,7 +21,7 @@ GET /api/song/
 | fields       | No       | Sparse fieldsets for resource types                                           |
 | include      | No       | Inclusion of related resources                                                |
 | filter       | No       | Filters for song resources & constraining the inclusion of related resources  |
-| sort         | No       | The list of fields to sort the resources.                                     |
+| sort         | No       | The list of fields to sort the resources                                      |
 | q            | No       | The query to search for matching song resources                               |
 | page[size]   | No       | The number of song resources to display for the current page                  |
 | page[number] | No       | The page of song resources to display                                         |
@@ -36,6 +36,7 @@ GET /api/song/
 
 ## Filters
 
+* title
 * created_at
 * updated_at
 * deleted_at

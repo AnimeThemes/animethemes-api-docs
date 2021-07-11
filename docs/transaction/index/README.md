@@ -41,6 +41,9 @@ GET /api/transaction/
 
 * date
 * service
+* description
+* amount
+* external_id
 * created_at
 * updated_at
 * deleted_at

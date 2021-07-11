@@ -34,6 +34,7 @@ GET /api/announcement/
 
 ## Filters
 
+* content
 * created_at
 * updated_at
 * deleted_at

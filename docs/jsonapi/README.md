@@ -408,35 +408,49 @@ NE
 ```sh
 # This will match anime not of year 2000
 /api/anime?filter[year][ne]=2000
-```  
+```
 
 LT
 
 ```sh
 # This will match anime where the year is less than 2000
 /api/anime?filter[year][lt]=2000
-```  
+```
 
 GT
 
 ```sh
 # This will match anime where the year is greater than 2000
 /api/anime?filter[year][gt]=2000
-```  
+```
 
 LTE
 
 ```sh
 # This will match anime where the year is less than or equal to 2000
 /api/anime?filter[year][lte]=2000
-``` 
+```
 
 GTE
 
 ```sh
 # This will match anime where the year is greater than 2000
 /api/anime?filter[year][gte]=2000
-```  
+```
+
+LIKE
+
+```sh
+# This will match anime where the name matches the pattern '%monogatari%'
+/api/anime?filter[name][like]=%monogatari%
+```
+
+NOT LIKE
+
+```sh
+# This will match anime where the name does not match the pattern '%monogatari%'
+/api/anime?filter[name][notlike]=%monogatari%
+```
 
 If a comparison operator is not provided, the filter shall use the EQ operator.
 

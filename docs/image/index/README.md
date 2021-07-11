@@ -38,6 +38,9 @@ GET /api/image/
 
 ## Filters
 
+* path
+* size
+* mimetype
 * facet
 * created_at
 * updated_at

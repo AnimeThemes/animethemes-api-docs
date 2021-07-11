@@ -7,13 +7,13 @@
 
 ## Introduction
 
-AnimeThemes is a simple and consistent repository of anime opening and ending themes. We provide direct links to high quality WebMs of your favorite OPs and EDs for your listening and discussion needs.
+[**AnimeThemes**](https://animethemes.moe/) is a simple and consistent repository of anime opening and ending themes. We provide direct links to high quality WebMs of your favorite OPs and EDs for your listening and discussion needs.
 
 The AnimeThemes API provides access to our repository resources for your development needs.
 
-This is the repository for the AnimeThemes.moe API documentation.
+This is the repository for the [**AnimeThemes.moe API documentation**](https://staging.animethemes.moe/api/docs/).
 
-This project is powered by [VuePress](https://vuepress.vuejs.org/), a minimalistic static site generator.
+This project is powered by [**VuePress**](https://vuepress.vuejs.org/), a minimalistic static site generator.
 
 ## Installation
 

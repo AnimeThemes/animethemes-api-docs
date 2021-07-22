@@ -39,10 +39,12 @@ GET /api/balance/
 
 ## Filters
 
+* id
 * date
 * service
 * frequency
 * usage
+* month_to_date_balance
 * created_at
 * updated_at
 * deleted_at

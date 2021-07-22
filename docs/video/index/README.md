@@ -47,6 +47,7 @@ GET /api/video/
 
 ## Filters
 
+* id
 * basename
 * filename
 * path

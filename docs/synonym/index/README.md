@@ -37,6 +37,7 @@ GET /api/synonym/
 
 ## Filters
 
+* id
 * text
 * created_at
 * updated_at

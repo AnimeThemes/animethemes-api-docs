@@ -37,6 +37,7 @@ GET /api/series/
 
 ## Filters
 
+* id
 * name
 * slug
 * created_at

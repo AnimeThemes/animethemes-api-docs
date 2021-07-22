@@ -37,6 +37,7 @@ GET /api/resource/
 
 ## Filters
 
+* id
 * link
 * external_id
 * site

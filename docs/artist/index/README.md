@@ -37,6 +37,7 @@ GET /api/artist/
 
 ## Filters
 
+* id
 * name
 * slug
 * created_at

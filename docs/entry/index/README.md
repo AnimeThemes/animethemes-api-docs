@@ -39,6 +39,7 @@ GET /api/entry/
 
 ## Filters
 
+* id
 * version
 * episodes
 * nsfw

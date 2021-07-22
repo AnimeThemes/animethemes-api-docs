@@ -39,6 +39,7 @@ GET /api/transaction/
 
 ## Filters
 
+* id
 * date
 * service
 * description

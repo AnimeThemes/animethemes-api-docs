@@ -41,6 +41,7 @@ GET /api/theme/
 
 ## Filters
 
+* id
 * type
 * sequence
 * group

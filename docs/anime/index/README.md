@@ -39,6 +39,7 @@ GET /api/anime/
 
 ## Filters
 
+* id
 * name
 * slug
 * year

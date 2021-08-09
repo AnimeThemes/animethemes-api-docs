@@ -1,4 +1,4 @@
-0---
+---
 title: Artist Index
 ---
 
@@ -28,22 +28,27 @@ GET /api/artist/
 
 ## Allowed Sort Fields
 
-* artist_id
-* name
-* slug
-* created_at
-* updated_at
-* deleted_at
+|    Name    | Description                                                         |
+| :--------: | :------------------------------------------------------------------ |
+| id         | Sort resources on the primary key                                   |
+| name       | Sort resources on the title of the artist                           |
+| slug       | Sort resources on the URL slug of the artist                        |
+| created_at | Sort resources on the resource creation date                        |
+| updated_at | Sort resources on the resource last modified date                   |
+| deleted_at | Sort resources on the resource deletion date                        |
+| random     | Sort resources randomly. Ignored if other sort fields are provided. |
 
 ## Filters
 
-* id
-* name
-* slug
-* created_at
-* updated_at
-* deleted_at
-* trashed status
+|    Name    | Description                                                        |
+| :--------: | :----------------------------------------------------------------- |
+| id         | Filter resources on the primary key                                |
+| name       | Filter resources on the title of the artist                        |
+| slug       | Filter resources on the URL slug of the artist                     |
+| created_at | Filter resources on the resource creation date                     |
+| updated_at | Filter resources on the resource last modified date                |
+| deleted_at | Filter resources on the resource deletion date                     |
+| trashed    | Filter resources on trashed (deleted) status {With, Without, Only} |
 
 ## Response
 

@@ -27,24 +27,29 @@ GET /api/resource/
 
 ## Allowed Sort Fields
 
-* resource_id
-* link
-* external_id
-* site
-* created_at
-* updated_at
-* deleted_at
+|    Name     | Description                                                           |
+| :--------:  | :-------------------------------------------------------------------- |
+| id          | Sort resources on the primary key                                     |
+| link        | Sort resources on the URL of the resource                             |
+| external_id | Sort resources on the identifier of the resource on the external site |
+| site        | Sort resources on the premiere year of the anime                      |
+| created_at  | Sort resources on the resource creation date                          |
+| updated_at  | Sort resources on the resource last modified date                     |
+| deleted_at  | Sort resources on the resource deletion date                          |
+| random      | Sort resources randomly. Ignored if other sort fields are provided.   |
 
 ## Filters
 
-* id
-* link
-* external_id
-* site
-* created_at
-* updated_at
-* deleted_at
-* trashed status
+|    Name     | Description                                                             |
+| :--------:  | :---------------------------------------------------------------------- |
+| id          | Filter resources on the primary key                                     |
+| link        | Filter resources on the URL of the resource                             |
+| external_id | Filter resources on the identifier of the resource on the external site |
+| site        | Filter resources on the premiere year of the anime                      |
+| created_at  | Filter resources on the resource creation date                          |
+| updated_at  | Filter resources on the resource last modified date                     |
+| deleted_at  | Filter resources on the resource deletion date                          |
+| trashed     | Filter resources on trashed (deleted) status {With, Without, Only}      |
 
 ## Response
 

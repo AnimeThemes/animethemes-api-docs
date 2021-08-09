@@ -27,28 +27,33 @@ GET /api/transaction/
 
 ## Allowed Sort Fields
 
-* transaction_id
-* date
-* service
-* description
-* amount
-* external_id
-* created_at
-* updated_at
-* deleted_at
+|    Name     | Description                                                         |
+| :---------: | :------------------------------------------------------------------ |
+| id          | Sort resources on the primary key                                   |
+| date        | Sort resources on the date that the transaction was made            |
+| service     | Sort resources on the service that is billing AnimeThemes           |
+| description | Sort resources on the description of what the transaction is for    |
+| amount      | Sort resources on the amount of the transaction billed / paid       |
+| external_id | Sort resources on the identifier used by the service                |
+| created_at  | Sort resources on the resource creation date                        |
+| updated_at  | Sort resources on the resource last modified date                   |
+| deleted_at  | Sort resources on the resource deletion date                        |
+| random      | Sort resources randomly. Ignored if other sort fields are provided. |
 
 ## Filters
 
-* id
-* date
-* service
-* description
-* amount
-* external_id
-* created_at
-* updated_at
-* deleted_at
-* trashed status
+|    Name     | Description                                                        |
+| :---------: | :----------------------------------------------------------------- |
+| id          | Filter resources on the primary key                                |
+| date        | Filter resources on the date that the transaction was made         |
+| service     | Filter resources on the service that is billing AnimeThemes        |
+| description | Filter resources on the description of what the transaction is for |
+| amount      | Filter resources on the amount of the transaction billed / paid    |
+| external_id | Filter resources on the identifier used by the service             |
+| created_at  | Filter resources on the resource creation date                     |
+| updated_at  | Filter resources on the resource last modified date                |
+| deleted_at  | Filter resources on the resource deletion date                     |
+| trashed     | Filter resources on trashed (deleted) status {With, Without, Only} |
 
 ## Response
 

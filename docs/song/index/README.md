@@ -28,20 +28,25 @@ GET /api/song/
 
 ## Allowed Sort Fields
 
-* song_id
-* title
-* created_at
-* updated_at
-* deleted_at
+|    Name    | Description                                                         |
+| :--------: | :------------------------------------------------------------------ |
+| id         | Sort resources on the primary key                                   |
+| title      | Sort resources on the title of the song                             |
+| created_at | Sort resources on the resource creation date                        |
+| updated_at | Sort resources on the resource last modified date                   |
+| deleted_at | Sort resources on the resource deletion date                        |
+| random     | Sort resources randomly. Ignored if other sort fields are provided. |
 
 ## Filters
 
-* id
-* title
-* created_at
-* updated_at
-* deleted_at
-* trashed status
+|    Name    | Description                                                        |
+| :--------: | :----------------------------------------------------------------- |
+| id         | Filter resources on the primary key                                |
+| title      | Filter resources on the title of the song                          |
+| created_at | Filter resources on the resource creation date                     |
+| updated_at | Filter resources on the resource last modified date                |
+| deleted_at | Filter resources on the resource deletion date                     |
+| trashed    | Filter resources on trashed (deleted) status {With, Without, Only} |
 
 ## Response
 

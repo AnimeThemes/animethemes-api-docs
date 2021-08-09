@@ -28,27 +28,33 @@ GET /api/anime/
 
 ## Allowed Sort Fields
 
-* anime_id
-* name
-* slug
-* year
-* season
-* created_at
-* updated_at
-* deleted_at
+|    Name    | Description                                                         |
+| :--------: | :------------------------------------------------------------------ |
+| id         | Sort resources on the primary key                                   |
+| name       | Sort resources on the title of the anime                            |
+| slug       | Sort resources on the URL slug of the anime                         |
+| year       | Sort resources on the premiere year of the anime                    |
+| season     | Sort resources on the premiere season of the anime                  |
+| synopsis   | Sort resources on the brief summary of the anime                    |
+| created_at | Sort resources on the resource creation date                        |
+| updated_at | Sort resources on the resource last modified date                   |
+| deleted_at | Sort resources on the resource deletion date                        |
+| random     | Sort resources randomly. Ignored if other sort fields are provided. |
 
 ## Filters
 
-* id
-* name
-* slug
-* year
-* season
-* synopsis
-* created_at
-* updated_at
-* deleted_at
-* trashed status
+|    Name    | Description                                                        |
+| :--------: | :----------------------------------------------------------------- |
+| id         | Filter resources on the primary key                                |
+| name       | Filter resources on the title of the anime                         |
+| slug       | Filter resources on the URL slug of the anime                      |
+| year       | Filter resources on the premiere year of the anime                 |
+| season     | Filter resources on the premiere season of the anime               |
+| synopsis   | Filter resources on the brief summary of the anime                 |
+| created_at | Filter resources on the resource creation date                     |
+| updated_at | Filter resources on the resource last modified date                |
+| deleted_at | Filter resources on the resource deletion date                     |
+| trashed    | Filter resources on trashed (deleted) status {With, Without, Only} |
 
 ## Response
 

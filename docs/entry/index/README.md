@@ -28,27 +28,33 @@ GET /api/entry/
 
 ## Allowed Sort Fields
 
-* entry_id
-* theme_id
-* version
-* nsfw
-* spoiler
-* created_at
-* updated_at
-* deleted_at
+|    Name    | Description                                                         |
+| :--------: | :------------------------------------------------------------------ |
+| id         | Sort resources on the primary key                                   |
+| version    | Sort resources on the version number of the entry                   |
+| episodes   | Sort resources on the episodes that the theme is used for           |
+| nsfw       | Sort resources on nsfw content                                      |
+| spoiler    | Sort resources on spoiler content                                   |
+| notes      | Sort resources on additional information for the entry              |
+| created_at | Sort resources on the resource creation date                        |
+| updated_at | Sort resources on the resource last modified date                   |
+| deleted_at | Sort resources on the resource deletion date                        |
+| random     | Sort resources randomly. Ignored if other sort fields are provided. |
 
 ## Filters
 
-* id
-* version
-* episodes
-* nsfw
-* spoiler
-* notes
-* created_at
-* updated_at
-* deleted_at
-* trashed status
+|    Name    | Description                                                        |
+| :--------: | :----------------------------------------------------------------- |
+| id         | Filter resources on the primary key                                |
+| version    | Filter resources on the version number of the entry                |
+| episodes   | Filter resources on the episodes that the theme is used for        |
+| nsfw       | Filter resources on nsfw content                                   |
+| spoiler    | Filter resources on spoiler content                                |
+| notes      | Filter resources on additional information for the entry           |
+| created_at | Filter resources on the resource creation date                     |
+| updated_at | Filter resources on the resource last modified date                |
+| deleted_at | Filter resources on the resource deletion date                     |
+| trashed    | Filter resources on trashed (deleted) status {With, Without, Only} |
 
 ## Response
 

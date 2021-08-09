@@ -28,28 +28,31 @@ GET /api/theme/
 
 ## Allowed Sort Fields
 
-* theme_id
-* type
-* sequence
-* group
-* slug
-* created_at
-* updated_at
-* deleted_at
-* anime_id
-* song_id
+|    Name    | Description                                                         |
+| :--------: | :------------------------------------------------------------------ |
+| id         | Sort resources on the primary key                                   |
+| type       | Sort resources on the type of the sequence                          |
+| sequence   | Sort resources on the numeric ordering                              |
+| group      | Sort resources on the distinguishing of themes to dubs, etc         |
+| slug       | Sort resources on the URL slug of the theme                         |
+| created_at | Sort resources on the resource creation date                        |
+| updated_at | Sort resources on the resource last modified date                   |
+| deleted_at | Sort resources on the resource deletion date                        |
+| random     | Sort resources randomly. Ignored if other sort fields are provided. |
 
 ## Filters
 
-* id
-* type
-* sequence
-* group
-* slug
-* created_at
-* updated_at
-* deleted_at
-* trashed status
+|    Name    | Description                                                        |
+| :--------: | :----------------------------------------------------------------- |
+| id         | Filter resources on the primary key                                |
+| type       | Filter resources on the type of the sequence                       |
+| sequence   | Filter resources on the numeric ordering                           |
+| group      | Filter resources on the distinguishing of themes to dubs, etc      |
+| slug       | Filter resources on the URL slug of the theme                      |
+| created_at | Filter resources on the resource creation date                     |
+| updated_at | Filter resources on the resource last modified date                |
+| deleted_at | Filter resources on the resource deletion date                     |
+| trashed    | Filter resources on trashed (deleted) status {With, Without, Only} |
 
 ## Response
 

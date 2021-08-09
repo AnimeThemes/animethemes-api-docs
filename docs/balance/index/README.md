@@ -27,28 +27,33 @@ GET /api/balance/
 
 ## Allowed Sort Fields
 
-* balance_id
-* date
-* service
-* frequency
-* usage
-* month_to_date_balance  
-* created_at
-* updated_at
-* deleted_at
+|         Name          | Description                                                         |
+| :-------------------: | :------------------------------------------------------------------ |
+| id                    | Sort resources on the primary key                                   |
+| date                  | Sort resources on the month that the balance applies to             |
+| service               | Sort resources on the service that is billing AnimeThemes           |
+| frequency             | Sort resources on the frequency that AnimeThemes is billed          |
+| usage                 | Sort resources on the consumption of AnimeThemes in the period      |
+| month_to_date_balance | Sort resources on the balance of the AnimeThemes account            |
+| created_at            | Sort resources on the resource creation date                        |
+| updated_at            | Sort resources on the resource last modified date                   |
+| deleted_at            | Sort resources on the resource deletion date                        |
+| random                | Sort resources randomly. Ignored if other sort fields are provided. |
 
 ## Filters
 
-* id
-* date
-* service
-* frequency
-* usage
-* month_to_date_balance
-* created_at
-* updated_at
-* deleted_at
-* trashed status
+|         Name          | Description                                                        |
+| :-------------------: | :----------------------------------------------------------------- |
+| id                    | Filter resources on the primary key                                |
+| date                  | Filter resources on the month that the balance applies to          |
+| service               | Filter resources on the service that is billing AnimeThemes        |
+| frequency             | Filter resources on the frequency that AnimeThemes is billed       |
+| usage                 | Filter resources on the consumption of AnimeThemes in the period   |
+| month_to_date_balance | Filter resources on the balance of the AnimeThemes account         |
+| created_at            | Filter resources on the resource creation date                     |
+| updated_at            | Filter resources on the resource last modified date                |
+| deleted_at            | Filter resources on the resource deletion date                     |
+| trashed               | Filter resources on trashed (deleted) status {With, Without, Only} |
 
 ## Response
 

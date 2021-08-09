@@ -16,7 +16,7 @@ For example, the Bakemonogatari ED theme has three entries to represent three ve
 | :--------: | :-----: | :------: | :-------------------------------------------------------------- |
 | id         | Integer | No       | The primary key of the resource                                 |
 | version    | Integer | Yes      | The version number of the theme                                 |
-| episodes   | String  | Yes      | The URL slug & route key of the resource                        |
+| episodes   | String  | Yes      | The episodes that the theme is used for                         |
 | nsfw       | Boolean | No       | Is not safe for work content included?                          |
 | spoiler    | Boolean | No       | Is content included that may spoil the viewer?                  |
 | notes      | String  | Yes      | Any additional information for this sequence                    |

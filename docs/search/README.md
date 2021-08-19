@@ -42,6 +42,18 @@ GET /api/search/
                 deleted_at: "deleted_at"
             }
         ],
+        animethemes: [
+            {
+                id: id,
+                type: "type",
+                sequence: sequence,
+                group: "group",
+                slug: "slug",
+                created_at: "created_at",
+                updated_at: "updated_at",
+                deleted_at: "deleted_at"
+            }
+        ],
         artists: [
             {
                 id: id,

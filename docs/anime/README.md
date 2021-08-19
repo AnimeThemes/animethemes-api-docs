@@ -26,12 +26,12 @@ For example, Bakemonogatari is an anime production with five opening sequences a
 
 ### Allowed Include Paths
 
-* synonyms
+* animesynonyms
 * series
-* themes
-* themes.entries.videos
-* themes.song
-* themes.song.artists
+* animethemes
+* animethemes.animethemeentries.videos
+* animethemes.song
+* animethemes.song.artists
 * resources
 * images
 

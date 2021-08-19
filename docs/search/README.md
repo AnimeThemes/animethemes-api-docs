@@ -42,24 +42,23 @@ GET /api/search/
                 deleted_at: "deleted_at"
             }
         ],
-        artists: [
+        animethemes: [
             {
                 id: id,
-                name: "name",
+                type: "type",
+                sequence: sequence,
+                group: "group",
                 slug: "slug",
                 created_at: "created_at",
                 updated_at: "updated_at",
                 deleted_at: "deleted_at"
             }
         ],
-        entries: [
+        artists: [
             {
                 id: id,
-                version: version,
-                episodes: "episodes",
-                nsfw: nsfw,
-                spoiler: spoiler,
-                notes: "notes",
+                name: "name",
+                slug: "slug",
                 created_at: "created_at",
                 updated_at: "updated_at",
                 deleted_at: "deleted_at"
@@ -79,27 +78,6 @@ GET /api/search/
             {
                 id: id,
                 title: "title",
-                created_at: "created_at",
-                updated_at: "updated_at",
-                deleted_at: "deleted_at"
-            }
-        ],
-        synonyms: [
-            {
-                id: id,
-                text: "text",
-                created_at: "created_at",
-                updated_at: "updated_at",
-                deleted_at: "deleted_at"
-            }        
-        ],
-        themes: [
-            {
-                id: id,
-                type: "type",
-                sequence: sequence,
-                group: "group",
-                slug: "slug",
                 created_at: "created_at",
                 updated_at: "updated_at",
                 deleted_at: "deleted_at"

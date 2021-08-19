@@ -1,20 +1,20 @@
 ---
-title: Entry Show
+title: AnimeThemeEntry Show
 ---
 
 <Block>
 
-# Entry Show Endpoint
+# AnimeThemeEntry Show Endpoint
 
-The entry show endpoint returns an entry resource.
+The AnimeThemeEntry show endpoint returns an AnimeThemeEntry resource.
 
-For example, the `/api/entry/3822` endpoint will return the second version of the Bakemonogatari ED theme.
+For example, the `/api/animethemeentry/3822` endpoint will return the second version of the Bakemonogatari ED AnimeTheme.
 
 ## URL
 
 ```sh
-GET /api/entry/{id}
-```00
+GET /api/animethemeentry/{id}
+```
 
 ## Parameters
 
@@ -28,7 +28,7 @@ GET /api/entry/{id}
 
 ```json
 {
-    entry: {
+    animethemeentry: {
         id: id,
         version: version,
         episodes: "episodes",
@@ -46,7 +46,7 @@ GET /api/entry/{id}
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/entry/3822
+curl https://staging.animethemes.moe/api/animethemeentry/3822
 ```
 </CURL>
 

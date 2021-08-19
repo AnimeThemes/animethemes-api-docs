@@ -34,11 +34,53 @@ module.exports = {
           },
           {
             title: 'Year Index',
-            to: '/year/index/'
+            to: '/animeyear/index/'
           },
           {
             title: 'Year Show',
-            to: '/year/show/'
+            to: '/animeyear/show/'
+          }
+        ]
+      },
+      'animesynonym': {
+        title: 'Resource',
+        to: '/animesynonym',
+        children: [
+          {
+            title: 'Show',
+            to: '/animesynonym/show/',
+          },
+          {
+            title: 'Index',
+            to: '/animesynonym/index/'
+          }
+        ]
+      },
+      'animetheme': {
+        title: 'Resource',
+        to: '/animetheme',
+        children: [
+          {
+            title: 'Show',
+            to: '/animetheme/show/',
+          },
+          {
+            title: 'Index',
+            to: '/animetheme/index/'
+          }
+        ]
+      },
+      'animethemeentry': {
+        title: 'Resource',
+        to: '/animethemeentry',
+        children: [
+          {
+            title: 'Show',
+            to: '/animethemeentry/show/',
+          },
+          {
+            title: 'Index',
+            to: '/animethemeentry/index/'
           }
         ]
       },
@@ -81,20 +123,6 @@ module.exports = {
           {
             title: 'Index',
             to: '/balance/index/'
-          }
-        ]
-      },
-      'entry': {
-        title: 'Resource',
-        to: '/entry',
-        children: [
-          {
-            title: 'Show',
-            to: '/entry/show/',
-          },
-          {
-            title: 'Index',
-            to: '/entry/index/'
           }
         ]
       },
@@ -151,34 +179,6 @@ module.exports = {
           {
             title: 'Index',
             to: '/song/index/'
-          }
-        ]
-      },
-      'synonym': {
-        title: 'Resource',
-        to: '/synonym',
-        children: [
-          {
-            title: 'Show',
-            to: '/synonym/show/',
-          },
-          {
-            title: 'Index',
-            to: '/synonym/index/'
-          }
-        ]
-      },
-      'theme': {
-        title: 'Resource',
-        to: '/theme',
-        children: [
-          {
-            title: 'Show',
-            to: '/theme/show/',
-          },
-          {
-            title: 'Index',
-            to: '/theme/index/'
           }
         ]
       },

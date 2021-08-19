@@ -1,14 +1,14 @@
 ---
-title: Theme
+title: AnimeTheme
 ---
 
-# Theme
+# AnimeTheme
 
 ---
 
-A theme API resource represents an OP or ED sequence for an anime.
+An AnimeTheme API resource represents an OP or ED sequence for an anime.
 
-For example, the anime Bakemonogatari has five OP themes and one ED theme.
+For example, the anime Bakemonogatari has five OP AnimeThemes and one ED AnimeTheme.
 
 ### Fields
 
@@ -27,17 +27,17 @@ For example, the anime Bakemonogatari has five OP themes and one ED theme.
 
 * anime
 * anime.images
-* entries
-* entries.videos
+* animethemeentries
+* animethemeentries.videos
 * song
 * song.artists
 
 ### Endpoints
 
-**[Theme Show](/theme/show/)**
+**[AnimeTheme Show](/animetheme/show/)**
 
-The theme show endpoint returns a theme resource.
+The AnimeTheme show endpoint returns an AnimeTheme resource.
 
-**[Theme Index](/theme/index/)**
+**[AnimeTheme Index](/animetheme/index/)**
 
-The theme index endpoint displays a listing of theme resources.
+The AnimeTheme index endpoint displays a listing of AnimeTheme resources.

@@ -1,14 +1,14 @@
 ---
-title: Entry
+title: AnimeThemeEntry
 ---
 
-# Entry
+# AnimeThemeEntry
 
 ---
 
-An entry API resource represents a version of an anime theme.
+An AnimeThemeEntry API resource represents a version of an AnimeTheme.
 
-For example, the Bakemonogatari ED theme has three entries to represent three versions.
+For example, the Bakemonogatari ED theme has three AnimeThemeEntries to represent three versions.
 
 ### Fields
 
@@ -26,16 +26,16 @@ For example, the Bakemonogatari ED theme has three entries to represent three ve
 
 ### Allowed Include Paths
 
-* theme
-* theme.anime
+* animetheme
+* animetheme.anime
 * videos
 
 ### Endpoints
 
-**[Entry Show](/entry/show/)**
+**[AnimeThemeEntry Show](/animethemeentry/show/)**
 
-The entry show endpoint returns an entry resource.
+The AnimeThemeEntry show endpoint returns an AnimeThemeEntry resource.
 
-**[Entry Index](/entry/index/)**
+**[AnimeThemeEntry Index](/animethemeentry/index/)**
 
-The entry index endpoint displays a listing of entry resources.
+The AnimeThemeEntry index endpoint displays a listing of AnimeThemeEntry resources.

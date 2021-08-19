@@ -1,14 +1,14 @@
 ---
-title: Synonym
+title: AnimeSynonym
 ---
 
-# Synonym
+# AnimeSynonym
 
 ---
 
-A synonym API resource represents an alternate title or common abbreviation for an anime.
+An AnimeSynonym API resource represents an alternate title or common abbreviation for an anime.
 
-For example, the anime Bakemonogatari has the synonym "Ghostory".
+For example, the anime Bakemonogatari has the AnimeSynonym "Ghostory".
 
 ### Fields
 
@@ -26,10 +26,10 @@ For example, the anime Bakemonogatari has the synonym "Ghostory".
 
 ### Endpoints
 
-**[Synonym Show](/synonym/show/)**
+**[AnimeSynonym Show](/animesynonym/show/)**
 
-The synonym show endpoint returns a synonym resource.
+The AnimeSynonym show endpoint returns an AnimeSynonym resource.
 
-**[Synonym Index](/synonym/index/)**
+**[AnimeSynonym Index](/animesynonym/index/)**
 
-The synonym index endpoint displays a listing of synonym resources.
+The AnimeSynonym index endpoint displays a listing of AnimeSynonym resources.

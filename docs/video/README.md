@@ -35,9 +35,9 @@ For example, the video Bakemonogatari-OP1.webm represents the WebM of the Bakemo
 
 ### Allowed Include Paths
 
-* entries
-* entries.theme
-* entries.theme.anime
+* animethemeentries
+* animethemeentries.animetheme
+* animethemeentries.animetheme.anime
 
 ### Endpoints
 

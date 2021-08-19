@@ -6,9 +6,9 @@ title: Song
 
 ---
 
-A song API resource represents the composition that accompanies an anime theme.
+A song API resource represents the composition that accompanies an AnimeTheme.
 
-For example, Staple Stable is the song for the Bakemonogatari OP1 theme.
+For example, Staple Stable is the song for the Bakemonogatari OP1 AnimeTheme.
 
 ### Fields
 
@@ -23,8 +23,8 @@ For example, Staple Stable is the song for the Bakemonogatari OP1 theme.
 
 ### Allowed Include Paths
 
-* themes
-* themes.anime
+* animethemes
+* animethemes.anime
 * artists
 
 ### Endpoints

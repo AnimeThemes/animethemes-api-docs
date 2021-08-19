@@ -11,7 +11,7 @@ The year index endpoint returns a list of unique years from all anime resources.
 ## URL
 
 ```sh
-GET /api/year/
+GET /api/animeyear/
 ```
 
 ## Parameters
@@ -33,7 +33,7 @@ None
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/year/
+curl https://staging.animethemes.moe/api/animeyear/
 ```
 </CURL>
 

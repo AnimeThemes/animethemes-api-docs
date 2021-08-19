@@ -1,19 +1,19 @@
 ---
-title: Theme Show
+title: AnimeSynonym Show
 ---
 
 <Block>
 
-# Theme Show Endpoint
+# AnimeSynonym Show Endpoint
 
-The theme show endpoint returns a theme resource.
+The AnimeSynonym show endpoint returns an AnimeSynonym resource.
 
-For example, the `/api/theme/3373` endpoint will return the theme resource Bakemonogatari OP1.
+For example, the `/api/animesynonym/1523` endpoint will return the AnimeSynonym resource "Ghostory" for the anime Bakemonogatari.
 
 ## URL
 
 ```sh
-GET /api/theme/{id}
+GET /api/animesynonym/{id}
 ```
 
 ## Parameters
@@ -28,12 +28,9 @@ GET /api/theme/{id}
 
 ```json
 {
-    theme: {
+    animesynonym: {
         id: id,
-        type: "type",
-        sequence: sequence,
-        group: "group",
-        slug: "slug",
+        text: "text",
         created_at: "created_at",
         updated_at: "updated_at",
         deleted_at: "deleted_at"
@@ -45,7 +42,7 @@ GET /api/theme/{id}
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/theme/3373
+curl https://staging.animethemes.moe/api/animesynonym/1523
 ```
 </CURL>
 

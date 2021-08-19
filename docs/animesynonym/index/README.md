@@ -1,17 +1,17 @@
 ---
-title: Synonym Index
+title: AnimeSynonym Index
 ---
 
 <Block>
 
-# Synonym Index Endpoint
+# AnimeSynonym Index Endpoint
 
-The synonym index endpoint returns a listing of synonym resources.
+The AnimeSynonym index endpoint returns a listing of AnimeSynonym resources.
 
 ## URL
 
 ```sh
-GET /api/synonym/
+GET /api/animesynonym/
 ```
 
 ## Parameters
@@ -52,7 +52,7 @@ GET /api/synonym/
 
 ```json
 {
-    synonyms: [
+    animesynonyms: [
         {
             id: id,
             text: "text",
@@ -82,7 +82,7 @@ GET /api/synonym/
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/synonym/
+curl https://staging.animethemes.moe/api/animesynonym/
 ```
 </CURL>
 

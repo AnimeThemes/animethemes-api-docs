@@ -182,6 +182,20 @@ module.exports = {
           }
         ]
       },
+      'studio': {
+        title: 'Resource',
+        to: '/studio',
+        children: [
+          {
+            title: 'Show',
+            to: '/studio/show/',
+          },
+          {
+            title: 'Index',
+            to: '/studio/index/'
+          }
+        ]
+      },
       'transaction': {
         title: 'Resource',
         to: '/transaction',

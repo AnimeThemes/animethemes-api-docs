@@ -40,6 +40,14 @@ GET /api/animetheme/
 | deleted_at | Sort resources on the resource deletion date                        |
 | random     | Sort resources randomly. Ignored if other sort fields are provided. |
 
+## Allowed Relation Sort Fields
+
+|     Name     | Description                                                            |
+| :----------: | :--------------------------------------------------------------------- |
+| anime.season | Sort resources on the season of the anime that the resource belongs to | 
+| anime.year   | Sort resources on the year of the anime that the resource belongs to   |
+| song.title   | Sort resources on the title of the song that the resource belongs to   |
+
 ## Filters
 
 |    Name    | Description                                                        |

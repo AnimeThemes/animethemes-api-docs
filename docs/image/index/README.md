@@ -52,6 +52,7 @@ GET /api/image/
 | updated_at | Filter resources on the resource last modified date                |
 | deleted_at | Filter resources on the resource deletion date                     |
 | trashed    | Filter resources on trashed (deleted) status {With, Without, Only} |
+| has        | Filter resources on relations within allowed include paths         |
 
 ## Response
 

@@ -90,10 +90,10 @@ The AnimeThemes API Resource Objects relationships are included as top-level mem
 {
     anime: {
         ...
-        synonyms: [
+        animesynonyms: [
             ...
         ],
-        themes: [
+        animethemes: [
             ...
         ],
         series: [
@@ -155,10 +155,10 @@ The AnimeThemes API does **NOT** support fetching resources or relationships.
 {
     anime: {
         ...
-        synonyms: [
+        animesynonyms: [
             ...
         ],
-        themes: [
+        animethemes: [
             ...
         ],
         series: [
@@ -179,11 +179,11 @@ The AnimeThemes API does **NOT** support fetching resources or relationships.
 The AnimeThemes API supports inclusion of related resources for every endpoint unless otherwise specified.
 
 ```json
-// /api/anime/{slug}?include=themes,series
+// /api/anime/{slug}?include=animethemes,series
 {
     anime: {
         ...
-        themes: [
+        animethemes: [
             ...
         ],
         series: [
@@ -340,10 +340,10 @@ The AnimeThemes API supports an offset pagination strategy for every endpoint th
 }
 ```
 
-For endpoints that produce responses of mixed typed top-level members, the AnimeThemes.moe supports a limit pagination strategy. For these endpoints, the AnimeThemes API support the `limit` query parameter.
+For endpoints that produce responses of mixed typed top-level members, the AnimeThemes.moe supports a limit pagination strategy. For these endpoints, the AnimeThemes API support the `page[limit]` query parameter.
 
 ```json
-// /api/search?q={query}&limit=1
+// /api/search?q={query}&page[limit]=1
 {
     search: {
         anime: [
@@ -498,4 +498,56 @@ If the multi-value logical operator is not specified, the filter shall exclude t
 ```sh
 # This will match anime where the year is in {2000,2001,2002}
 /api/anime?filter[year]=2000,2001,2002
+```
+
+**Special Filters**
+
+Trashed Filter
+
+```sh
+# This filter will include soft-deleted anime that are excluded by default
+/api/anime?filter[trashed]=with
+```
+
+```sh
+# This filter will return only soft-deleted anime
+/api/anime?filter[trashed]=only
+```
+
+```sh
+# This filter will return only anime that are not soft-deleted
+# This is the default behavior
+/api/anime?filter[trashed]=without
+```
+
+Has Filter
+
+```sh
+# This filter will return anime that have at least one related resource
+/api/anime?filter[has]=resources
+```
+
+```sh
+# This filter will return anime that have at least 3 related resources
+/api/anime?filter[has][3]=resources
+```
+
+```sh
+# This filter will return anime that have exactly 5 related resources
+/api/anime?filter[has][eq][5]=resources
+```
+
+```sh
+# This filter will return anime that have at least one related resource or related series
+/api/anime?filter[has][or]=resources,series
+```
+
+```sh
+# This filter will return anime that have at least one related resource or one related series
+/api/anime?filter[has][or]=resources,series
+```
+
+```sh
+# This filter will return anime that have at least one related resource of site MyAnimeList and external_id 41457
+/api/anime?filter[has]=resources&filter[site]=MyAnimeList&filter[external_id]=41457
 ```

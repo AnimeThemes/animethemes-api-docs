@@ -24,6 +24,7 @@ For example, Shaft is the studio that produced the anime Bakemonogatari.
 ### Allowed Include Paths
 
 * anime
+* resources
 
 ### Endpoints
 

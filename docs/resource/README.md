@@ -27,6 +27,7 @@ For example, the Bakemonogatari anime has MyAnimeList, AniList and AniDB resourc
 
 * anime
 * artists
+* studios
 
 ### Endpoints
 

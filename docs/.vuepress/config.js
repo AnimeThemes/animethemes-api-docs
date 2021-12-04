@@ -126,6 +126,26 @@ module.exports = {
           }
         ]
       },
+      'configflags': {
+        title: 'Resource',
+        to: '/config/flags',
+        children: [
+          {
+            title: 'Show',
+            to: '/config/flags/show/',
+          }
+        ]
+      },
+      'configwiki': {
+        title: 'Resource',
+        to: '/config/wiki',
+        children: [
+          {
+            title: 'Show',
+            to: '/config/wiki/show/',
+          }
+        ]
+      },
       'image': {
         title: 'Resource',
         to: '/image',

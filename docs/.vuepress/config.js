@@ -160,6 +160,20 @@ module.exports = {
           }
         ]
       },
+      'page': {
+        title: 'Resource',
+        to: '/page',
+        children: [
+          {
+            title: 'Show',
+            to: '/page/show/',
+          },
+          {
+            title: 'Index',
+            to: '/page/index/'
+          }
+        ]
+      },
       'resource': {
         title: 'Resource',
         to: '/resource',

@@ -373,7 +373,7 @@ The AnimeThemes API supports filtering for every endpoint unless otherwise speci
 The AnimeThemes API supports the [**recommended**](https://jsonapi.org/recommendations/#filtering) base strategy for filtering with the following extended syntax:
 
 ```sh
-filter[scope][field][comparison operator][logical operator]=value(s)
+filter[scope][field-{comparison operator}-{logical operator}]=value(s)
 ```
 
 **Scope**
@@ -400,56 +400,56 @@ EQ
 
 ```sh
 # This will match anime of year 2000
-/api/anime?filter[year][eq]=2000
+/api/anime?filter[year-eq]=2000
 ```
 
 NE
 
 ```sh
 # This will match anime not of year 2000
-/api/anime?filter[year][ne]=2000
+/api/anime?filter[year-ne]=2000
 ```
 
 LT
 
 ```sh
 # This will match anime where the year is less than 2000
-/api/anime?filter[year][lt]=2000
+/api/anime?filter[year-lt]=2000
 ```
 
 GT
 
 ```sh
 # This will match anime where the year is greater than 2000
-/api/anime?filter[year][gt]=2000
+/api/anime?filter[year-gt]=2000
 ```
 
 LTE
 
 ```sh
 # This will match anime where the year is less than or equal to 2000
-/api/anime?filter[year][lte]=2000
+/api/anime?filter[year-lte]=2000
 ```
 
 GTE
 
 ```sh
 # This will match anime where the year is greater than 2000
-/api/anime?filter[year][gte]=2000
+/api/anime?filter[year-gte]=2000
 ```
 
 LIKE
 
 ```sh
 # This will match anime where the name matches the pattern '%monogatari%'
-/api/anime?filter[name][like]=%monogatari%
+/api/anime?filter[name-like]=%monogatari%
 ```
 
 NOT LIKE
 
 ```sh
 # This will match anime where the name does not match the pattern '%monogatari%'
-/api/anime?filter[name][notlike]=%monogatari%
+/api/anime?filter[name-notlike]=%monogatari%
 ```
 
 If a comparison operator is not provided, the filter shall use the EQ operator.
@@ -467,21 +467,21 @@ AND
 
 ```sh
 # This will match anime where the year is greater than 2000 and less than 2010
-/api/anime?filter[year][gt][and]=2000&filter[year][lt][and]=2010
+/api/anime?filter[year-gt-and]=2000&filter[year-lt-and]=2010
 ```
 
 OR
 
 ```sh
 # This will match anime where the year is less than 2000 or greater than 2010
-/api/anime?filter[year][lt][or]=2000&filter[year][gt][or]=2010
+/api/anime?filter[year-lt-or]=2000&filter[year-gt-or]=2010
 ```
 
 If a logical operator is not provided, the filter shall use the AND operator.
 
 ```sh
 # This will match anime where the year is greater than 2000 and less than 2010
-/api/anime?filter[year][gt]=2000&filter[year][lt]=2010
+/api/anime?filter[year-gt]=2000&filter[year-lt]=2010
 ```
 
 The AnimeThemes API supports the following logical operator for multi-value filter conditions:
@@ -490,7 +490,7 @@ NOT
 
 ```sh
 # This will match anime where the year is not in {2000,2001,2002}
-/api/anime?filter[year][not]=2000,2001,2002
+/api/anime?filter[year-not]=2000,2001,2002
 ```
 
 If the multi-value logical operator is not specified, the filter shall exclude the multi-value logical operator.
@@ -529,22 +529,22 @@ Has Filter
 
 ```sh
 # This filter will return anime that have at least 3 related resources
-/api/anime?filter[has][3]=resources
+/api/anime?filter[has-3]=resources
 ```
 
 ```sh
 # This filter will return anime that have exactly 5 related resources
-/api/anime?filter[has][eq][5]=resources
+/api/anime?filter[has-eq-5]=resources
 ```
 
 ```sh
 # This filter will return anime that have at least one related resource or related series
-/api/anime?filter[has][or]=resources,series
+/api/anime?filter[has-or]=resources,series
 ```
 
 ```sh
 # This filter will return anime that have at least one related resource or one related series
-/api/anime?filter[has][or]=resources,series
+/api/anime?filter[has-or]=resources,series
 ```
 
 ```sh

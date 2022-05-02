@@ -24,13 +24,13 @@ For example, Chiwa Saito is the musical performer of the Bakemonogatari OP1 them
 
 ### Allowed Include Paths
 
+* groups
+* images
+* members
+* resources
 * songs
 * songs.animethemes
 * songs.animethemes.anime
-* members
-* groups
-* resources
-* images
 
 ### Endpoints
 

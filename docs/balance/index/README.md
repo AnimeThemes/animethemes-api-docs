@@ -19,11 +19,10 @@ GET /api/balance/
 | Name         | Required | Description                                                                     |
 | :----------: | :------: | :----------------------------------------------------------------------------   |
 | fields       | No       | Sparse fieldsets for resource types                                             |
-| include      | No       | Inclusion of related resources                                                  |
 | filter       | No       | Filters for balance resources & constraining the inclusion of related resources |
-| sort         | No       | The list of fields to sort the balance resources                                |
-| page[size]   | No       | The number of balance resources to display for the current page                 |
 | page[number] | No       | The page of balance resources to display                                        |
+| page[size]   | No       | The number of balance resources to display for the current page                 |
+| sort         | No       | The list of fields to sort the balance resources                                |
 
 ## Allowed Sort Fields
 

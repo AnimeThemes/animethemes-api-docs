@@ -19,11 +19,10 @@ GET /api/announcement/
 | Name         | Required | Description                                                                          |
 | :----------: | :------: | :----------------------------------------------------------------------------------- |
 | fields       | No       | Sparse fieldsets for resource types                                                  |
-| include      | No       | Inclusion of related resources                                                       |
 | filter       | No       | Filters for announcement resources & constraining the inclusion of related resources |
-| sort         | No       | The list of fields to sort the announcement resources                                |
-| page[size]   | No       | The number of announcement resources to display for the current page                 |
 | page[number] | No       | The page of announcement resources to display                                        |
+| page[size]   | No       | The number of announcement resources to display for the current page                 |
+| sort         | No       | The list of fields to sort the announcement resources                                |
 
 ## Allowed Sort Fields
 

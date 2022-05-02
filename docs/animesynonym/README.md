@@ -8,7 +8,7 @@ title: AnimeSynonym
 
 An AnimeSynonym API resource represents an alternate title or common abbreviation for an anime.
 
-For example, the anime Bakemonogatari has the AnimeSynonym "Ghostory".
+For example, the anime Bakemonogatari has the AnimeSynonym "Monstory".
 
 ### Fields
 

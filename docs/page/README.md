@@ -17,11 +17,10 @@ For example, the 'encoding/audio_normalization' page represents the documentatio
 | id         | Integer | No       | The primary key of the resource              |
 | name       | String  | No       | The primary title of the page                |
 | slug       | String  | No       | The URL slug & route key of the resource     |
+| body       | String  | No       | The body content of the resource             |
 | created_at | Date    | No       | The date that the resource was created       |
 | updated_at | Date    | No       | The date that the resource was last modified |
 | deleted_at | Date    | Yes      | The date that the resource was deleted       |
-
-**Note:** At the time of writing, the `body` field of the underlying page model is purposely excluded from the page API resource due to size constraints.
 
 ### Allowed Include Paths
 

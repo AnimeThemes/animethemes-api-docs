@@ -33,7 +33,7 @@ Please review the [**Contributing Guide**](https://github.com/AnimeThemes/animet
 
 ## Resources
 
-For API support, please make use of the **#development** channel in the [**Discord Server**](https://discordapp.com/invite/m9zbVyQ).
+For API support, please make use of the **#api** channel in the [**Discord Server**](https://discordapp.com/invite/m9zbVyQ).
 
 To report an issue with or request a new feature for the API, please make use of the [**animethemes-server**](https://github.com/AnimeThemes/animethemes-server) Github.
 

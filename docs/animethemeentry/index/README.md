@@ -16,15 +16,15 @@ GET /api/animethemeentry/
 
 ## Parameters
 
-| Name         | Required | Description                                                                   |
-| :----------: | :------: | :---------------------------------------------------------------------------- |
-| fields       | No       | Sparse fieldsets for resource types                                           |
-| include      | No       | Inclusion of related resources                                                |
-| filter       | No       | Filters for entry resources & constraining the inclusion of related resources |
-| sort         | No       | The list of fields to sort the resources                                      |
-| q            | No       | The query to search for matching entry resources                              |
-| page[size]   | No       | The number of entry resources to display for the current page                 |
-| page[number] | No       | The page of entry resources to display                                        |
+| Name         | Required | Description                                                                     |
+| :----------: | :------: | :------------------------------------------------------------------------------ |
+| fields       | No       | Sparse fieldsets for resource types                                             |
+| filter       | No       | Filters for synonym resources & constraining the inclusion of related resources |
+| include      | No       | Inclusion of related resources                                                  |
+| page[number] | No       | The page of synonym resources to display                                        |
+| page[size]   | No       | The number of synonym resources to display for the current page                 |
+| q            | No       | The query to search for matching synonym resources                              |
+| sort         | No       | The list of fields to sort the resources                                        |
 
 ## Allowed Sort Fields
 

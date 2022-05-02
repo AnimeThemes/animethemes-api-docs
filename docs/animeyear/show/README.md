@@ -22,7 +22,6 @@ GET /api/animeyear/{year}
 | :-----: | :------: | :------------------------------------------------------ |
 | fields  | No       | Sparse fieldsets for resource types                     |
 | include | No       | Inclusion of related resources                          |
-| filter  | No       | Filters to constrain the inclusion of related resources |
 
 ## Response
 

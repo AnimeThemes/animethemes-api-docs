@@ -10,25 +10,6 @@ The AnimeThemes API selectively implements the [**JSON:API Specification**](http
 
 Here we will provide an overview of where the AnimeThemes API adheres to or deviates from the specification.
 
-## General Strategies
-
-The AnimeThemes API shall favor silent failures to raising exceptions.
-
-```sh
-# The anime season filter expects {winter,spring,summer,fall}
-# This filter value will be discarded rather than raising an exception
-/api/anime?filter[season]=autumn
-```
-
-The AnimeThemes API shall allow case-insensitive matching.
-
-```sh
-# Both query strings will match the anime year filter
-/api/anime?filter[year]=2000
-
-/api/anime?filter[Year]=2000
-```
-
 ## Content Negotiation
 
 The AnimeThemes API does **NOT** require a `Content-Type` or `Accept` header. AnimeThemes filters API requests and sets the `Accept` header on behalf of the client.
@@ -103,7 +84,10 @@ The AnimeThemes API Resource Objects relationships are included as top-level mem
             ...
         ],
         images: [
-             ...
+            ...
+        ],
+        studios: [
+            ...
         ],
     }
 }
@@ -168,7 +152,10 @@ The AnimeThemes API does **NOT** support fetching resources or relationships.
             ...
         ],
         images: [
-             ...
+            ...
+        ],
+        studios: [
+            ...
         ],
     }
 }

@@ -19,11 +19,11 @@ GET /api/image/
 | Name         | Required | Description                                                                   |
 | :----------: | :------: | :---------------------------------------------------------------------------- |
 | fields       | No       | Sparse fieldsets for resource types                                           |
+| filter       | No       | Filters for anime resources & constraining the inclusion of related resources |
 | include      | No       | Inclusion of related resources                                                |
-| filter       | No       | Filters for image resources & constraining the inclusion of related resources |
-| sort         | No       | The list of fields to sort the image resources                                |
-| page[size]   | No       | The number of image resources to display for the current page                 |
-| page[number] | No       | The page of image resources to display                                        |
+| page[number] | No       | The page of anime resources to display                                        |
+| page[size]   | No       | The number of anime resources to display for the current page                 |
+| sort         | No       | The list of fields to sort the resources                                      |
 
 ## Allowed Sort Fields
 

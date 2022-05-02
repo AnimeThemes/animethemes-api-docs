@@ -20,9 +20,9 @@ GET /api/page/
 | :----------: | :------: | :--------------------------------------------------------------------------- |
 | fields       | No       | Sparse fieldsets for resource types                                          |
 | filter       | No       | Filters for page resources                                                   |
-| sort         | No       | The list of fields to sort the resources                                     |
-| page[size]   | No       | The number of page resources to display for the current page                 |
 | page[number] | No       | The page of page resources to display                                        |
+| page[size]   | No       | The number of page resources to display for the current page                 |
+| sort         | No       | The list of fields to sort the resources                                     |
 
 ## Allowed Sort Fields
 

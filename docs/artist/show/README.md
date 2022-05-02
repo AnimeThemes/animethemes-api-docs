@@ -21,8 +21,9 @@ GET /api/artist/{slug}
 | Name    | Required | Description                                             |
 | :-----: | :------: | :------------------------------------------------------ |
 | fields  | No       | Sparse fieldsets for resource types                     |
-| include | No       | Inclusion of related resources                          |
 | filter  | No       | Filters to constrain the inclusion of related resources |
+| include | No       | Inclusion of related resources                          |
+| sort    | No       | Sort related resources                                  |
 
 ## Response
 

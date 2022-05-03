@@ -23,6 +23,8 @@ X-RateLimit-Remaining: 89
 ...
 ```
 
+## Exceeding the Rate Limit
+
 If the rate limit is exceeded, the AnimeThemes API will return `Retry-After` and `X-RateLimit-Reset` headers in the response.
 
 ```sh
@@ -33,6 +35,8 @@ Retry-After: 60
 X-RateLimit-Reset: 1625073463180
 ...
 ```
+
+Additionally, the AnimeThemes API will return an error message in the response body.
 
 ```json
 {

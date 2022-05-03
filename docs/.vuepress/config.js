@@ -17,6 +17,10 @@ module.exports = {
           {
             title: 'Rate Limiting',
             to: '/ratelimiting'
+          },
+          {
+            title: 'Authentication',
+            to: '/authentication'
           }
         ]
       },

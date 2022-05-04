@@ -16,6 +16,10 @@ For example, `/api/video/Bakemonogatari-OP1.webm` endpoint will return the video
 GET /api/video/{basename}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

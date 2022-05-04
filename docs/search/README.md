@@ -14,6 +14,10 @@ The global search endpoint returns a listing of wiki resources that match a give
 GET /api/search/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name          | Required | Description                                                                  |

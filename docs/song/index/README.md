@@ -14,6 +14,10 @@ The song index endpoint returns a listing of song resources.
 GET /api/song/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                   |

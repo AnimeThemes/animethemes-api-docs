@@ -14,6 +14,10 @@ The AnimeSynonym index endpoint returns a listing of AnimeSynonym resources.
 GET /api/animesynonym/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                     |

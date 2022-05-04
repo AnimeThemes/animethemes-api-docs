@@ -16,6 +16,10 @@ For example, the `/api/animeyear/2000` endpoint will return a listing of anime r
 GET /api/animeyear/{year}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

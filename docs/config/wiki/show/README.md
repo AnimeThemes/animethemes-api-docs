@@ -14,6 +14,10 @@ The wiki show endpoint returns the wiki resource.
 GET /api/config/wiki
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

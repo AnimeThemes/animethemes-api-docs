@@ -14,6 +14,10 @@ The AnimeTheme index endpoint returns a listing of AnimeTheme resources.
 GET /api/animetheme/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                     |

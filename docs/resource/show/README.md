@@ -16,6 +16,10 @@ For example, the `/api/resource/1083` will return the MyAnimeList resource for t
 GET /api/resource/{id}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

@@ -16,6 +16,10 @@ For example, the `/api/series/monogatari` endpoint will return the series resour
 GET /api/series/{slug}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

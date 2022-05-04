@@ -14,6 +14,10 @@ The transaction index endpoint returns a listing of transaction resources.
 GET /api/transaction/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                   |

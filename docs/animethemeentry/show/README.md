@@ -16,6 +16,10 @@ For example, the `/api/animethemeentry/3822` endpoint will return the second ver
 GET /api/animethemeentry/{id}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

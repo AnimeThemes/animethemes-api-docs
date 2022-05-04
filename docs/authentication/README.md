@@ -10,6 +10,28 @@ The AnimeThemes API uses token-based authentication to grant the user access to 
 
 API tokens can be granted abilities that specify which actions can be performed.
 
+## Token Authentication
+
+The AnimeThemes API uses the [**Bearer authentication scheme**](https://www.rfc-editor.org/rfc/rfc6750.html) to validate requests for protected actions.
+
+The `Bearer` token in the `Authorization` request header must correspond to a valid API token.
+
+```sh
+curl -X POST "https://staging.animethemes.moe/api/{protected action}"
+    -H "Accept: application/json"
+    -H "Authorization: Bearer {token}"
+```
+
+## Status Codes
+
+The AnimeThemes API uses framework-default response status codes for authenticated requests.
+
+| Code | Description                                          | Examples           |
+| :--: | :--------------------------------------------------- | :----------------: |
+| 200  | OK - request succeeded                               | DELETE, PATCH, PUT |
+| 201  | Created - new resource was created                   | POST               |
+| 401  | Unauthorized - invalid or no authentication provided | All                |
+
 ## Managing Tokens
 
 API tokens are managed from the API Tokens Screen within the AnimeThemes application.

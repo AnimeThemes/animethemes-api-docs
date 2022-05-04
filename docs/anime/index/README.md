@@ -14,6 +14,10 @@ The anime index endpoint returns a listing of anime resources.
 GET /api/anime/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                   |

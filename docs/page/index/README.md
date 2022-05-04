@@ -14,6 +14,10 @@ The page index endpoint returns a listing of page resources.
 GET /api/page/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                  |

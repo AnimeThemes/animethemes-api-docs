@@ -14,6 +14,10 @@ The flags show endpoint returns the flags resource.
 GET /api/config/flags
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

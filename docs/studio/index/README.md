@@ -14,6 +14,10 @@ The studio index endpoint returns a listing of studio resources.
 GET /api/studio/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                   |

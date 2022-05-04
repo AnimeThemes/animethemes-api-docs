@@ -16,6 +16,10 @@ For example, the `/api/anime/bakemonogatari` endpoint will return the Bakemonoga
 GET /api/anime/{slug}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

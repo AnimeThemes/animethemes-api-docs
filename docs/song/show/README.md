@@ -16,6 +16,10 @@ For example, the `/api/song/3373` endpoint will return the song resource for the
 GET /api/song/{id}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

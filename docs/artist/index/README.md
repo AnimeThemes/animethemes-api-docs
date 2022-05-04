@@ -14,6 +14,10 @@ The artist index endpoint returns a listing of artist resources.
 GET /api/artist/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                   |

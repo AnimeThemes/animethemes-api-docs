@@ -14,6 +14,10 @@ The transaction show endpoint returns a transaction resource.
 GET /api/transaction/{id}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

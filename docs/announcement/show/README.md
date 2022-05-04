@@ -14,6 +14,10 @@ The announcement show endpoint returns an announcement resource.
 GET /api/announcement/{id}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

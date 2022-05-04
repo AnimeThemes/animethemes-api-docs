@@ -14,6 +14,10 @@ The balance index endpoint returns a listing of balance resources.
 GET /api/balance/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                     |

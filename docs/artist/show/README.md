@@ -16,6 +16,10 @@ For example, the `/api/artist/chiwa_saito` endpoint will return the artist resou
 GET /api/artist/{slug}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

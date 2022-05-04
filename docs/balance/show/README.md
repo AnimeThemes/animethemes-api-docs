@@ -14,6 +14,10 @@ The balance show endpoint returns a balance resource.
 GET /api/balance/{id}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

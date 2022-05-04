@@ -16,6 +16,10 @@ For example, the `/api/studio/shaft` endpoint will return the studio resource fo
 GET /api/studio/{slug}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

@@ -14,6 +14,10 @@ The resource index endpoint returns a listing of external resources.
 GET /api/resource/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                   |

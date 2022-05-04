@@ -16,6 +16,10 @@ For example, the `/api/animetheme/3373` endpoint will return the AnimeTheme reso
 GET /api/animetheme/{id}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

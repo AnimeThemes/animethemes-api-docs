@@ -14,6 +14,10 @@ The year index endpoint returns a list of unique years from all anime resources.
 GET /api/animeyear/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 None

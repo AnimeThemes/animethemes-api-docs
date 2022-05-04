@@ -14,6 +14,10 @@ The video index endpoint returns a listing of video resources.
 GET /api/video/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                   |

@@ -14,6 +14,10 @@ The page show endpoint returns a page resource.
 GET /api/page/{slug}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

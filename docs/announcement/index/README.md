@@ -14,6 +14,10 @@ The announcement index endpoint returns a listing of announcement resources.
 GET /api/announcement/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                          |

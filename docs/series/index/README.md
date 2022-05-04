@@ -14,6 +14,10 @@ The series index endpoint returns a listing of series resources.
 GET /api/series/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                   |

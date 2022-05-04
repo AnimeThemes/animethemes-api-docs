@@ -16,6 +16,10 @@ For example, `/api/image/435` endpoint will return the large cover image for the
 GET /api/image/{id}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

@@ -16,6 +16,10 @@ For example, the `/api/animesynonym/1523` endpoint will return the AnimeSynonym 
 GET /api/animesynonym/{id}
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name    | Required | Description                                             |

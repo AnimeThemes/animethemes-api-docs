@@ -14,6 +14,10 @@ The image index endpoint returns a listing of image resources.
 GET /api/image/
 ```
 
+## Authentication
+
+None
+
 ## Parameters
 
 | Name         | Required | Description                                                                   |

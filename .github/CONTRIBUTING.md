@@ -10,7 +10,7 @@ Unless otherwise specified, any issue that does not have an assignee can be clai
 
 Leave a comment in the issue indicating interest so that the assignee can be designated by a member. This is a requirement in Github to allow assignment of contributors outside of the organization by members. 
 
-If further discussion is needed before work can be started, please make use of the `#development` channel on the discord.
+If further discussion is needed before work can be started, please make use of the `#api` channel on the discord.
 
 ## Development Environment
 

@@ -26,7 +26,9 @@ We provide an overview of managing request quotas.
 
 The AnimeThemes API uses token-based authentication to grant the user access to protected actions.
 
-API tokens can be granted abilities that specify which actions can be performed.
+## [Validation](/validation/)
+
+The AnimeThemes API uses form requests to validate query parameters.
 
 ## Terms of Use
 

@@ -8,8 +8,6 @@ title: Authentication
 
 The AnimeThemes API uses token-based authentication to grant the user access to protected actions.
 
-API tokens can be granted abilities that specify which actions can be performed.
-
 ## Token Authentication
 
 The AnimeThemes API uses the [**Bearer authentication scheme**](https://www.rfc-editor.org/rfc/rfc6750.html) to validate requests for protected actions.
@@ -48,21 +46,11 @@ On the API Tokens Screen, the Create API Token Form will be displayed.
 
 On the Create API Token Form, specify a Token Name.
 
-On the Create API Token Form, optionally specify Permissions. Permissions are the abilities that the token is granted.
-
 On the Create API Token Form, click the Create Button. The API Token Modal will be displayed.
 
 On the API Token Modal, copy and store the token.
 
 On the API Token Modal, click the Close Button. The Modal will be dismissed and the token will be displayed in the Manage API Tokens Form.
-
-### Updating Tokens
-
-On the Manage API Tokens Form, click the Permissions Link. The API Token Permissions Modal will be displayed.
-
-On the API Token Permissions Modal, specify changes to Permissions.
-
-On the API Token Permissions Modal, click the Save Button. The Modal will be dismissed and the changes will be applied.
 
 ### Deleting Tokens
 
@@ -72,6 +60,6 @@ On the Delete API Token Modal, click the Delete Button. The Delete API Token Mod
 
 ## Expiration
 
-API Tokens are configured to expire after **one month**.
+API Tokens are configured to expire after **one year**.
 
 Expired API Tokens are automatically pruned from AnimeThemes once a day.

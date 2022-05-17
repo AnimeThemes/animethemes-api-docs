@@ -21,6 +21,10 @@ module.exports = {
           {
             title: 'Authentication',
             to: '/authentication'
+          },
+          {
+            title: 'Validation',
+            to: '/validation'
           }
         ]
       },

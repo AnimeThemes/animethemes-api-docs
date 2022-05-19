@@ -33,12 +33,28 @@ module.exports = {
         to: '/anime',
         children: [
           {
-            title: 'Show',
-            to: '/anime/show/',
+            title: 'Destroy',
+            to: '/anime/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/anime/forceDelete/'
           },
           {
             title: 'Index',
             to: '/anime/index/'
+          },
+          {
+            title: 'Show',
+            to: '/anime/show/',
+          },
+          {
+            title: 'Store',
+            to: '/anime/store/',
+          },
+          {
+            title: 'Update',
+            to: '/anime/update/',
           },
           {
             title: 'Year Index',
@@ -47,7 +63,7 @@ module.exports = {
           {
             title: 'Year Show',
             to: '/animeyear/show/'
-          }
+          },
         ]
       },
       'animesynonym': {

@@ -39,13 +39,29 @@ For example, Bakemonogatari is an anime production with five opening sequences a
 
 ### Endpoints
 
-**[Anime Show](/anime/show/)**
+**[Anime Destroy](/anime/destroy/)**
 
-The anime show endpoint returns an anime resource.
+The anime destroy endpoint soft deletes an anime and returns the deleted anime resource.
+
+**[Anime Force Delete](/anime/forceDelete/)**
+
+The anime force delete endpoint hard deletes an anime and returns a confirmation message.
 
 **[Anime Index](/anime/index/)**
 
 The anime index endpoint displays a listing of anime resources.
+
+**[Anime Show](/anime/show/)**
+
+The anime show endpoint returns an anime resource.
+
+**[Anime Store](/anime/store/)**
+
+The anime store endpoints create a new anime and returns the new anime resource.
+
+**[Anime Update](/anime/update/)**
+
+The anime update endpoint updates an anime and returns the updated anime resource.
 
 **[Year Show](/year/show/)**
 

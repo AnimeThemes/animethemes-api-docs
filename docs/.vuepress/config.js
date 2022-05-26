@@ -233,12 +233,28 @@ module.exports = {
         to: '/series',
         children: [
           {
-            title: 'Show',
-            to: '/series/show/',
+            title: 'Destroy',
+            to: '/series/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/series/forceDelete/'
           },
           {
             title: 'Index',
             to: '/series/index/'
+          },
+          {
+            title: 'Show',
+            to: '/series/show/',
+          },
+          {
+            title: 'Store',
+            to: '/series/store/',
+          },
+          {
+            title: 'Update',
+            to: '/series/update/',
           }
         ]
       },

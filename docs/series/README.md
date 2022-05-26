@@ -27,10 +27,26 @@ For example, the Monogatari series is the collection of the Bakemonogatari anime
 
 ### Endpoints
 
-**[Series Show](/series/show/)**
+**[Series Destroy](/series/destroy/)**
 
-The series show endpoint returns a series resource.
+The series destroy endpoint soft deletes a series and returns the deleted series resource.
+
+**[Series Force Delete](/series/forceDelete/)**
+
+The series force delete endpoint hard deletes a series and returns a confirmation message.
 
 **[Series Index](/series/index/)**
 
 The series index endpoint displays a listing of series resources.
+
+**[Series Show](/series/show/)**
+
+The series show endpoint returns a series resource.
+
+**[Series Store](/series/store/)**
+
+The series store endpoint creates a new series and returns the new series resource.
+
+**[Series Update](/series/update/)**
+
+The series update endpoint updates a series and returns the updated series resource.

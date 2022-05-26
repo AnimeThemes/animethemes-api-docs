@@ -34,10 +34,26 @@ For example, Chiwa Saito is the musical performer of the Bakemonogatari OP1 them
 
 ### Endpoints
 
-**[Artist Show](/artist/show/)**
+**[Artist Destroy](/artist/destroy/)**
 
-The artist show endpoint returns an artist resource.
+The artist destroy endpoint soft deletes an artist and returns the deleted artist resource.
+
+**[Artist Force Delete](/artist/forceDelete/)**
+
+The artist force delete endpoint hard deletes an artist and returns a confirmation message.
 
 **[Artist Index](/artist/index/)**
 
 The artist index endpoint displays a listing of artist resources.
+
+**[Artist Show](/artist/show/)**
+
+The artist show endpoint returns an artist resource.
+
+**[Artist Store](/artist/store/)**
+
+The artist store endpoint creates a new artist and returns the new artist resource.
+
+**[Artist Update](/artist/update/)**
+
+The artist update endpoint updates an artist and returns the updated artist resource.

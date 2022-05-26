@@ -57,7 +57,7 @@ The anime show endpoint returns an anime resource.
 
 **[Anime Store](/anime/store/)**
 
-The anime store endpoints create a new anime and returns the new anime resource.
+The anime store endpoint creates a new anime and returns the new anime resource.
 
 **[Anime Update](/anime/update/)**
 

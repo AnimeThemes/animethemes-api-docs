@@ -127,12 +127,28 @@ module.exports = {
         to: '/artist',
         children: [
           {
-            title: 'Show',
-            to: '/artist/show/',
+            title: 'Destroy',
+            to: '/artist/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/artist/forceDelete/'
           },
           {
             title: 'Index',
             to: '/artist/index/'
+          },
+          {
+            title: 'Show',
+            to: '/artist/show/',
+          },
+          {
+            title: 'Store',
+            to: '/artist/store/',
+          },
+          {
+            title: 'Update',
+            to: '/artist/update/',
           }
         ]
       },

@@ -87,7 +87,7 @@ None
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/page/
+curl https://api.animethemes.moe/page/
 ```
 </CURL>
 

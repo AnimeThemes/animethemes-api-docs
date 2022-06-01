@@ -54,7 +54,7 @@ PUT|PATCH /api/anime/{slug}
 
 <CURL>
 ```bash
-curl -X PATCH -H "Authorization: Bearer {token}" https://staging.animethemes.moe/api/anime/bakemonogatari
+curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/anime/bakemonogatari
 ```
 </CURL>
 

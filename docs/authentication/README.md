@@ -15,7 +15,7 @@ The AnimeThemes API uses the [**Bearer authentication scheme**](https://www.rfc-
 The `Bearer` token in the `Authorization` request header must correspond to a valid API token.
 
 ```sh
-curl -X POST "https://staging.animethemes.moe/api/{protected action}"
+curl -X POST "https://api.animethemes.moe/{protected action}"
     -H "Accept: application/json"
     -H "Authorization: Bearer {token}"
 ```

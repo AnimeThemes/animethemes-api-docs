@@ -48,7 +48,7 @@ PUT|PATCH /api/series/{slug}
 
 <CURL>
 ```bash
-curl -X PATCH -H "Authorization: Bearer {token}" https://staging.animethemes.moe/api/series/monogatari
+curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/series/monogatari
 ```
 </CURL>
 

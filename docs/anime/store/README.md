@@ -54,7 +54,7 @@ POST /api/anime
 
 <CURL>
 ```bash
-curl -X POST -H "Authorization: Bearer {token}" https://staging.animethemes.moe/api/anime/
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/anime/
 ```
 </CURL>
 

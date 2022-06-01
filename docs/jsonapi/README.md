@@ -16,7 +16,7 @@ The AnimeThemes API does **NOT** require a `Content-Type` or `Accept` header. An
 
 ```powershell
 # A simple curl request can be made without specifying headers.
-curl https://staging.animethemes.moe/api/anime
+curl https://api.animethemes.moe/anime
 ```
 
 ## Document Structure

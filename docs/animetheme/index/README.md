@@ -104,7 +104,7 @@ None
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/animetheme/
+curl https://api.animethemes.moe/animetheme/
 ```
 </CURL>
 

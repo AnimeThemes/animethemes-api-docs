@@ -48,7 +48,7 @@ PUT|PATCH /api/artist/{slug}
 
 <CURL>
 ```bash
-curl -X PATCH -H "Authorization: Bearer {token}" https://staging.animethemes.moe/api/artist/chiwa_saito
+curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/artist/chiwa_saito
 ```
 </CURL>
 

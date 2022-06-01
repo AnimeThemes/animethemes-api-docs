@@ -99,7 +99,7 @@ None
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/animethemeentry/
+curl https://api.animethemes.moe/animethemeentry/
 ```
 </CURL>
 

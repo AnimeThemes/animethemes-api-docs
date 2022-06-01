@@ -11,7 +11,7 @@
 
 The AnimeThemes API provides access to our repository resources for your development needs.
 
-This is the repository for the [**AnimeThemes.moe API documentation**](https://staging.animethemes.moe/api/docs/).
+This is the repository for the [**AnimeThemes.moe API documentation**](https://api-docs.animethemes.moe/).
 
 This project is powered by [**VuePress**](https://vuepress.vuejs.org/), a minimalistic static site generator.
 

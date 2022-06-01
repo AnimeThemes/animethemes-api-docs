@@ -40,7 +40,7 @@ None
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/config/flags
+curl https://api.animethemes.moe/config/flags
 ```
 </CURL>
 

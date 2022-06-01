@@ -38,7 +38,7 @@ None
 
 <CURL>
 ```bash
-curl -X DELETE -H "Authorization: Bearer {token}" https://staging.animethemes.moe/api/forceDelete/series/monogatari
+curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/forceDelete/series/monogatari
 ```
 </CURL>
 

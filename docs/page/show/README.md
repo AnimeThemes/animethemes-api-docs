@@ -43,7 +43,7 @@ None
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/page/encoding/audio_normalization
+curl https://api.animethemes.moe/page/encoding/audio_normalization
 ```
 </CURL>
 

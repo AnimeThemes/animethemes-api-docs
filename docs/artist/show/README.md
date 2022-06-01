@@ -48,7 +48,7 @@ None
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/artist/chiwa_saito
+curl https://api.animethemes.moe/artist/chiwa_saito
 ```
 </CURL>
 

@@ -42,7 +42,7 @@ None
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/announcement/1
+curl https://api.animethemes.moe/announcement/1
 ```
 </CURL>
 

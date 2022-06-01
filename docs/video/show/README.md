@@ -60,7 +60,7 @@ None
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/video/Bakemonogatari-OP1.webm
+curl https://api.animethemes.moe/video/Bakemonogatari-OP1.webm
 ```
 </CURL>
 

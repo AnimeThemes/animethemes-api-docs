@@ -51,7 +51,7 @@ None
 
 <CURL>
 ```bash
-curl https://staging.animethemes.moe/api/anime/bakemonogatari
+curl https://api.animethemes.moe/anime/bakemonogatari
 ```
 </CURL>
 

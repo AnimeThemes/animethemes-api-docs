@@ -69,7 +69,7 @@ Create Pull Request from the new feature branch to the upstream main branch.
 
 Once the Pull Request is merged, delete the feature branch locally.
 
-`git branch -d new-feature-branch`
+`git branch --delete new-feature-branch`
 
 Delete the remote feature branch.
 

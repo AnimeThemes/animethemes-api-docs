@@ -277,12 +277,28 @@ module.exports = {
         to: '/studio',
         children: [
           {
-            title: 'Show',
-            to: '/studio/show/',
+            title: 'Destroy',
+            to: '/studio/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/studio/forceDelete/'
           },
           {
             title: 'Index',
             to: '/studio/index/'
+          },
+          {
+            title: 'Show',
+            to: '/studio/show/',
+          },
+          {
+            title: 'Store',
+            to: '/studio/store/',
+          },
+          {
+            title: 'Update',
+            to: '/studio/update/',
           }
         ]
       },

@@ -28,10 +28,26 @@ For example, Shaft is the studio that produced the anime Bakemonogatari.
 
 ### Endpoints
 
-**[Studio Show](/studio/show/)**
+**[Studio Destroy](/studio/destroy/)**
 
-The studio show endpoint returns a studio resource.
+The studio destroy endpoint soft deletes a studio and returns the deleted studio resource.
+
+**[Studio Force Delete](/studio/forceDelete/)**
+
+The studio force delete endpoint hard deletes a studio and returns a confirmation message.
 
 **[Studio Index](/studio/index/)**
 
 The studio index endpoint displays a listing of studio resources.
+
+**[Studio Show](/studio/show/)**
+
+The studio show endpoint returns a studio resource.
+
+**[Studio Store](/studio/store/)**
+
+The studio store endpoint creates a new studio and returns the new studio resource.
+
+**[Studio Update](/studio/update/)**
+
+The studio update endpoint updates a studio and returns the updated studio resource.

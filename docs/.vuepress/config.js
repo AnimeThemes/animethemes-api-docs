@@ -337,12 +337,28 @@ module.exports = {
         to: '/video',
         children: [
           {
-            title: 'Show',
-            to: '/video/show/',
+            title: 'Destroy',
+            to: '/video/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/video/forceDelete/'
           },
           {
             title: 'Index',
             to: '/video/index/'
+          },
+          {
+            title: 'Show',
+            to: '/video/show/',
+          },
+          {
+            title: 'Store',
+            to: '/video/store/',
+          },
+          {
+            title: 'Update',
+            to: '/video/update/',
           }
         ]
       },

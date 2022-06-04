@@ -41,10 +41,26 @@ For example, the video Bakemonogatari-OP1.webm represents the WebM of the Bakemo
 
 ### Endpoints
 
-**[Video Show](/video/show/)**
+**[Video Destroy](/video/destroy/)**
 
-The video show endpoint returns a video resource.
+The video destroy endpoint soft deletes a video and returns the deleted video resource.
+
+**[Video Force Delete](/video/forceDelete/)**
+
+The video force delete endpoint hard deletes a video and returns a confirmation message.
 
 **[Video Index](/video/index/)**
 
 The video index endpoint displays a listing of video resources.
+
+**[Video Show](/video/show/)**
+
+The video show endpoint returns a video resource.
+
+**[Video Store](/video/store/)**
+
+The video store endpoint creates a new video and returns the new video resource.
+
+**[Video Update](/video/update/)**
+
+The video update endpoint updates a video and returns the updated video resource.

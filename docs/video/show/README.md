@@ -8,7 +8,7 @@ title: Video Show
 
 The video show endpoint returns a video resource.
 
-For example, `/api/video/Bakemonogatari-OP1.webm` endpoint will return the video for the Bakemonogatari OP1 theme.
+For example, `/api/video/Bakemonogatari-OP1.webm` endpoint will return the Bakemonogatari-OP1.webm video.
 
 ## URL
 

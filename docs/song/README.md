@@ -29,10 +29,26 @@ For example, Staple Stable is the song for the Bakemonogatari OP1 AnimeTheme.
 
 ### Endpoints
 
-**[Song Show](/song/show/)**
+**[Song Destroy](/song/destroy/)**
 
-The song show endpoint returns a song resource.
+The song destroy endpoint soft deletes a song and returns the deleted song resource.
+
+**[Song Force Delete](/song/forceDelete/)**
+
+The song force delete endpoint hard deletes a song and returns a confirmation message.
 
 **[Song Index](/song/index/)**
 
 The song index endpoint displays a listing of song resources.
+
+**[Song Show](/song/show/)**
+
+The song show endpoint returns a song resource.
+
+**[Song Store](/song/store/)**
+
+The song store endpoint creates a new song and returns the new song resource.
+
+**[Song Update](/song/update/)**
+
+The song update endpoint updates a song and returns the updated song resource.

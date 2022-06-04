@@ -263,12 +263,28 @@ module.exports = {
         to: '/song',
         children: [
           {
-            title: 'Show',
-            to: '/song/show/',
+            title: 'Destroy',
+            to: '/song/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/song/forceDelete/'
           },
           {
             title: 'Index',
             to: '/song/index/'
+          },
+          {
+            title: 'Show',
+            to: '/song/show/',
+          },
+          {
+            title: 'Store',
+            to: '/song/store/',
+          },
+          {
+            title: 'Update',
+            to: '/song/update/',
           }
         ]
       },

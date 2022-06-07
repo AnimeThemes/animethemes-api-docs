@@ -28,10 +28,26 @@ None
 
 ### Endpoints
 
-**[Transaction Show](/transaction/show/)**
+**[Transaction Destroy](/transaction/destroy/)**
 
-The transaction show endpoint returns a transaction resource.
+The transaction destroy endpoint soft deletes a transaction and returns the deleted transaction resource.
+
+**[Transaction Force Delete](/transaction/forceDelete/)**
+
+The transaction force delete endpoint hard deletes a transaction and returns a confirmation message.
 
 **[Transaction Index](/transaction/index/)**
 
 The transaction index endpoint displays a listing of transaction resources.
+
+**[Transaction Show](/transaction/show/)**
+
+The transaction show endpoint returns a transaction resource.
+
+**[Transaction Store](/transaction/store/)**
+
+The transaction store endpoint creates a new transaction and returns the new transaction resource.
+
+**[Transaction Update](/transaction/update/)**
+
+The transaction update endpoint updates a transaction and returns the updated transaction resource.

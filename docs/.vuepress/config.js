@@ -323,12 +323,28 @@ module.exports = {
         to: '/transaction',
         children: [
           {
-            title: 'Show',
-            to: '/transaction/show/',
+            title: 'Destroy',
+            to: '/transaction/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/transaction/forceDelete/'
           },
           {
             title: 'Index',
             to: '/transaction/index/'
+          },
+          {
+            title: 'Show',
+            to: '/transaction/show/',
+          },
+          {
+            title: 'Store',
+            to: '/transaction/store/',
+          },
+          {
+            title: 'Update',
+            to: '/transaction/update/',
           }
         ]
       },

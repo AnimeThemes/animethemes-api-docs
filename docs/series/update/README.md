@@ -26,8 +26,8 @@ PUT|PATCH /api/series/{slug}
 
 | Name     | Required | Rules                               |
 | :------: | :------: | :---------------------------------- |
-| name     | Yes      | string, max:192                     |
-| slug     | Yes      | string, max:192, alpha_dash, unique |
+| name     | No       | string, max:192                     |
+| slug     | No       | string, max:192, alpha_dash, unique |
 
 ## Response
 

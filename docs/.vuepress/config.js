@@ -157,12 +157,28 @@ module.exports = {
         to: '/balance',
         children: [
           {
-            title: 'Show',
-            to: '/balance/show/',
+            title: 'Destroy',
+            to: '/balance/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/balance/forceDelete/'
           },
           {
             title: 'Index',
             to: '/balance/index/'
+          },
+          {
+            title: 'Show',
+            to: '/balance/show/',
+          },
+          {
+            title: 'Store',
+            to: '/balance/store/',
+          },
+          {
+            title: 'Update',
+            to: '/balance/update/',
           }
         ]
       },

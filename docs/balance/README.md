@@ -28,10 +28,26 @@ None
 
 ### Endpoints
 
-**[Balance Show](/balance/show/)**
+**[Balance Destroy](/balance/destroy/)**
 
-The balance show endpoint returns a balance resource.
+The balance destroy endpoint soft deletes a balance and returns the deleted balance resource.
+
+**[Balance Force Delete](/balance/forceDelete/)**
+
+The balance force delete endpoint hard deletes a balance and returns a confirmation message.
 
 **[Balance Index](/balance/index/)**
 
 The balance index endpoint displays a listing of balance resources.
+
+**[Balance Show](/balance/show/)**
+
+The balance show endpoint returns a balance resource.
+
+**[Balance Store](/balance/store/)**
+
+The balance store endpoint creates a new balance and returns the new balance resource.
+
+**[Balance Update](/balance/update/)**
+
+The balance update endpoint updates a balance and returns the updated balance resource.

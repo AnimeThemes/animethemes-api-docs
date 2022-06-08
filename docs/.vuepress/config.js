@@ -113,12 +113,28 @@ module.exports = {
         to: '/announcement',
         children: [
           {
-            title: 'Show',
-            to: '/announcement/show/',
+            title: 'Destroy',
+            to: '/announcement/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/announcement/forceDelete/'
           },
           {
             title: 'Index',
             to: '/announcement/index/'
+          },
+          {
+            title: 'Show',
+            to: '/announcement/show/',
+          },
+          {
+            title: 'Store',
+            to: '/announcement/store/',
+          },
+          {
+            title: 'Update',
+            to: '/announcement/update/',
           }
         ]
       },

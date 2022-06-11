@@ -8,7 +8,7 @@ title: Announcement Store
 
 The announcement store endpoint creates a new announcement and returns the new announcement resource.
 
-For example, the `/api/announcement?content=The+Release+Has+Been+Deployed!` endpoint will create a new announcement and return the new announcement resource.
+For example, the `/api/announcement?content=Lorem+Ipsum` endpoint will create a new announcement and return the new announcement resource.
 
 ## URL
 

@@ -237,12 +237,28 @@ module.exports = {
         to: '/page',
         children: [
           {
-            title: 'Show',
-            to: '/page/show/',
+            title: 'Destroy',
+            to: '/page/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/page/forceDelete/'
           },
           {
             title: 'Index',
             to: '/page/index/'
+          },
+          {
+            title: 'Show',
+            to: '/page/show/',
+          },
+          {
+            title: 'Store',
+            to: '/page/store/',
+          },
+          {
+            title: 'Update',
+            to: '/page/update/',
           }
         ]
       },

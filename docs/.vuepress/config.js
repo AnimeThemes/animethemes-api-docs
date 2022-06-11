@@ -251,12 +251,28 @@ module.exports = {
         to: '/resource',
         children: [
           {
-            title: 'Show',
-            to: '/resource/show/',
+            title: 'Destroy',
+            to: '/resource/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/resource/forceDelete/'
           },
           {
             title: 'Index',
             to: '/resource/index/'
+          },
+          {
+            title: 'Show',
+            to: '/resource/show/',
+          },
+          {
+            title: 'Store',
+            to: '/resource/store/',
+          },
+          {
+            title: 'Update',
+            to: '/resource/update/',
           }
         ]
       },

@@ -31,10 +31,26 @@ For example, the Bakemonogatari anime has MyAnimeList, AniList and AniDB resourc
 
 ### Endpoints
 
+**[Resource Destroy](/resource/destroy/)**
+
+The resource destroy endpoint soft deletes an external resource and returns the deleted external resource.
+
+**[Resource Force Delete](/resource/forceDelete/)**
+
+The resource force delete endpoint hard deletes an external resource and returns a confirmation message.
+
+**[Resource Index](/resource/index/)**
+
+The resource index endpoint returns a listing of external resources.
+
 **[Resource Show](/resource/show/)**
 
 The resource show endpoint returns an external resource.
 
-**[Resource Index](/resource/index/)**
+**[Resource Store](/resource/store/)**
 
-The resource index endpoint displays a listing of external resources.
+The resource store endpoint creates a new external resource and returns the new external resource.
+
+**[Resource Update](/resource/update/)**
+
+The resource update endpoint updates an external resource and returns the updated external resource.

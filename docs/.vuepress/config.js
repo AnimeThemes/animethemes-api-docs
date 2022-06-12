@@ -223,12 +223,28 @@ module.exports = {
         to: '/image',
         children: [
           {
-            title: 'Show',
-            to: '/image/show/',
+            title: 'Destroy',
+            to: '/image/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/image/forceDelete/'
           },
           {
             title: 'Index',
             to: '/image/index/'
+          },
+          {
+            title: 'Show',
+            to: '/image/show/',
+          },
+          {
+            title: 'Store',
+            to: '/image/store/',
+          },
+          {
+            title: 'Update',
+            to: '/image/update/',
           }
         ]
       },

@@ -1,14 +1,14 @@
 ---
-title: AnimeTheme Show
+title: Anime Theme Show
 ---
 
 <Block>
 
-# AnimeTheme Show Endpoint
+# Anime Theme Show Endpoint
 
-The AnimeTheme show endpoint returns an AnimeTheme resource.
+The anime theme show endpoint returns an anime theme resource.
 
-For example, the `/api/animetheme/3373` endpoint will return the AnimeTheme resource Bakemonogatari OP1.
+For example, the `/api/animetheme/3373` endpoint will return the OP1 anime theme resource for the Bakemonogatari anime.
 
 ## URL
 

@@ -101,12 +101,28 @@ module.exports = {
         to: '/animetheme',
         children: [
           {
-            title: 'Show',
-            to: '/animetheme/show/',
+            title: 'Destroy',
+            to: '/animetheme/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/animetheme/forceDelete/'
           },
           {
             title: 'Index',
             to: '/animetheme/index/'
+          },
+          {
+            title: 'Show',
+            to: '/animetheme/show/',
+          },
+          {
+            title: 'Store',
+            to: '/animetheme/store/',
+          },
+          {
+            title: 'Update',
+            to: '/animetheme/update/',
           }
         ]
       },

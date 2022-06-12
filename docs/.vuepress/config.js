@@ -71,12 +71,28 @@ module.exports = {
         to: '/animesynonym',
         children: [
           {
-            title: 'Show',
-            to: '/animesynonym/show/',
+            title: 'Destroy',
+            to: '/animesynonym/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/animesynonym/forceDelete/'
           },
           {
             title: 'Index',
             to: '/animesynonym/index/'
+          },
+          {
+            title: 'Show',
+            to: '/animesynonym/show/',
+          },
+          {
+            title: 'Store',
+            to: '/animesynonym/store/',
+          },
+          {
+            title: 'Update',
+            to: '/animesynonym/update/',
           }
         ]
       },

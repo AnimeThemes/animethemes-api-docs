@@ -26,10 +26,26 @@ For example, the anime Bakemonogatari has the AnimeSynonym "Monstory".
 
 ### Endpoints
 
-**[AnimeSynonym Show](/animesynonym/show/)**
+**[Anime Synonym Destroy](/animesynonym/destroy/)**
 
-The AnimeSynonym show endpoint returns an AnimeSynonym resource.
+The anime synonym destroy endpoint soft deletes an anime synonym and returns the deleted anime synonym resource.
 
-**[AnimeSynonym Index](/animesynonym/index/)**
+**[Anime Synonym Force Delete](/animesynonym/forceDelete/)**
 
-The AnimeSynonym index endpoint displays a listing of AnimeSynonym resources.
+The anime synonym force delete endpoint hard deletes an anime synonym and returns a confirmation message.
+
+**[Anime Synonym Index](/animesynonym/index/)**
+
+The anime synonym index endpoint displays a listing of anime synonym resources.
+
+**[Anime Synonym Show](/animesynonym/show/)**
+
+The anime synonym show endpoint returns an anime synonym resource.
+
+**[Anime Synonym Store](/animesynonym/store/)**
+
+The anime synonym store endpoint creates a new anime synonym and returns the new anime synonym resource.
+
+**[Anime Synonym Update](/animesynonym/update/)**
+
+The anime synonym update endpoint updates an anime synonym and returns the updated anime synonym resource.

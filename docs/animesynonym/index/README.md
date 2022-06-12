@@ -1,12 +1,12 @@
 ---
-title: AnimeSynonym Index
+title: Anime Synonym Index
 ---
 
 <Block>
 
-# AnimeSynonym Index Endpoint
+# Anime Synonym Index Endpoint
 
-The AnimeSynonym index endpoint returns a listing of AnimeSynonym resources.
+The anime synonym index endpoint returns a listing of anime synonym resources.
 
 ## URL
 

@@ -8,6 +8,8 @@ title: Page Show
 
 The page show endpoint returns a page resource.
 
+For example, the `/api/page/encoding` endpoint will return the Encoding page resource.
+
 ## URL
 
 ```sh
@@ -32,6 +34,7 @@ None
         id: id,
         name: "name",
         slug: "slug",
+        body: "body",
         created_at: "created_at",
         updated_at: "updated_at",
         deleted_at: "deleted_at"
@@ -43,7 +46,7 @@ None
 
 <CURL>
 ```bash
-curl https://api.animethemes.moe/page/encoding/audio_normalization
+curl https://api.animethemes.moe/page/encoding
 ```
 </CURL>
 

@@ -28,10 +28,26 @@ None
 
 ### Endpoints
 
-**[Page Show](/page/show/)**
+**[Page Destroy](/page/destroy/)**
 
-The page show endpoint returns a page resource.
+The page destroy endpoint soft deletes a page and returns the deleted page resource.
+
+**[Page Force Delete](/page/forceDelete/)**
+
+The page force delete endpoint hard deletes a page and returns a confirmation message.
 
 **[Page Index](/page/index/)**
 
 The page index endpoint displays a listing of page resources.
+
+**[Page Show](/page/show/)**
+
+The page show endpoint returns a page resource.
+
+**[Page Store](/page/store/)**
+
+The page store endpoint creates a new page and returns the new page resource.
+
+**[Page Update](/page/update/)**
+
+The page update endpoint updates a page and returns the updated page resource.

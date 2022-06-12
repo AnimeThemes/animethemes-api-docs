@@ -31,10 +31,26 @@ For example, the Bakemonogatari anime has two images to represent small and larg
 
 ### Endpoints
 
-**[Image Show](/image/show/)**
+**[Image Destroy](/image/destroy/)**
 
-The image show endpoint returns an image resource.
+The image destroy endpoint soft deletes an image and returns the deleted image resource.
+
+**[Image Force Delete](/image/forceDelete/)**
+
+The image force delete endpoint hard deletes an image and returns a confirmation message.
 
 **[Image Index](/image/index/)**
 
 The image index endpoint displays a listing of image resources.
+
+**[Image Show](/image/show/)**
+
+The image show endpoint returns an image resource.
+
+**[Image Store](/image/store/)**
+
+The image store endpoint creates a new image and returns the new image resource.
+
+**[Image Update](/image/update/)**
+
+The image update endpoint updates an image and returns the updated image resource.

@@ -1,14 +1,14 @@
 ---
-title: AnimeSynonym Show
+title: Anime Synonym Show
 ---
 
 <Block>
 
-# AnimeSynonym Show Endpoint
+# Anime Synonym Show Endpoint
 
-The AnimeSynonym show endpoint returns an AnimeSynonym resource.
+The anime synonym show endpoint returns an anime synonym resource.
 
-For example, the `/api/animesynonym/1523` endpoint will return the AnimeSynonym resource "Monstory" for the anime Bakemonogatari.
+For example, the `/api/animesynonym/1523` endpoint will return the Monstory synonym for the anime Bakemonogatari.
 
 ## URL
 

@@ -1,14 +1,14 @@
 ---
-title: AnimeSynonym
+title: Anime Synonym
 ---
 
-# AnimeSynonym
+# Anime Synonym
 
 ---
 
-An AnimeSynonym API resource represents an alternate title or common abbreviation for an anime.
+An anime synonym API resource represents an alternate title or common abbreviation for an anime.
 
-For example, the anime Bakemonogatari has the AnimeSynonym "Monstory".
+For example, the anime Bakemonogatari has the anime synonym "Monstory".
 
 ### Fields
 

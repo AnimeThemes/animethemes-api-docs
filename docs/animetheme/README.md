@@ -1,14 +1,14 @@
 ---
-title: AnimeTheme
+title: Anime Theme
 ---
 
-# AnimeTheme
+# Anime Theme
 
 ---
 
-An AnimeTheme API resource represents an OP or ED sequence for an anime.
+An anime theme API resource represents an OP or ED sequence for an anime.
 
-For example, the anime Bakemonogatari has five OP AnimeThemes and one ED AnimeTheme.
+For example, the anime Bakemonogatari has five OP anime themes and one ED anime theme.
 
 ### Fields
 
@@ -34,10 +34,26 @@ For example, the anime Bakemonogatari has five OP AnimeThemes and one ED AnimeTh
 
 ### Endpoints
 
-**[AnimeTheme Show](/animetheme/show/)**
+**[Anime Theme Destroy](/animetheme/destroy/)**
 
-The AnimeTheme show endpoint returns an AnimeTheme resource.
+The anime theme destroy endpoint soft deletes an anime theme and returns the deleted anime theme resource.
 
-**[AnimeTheme Index](/animetheme/index/)**
+**[Anime Theme Force Delete](/animetheme/forceDelete/)**
 
-The AnimeTheme index endpoint displays a listing of AnimeTheme resources.
+The anime theme force delete endpoint hard deletes an anime theme and returns a confirmation message.
+
+**[Anime Theme Index](/animetheme/index/)**
+
+The anime theme index endpoint displays a listing of anime theme resources.
+
+**[Anime Theme Show](/animetheme/show/)**
+
+The anime theme show endpoint returns an anime theme resource.
+
+**[Anime Theme Store](/animetheme/store/)**
+
+The anime theme store endpoint creates a new anime theme and returns the new anime theme resource.
+
+**[Anime Theme Update](/animetheme/update/)**
+
+The anime theme update endpoint updates an anime theme and returns the updated anime theme resource.

@@ -1,0 +1,62 @@
+---
+title: Anime Theme Store
+---
+
+<Block>
+
+# Anime Theme Store Endpoint
+
+The anime theme store endpoint creates a new anime theme and returns the new anime theme resource.
+
+For example, the `/api/animetheme?anime_id=218&type=OP&sequence=1` endpoint will create a new OP1 theme for the Bakemonogatari anime and return the new anime theme resource.
+
+## URL
+
+```sh
+POST /api/animetheme
+```
+
+## Authentication
+
+**Required Permission**: create anime theme
+
+**Roles with Permission**: Wiki Editor, Admin
+
+## Parameters
+
+| Name     | Required | Rules                    |
+| :------: | :------: | :----------------------- |
+| anime_id | Yes      | integer, Anime ID exists |
+| type     | Yes      | EnumValue {OP, ED}       |
+| sequence | No       | integer, min:0           |
+| group    | No       | string, max:192          |
+| song_id  | No       | integer, Song ID exists  |
+
+## Response
+
+```json
+{
+    animetheme: {
+        id: id,
+        type: "type",
+        sequence: sequence,
+        group: "group",
+        slug: "slug",
+        created_at: "created_at",
+        updated_at: "updated_at",
+        deleted_at: "deleted_at"
+    }
+}
+```
+
+<Example>
+
+<CURL>
+```bash
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/animetheme/
+```
+</CURL>
+
+</Example>
+
+</Block>

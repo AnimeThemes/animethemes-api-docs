@@ -1,14 +1,14 @@
 ---
-title: AnimeThemeEntry
+title: Anime Theme Entry
 ---
 
-# AnimeThemeEntry
+# Anime Theme Entry
 
 ---
 
-An AnimeThemeEntry API resource represents a version of an AnimeTheme.
+An anime theme entry API resource represents a version of an anime theme.
 
-For example, the Bakemonogatari ED theme has three AnimeThemeEntries to represent three versions.
+For example, the ED theme of the Bakemonogatari anime has three anime theme entries to represent three versions.
 
 ### Fields
 
@@ -32,10 +32,26 @@ For example, the Bakemonogatari ED theme has three AnimeThemeEntries to represen
 
 ### Endpoints
 
-**[AnimeThemeEntry Show](/animethemeentry/show/)**
+**[Anime Theme Entry Destroy](/animethemeentry/destroy/)**
 
-The AnimeThemeEntry show endpoint returns an AnimeThemeEntry resource.
+The anime theme entry destroy endpoint soft deletes an anime theme entry and returns the deleted anime theme entry resource.
 
-**[AnimeThemeEntry Index](/animethemeentry/index/)**
+**[Anime Theme Entry Force Delete](/animethemeentry/forceDelete/)**
 
-The AnimeThemeEntry index endpoint displays a listing of AnimeThemeEntry resources.
+The anime theme entry force delete endpoint hard deletes an anime theme entry and returns a confirmation message.
+
+**[Anime Theme Entry Index](/animethemeentry/index/)**
+
+The anime theme entry index endpoint displays a listing of anime theme entry resources.
+
+**[Anime Theme Entry Show](/animethemeentry/show/)**
+
+The anime theme entry show endpoint returns an anime theme entry resource.
+
+**[Anime Theme Entry Store](/animethemeentry/store/)**
+
+The anime theme entry store endpoint creates a new anime theme entry and returns the new anime theme entry resource.
+
+**[Anime Theme Entry Update](/animethemeentry/update/)**
+
+The anime theme entry update endpoint updates an anime theme entry and returns the updated anime theme entry resource.

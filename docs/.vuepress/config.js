@@ -131,12 +131,28 @@ module.exports = {
         to: '/animethemeentry',
         children: [
           {
-            title: 'Show',
-            to: '/animethemeentry/show/',
+            title: 'Destroy',
+            to: '/animethemeentry/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/animethemeentry/forceDelete/'
           },
           {
             title: 'Index',
             to: '/animethemeentry/index/'
+          },
+          {
+            title: 'Show',
+            to: '/animethemeentry/show/',
+          },
+          {
+            title: 'Store',
+            to: '/animethemeentry/store/',
+          },
+          {
+            title: 'Update',
+            to: '/animethemeentry/update/',
           }
         ]
       },

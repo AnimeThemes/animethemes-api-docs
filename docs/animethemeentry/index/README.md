@@ -1,12 +1,12 @@
 ---
-title: AnimeThemeEntry Index
+title: Anime Theme Entry Index
 ---
 
 <Block>
 
-# AnimeThemeEntry Index Endpoint
+# Anime Theme Entry Index Endpoint
 
-The AnimeThemeEntry index endpoint returns a listing of AnimeThemeEntry resources.
+The anime theme entry index endpoint returns a listing of anime theme entry resources.
 
 ## URL
 

@@ -1,14 +1,14 @@
 ---
-title: AnimeThemeEntry Show
+title: Anime Theme Entry Show
 ---
 
 <Block>
 
-# AnimeThemeEntry Show Endpoint
+# Anime Theme Entry Show Endpoint
 
-The AnimeThemeEntry show endpoint returns an AnimeThemeEntry resource.
+The anime theme entry show endpoint returns an anime theme entry resource.
 
-For example, the `/api/animethemeentry/3822` endpoint will return the second version of the Bakemonogatari ED AnimeTheme.
+For example, the `/api/animethemeentry/3822` endpoint will return the V2 entry for the ED theme of the Bakemonogatari anime.
 
 ## URL
 

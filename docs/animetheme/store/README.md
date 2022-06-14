@@ -8,7 +8,7 @@ title: Anime Theme Store
 
 The anime theme store endpoint creates a new anime theme and returns the new anime theme resource.
 
-For example, the `/api/animetheme?anime_id=218&type=OP&sequence=1` endpoint will create a new OP1 theme for the Bakemonogatari anime and return the new anime theme resource.
+For example, the `/api/animetheme?anime_id=218&type=OP&sequence=1&slug=OP1` endpoint will create a new OP1 theme for the Bakemonogatari anime and return the new anime theme resource.
 
 ## URL
 
@@ -24,13 +24,14 @@ POST /api/animetheme
 
 ## Parameters
 
-| Name     | Required | Rules                    |
-| :------: | :------: | :----------------------- |
-| anime_id | Yes      | integer, Anime ID exists |
-| type     | Yes      | EnumValue {OP, ED}       |
-| sequence | No       | integer, min:0           |
-| group    | No       | string, max:192          |
-| song_id  | No       | integer, Song ID exists  |
+| Name     | Required | Rules                       |
+| :------: | :------: | :-------------------------- |
+| anime_id | Yes      | integer, Anime ID exists    |
+| type     | Yes      | EnumValue {OP, ED}          |
+| sequence | No       | integer, min:0              |
+| group    | No       | string, max:192             |
+| slug     | Yes      | string, max:192, alpha_dash |
+| song_id  | No       | integer, Song ID exists     |
 
 ## Response
 

@@ -28,6 +28,7 @@ For example, the Bakemonogatari anime has two images to represent small and larg
 
 * anime
 * artists
+* studios
 
 ### Endpoints
 

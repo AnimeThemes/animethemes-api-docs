@@ -8,12 +8,12 @@ title: Video Force Delete
 
 The video force delete endpoint hard deletes a video and returns a confirmation message.
 
-For example, the `/api/forceDelete/video/Bakemonogatari-OP1.webm` endpoint will hard delete the Bakemonogatari-OP1.webm video and return a confirmation message.
+For example, the `/forceDelete/video/Bakemonogatari-OP1.webm` endpoint will hard delete the Bakemonogatari-OP1.webm video and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/video/{basename}
+DELETE /forceDelete/video/{basename}
 ```
 
 ## Authentication

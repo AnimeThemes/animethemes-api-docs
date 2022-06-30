@@ -11,7 +11,7 @@ The resource index endpoint returns a listing of external resources.
 ## URL
 
 ```sh
-GET /api/resource/
+GET /resource/
 ```
 
 ## Authentication

@@ -8,12 +8,12 @@ title: Anime Theme Entry Destroy
 
 The anime theme entry destroy endpoint soft deletes an anime theme entry and returns the deleted anime theme entry resource.
 
-For example, the `/api/animethemeentry/3822` endpoint will soft delete the V2 entry for the ED1 theme of the Bakemonogatari anime and return the deleted anime theme entry resource.
+For example, the `/animethemeentry/3822` endpoint will soft delete the V2 entry for the ED1 theme of the Bakemonogatari anime and return the deleted anime theme entry resource.
 
 ## URL
 
 ```sh
-DELETE /api/animethemeentry/{id}
+DELETE /animethemeentry/{id}
 ```
 
 ## Authentication

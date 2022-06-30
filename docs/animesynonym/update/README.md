@@ -8,12 +8,12 @@ title: Anime Synonym Update
 
 The anime synonym update endpoint updates an anime synonym and returns the updated anime synonym resource.
 
-For example, the `/api/animesynonym/1523?text=Monstory` endpoint will update the Monstory anime synonym text attribute and return the updated anime synonym resource.
+For example, the `/animesynonym/1523?text=Monstory` endpoint will update the Monstory anime synonym text attribute and return the updated anime synonym resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/animesynonym/{id}
+PUT|PATCH /animesynonym/{id}
 ```
 
 ## Authentication

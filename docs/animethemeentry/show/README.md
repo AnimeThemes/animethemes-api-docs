@@ -8,12 +8,12 @@ title: Anime Theme Entry Show
 
 The anime theme entry show endpoint returns an anime theme entry resource.
 
-For example, the `/api/animethemeentry/3822` endpoint will return the V2 entry for the ED theme of the Bakemonogatari anime.
+For example, the `/animethemeentry/3822` endpoint will return the V2 entry for the ED theme of the Bakemonogatari anime.
 
 ## URL
 
 ```sh
-GET /api/animethemeentry/{id}
+GET /animethemeentry/{id}
 ```
 
 ## Authentication

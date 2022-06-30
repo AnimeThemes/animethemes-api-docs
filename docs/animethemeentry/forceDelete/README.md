@@ -8,12 +8,12 @@ title: Anime Theme Entry Force Delete
 
 The anime theme entry force delete endpoint hard deletes an anime theme entry and returns a confirmation message.
 
-For example, the `/api/forceDelete/animethemeentry/3822` endpoint will hard delete the V2 entry for the ED theme of the Bakemonogatari anime and return a confirmation message.
+For example, the `/forceDelete/animethemeentry/3822` endpoint will hard delete the V2 entry for the ED theme of the Bakemonogatari anime and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/animethemeentry/{id}
+DELETE /forceDelete/animethemeentry/{id}
 ```
 
 ## Authentication

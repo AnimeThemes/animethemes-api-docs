@@ -8,12 +8,12 @@ title: Anime Theme Entry Update
 
 The anime theme entry update endpoint updates an anime theme entry and returns the updated anime theme entry resource.
 
-For example, the `/api/animethemeentry/3822?episodes=11-14` endpoint will update the episodes attribute of the V2 entry for the ED theme of the Bakemonogatari anime and return the updated anime theme entry resource.
+For example, the `/animethemeentry/3822?episodes=11-14` endpoint will update the episodes attribute of the V2 entry for the ED theme of the Bakemonogatari anime and return the updated anime theme entry resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/animethemeentry/{id}
+PUT|PATCH /animethemeentry/{id}
 ```
 
 ## Authentication

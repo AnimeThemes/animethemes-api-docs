@@ -8,12 +8,12 @@ title: Artist Show
 
 The artist show endpoint returns an artist resource.
 
-For example, the `/api/artist/chiwa_saito` endpoint will return the artist resource for the artist Chiwa Saito.
+For example, the `/artist/chiwa_saito` endpoint will return the artist resource for the artist Chiwa Saito.
 
 ## URL
 
 ```sh
-GET /api/artist/{slug}
+GET /artist/{slug}
 ```
 
 ## Authentication

@@ -8,12 +8,12 @@ title: Anime Theme Show
 
 The anime theme show endpoint returns an anime theme resource.
 
-For example, the `/api/animetheme/3373` endpoint will return the OP1 anime theme resource for the Bakemonogatari anime.
+For example, the `/animetheme/3373` endpoint will return the OP1 anime theme resource for the Bakemonogatari anime.
 
 ## URL
 
 ```sh
-GET /api/animetheme/{id}
+GET /animetheme/{id}
 ```
 
 ## Authentication

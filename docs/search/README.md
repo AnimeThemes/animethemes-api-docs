@@ -11,7 +11,7 @@ The global search endpoint returns a listing of wiki resources that match a give
 ## URL
 
 ```sh
-GET /api/search/
+GET /search/
 ```
 
 ## Authentication

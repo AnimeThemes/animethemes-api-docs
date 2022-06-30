@@ -8,12 +8,12 @@ title: Song Destroy
 
 The song destroy endpoint soft deletes a song and returns the deleted song resource.
 
-For example, the `/api/song/3373` endpoint will soft delete the "staple stable" song and return the deleted "staple stable" resource.
+For example, the `/song/3373` endpoint will soft delete the "staple stable" song and return the deleted "staple stable" resource.
 
 ## URL
 
 ```sh
-DELETE /api/song/{id}
+DELETE /song/{id}
 ```
 
 ## Authentication

@@ -8,12 +8,12 @@ title: Year Show
 
 The year show endpoint return a listing of anime resources for a given year grouped by season and ordered by name.
 
-For example, the `/api/animeyear/2000` endpoint will return a listing of anime resources of year 2000 grouped by season and ordered by name.
+For example, the `/animeyear/2000` endpoint will return a listing of anime resources of year 2000 grouped by season and ordered by name.
 
 ## URL
 
 ```sh
-GET /api/animeyear/{year}
+GET /animeyear/{year}
 ```
 
 ## Authentication

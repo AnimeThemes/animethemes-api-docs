@@ -8,12 +8,12 @@ title: Transaction Force Delete
 
 The transaction force delete endpoint hard deletes a transaction and returns a confirmation message.
 
-For example, the `/api/forceDelete/transaction/1` endpoint will hard delete the transaction of id '1' and return a confirmation message.
+For example, the `/forceDelete/transaction/1` endpoint will hard delete the transaction of id '1' and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/transaction/{id}
+DELETE /forceDelete/transaction/{id}
 ```
 
 ## Authentication

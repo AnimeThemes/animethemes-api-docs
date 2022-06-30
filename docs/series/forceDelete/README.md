@@ -8,12 +8,12 @@ title: Series Force Delete
 
 The series force delete endpoint hard deletes a series and returns a confirmation message.
 
-For example, the `/api/forceDelete/series/monogatari` endpoint will hard delete the Monogatari series and return a confirmation message.
+For example, the `/forceDelete/series/monogatari` endpoint will hard delete the Monogatari series and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/series/{slug}
+DELETE /forceDelete/series/{slug}
 ```
 
 ## Authentication

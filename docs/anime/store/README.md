@@ -8,12 +8,12 @@ title: Anime Store
 
 The anime store endpoint creates a new anime and returns the new anime resource.
 
-For example, the `/api/anime?name=Bakemonogatari&slug=bakemonogatari&year=2009&season=summer` endpoint will create a new Bakemonogatari anime and return the new Bakemonogatari resource.
+For example, the `/anime?name=Bakemonogatari&slug=bakemonogatari&year=2009&season=summer` endpoint will create a new Bakemonogatari anime and return the new Bakemonogatari resource.
 
 ## URL
 
 ```sh
-POST /api/anime
+POST /anime
 ```
 
 ## Authentication

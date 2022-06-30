@@ -8,12 +8,12 @@ title: Transaction Destroy
 
 The transaction destroy endpoint soft deletes a transaction and returns the deleted transaction resource.
 
-For example, the `/api/transaction/1` endpoint will soft delete the transaction of id '1' and return the deleted transaction resource.
+For example, the `/transaction/1` endpoint will soft delete the transaction of id '1' and return the deleted transaction resource.
 
 ## URL
 
 ```sh
-DELETE /api/transaction/{id}
+DELETE /transaction/{id}
 ```
 
 ## Authentication

@@ -8,12 +8,12 @@ title: Anime Synonym Show
 
 The anime synonym show endpoint returns an anime synonym resource.
 
-For example, the `/api/animesynonym/1523` endpoint will return the Monstory synonym for the anime Bakemonogatari.
+For example, the `/animesynonym/1523` endpoint will return the Monstory synonym for the anime Bakemonogatari.
 
 ## URL
 
 ```sh
-GET /api/animesynonym/{id}
+GET /animesynonym/{id}
 ```
 
 ## Authentication

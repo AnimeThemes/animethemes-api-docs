@@ -8,12 +8,12 @@ title: Anime Theme Update
 
 The anime theme update endpoint updates an anime theme and returns the updated anime theme resource.
 
-For example, the `/api/animetheme/3373?song_id=3373` endpoint will update the song_id attribute of the OP1 theme for the Bakemonogatari anime and return the updated anime theme resource.
+For example, the `/animetheme/3373?song_id=3373` endpoint will update the song_id attribute of the OP1 theme for the Bakemonogatari anime and return the updated anime theme resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/animetheme/{id}
+PUT|PATCH /animetheme/{id}
 ```
 
 ## Authentication

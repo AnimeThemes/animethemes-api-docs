@@ -8,12 +8,12 @@ title: Balance Store
 
 The balance store endpoint creates a new balance and returns the new balance resource.
 
-For example, the `/api/balance?date=2022-06-01&service=AWS&frequency=Monthly&usage=10.00&month_to_date_balance=50.00` endpoint will create a new balance and return the new balance resource.
+For example, the `/balance?date=2022-06-01&service=AWS&frequency=Monthly&usage=10.00&month_to_date_balance=50.00` endpoint will create a new balance and return the new balance resource.
 
 ## URL
 
 ```sh
-POST /api/balance
+POST /balance
 ```
 
 ## Authentication

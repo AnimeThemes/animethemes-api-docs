@@ -8,12 +8,12 @@ title: Page Store
 
 The page store endpoint creates a new page and returns the new page resource.
 
-For example, the `/api/page?name=Encoding&slug=encoding&body=Lorem+Ipsum` endpoint will create a new Encoding page and return the new Encoding resource.
+For example, the `/page?name=Encoding&slug=encoding&body=Lorem+Ipsum` endpoint will create a new Encoding page and return the new Encoding resource.
 
 ## URL
 
 ```sh
-POST /api/page
+POST /page
 ```
 
 ## Authentication

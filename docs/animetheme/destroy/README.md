@@ -8,12 +8,12 @@ title: Anime Theme Destroy
 
 The anime theme destroy endpoint soft deletes an anime theme and returns the deleted anime theme resource.
 
-For example, the `/api/animetheme/3373` endpoint will soft delete the OP1 theme for the Bakemonogatari anime and return the deleted anime theme resource.
+For example, the `/animetheme/3373` endpoint will soft delete the OP1 theme for the Bakemonogatari anime and return the deleted anime theme resource.
 
 ## URL
 
 ```sh
-DELETE /api/animetheme/{id}
+DELETE /animetheme/{id}
 ```
 
 ## Authentication

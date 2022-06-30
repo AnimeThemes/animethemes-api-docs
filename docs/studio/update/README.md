@@ -8,12 +8,12 @@ title: Studio Update
 
 The studio update endpoint updates a studio and returns the updated studio resource.
 
-For example, the `/api/studio/shaft?name=Shaft` endpoint will update the Shaft studio name attribute and return the updated Shaft resource.
+For example, the `/studio/shaft?name=Shaft` endpoint will update the Shaft studio name attribute and return the updated Shaft resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/studio/{slug}
+PUT|PATCH /studio/{slug}
 ```
 
 ## Authentication

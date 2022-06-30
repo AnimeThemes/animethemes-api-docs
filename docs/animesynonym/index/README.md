@@ -11,7 +11,7 @@ The anime synonym index endpoint returns a listing of anime synonym resources.
 ## URL
 
 ```sh
-GET /api/animesynonym/
+GET /animesynonym/
 ```
 
 ## Authentication

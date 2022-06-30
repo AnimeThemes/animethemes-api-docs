@@ -11,7 +11,7 @@ The balance index endpoint returns a listing of balance resources.
 ## URL
 
 ```sh
-GET /api/balance/
+GET /balance/
 ```
 
 ## Authentication

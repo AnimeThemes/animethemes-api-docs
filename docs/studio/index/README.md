@@ -11,7 +11,7 @@ The studio index endpoint returns a listing of studio resources.
 ## URL
 
 ```sh
-GET /api/studio/
+GET /studio/
 ```
 
 ## Authentication

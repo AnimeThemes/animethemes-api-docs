@@ -8,12 +8,12 @@ title: Video Update
 
 The video update endpoint updates a video and returns the updated video resource.
 
-For example, the `/api/video/Bakemonogatari-OP1.webm?resolution=1080` endpoint will update the Bakemonogatari-OP1.webm video resolution attribute and return the updated Bakemonogatari-OP1.webm resource.
+For example, the `/video/Bakemonogatari-OP1.webm?resolution=1080` endpoint will update the Bakemonogatari-OP1.webm video resolution attribute and return the updated Bakemonogatari-OP1.webm resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/video/{basename}
+PUT|PATCH /video/{basename}
 ```
 
 ## Authentication

@@ -8,12 +8,12 @@ title: Song Update
 
 The song update endpoint updates a song and returns the updated song resource.
 
-For example, the `/api/song/song?title=staple+stable` endpoint will update the "staple stable" song title attribute and return the updated "staple stable" resource.
+For example, the `/song/song?title=staple+stable` endpoint will update the "staple stable" song title attribute and return the updated "staple stable" resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/song/{id}
+PUT|PATCH /song/{id}
 ```
 
 ## Authentication

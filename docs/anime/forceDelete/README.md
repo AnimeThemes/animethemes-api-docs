@@ -8,12 +8,12 @@ title: Anime Force Delete
 
 The anime force delete endpoint hard deletes an anime and returns a confirmation message.
 
-For example, the `/api/forceDelete/anime/bakemonogatari` endpoint will hard delete the Bakemonogatari anime and return a confirmation message.
+For example, the `/forceDelete/anime/bakemonogatari` endpoint will hard delete the Bakemonogatari anime and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/anime/{slug}
+DELETE /forceDelete/anime/{slug}
 ```
 
 ## Authentication

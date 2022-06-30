@@ -8,12 +8,12 @@ title: Resource Force Delete
 
 The resource force delete endpoint hard deletes an external resource and returns a confirmation message.
 
-For example, the `/api/forceDelete/resource/1083` endpoint will hard delete the MyAnimeList resource for the Bakemonogatari anime and return a confirmation message.
+For example, the `/forceDelete/resource/1083` endpoint will hard delete the MyAnimeList resource for the Bakemonogatari anime and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/resource/{id}
+DELETE /forceDelete/resource/{id}
 ```
 
 ## Authentication

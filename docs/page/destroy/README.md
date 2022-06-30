@@ -8,12 +8,12 @@ title: Page Destroy
 
 The page destroy endpoint soft deletes a page and returns the deleted page resource.
 
-For example, the `/api/page/encoding` endpoint will soft delete the Encoding page and return the deleted Encoding resource.
+For example, the `/page/encoding` endpoint will soft delete the Encoding page and return the deleted Encoding resource.
 
 ## URL
 
 ```sh
-DELETE /api/page/{slug}
+DELETE /page/{slug}
 ```
 
 ## Authentication

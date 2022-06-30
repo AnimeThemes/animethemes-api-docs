@@ -8,12 +8,12 @@ title: Studio Destroy
 
 The studio destroy endpoint soft deletes a studio and returns the deleted studio resource.
 
-For example, the `/api/studio/shaft` endpoint will soft delete the Shaft studio and return the deleted Shaft resource.
+For example, the `/studio/shaft` endpoint will soft delete the Shaft studio and return the deleted Shaft resource.
 
 ## URL
 
 ```sh
-DELETE /api/studio/{slug}
+DELETE /studio/{slug}
 ```
 
 ## Authentication

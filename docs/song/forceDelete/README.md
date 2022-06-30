@@ -8,12 +8,12 @@ title: Song Force Delete
 
 The song force delete endpoint hard deletes a song and returns a confirmation message.
 
-For example, the `/api/forceDelete/song/3373` endpoint will hard delete the "staple stable" song and return a confirmation message.
+For example, the `/forceDelete/song/3373` endpoint will hard delete the "staple stable" song and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/song/{id}
+DELETE /forceDelete/song/{id}
 ```
 
 ## Authentication

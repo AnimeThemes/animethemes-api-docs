@@ -66,6 +66,28 @@ module.exports = {
           },
         ]
       },
+      'animeimage': {
+        title: 'Resource',
+        to: '/animeimage',
+        children: [
+          {
+            title: 'Destroy',
+            to: '/animeimage/destroy/'
+          },
+          {
+            title: 'Index',
+            to: '/animeimage/index/'
+          },
+          {
+            title: 'Show',
+            to: '/animeimage/show/',
+          },
+          {
+            title: 'Store',
+            to: '/animeimage/store/',
+          }
+        ]
+      },
       'animesynonym': {
         title: 'Resource',
         to: '/animesynonym',

@@ -11,7 +11,7 @@ The transaction show endpoint returns a transaction resource.
 ## URL
 
 ```sh
-GET /api/transaction/{id}
+GET /transaction/{id}
 ```
 
 ## Authentication

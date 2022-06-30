@@ -8,12 +8,12 @@ title: Anime Destroy
 
 The anime destroy endpoint soft deletes an anime and returns the deleted anime resource.
 
-For example, the `/api/anime/bakemonogatari` endpoint will soft delete the Bakemonogatari anime and return the deleted Bakemonogatari resource.
+For example, the `/anime/bakemonogatari` endpoint will soft delete the Bakemonogatari anime and return the deleted Bakemonogatari resource.
 
 ## URL
 
 ```sh
-DELETE /api/anime/{slug}
+DELETE /anime/{slug}
 ```
 
 ## Authentication

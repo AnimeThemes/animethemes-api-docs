@@ -8,12 +8,12 @@ title: Page Update
 
 The page update endpoint updates a page and returns the updated page resource.
 
-For example, the `/api/page/encoding?body=Lorem+Ipsum` endpoint will update the Encoding page body attribute and return the updated Encoding resource.
+For example, the `/page/encoding?body=Lorem+Ipsum` endpoint will update the Encoding page body attribute and return the updated Encoding resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/page/{slug}
+PUT|PATCH /page/{slug}
 ```
 
 ## Authentication

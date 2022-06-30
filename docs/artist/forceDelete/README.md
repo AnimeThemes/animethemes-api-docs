@@ -8,12 +8,12 @@ title: Artist Force Delete
 
 The artist force delete endpoint hard deletes an artist and returns a confirmation message.
 
-For example, the `/api/forceDelete/artist/chiwa_saito` endpoint will hard delete the Chiwa Saito artist and return a confirmation message.
+For example, the `/forceDelete/artist/chiwa_saito` endpoint will hard delete the Chiwa Saito artist and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/artist/{slug}
+DELETE /forceDelete/artist/{slug}
 ```
 
 ## Authentication

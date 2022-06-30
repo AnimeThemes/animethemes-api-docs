@@ -11,7 +11,7 @@ The year index endpoint returns a list of unique years from all anime resources.
 ## URL
 
 ```sh
-GET /api/animeyear/
+GET /animeyear/
 ```
 
 ## Authentication

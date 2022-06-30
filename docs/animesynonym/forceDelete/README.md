@@ -8,12 +8,12 @@ title: Anime Synonym Force Delete
 
 The anime synonym force delete endpoint hard deletes an anime synonym and returns a confirmation message.
 
-For example, the `/api/forceDelete/animesynonym/1523` endpoint will hard delete the Monstory synonym for the Bakemonogatari anime and return a confirmation message.
+For example, the `/forceDelete/animesynonym/1523` endpoint will hard delete the Monstory synonym for the Bakemonogatari anime and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/animesynonym/{id}
+DELETE /forceDelete/animesynonym/{id}
 ```
 
 ## Authentication

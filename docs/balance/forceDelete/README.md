@@ -8,12 +8,12 @@ title: Balance Force Delete
 
 The balance force delete endpoint hard deletes a balance and returns a confirmation message.
 
-For example, the `/api/forceDelete/balance/1` endpoint will hard delete the balance of id '1' and return a confirmation message.
+For example, the `/forceDelete/balance/1` endpoint will hard delete the balance of id '1' and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/balance/{id}
+DELETE /forceDelete/balance/{id}
 ```
 
 ## Authentication

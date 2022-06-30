@@ -8,12 +8,12 @@ title: Announcement Force Delete
 
 The announcement force delete endpoint hard deletes an announcement and returns a confirmation message.
 
-For example, the `/api/forceDelete/announcement/1` endpoint will hard delete the announcement of id '1' and return a confirmation message.
+For example, the `/forceDelete/announcement/1` endpoint will hard delete the announcement of id '1' and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/announcement/{id}
+DELETE /forceDelete/announcement/{id}
 ```
 
 ## Authentication

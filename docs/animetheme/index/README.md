@@ -11,7 +11,7 @@ The anime theme index endpoint returns a listing of anime theme resources.
 ## URL
 
 ```sh
-GET /api/animetheme/
+GET /animetheme/
 ```
 
 ## Authentication

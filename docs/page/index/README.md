@@ -11,7 +11,7 @@ The page index endpoint returns a listing of page resources.
 ## URL
 
 ```sh
-GET /api/page/
+GET /page/
 ```
 
 ## Authentication

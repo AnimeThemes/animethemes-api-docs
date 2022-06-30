@@ -11,7 +11,7 @@ The series index endpoint returns a listing of series resources.
 ## URL
 
 ```sh
-GET /api/series/
+GET /series/
 ```
 
 ## Authentication

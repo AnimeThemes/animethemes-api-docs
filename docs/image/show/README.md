@@ -8,12 +8,12 @@ title: Image Show
 
 The image show endpoint returns an image resource.
 
-For example, `/api/image/435` endpoint will return the large cover image for the Bakemonogatari anime.
+For example, `/image/435` endpoint will return the large cover image for the Bakemonogatari anime.
 
 ## URL
 
 ```sh
-GET /api/image/{id}
+GET /image/{id}
 ```
 
 ## Authentication

@@ -8,12 +8,12 @@ title: Resource Destroy
 
 The resource destroy endpoint soft deletes an external resource and returns the deleted external resource.
 
-For example, the `/api/resource/1083` endpoint will soft delete the MyAnimeList resource for the Bakemonogatari anime and return the deleted MyAnimeList resource.
+For example, the `/resource/1083` endpoint will soft delete the MyAnimeList resource for the Bakemonogatari anime and return the deleted MyAnimeList resource.
 
 ## URL
 
 ```sh
-DELETE /api/resource/{id}
+DELETE /resource/{id}
 ```
 
 ## Authentication

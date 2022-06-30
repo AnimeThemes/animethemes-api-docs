@@ -8,12 +8,12 @@ title: Announcement Update
 
 The announcement update endpoint updates an announcement and returns the updated announcement resource.
 
-For example, the `/api/announcement/1?content=The+Release+Has+Been+Deployed!` endpoint will update the announcement content attribute and return the updated announcement resource.
+For example, the `/announcement/1?content=The+Release+Has+Been+Deployed!` endpoint will update the announcement content attribute and return the updated announcement resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/announcement/{id}
+PUT|PATCH /announcement/{id}
 ```
 
 ## Authentication

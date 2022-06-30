@@ -8,12 +8,12 @@ title: Page Show
 
 The page show endpoint returns a page resource.
 
-For example, the `/api/page/encoding` endpoint will return the Encoding page resource.
+For example, the `/page/encoding` endpoint will return the Encoding page resource.
 
 ## URL
 
 ```sh
-GET /api/page/{slug}
+GET /page/{slug}
 ```
 
 ## Authentication

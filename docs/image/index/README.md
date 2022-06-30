@@ -11,7 +11,7 @@ The image index endpoint returns a listing of image resources.
 ## URL
 
 ```sh
-GET /api/image/
+GET /image/
 ```
 
 ## Authentication

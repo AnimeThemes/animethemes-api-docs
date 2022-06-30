@@ -8,12 +8,12 @@ title: Transaction Store
 
 The transaction store endpoint creates a new transaction and returns the new transaction resource.
 
-For example, the `/api/transaction?date=2022-06-01&service=AWS&description=June+2022+Payment&amount=10.00` endpoint will create a new transaction and return the new transaction resource.
+For example, the `/transaction?date=2022-06-01&service=AWS&description=June+2022+Payment&amount=10.00` endpoint will create a new transaction and return the new transaction resource.
 
 ## URL
 
 ```sh
-POST /api/transaction
+POST /transaction
 ```
 
 ## Authentication

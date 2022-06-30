@@ -8,12 +8,12 @@ title: Song Store
 
 The song store endpoint creates a new song and returns the new song resource.
 
-For example, the `/api/song?title=staple+stable` endpoint will create a new "staple stable" song and return the new "staple stable" resource.
+For example, the `/song?title=staple+stable` endpoint will create a new "staple stable" song and return the new "staple stable" resource.
 
 ## URL
 
 ```sh
-POST /api/song
+POST /song
 ```
 
 ## Authentication

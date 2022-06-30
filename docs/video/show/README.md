@@ -8,12 +8,12 @@ title: Video Show
 
 The video show endpoint returns a video resource.
 
-For example, `/api/video/Bakemonogatari-OP1.webm` endpoint will return the Bakemonogatari-OP1.webm video.
+For example, `/video/Bakemonogatari-OP1.webm` endpoint will return the Bakemonogatari-OP1.webm video.
 
 ## URL
 
 ```sh
-GET /api/video/{basename}
+GET /video/{basename}
 ```
 
 ## Authentication

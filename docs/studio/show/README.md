@@ -8,12 +8,12 @@ title: Studio Show
 
 The studio show endpoint returns a studio resource.
 
-For example, the `/api/studio/shaft` endpoint will return the studio resource for the production company Shaft.
+For example, the `/studio/shaft` endpoint will return the studio resource for the production company Shaft.
 
 ## URL
 
 ```sh
-GET /api/studio/{slug}
+GET /studio/{slug}
 ```
 
 ## Authentication

@@ -11,7 +11,7 @@ The video index endpoint returns a listing of video resources.
 ## URL
 
 ```sh
-GET /api/video/
+GET /video/
 ```
 
 ## Authentication

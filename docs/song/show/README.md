@@ -8,12 +8,12 @@ title: Song Show
 
 The song show endpoint returns a song resource.
 
-For example, the `/api/song/3373` endpoint will return the song resource for the Staple Stable song.
+For example, the `/song/3373` endpoint will return the song resource for the Staple Stable song.
 
 ## URL
 
 ```sh
-GET /api/song/{id}
+GET /song/{id}
 ```
 
 ## Authentication

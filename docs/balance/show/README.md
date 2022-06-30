@@ -11,7 +11,7 @@ The balance show endpoint returns a balance resource.
 ## URL
 
 ```sh
-GET /api/balance/{id}
+GET /balance/{id}
 ```
 
 ## Authentication

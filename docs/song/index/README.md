@@ -11,7 +11,7 @@ The song index endpoint returns a listing of song resources.
 ## URL
 
 ```sh
-GET /api/song/
+GET /song/
 ```
 
 ## Authentication

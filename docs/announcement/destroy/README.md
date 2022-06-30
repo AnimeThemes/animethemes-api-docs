@@ -8,12 +8,12 @@ title: Announcement Destroy
 
 The announcement destroy endpoint soft deletes an announcement and returns the deleted announcement resource.
 
-For example, the `/api/announcement/1` endpoint will soft delete the announcement of id '1' and return the deleted announcement resource.
+For example, the `/announcement/1` endpoint will soft delete the announcement of id '1' and return the deleted announcement resource.
 
 ## URL
 
 ```sh
-DELETE /api/announcement/{id}
+DELETE /announcement/{id}
 ```
 
 ## Authentication

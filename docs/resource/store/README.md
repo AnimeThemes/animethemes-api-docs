@@ -8,12 +8,12 @@ title: Resource Store
 
 The resource store endpoint creates a new external resource and returns the new external resource.
 
-For example, the `/api/resource?link=https%3A%2F%2Fmyanimelist.net%2Fanime%2F5081%2F&site=MyAnimeList` endpoint will create a new MyAnimeList resource for the Bakemonogatari anime and return the new MyAnimeList resource.
+For example, the `/resource?link=https%3A%2F%2Fmyanimelist.net%2Fanime%2F5081%2F&site=MyAnimeList` endpoint will create a new MyAnimeList resource for the Bakemonogatari anime and return the new MyAnimeList resource.
 
 ## URL
 
 ```sh
-POST /api/resource
+POST /resource
 ```
 
 ## Authentication

@@ -8,12 +8,12 @@ title: Series Destroy
 
 The series destroy endpoint soft deletes a series and returns the deleted series resource.
 
-For example, the `/api/series/monogatari` endpoint will soft delete the Monogatari series and return the deleted Monogatari resource.
+For example, the `/series/monogatari` endpoint will soft delete the Monogatari series and return the deleted Monogatari resource.
 
 ## URL
 
 ```sh
-DELETE /api/series/{slug}
+DELETE /series/{slug}
 ```
 
 ## Authentication

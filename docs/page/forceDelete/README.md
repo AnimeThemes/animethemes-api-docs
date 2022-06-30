@@ -8,12 +8,12 @@ title: Page Force Delete
 
 The page force delete endpoint hard deletes a page and returns a confirmation message.
 
-For example, the `/api/forceDelete/page/encoding` endpoint will hard delete the Encoding page and return a confirmation message.
+For example, the `/forceDelete/page/encoding` endpoint will hard delete the Encoding page and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/page/{slug}
+DELETE /forceDelete/page/{slug}
 ```
 
 ## Authentication

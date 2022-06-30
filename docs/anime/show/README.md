@@ -8,12 +8,12 @@ title: Anime Show
 
 The anime show endpoint returns an anime resource.
 
-For example, the `/api/anime/bakemonogatari` endpoint will return the Bakemonogatari resource for the Bakemonogatari anime.
+For example, the `/anime/bakemonogatari` endpoint will return the Bakemonogatari resource for the Bakemonogatari anime.
 
 ## URL
 
 ```sh
-GET /api/anime/{slug}
+GET /anime/{slug}
 ```
 
 ## Authentication

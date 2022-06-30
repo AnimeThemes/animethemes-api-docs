@@ -8,12 +8,12 @@ title: Studio Force Delete
 
 The studio force delete endpoint hard deletes a studio and returns a confirmation message.
 
-For example, the `/api/forceDelete/studio/shaft` endpoint will hard delete the Shaft studio and return a confirmation message.
+For example, the `/forceDelete/studio/shaft` endpoint will hard delete the Shaft studio and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/studio/{slug}
+DELETE /forceDelete/studio/{slug}
 ```
 
 ## Authentication

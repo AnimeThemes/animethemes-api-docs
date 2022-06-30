@@ -16,14 +16,14 @@ If the parameter field-value pair passes every rule, the pair is considered vali
 
 ```powershell
 # Integer values are valid for the Anime Year Filter
-/api/anime?filter[year]=2000
+/anime?filter[year]=2000
 ```
 
 If the parameter field-value pair fails any rule, the pair is considered invalid.
 
 ```powershell
 # String values are not valid for the Anime Year Filter
-/api/anime?filter[year]=current
+/anime?filter[year]=current
 ```
 
 ## Response
@@ -31,7 +31,7 @@ If the parameter field-value pair fails any rule, the pair is considered invalid
 If every field-value pair is valid, the request will be executed normally.
 
 ```powershell
-/api/anime?filter[year]=2000&filter[season]=winter
+/anime?filter[year]=2000&filter[season]=winter
 ```
 
 ```json
@@ -53,7 +53,7 @@ If every field-value pair is valid, the request will be executed normally.
 If any field-value pair is invalid, the request will return a list of validation errors.
 
 ```powershell
-/api/anime?filter[year]=current&filter[season]=autumn
+/anime?filter[year]=current&filter[season]=autumn
 ```
 
 ```json

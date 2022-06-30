@@ -11,7 +11,7 @@ The artist index endpoint returns a listing of artist resources.
 ## URL
 
 ```sh
-GET /api/artist/
+GET /artist/
 ```
 
 ## Authentication

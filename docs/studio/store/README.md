@@ -8,12 +8,12 @@ title: Studio Store
 
 The studio store endpoint creates a new studio and returns the new studio resource.
 
-For example, the `/api/studio?name=Shaft&slug=shaft` endpoint will create a new Shaft studio and return the new Shaft resource.
+For example, the `/studio?name=Shaft&slug=shaft` endpoint will create a new Shaft studio and return the new Shaft resource.
 
 ## URL
 
 ```sh
-POST /api/studio
+POST /studio
 ```
 
 ## Authentication

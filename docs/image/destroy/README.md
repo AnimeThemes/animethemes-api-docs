@@ -8,12 +8,12 @@ title: Image Destroy
 
 The image destroy endpoint soft deletes an image and returns the deleted image resource.
 
-For example, the `/api/image/435` endpoint will soft delete the large cover image for the Bakemonogatari anime and return the deleted image resource.
+For example, the `/image/435` endpoint will soft delete the large cover image for the Bakemonogatari anime and return the deleted image resource.
 
 ## URL
 
 ```sh
-DELETE /api/image/{id}
+DELETE /image/{id}
 ```
 
 ## Authentication

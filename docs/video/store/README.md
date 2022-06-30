@@ -8,12 +8,12 @@ title: Video Store
 
 The video store endpoint creates a new video and returns the new video resource.
 
-For example, the `/api/video?basename=Bakemonogatari-OP1.webm&filename=Bakemonogatari-OP1&mimetype=video/webm&path=2009/Summer/Bakemonogatari-OP1.webm&size=50602649` endpoint will create a new Bakemonogatari-OP1.webm video and return the new Bakemonogatari-OP1.webm resource.
+For example, the `/video?basename=Bakemonogatari-OP1.webm&filename=Bakemonogatari-OP1&mimetype=video/webm&path=2009/Summer/Bakemonogatari-OP1.webm&size=50602649` endpoint will create a new Bakemonogatari-OP1.webm video and return the new Bakemonogatari-OP1.webm resource.
 
 ## URL
 
 ```sh
-POST /api/video
+POST /video
 ```
 
 ## Authentication

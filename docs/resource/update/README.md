@@ -8,12 +8,12 @@ title: Resource Update
 
 The resource update endpoint updates an external resource and returns the updated external resource.
 
-For example, the `/api/resource/1083?external_id=5081` endpoint will update the external resource external_id attribute and return the updated external resource.
+For example, the `/resource/1083?external_id=5081` endpoint will update the external resource external_id attribute and return the updated external resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/resource/{id}
+PUT|PATCH /resource/{id}
 ```
 
 ## Authentication

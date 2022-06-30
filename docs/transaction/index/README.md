@@ -11,7 +11,7 @@ The transaction index endpoint returns a listing of transaction resources.
 ## URL
 
 ```sh
-GET /api/transaction/
+GET /transaction/
 ```
 
 ## Authentication

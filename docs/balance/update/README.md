@@ -8,12 +8,12 @@ title: Balance Update
 
 The balance update endpoint updates a balance and returns the updated balance resource.
 
-For example, the `/api/balance/1?usage=10.00` endpoint will update the balance usage attribute and return the updated balance resource.
+For example, the `/balance/1?usage=10.00` endpoint will update the balance usage attribute and return the updated balance resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/balance/{id}
+PUT|PATCH /balance/{id}
 ```
 
 ## Authentication

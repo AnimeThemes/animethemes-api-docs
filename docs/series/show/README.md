@@ -8,12 +8,12 @@ title: Series Show
 
 The series show endpoint returns a series resource.
 
-For example, the `/api/series/monogatari` endpoint will return the series resource for the Monogatari series.
+For example, the `/series/monogatari` endpoint will return the series resource for the Monogatari series.
 
 ## URL
 
 ```sh
-GET /api/series/{slug}
+GET /series/{slug}
 ```
 
 ## Authentication

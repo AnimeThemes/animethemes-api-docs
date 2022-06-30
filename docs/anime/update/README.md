@@ -8,12 +8,12 @@ title: Anime Update
 
 The anime update endpoint updates an anime and returns the updated anime resource.
 
-For example, the `/api/anime/bakemonogatari?synopsis=updated+text` endpoint will update the Bakemonogatari anime synopsis attribute and return the updated Bakemonogatari resource.
+For example, the `/anime/bakemonogatari?synopsis=updated+text` endpoint will update the Bakemonogatari anime synopsis attribute and return the updated Bakemonogatari resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/anime/{slug}
+PUT|PATCH /anime/{slug}
 ```
 
 ## Authentication

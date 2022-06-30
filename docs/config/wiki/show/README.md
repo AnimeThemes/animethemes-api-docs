@@ -11,7 +11,7 @@ The wiki show endpoint returns the wiki resource.
 ## URL
 
 ```sh
-GET /api/config/wiki
+GET /config/wiki
 ```
 
 ## Authentication

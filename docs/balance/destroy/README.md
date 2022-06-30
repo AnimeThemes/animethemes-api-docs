@@ -8,12 +8,12 @@ title: Balance Destroy
 
 The balance destroy endpoint soft deletes a balance and returns the deleted balance resource.
 
-For example, the `/api/balance/1` endpoint will soft delete the balance of id '1' and return the deleted balance resource.
+For example, the `/balance/1` endpoint will soft delete the balance of id '1' and return the deleted balance resource.
 
 ## URL
 
 ```sh
-DELETE /api/balance/{id}
+DELETE /balance/{id}
 ```
 
 ## Authentication

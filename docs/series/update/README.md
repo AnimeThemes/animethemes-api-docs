@@ -8,12 +8,12 @@ title: Series Update
 
 The series update endpoint updates a series and returns the updated series resource.
 
-For example, the `/api/series/monogatari?name=Monogatari` endpoint will update the Monogatari series name attribute and return the updated Monogatari resource.
+For example, the `/series/monogatari?name=Monogatari` endpoint will update the Monogatari series name attribute and return the updated Monogatari resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/series/{slug}
+PUT|PATCH /series/{slug}
 ```
 
 ## Authentication

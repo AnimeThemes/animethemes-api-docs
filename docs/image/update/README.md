@@ -8,12 +8,12 @@ title: Image Update
 
 The image update endpoint updates an image and returns the updated image resource.
 
-For example, the `/api/image?facet=large+cover` endpoint will update the image facet attribute and return the updated image resource.
+For example, the `/image?facet=large+cover` endpoint will update the image facet attribute and return the updated image resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/image/{id}
+PUT|PATCH /image/{id}
 ```
 
 ## Authentication

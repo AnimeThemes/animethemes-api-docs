@@ -11,7 +11,7 @@ The announcement show endpoint returns an announcement resource.
 ## URL
 
 ```sh
-GET /api/announcement/{id}
+GET /announcement/{id}
 ```
 
 ## Authentication

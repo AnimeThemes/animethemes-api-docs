@@ -11,7 +11,7 @@ The flags show endpoint returns the flags resource.
 ## URL
 
 ```sh
-GET /api/config/flags
+GET /config/flags
 ```
 
 ## Authentication

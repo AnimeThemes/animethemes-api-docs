@@ -8,12 +8,12 @@ title: Artist Store
 
 The artist store endpoint creates a new artist and returns the new artist resource.
 
-For example, the `/api/artist?name=Chiwa+Saito&slug=chiwa_saito` endpoint will create a new Chiwa Saito artist and return the new Chiwa Saito resource.
+For example, the `/artist?name=Chiwa+Saito&slug=chiwa_saito` endpoint will create a new Chiwa Saito artist and return the new Chiwa Saito resource.
 
 ## URL
 
 ```sh
-POST /api/artist
+POST /artist
 ```
 
 ## Authentication

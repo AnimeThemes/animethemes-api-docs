@@ -11,7 +11,7 @@ The anime index endpoint returns a listing of anime resources.
 ## URL
 
 ```sh
-GET /api/anime/
+GET /anime/
 ```
 
 ## Authentication

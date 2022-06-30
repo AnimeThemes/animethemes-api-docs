@@ -8,12 +8,12 @@ title: Series Store
 
 The series store endpoint creates a new series and returns the new series resource.
 
-For example, the `/api/series?name=Monogatari&slug=monogatari` endpoint will create a new Monogatari series and return the new Monogatari resource.
+For example, the `/series?name=Monogatari&slug=monogatari` endpoint will create a new Monogatari series and return the new Monogatari resource.
 
 ## URL
 
 ```sh
-POST /api/series
+POST /series
 ```
 
 ## Authentication

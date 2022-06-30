@@ -11,7 +11,7 @@ The announcement index endpoint returns a listing of announcement resources.
 ## URL
 
 ```sh
-GET /api/announcement/
+GET /announcement/
 ```
 
 ## Authentication

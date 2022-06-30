@@ -8,12 +8,12 @@ title: Resource Show
 
 The resource show endpoint returns an external resource.
 
-For example, the `/api/resource/1083` will return the MyAnimeList resource for the Bakemonogatari anime.
+For example, the `/resource/1083` will return the MyAnimeList resource for the Bakemonogatari anime.
 
 ## URL
 
 ```sh
-GET /api/resource/{id}
+GET /resource/{id}
 ```
 
 ## Authentication

@@ -8,12 +8,12 @@ title: Transaction Update
 
 The transaction update endpoint updates a transaction and returns the updated transaction resource.
 
-For example, the `/api/transaction/1?external_id=12345` endpoint will update the transaction external_id attribute and return the updated transaction resource.
+For example, the `/transaction/1?external_id=12345` endpoint will update the transaction external_id attribute and return the updated transaction resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /api/transaction/{id}
+PUT|PATCH /transaction/{id}
 ```
 
 ## Authentication

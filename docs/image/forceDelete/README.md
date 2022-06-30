@@ -8,12 +8,12 @@ title: Image Force Delete
 
 The image force delete endpoint hard deletes an image resource and returns a confirmation message.
 
-For example, the `/api/forceDelete/image/435` endpoint will hard delete the large cover image for the Bakemonogatari anime and return a confirmation message.
+For example, the `/forceDelete/image/435` endpoint will hard delete the large cover image for the Bakemonogatari anime and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /api/forceDelete/image/{id}
+DELETE /forceDelete/image/{id}
 ```
 
 ## Authentication

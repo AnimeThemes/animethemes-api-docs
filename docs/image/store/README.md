@@ -8,12 +8,12 @@ title: Image Store
 
 The image store endpoint creates a new image and returns the new image resource.
 
-For example, the `/api/image?facet=large+cover` endpoint will create a new large cover image for the Bakemonogatari anime and return the new image resource.
+For example, the `/image?facet=large+cover` endpoint will create a new large cover image for the Bakemonogatari anime and return the new image resource.
 
 ## URL
 
 ```sh
-POST /api/image
+POST /image
 ```
 
 ## Authentication

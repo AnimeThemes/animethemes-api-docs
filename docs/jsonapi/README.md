@@ -166,7 +166,7 @@ The AnimeThemes API does **NOT** support fetching resources or relationships.
 The AnimeThemes API supports inclusion of related resources for every endpoint unless otherwise specified.
 
 ```json
-// /api/anime/{slug}?include=animethemes,series
+// /anime/{slug}?include=animethemes,series
 {
     anime: {
         ...
@@ -183,7 +183,7 @@ The AnimeThemes API supports inclusion of related resources for every endpoint u
 For endpoints that produce responses of mixed typed top-level members, inclusion of related resources are scoped by type `include[type]`.
 
 ```json
-// /api/search?q={query}&include[anime]=resources
+// /search?q={query}&include[anime]=resources
 {
     search: {
         anime: [
@@ -203,7 +203,7 @@ For endpoints that produce responses of mixed typed top-level members, inclusion
 If inclusion of related resources is not specified, the AnimeThemes API shall **NOT** include any related resources.
 
 ```json
-// /api/anime/{slug}
+// /anime/{slug}
 // No relationships are included by default
 {
     anime: {
@@ -225,7 +225,7 @@ If inclusion of related resources is not specified, the AnimeThemes API shall **
 The AnimeThemes API supports sparse fieldsets for every endpoint unless otherwise specified.
 
 ```json
-// /api/anime/{slug}?fields[anime]=name,year
+// /anime/{slug}?fields[anime]=name,year
 {
     anime: {
         name: "name",
@@ -237,7 +237,7 @@ The AnimeThemes API supports sparse fieldsets for every endpoint unless otherwis
 If the client does not specify the set of fields for a given resource type, the AnimeThemes API shall send all fields.
 
 ```json
-// /api/anime/{slug}
+// /anime/{slug}
 {
     anime: {
         id: id,
@@ -258,7 +258,7 @@ If the client does not specify the set of fields for a given resource type, the 
 The AnimeThemes API supports sorting for every endpoint that returns a collection of resources.
 
 ```json
-// /api/anime?sort=year
+// /anime?sort=year
 {
     anime: [
         {
@@ -295,7 +295,7 @@ The AnimeThemes API supports sorting for every endpoint that returns a collectio
 The AnimeThemes API supports an offset pagination strategy for every endpoint that returns a collection of resources. For these endpoints, the AnimeThemes API supports the `page[number]` and `page[size]` query parameters.
 
 ```json
-// /api/anime?page[number]=2&page[size]=15
+// /anime?page[number]=2&page[size]=15
 {
     anime: [
         {
@@ -330,7 +330,7 @@ The AnimeThemes API supports an offset pagination strategy for every endpoint th
 For endpoints that produce responses of mixed typed top-level members, the AnimeThemes.moe supports a limit pagination strategy. For these endpoints, the AnimeThemes API support the `page[limit]` query parameter.
 
 ```json
-// /api/search?q={query}&page[limit]=1
+// /search?q={query}&page[limit]=1
 {
     search: {
         anime: [
@@ -352,7 +352,7 @@ The AnimeThemes API supports filtering for every endpoint unless otherwise speci
 
 ```powershell
 # The show anime endpoint allows filtering on the year attribute, for example
-/api/anime?filter[year]=2000
+/anime?filter[year]=2000
 ```
 
 **Strategy**
@@ -369,14 +369,14 @@ The AnimeThemes API supports scoping filters by resource type.
 
 ```powershell
 # This will match the created_at filter for anime resources and will not apply the filter for other types
-/api/anime?filter[anime][created_at]=2021-01-01
+/anime?filter[anime][created_at]=2021-01-01
 ```
 
 If a scope is not provided, the filter shall match all types.
 
 ```powershell
 # This will match the created_at filter for all types
-/api/anime?filter[created_at]=2021-01-01
+/anime?filter[created_at]=2021-01-01
 ```
 
 **Comparison Operator**
@@ -387,63 +387,63 @@ EQ
 
 ```powershell
 # This will match anime of year 2000
-/api/anime?filter[year-eq]=2000
+/anime?filter[year-eq]=2000
 ```
 
 NE
 
 ```powershell
 # This will match anime not of year 2000
-/api/anime?filter[year-ne]=2000
+/anime?filter[year-ne]=2000
 ```
 
 LT
 
 ```powershell
 # This will match anime where the year is less than 2000
-/api/anime?filter[year-lt]=2000
+/anime?filter[year-lt]=2000
 ```
 
 GT
 
 ```powershell
 # This will match anime where the year is greater than 2000
-/api/anime?filter[year-gt]=2000
+/anime?filter[year-gt]=2000
 ```
 
 LTE
 
 ```powershell
 # This will match anime where the year is less than or equal to 2000
-/api/anime?filter[year-lte]=2000
+/anime?filter[year-lte]=2000
 ```
 
 GTE
 
 ```powershell
 # This will match anime where the year is greater than 2000
-/api/anime?filter[year-gte]=2000
+/anime?filter[year-gte]=2000
 ```
 
 LIKE
 
 ```powershell
 # This will match anime where the name matches the pattern '%monogatari%'
-/api/anime?filter[name-like]=%monogatari%
+/anime?filter[name-like]=%monogatari%
 ```
 
 NOT LIKE
 
 ```powershell
 # This will match anime where the name does not match the pattern '%monogatari%'
-/api/anime?filter[name-notlike]=%monogatari%
+/anime?filter[name-notlike]=%monogatari%
 ```
 
 If a comparison operator is not provided, the filter shall use the EQ operator.
 
 ```powershell
 # This will match anime of year 2000
-/api/anime?filter[year]=2000
+/anime?filter[year]=2000
 ```
 
 **Logical Operators**
@@ -454,21 +454,21 @@ AND
 
 ```powershell
 # This will match anime where the year is greater than 2000 and less than 2010
-/api/anime?filter[year-gt-and]=2000&filter[year-lt-and]=2010
+/anime?filter[year-gt-and]=2000&filter[year-lt-and]=2010
 ```
 
 OR
 
 ```powershell
 # This will match anime where the year is less than 2000 or greater than 2010
-/api/anime?filter[year-lt-or]=2000&filter[year-gt-or]=2010
+/anime?filter[year-lt-or]=2000&filter[year-gt-or]=2010
 ```
 
 If a logical operator is not provided, the filter shall use the AND operator.
 
 ```powershell
 # This will match anime where the year is greater than 2000 and less than 2010
-/api/anime?filter[year-gt]=2000&filter[year-lt]=2010
+/anime?filter[year-gt]=2000&filter[year-lt]=2010
 ```
 
 The AnimeThemes API supports the following logical operator for multi-value filter conditions:
@@ -477,14 +477,14 @@ NOT
 
 ```powershell
 # This will match anime where the year is not in {2000,2001,2002}
-/api/anime?filter[year-not]=2000,2001,2002
+/anime?filter[year-not]=2000,2001,2002
 ```
 
 If the multi-value logical operator is not specified, the filter shall exclude the multi-value logical operator.
 
 ```powershell
 # This will match anime where the year is in {2000,2001,2002}
-/api/anime?filter[year]=2000,2001,2002
+/anime?filter[year]=2000,2001,2002
 ```
 
 **Special Filters**
@@ -493,33 +493,33 @@ Trashed Filter
 
 ```powershell
 # This filter will include soft-deleted anime that are excluded by default
-/api/anime?filter[trashed]=with
+/anime?filter[trashed]=with
 ```
 
 ```powershell
 # This filter will return only soft-deleted anime
-/api/anime?filter[trashed]=only
+/anime?filter[trashed]=only
 ```
 
 ```powershell
 # This filter will return only anime that are not soft-deleted
 # This is the default behavior
-/api/anime?filter[trashed]=without
+/anime?filter[trashed]=without
 ```
 
 Has Filter
 
 ```powershell
 # This filter will return anime that have at least one related resource
-/api/anime?filter[has]=resources
+/anime?filter[has]=resources
 ```
 
 ```powershell
 # This filter will return anime that have at least one related resource or related series
-/api/anime?filter[has-or]=resources,series
+/anime?filter[has-or]=resources,series
 ```
 
 ```powershell
 # This filter will return anime that have at least one related resource of site MyAnimeList and external_id 41457
-/api/anime?filter[has]=resources&filter[site]=MyAnimeList&filter[external_id]=41457
+/anime?filter[has]=resources&filter[site]=MyAnimeList&filter[external_id]=41457
 ```

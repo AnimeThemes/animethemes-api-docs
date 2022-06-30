@@ -8,12 +8,12 @@ title: Video Destroy
 
 The video destroy endpoint soft deletes a video and returns the deleted video resource.
 
-For example, the `/api/video/Bakemonogatari-OP1.webm` endpoint will soft delete the Bakemonogatari-OP1.webm video and return the deleted Bakemonogatari-OP1.webm resource.
+For example, the `/video/Bakemonogatari-OP1.webm` endpoint will soft delete the Bakemonogatari-OP1.webm video and return the deleted Bakemonogatari-OP1.webm resource.
 
 ## URL
 
 ```sh
-DELETE /api/video/{basename}
+DELETE /video/{basename}
 ```
 
 ## Authentication

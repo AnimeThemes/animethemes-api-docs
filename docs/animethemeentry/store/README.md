@@ -8,12 +8,12 @@ title: Anime Theme Entry Store
 
 The anime theme entry store endpoint creates a new anime theme entry and returns the new anime theme entry resource.
 
-For example, the `/api/animethemeentry?theme_id=3378&version=2` endpoint will create a new V2 entry for the ED theme of the Bakemonogatari anime and return the new anime theme resource.
+For example, the `/animethemeentry?theme_id=3378&version=2` endpoint will create a new V2 entry for the ED theme of the Bakemonogatari anime and return the new anime theme resource.
 
 ## URL
 
 ```sh
-POST /api/animethemeentry
+POST /animethemeentry
 ```
 
 ## Authentication

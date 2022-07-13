@@ -1,0 +1,105 @@
+---
+title: Audio Index
+---
+
+<Block>
+
+# Audio Index Endpoint
+
+The audio index endpoint returns a listing of audio resources.
+
+## URL
+
+```sh
+GET /audio/
+```
+
+## Authentication
+
+None
+
+## Parameters
+
+| Name         | Required | Description                                                                   |
+| :----------: | :------: | :---------------------------------------------------------------------------- |
+| fields       | No       | Sparse fieldsets for resource types                                           |
+| filter       | No       | Filters for anime resources & constraining the inclusion of related resources |
+| page[number] | No       | The page of anime resources to display                                        |
+| page[size]   | No       | The number of anime resources to display for the current page                 |
+| sort         | No       | The list of fields to sort the resources                                      |
+
+## Allowed Sort Fields
+
+|    Name    | Description                                                         |
+| :--------: | :------------------------------------------------------------------ |
+| id         | Sort resources on the primary key                                   |
+| basename   | Sort resources on the basename of the file in storage               |
+| filename   | Sort resources on the filename of the file in storage               |
+| path       | Sort resources on the path of the file in storage                   |
+| size       | Sort resources on the size of hte file in storage in Bytes          |
+| mimetype   | Sort resources on the media type of the file in storage             |
+| created_at | Sort resources on the resource creation date                        |
+| updated_at | Sort resources on the resource last modified date                   |
+| deleted_at | Sort resources on the resource deletion date                        |
+| random     | Sort resources randomly. Ignored if other sort fields are provided. |
+
+## Filters
+
+|    Name    | Description                                                        |
+| :--------: | :----------------------------------------------------------------- |
+| id         | Filter resources on the primary key                                |
+| basename   | Filter resources on the basename of the file in storage            |
+| filename   | Filter resources on the filename of the file in storage            |
+| path       | Filter resources on the path of the file in storage                |
+| size       | Filter resources on the size of hte file in storage in Bytes       |
+| mimetype   | Filter resources on the media type of the file in storage          |
+| created_at | Filter resources on the resource creation date                     |
+| updated_at | Filter resources on the resource last modified date                |
+| deleted_at | Filter resources on the resource deletion date                     |
+| trashed    | Filter resources on trashed (deleted) status {With, Without, Only} |
+
+## Response
+
+```json
+{
+    audios: [
+        {
+            id: id,
+            basename: "basename",
+            filename: "filename",
+            path: "path",
+            size: size,
+            mimetype: "mimetype",
+            created_at: "created_at",
+            updated_at: "updated_at",
+            deleted_at: "deleted_at"
+        },
+        ...
+    ],
+    links: {
+        first: "first",
+        last: "last",
+        prev: "prev",
+        next: "next"
+    },
+    meta: {
+        current_page: current_page,
+        from: from,
+        path: "path",
+        per_page: per_page,
+        to: to
+    }
+}
+```
+
+<Example>
+
+<CURL>
+```bash
+curl https://api.animethemes.moe/audio/
+```
+</CURL>
+
+</Example>
+
+</Block>

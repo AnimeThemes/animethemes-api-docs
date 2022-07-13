@@ -238,6 +238,36 @@ module.exports = {
           }
         ]
       },
+      'audio': {
+        title: 'Resource',
+        to: '/audio',
+        children: [
+          {
+            title: 'Destroy',
+            to: '/audio/destroy/'
+          },
+          {
+            title: 'Force Delete',
+            to: '/audio/forceDelete/'
+          },
+          {
+            title: 'Index',
+            to: '/audio/index/'
+          },
+          {
+            title: 'Show',
+            to: '/audio/show/',
+          },
+          {
+            title: 'Store',
+            to: '/audio/store/',
+          },
+          {
+            title: 'Update',
+            to: '/audio/update/',
+          }
+        ]
+      },
       'balance': {
         title: 'Resource',
         to: '/balance',

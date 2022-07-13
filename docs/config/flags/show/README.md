@@ -30,6 +30,7 @@ None
 {
     flags: {
         allow_video_streams: allow_video_streams,
+        allow_audio_streams: allow_audio_streams,
         allow_discord_notifications: allow_discord_notifications,
         allow_view_recording: allow_view_recording,
     }

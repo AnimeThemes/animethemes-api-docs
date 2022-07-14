@@ -23,6 +23,7 @@ For example, the audio Bakemonogatari-OP1.ogg represents the audio track of the 
 | created_at | Date    | No       | The date that the resource was created       |
 | updated_at | Date    | No       | The date that the resource was last modified |
 | deleted_at | Date    | Yes      | The date that the resource was deleted       |
+| link       | String  | No       | The URL to stream the file from storage      |
 
 ### Allowed Include Paths
 

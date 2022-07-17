@@ -27,7 +27,7 @@ For example, the audio Bakemonogatari-OP1.ogg represents the audio track of the 
 
 ### Allowed Include Paths
 
-None
+* videos
 
 ### Endpoints
 

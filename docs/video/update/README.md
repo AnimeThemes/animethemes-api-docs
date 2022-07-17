@@ -33,6 +33,7 @@ PUT|PATCH /video/{basename}
 | uncen      | No       | boolean                                |
 | overlap    | No       | EnumValue {None, Trans, Over}          |
 | source     | No       | EnumValue {Web, RAW, BD, DVD, VHS, LD} |
+| audio_id   | No       | integer, Audio ID exists               |
 
 ## Response
 

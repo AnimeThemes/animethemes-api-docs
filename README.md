@@ -13,7 +13,7 @@ The AnimeThemes API provides access to our repository resources for your develop
 
 This is the repository for the [**AnimeThemes.moe API documentation**](https://api-docs.animethemes.moe/).
 
-This project is powered by [**VuePress**](https://vuepress.vuejs.org/), a minimalistic static site generator.
+This project is powered by [**VitePress**](https://vitepress.vuejs.org/), a Vite & Vue Powered Static Site Generator.
 
 ## Installation
 
@@ -23,9 +23,9 @@ In the project root directory, install dependencies.
 
 In the project root directory, start the local development server.
 
-`npm run dev`
+`npm run docs:dev`
 
-That's it! The local development server should be running at `localhost:8080`.
+That's it! The local development server should be running at `localhost:3000`.
 
 ## Contributing
 

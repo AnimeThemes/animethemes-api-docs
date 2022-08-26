@@ -7,7 +7,10 @@ export default {
     title: 'AnimeThemes',
     description: 'AnimeThemes API Documentation',
     themeConfig: {
-        logo: '/logo.svg',
+        logo: {
+            light: '/logo.svg',
+            dark: '/logo-dark.svg',
+        },
         siteTitle: 'AnimeThemes API Documentation',
         socialLinks: [
             { icon: 'discord', link: 'https://discordapp.com/invite/m9zbVyQ' },

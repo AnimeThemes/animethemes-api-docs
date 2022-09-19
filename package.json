@@ -15,8 +15,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.0.1",
-    "vitepress": "^1.0.0-alpha.12",
-    "vue": "^3.2.37"
+    "dotenv": "^16.0.2",
+    "vitepress": "^1.0.0-alpha.15",
+    "vue": "^3.2.39"
   }
 }

@@ -146,6 +146,19 @@ export default {
                 ]
             },
             {
+                text: 'Dump',
+                collapsible: true,
+                items: [
+                    { text: 'Resource', link: '/dump/' },
+                    { text: 'Destroy', link: '/dump/destroy/' },
+                    { text: 'Force Delete', link: '/dump/forceDelete/' },
+                    { text: 'Index', link: '/dump/index/' },
+                    { text: 'Show', link: '/dump/show/' },
+                    { text: 'Store', link: '/dump/store/' },
+                    { text: 'Update', link: '/dump/update/' },
+                ]
+            },
+            {
                 text: 'Feature Flags',
                 collapsible: true,
                 items: [

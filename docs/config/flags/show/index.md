@@ -31,7 +31,8 @@ None
         allow_audio_streams: allow_audio_streams,
         allow_discord_notifications: allow_discord_notifications,
         allow_view_recording: allow_view_recording,
-        allow_dump_downloading: allow_dump_downloading
+        allow_dump_downloading: allow_dump_downloading,
+        allow_script_downloading: allow_script_downloading
     }
 }
 ```

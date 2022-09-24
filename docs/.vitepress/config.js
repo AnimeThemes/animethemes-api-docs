@@ -285,6 +285,19 @@ export default {
                     { text: 'Update', link: '/video/update/' },
                 ]
             },
+            {
+                text: 'Video Script',
+                collapsible: true,
+                items: [
+                    { text: 'Resource', link: '/videoscript/' },
+                    { text: 'Destroy', link: '/videoscript/destroy/' },
+                    { text: 'Force Delete', link: '/videoscript/forceDelete/' },
+                    { text: 'Index', link: '/videoscript/index/' },
+                    { text: 'Show', link: '/videoscript/show/' },
+                    { text: 'Store', link: '/videoscript/store/' },
+                    { text: 'Update', link: '/videoscript/update/' },
+                ]
+            },
         ]
     }
 }

@@ -7,6 +7,9 @@ export default {
     title: 'AnimeThemes',
     description: 'AnimeThemes API Documentation',
     themeConfig: {
+        editLink: {
+            pattern: 'https://github.com/AnimeThemes/animethemes-api-docs/edit/main/docs/:path'
+        },
         logo: {
             light: '/logo.svg',
             dark: '/logo-dark.svg',
@@ -197,6 +200,19 @@ export default {
                     { text: 'Show', link: '/page/show/' },
                     { text: 'Store', link: '/page/store/' },
                     { text: 'Update', link: '/page/update/' },
+                ]
+            },
+            {
+                text: 'Playlist',
+                collapsible: true,
+                items: [
+                    { text: 'Resource', link: '/playlist/' },
+                    { text: 'Destroy', link: '/playlist/destroy/' },
+                    { text: 'Force Delete', link: '/playlist/forceDelete/' },
+                    { text: 'Index', link: '/playlist/index/' },
+                    { text: 'Show', link: '/playlist/show/' },
+                    { text: 'Store', link: '/playlist/store/' },
+                    { text: 'Update', link: '/playlist/update/' },
                 ]
             },
             {

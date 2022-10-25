@@ -1,8 +1,8 @@
 ---
-title: Anime Update
+title: Playlist Update
 ---
 
-# Anime Update Endpoint
+# Playlist Update Endpoint
 
 The playlist update endpoint updates a playlist and returns the updated playlist resource.
 

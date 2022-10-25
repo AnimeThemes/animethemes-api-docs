@@ -216,6 +216,19 @@ export default {
                 ]
             },
             {
+                text: 'Playlist Track',
+                collapsible: true,
+                items: [
+                    { text: 'Resource', link: '/playlisttrack/' },
+                    { text: 'Destroy', link: '/playlisttrack/destroy/' },
+                    { text: 'Force Delete', link: '/playlisttrack/forceDelete/' },
+                    { text: 'Index', link: '/playlisttrack/index/' },
+                    { text: 'Show', link: '/playlisttrack/show/' },
+                    { text: 'Store', link: '/playlisttrack/store/' },
+                    { text: 'Update', link: '/playlisttrack/update/' },
+                ]
+            },
+            {
                 text: 'Resource',
                 collapsible: true,
                 items: [

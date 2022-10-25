@@ -35,5 +35,5 @@ None
 ## Example
 
 ```bash
-curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/forceDelete/playlist/bakemonogatari
+curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/forceDelete/playlist/1
 ```

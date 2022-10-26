@@ -1,43 +1,29 @@
 ---
-title: Introduction
+layout: home
+
+hero:
+    name: AnimeThemes
+    text: API Documentation
+    tagline: Access our repository of Anime opening and ending themes for your development needs
+    image:
+      light: /logo.svg
+      dark: /logo-dark.svg
+      alt: Logo
+    actions:
+        - theme: brand
+          text: Get Started
+          link: /intro/
+features:
+  - icon: 📻
+    title: Media Links
+    details: Embed or download audio and video using links provided by resources
+  - icon: 🕸️
+    title: External Mappings
+    details: Find resources based on their mappings to sites like MyAnimeList or AniList
+  - icon: 🔍
+    title: Advanced Querying
+    details: Support for randomization, searching and filtering by direct fields and relation fields out of the box
+  - icon: ✍️
+    title: Resource Management
+    details: Apply edits to our database (for users with requisite permissions)
 ---
-
-# Introduction
-
----
-
-AnimeThemes is a simple and consistent repository of anime opening and ending themes. We provide direct links to high quality WebMs of your favorite OPs and EDs for your listening and discussion needs.
-
-The AnimeThemes API provides access to our repository resources for your development needs.
-
-## [JSON:API](/jsonapi/)
-
-The AnimeThemes API selectively implements the [**JSON:API Specification**](https://jsonapi.org/format/).
-
-We provide an overview of where the AnimeThemes API adheres to or deviates from the specification.
-
-## [Rate Limiting](/ratelimiting/)
-
-The AnimeThemes API applies the standard named rate limiter of the Laravel Framework.
-
-We provide an overview of managing request quotas.
-
-## [Authentication](/authentication/)
-
-The AnimeThemes API uses token-based authentication to grant the user access to protected actions.
-
-## [Validation](/validation/)
-
-The AnimeThemes API uses form requests to validate query parameters.
-
-## Terms of Use
-
-The AnimeThemes API applies the [**AnimeThemes Terms of Service**](https://app.animethemes.moe/terms-of-service).
-
-## Resources
-
-For API support, please make use of the **#api** channel in the [**Discord Server**](https://discordapp.com/invite/m9zbVyQ).
-
-To report an issue with or request a new feature for the API, please make use of the [**animethemes-server**](https://github.com/AnimeThemes/animethemes-server) Github.
-
-To report an issue with or request a new feature for this documentation, please make use of the [**animethemes-api-docs**](https://github.com/AnimeThemes/animethemes-api-docs) Github.

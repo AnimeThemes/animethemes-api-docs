@@ -41,6 +41,10 @@ The studio force delete endpoint hard deletes a studio and returns a confirmatio
 
 The studio index endpoint displays a listing of studio resources.
 
+**[Studio Restore](/wiki/studio/restore/)**
+
+The studio restore endpoint restores a soft deleted studio and returns the restored studio resource.
+
 **[Studio Show](/wiki/studio/show/)**
 
 The studio show endpoint returns a studio resource.

@@ -55,6 +55,10 @@ The video force delete endpoint hard deletes a video and returns a confirmation 
 
 The video index endpoint displays a listing of video resources.
 
+**[Video Restore](/wiki/video/restore/)**
+
+The video restore endpoint restores a soft deleted video and returns the restored video resource.
+
 **[Video Show](/wiki/video/show/)**
 
 The video show endpoint returns a video resource.

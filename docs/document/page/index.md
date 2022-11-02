@@ -40,6 +40,10 @@ The page force delete endpoint hard deletes a page and returns a confirmation me
 
 The page index endpoint displays a listing of page resources.
 
+**[Page Restore](/document/page/restore/)**
+
+The page restore endpoint restores a soft deleted page and returns the restored page resource.
+
 **[Page Show](/document/page/show/)**
 
 The page show endpoint returns a page resource.

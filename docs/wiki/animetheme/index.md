@@ -46,6 +46,10 @@ The anime theme force delete endpoint hard deletes an anime theme and returns a 
 
 The anime theme index endpoint displays a listing of anime theme resources.
 
+**[Anime Theme Restore](/wiki/animetheme/restore/)**
+
+The anime theme restore endpoint restores a soft deleted anime theme and returns the restored anime theme resource.
+
 **[Anime Theme Show](/wiki/animetheme/show/)**
 
 The anime theme show endpoint returns an anime theme resource.

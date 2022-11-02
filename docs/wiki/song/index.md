@@ -41,6 +41,10 @@ The song force delete endpoint hard deletes a song and returns a confirmation me
 
 The song index endpoint displays a listing of song resources.
 
+**[Song Restore](/wiki/song/restore/)**
+
+The song restore endpoint restores a soft deleted song and returns the restored song resource.
+
 **[Song Show](/wiki/song/show/)**
 
 The song show endpoint returns a song resource.

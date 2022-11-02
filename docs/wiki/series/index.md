@@ -39,6 +39,10 @@ The series force delete endpoint hard deletes a series and returns a confirmatio
 
 The series index endpoint displays a listing of series resources.
 
+**[Series Restore](/wiki/series/restore/)**
+
+The series restore endpoint restores a soft deleted series and returns the restored series resource.
+
 **[Series Show](/wiki/series/show/)**
 
 The series show endpoint returns a series resource.

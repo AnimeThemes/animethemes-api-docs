@@ -43,6 +43,10 @@ The audio force delete endpoint hard deletes an audio and returns a confirmation
 
 The audio index endpoint displays a listing of audio resources.
 
+**[Audio Restore](/wiki/audio/restore/)**
+
+The audio restore endpoint restores a soft deleted audio and returns the restored audio resource.
+
 **[Audio Show](/wiki/audio/show/)**
 
 The audio show endpoint returns an audio resource.

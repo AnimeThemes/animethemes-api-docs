@@ -39,6 +39,10 @@ The dump force delete endpoint hard deletes a dump and returns a confirmation me
 
 The dump index endpoint displays a listing of dump resources.
 
+**[Dump Restore](/admin/dump/restore/)**
+
+The dump restore endpoint restores a soft deleted dump and returns the restored dump resource.
+
 **[Dump Show](/admin/dump/show/)**
 
 The dump show endpoint returns a dump resource.

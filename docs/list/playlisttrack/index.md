@@ -40,6 +40,10 @@ The playlist track force delete endpoint hard deletes a playlist track and retur
 
 The playlist track index endpoint displays a listing of playlist track resources.
 
+**[Playlist Track Restore](/list/playlisttrack/restore/)**
+
+The playlist track restore endpoint restores a soft deleted playlist track and returns the restored playlist track resource.
+
 **[Playlist Track Show](/list/playlisttrack/show/)**
 
 The playlist track show endpoint returns a playlist track resource.

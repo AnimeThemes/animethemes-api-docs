@@ -44,6 +44,10 @@ The image force delete endpoint hard deletes an image and returns a confirmation
 
 The image index endpoint displays a listing of image resources.
 
+**[Image Restore](/wiki/image/restore/)**
+
+The image restore endpoint restores a soft deleted image and returns the restored image resource.
+
 **[Image Show](/wiki/image/show/)**
 
 The image show endpoint returns an image resource.

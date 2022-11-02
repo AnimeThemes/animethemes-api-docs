@@ -44,6 +44,10 @@ The anime theme entry force delete endpoint hard deletes an anime theme entry an
 
 The anime theme entry index endpoint displays a listing of anime theme entry resources.
 
+**[Anime Theme Entry Restore](/wiki/animethemeentry/restore/)**
+
+The anime theme entry restore endpoint restores a soft deleted anime theme entry and returns the restored anime theme entry resource.
+
 **[Anime Theme Entry Show](/wiki/animethemeentry/show/)**
 
 The anime theme entry show endpoint returns an anime theme entry resource.

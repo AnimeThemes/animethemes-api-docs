@@ -52,6 +52,10 @@ The anime force delete endpoint hard deletes an anime and returns a confirmation
 
 The anime index endpoint displays a listing of anime resources.
 
+**[Anime Restore](/wiki/anime/restore/)**
+
+The anime restore endpoint restores a soft deleted anime and returns the restored anime resource.
+
 **[Anime Show](/wiki/anime/show/)**
 
 The anime show endpoint returns an anime resource.

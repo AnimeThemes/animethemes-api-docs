@@ -11,7 +11,7 @@ For example, the `/restore/playlist/1` endpoint will restore the soft deleted pl
 ## URL
 
 ```sh
-PATCH /playlist/{id}
+PATCH /restore/playlist/{id}
 ```
 
 ## Authentication

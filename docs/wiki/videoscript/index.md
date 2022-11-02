@@ -39,6 +39,10 @@ The video script force delete endpoint hard deletes a video script and returns a
 
 The video script index endpoint displays a listing of video script resources.
 
+**[Video Script Restore](/wiki/videoscript/restore/)**
+
+The video script restore endpoint restores a soft deleted video script and returns the restored video script resource.
+
 **[Video Script Show](/wiki/videoscript/show/)**
 
 The video script show endpoint returns a video script resource.

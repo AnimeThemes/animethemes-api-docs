@@ -40,6 +40,10 @@ The transaction force delete endpoint hard deletes a transaction and returns a c
 
 The transaction index endpoint displays a listing of transaction resources.
 
+**[Transaction Restore](/billing/transaction/restore/)**
+
+The transaction restore endpoint restores a soft deleted transaction and returns the restored transaction resource.
+
 **[Transaction Show](/billing/transaction/show/)**
 
 The transaction show endpoint returns a transaction resource.

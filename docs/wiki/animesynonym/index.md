@@ -38,6 +38,10 @@ The anime synonym force delete endpoint hard deletes an anime synonym and return
 
 The anime synonym index endpoint displays a listing of anime synonym resources.
 
+**[Anime Synonym Restore](/wiki/animesynonym/restore/)**
+
+The anime synonym restore endpoint restores a soft deleted anime synonym and returns the restored anime synonym resource.
+
 **[Anime Synonym Show](/wiki/animesynonym/show/)**
 
 The anime synonym show endpoint returns an anime synonym resource.

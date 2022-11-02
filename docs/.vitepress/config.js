@@ -110,6 +110,7 @@ export default {
                         { text: 'Destroy', link: '/admin/announcement/destroy/' },
                         { text: 'Force Delete', link: '/admin/announcement/forceDelete/' },
                         { text: 'Index', link: '/admin/announcement/index/' },
+                        { text: 'Restore', link: '/admin/announcement/restore/' },
                         { text: 'Show', link: '/admin/announcement/show/' },
                         { text: 'Store', link: '/admin/announcement/store/' },
                         { text: 'Update', link: '/admin/announcement/update/' }
@@ -123,6 +124,7 @@ export default {
                         { text: 'Destroy', link: '/admin/dump/destroy/' },
                         { text: 'Force Delete', link: '/admin/dump/forceDelete/' },
                         { text: 'Index', link: '/admin/dump/index/' },
+                        { text: 'Restore', link: '/admin/dump/restore/' },
                         { text: 'Show', link: '/admin/dump/show/' },
                         { text: 'Store', link: '/admin/dump/store/' },
                         { text: 'Update', link: '/admin/dump/update/' }
@@ -138,6 +140,7 @@ export default {
                         { text: 'Destroy', link: '/billing/balance/destroy/' },
                         { text: 'Force Delete', link: '/billing/balance/forceDelete/' },
                         { text: 'Index', link: '/billing/balance/index/' },
+                        { text: 'Restore', link: '/billing/balance/restore/' },
                         { text: 'Show', link: '/billing/balance/show/' },
                         { text: 'Store', link: '/billing/balance/store/' },
                         { text: 'Update', link: '/billing/balance/update/' }
@@ -151,6 +154,7 @@ export default {
                         { text: 'Destroy', link: '/billing/transaction/destroy/' },
                         { text: 'Force Delete', link: '/billing/transaction/forceDelete/' },
                         { text: 'Index', link: '/billing/transaction/index/' },
+                        { text: 'Restore', link: '/billing/transaction/restore/' },
                         { text: 'Show', link: '/billing/transaction/show/' },
                         { text: 'Store', link: '/billing/transaction/store/' },
                         { text: 'Update', link: '/billing/transaction/update/' }
@@ -184,6 +188,7 @@ export default {
                         { text: 'Destroy', link: '/document/page/destroy/' },
                         { text: 'Force Delete', link: '/document/page/forceDelete/' },
                         { text: 'Index', link: '/document/page/index/' },
+                        { text: 'Restore', link: '/document/page/restore/' },
                         { text: 'Show', link: '/document/page/show/' },
                         { text: 'Store', link: '/document/page/store/' },
                         { text: 'Update', link: '/document/page/update/' }
@@ -211,6 +216,7 @@ export default {
                         { text: 'Destroy', link: '/list/playlist/destroy/' },
                         { text: 'Force Delete', link: '/list/playlist/forceDelete/' },
                         { text: 'Index', link: '/list/playlist/index/' },
+                        { text: 'Restore', link: '/list/playlist/restore/' },
                         { text: 'Show', link: '/list/playlist/show/' },
                         { text: 'Store', link: '/list/playlist/store/' },
                         { text: 'Update', link: '/list/playlist/update/' }
@@ -224,6 +230,7 @@ export default {
                         { text: 'Destroy', link: '/list/playlisttrack/destroy/' },
                         { text: 'Force Delete', link: '/list/playlisttrack/forceDelete/' },
                         { text: 'Index', link: '/list/playlisttrack/index/' },
+                        { text: 'Restore', link: '/list/playlisttrack/restore/' },
                         { text: 'Show', link: '/list/playlisttrack/show/' },
                         { text: 'Store', link: '/list/playlisttrack/store/' },
                         { text: 'Update', link: '/list/playlisttrack/update/' }
@@ -239,6 +246,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/anime/destroy/' },
                         { text: 'Force Delete', link: '/wiki/anime/forceDelete/' },
                         { text: 'Index', link: '/wiki/anime/index/' },
+                        { text: 'Restore', link: '/wiki/anime/restore/' },
                         { text: 'Show', link: '/wiki/anime/show/' },
                         { text: 'Store', link: '/wiki/anime/store/' },
                         { text: 'Update', link: '/wiki/anime/update/' },
@@ -265,6 +273,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/animesynonym/destroy/' },
                         { text: 'Force Delete', link: '/wiki/animesynonym/forceDelete/' },
                         { text: 'Index', link: '/wiki/animesynonym/index/' },
+                        { text: 'Restore', link: '/wiki/animesynonym/restore/' },
                         { text: 'Show', link: '/wiki/animesynonym/show/' },
                         { text: 'Store', link: '/wiki/animesynonym/store/' },
                         { text: 'Update', link: '/wiki/animesynonym/update/' }
@@ -278,6 +287,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/animetheme/destroy/' },
                         { text: 'Force Delete', link: '/wiki/animetheme/forceDelete/' },
                         { text: 'Index', link: '/wiki/animetheme/index/' },
+                        { text: 'Restore', link: '/wiki/animetheme/restore/' },
                         { text: 'Show', link: '/wiki/animetheme/show/' },
                         { text: 'Store', link: '/wiki/animetheme/store/' },
                         { text: 'Update', link: '/wiki/animetheme/update/' }
@@ -291,6 +301,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/animethemeentry/destroy/' },
                         { text: 'Force Delete', link: '/wiki/animethemeentry/forceDelete/' },
                         { text: 'Index', link: '/wiki/animethemeentry/index/' },
+                        { text: 'Restore', link: '/wiki/animethemeentry/restore/' },
                         { text: 'Show', link: '/wiki/animethemeentry/show/' },
                         { text: 'Store', link: '/wiki/animethemeentry/store/' },
                         { text: 'Update', link: '/wiki/animethemeentry/update/' }
@@ -304,6 +315,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/artist/destroy/' },
                         { text: 'Force Delete', link: '/wiki/artist/forceDelete/' },
                         { text: 'Index', link: '/wiki/artist/index/' },
+                        { text: 'Restore', link: '/wiki/artist/restore/' },
                         { text: 'Show', link: '/wiki/artist/show/' },
                         { text: 'Store', link: '/wiki/artist/store/' },
                         { text: 'Update', link: '/wiki/artist/update/' }
@@ -317,6 +329,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/audio/destroy/' },
                         { text: 'Force Delete', link: '/wiki/audio/forceDelete/' },
                         { text: 'Index', link: '/wiki/audio/index/' },
+                        { text: 'Restore', link: '/wiki/audio/restore/' },
                         { text: 'Show', link: '/wiki/audio/show/' },
                         { text: 'Store', link: '/wiki/audio/store/' },
                         { text: 'Update', link: '/wiki/audio/update/' }
@@ -337,6 +350,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/image/destroy/' },
                         { text: 'Force Delete', link: '/wiki/image/forceDelete/' },
                         { text: 'Index', link: '/wiki/image/index/' },
+                        { text: 'Restore', link: '/wiki/image/restore/' },
                         { text: 'Show', link: '/wiki/image/show/' },
                         { text: 'Store', link: '/wiki/image/store/' },
                         { text: 'Update', link: '/wiki/image/update/' }
@@ -350,6 +364,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/resource/destroy/' },
                         { text: 'Force Delete', link: '/wiki/resource/forceDelete/' },
                         { text: 'Index', link: '/wiki/resource/index/' },
+                        { text: 'Restore', link: '/wiki/resource/restore/' },
                         { text: 'Show', link: '/wiki/resource/show/' },
                         { text: 'Store', link: '/wiki/resource/store/' },
                         { text: 'Update', link: '/wiki/resource/update/' }
@@ -363,6 +378,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/series/destroy/' },
                         { text: 'Force Delete', link: '/wiki/series/forceDelete/' },
                         { text: 'Index', link: '/wiki/series/index/' },
+                        { text: 'Restore', link: '/wiki/series/restore/' },
                         { text: 'Show', link: '/wiki/series/show/' },
                         { text: 'Store', link: '/wiki/series/store/' },
                         { text: 'Update', link: '/wiki/series/update/' }
@@ -376,6 +392,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/song/destroy/' },
                         { text: 'Force Delete', link: '/wiki/song/forceDelete/' },
                         { text: 'Index', link: '/wiki/song/index/' },
+                        { text: 'Restore', link: '/wiki/song/restore/' },
                         { text: 'Show', link: '/wiki/song/show/' },
                         { text: 'Store', link: '/wiki/song/store/' },
                         { text: 'Update', link: '/wiki/song/update/' }
@@ -389,6 +406,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/studio/destroy/' },
                         { text: 'Force Delete', link: '/wiki/studio/forceDelete/' },
                         { text: 'Index', link: '/wiki/studio/index/' },
+                        { text: 'Restore', link: '/wiki/studio/restore/' },
                         { text: 'Show', link: '/wiki/studio/show/' },
                         { text: 'Store', link: '/wiki/studio/store/' },
                         { text: 'Update', link: '/wiki/studio/update/' }
@@ -402,6 +420,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/video/destroy/' },
                         { text: 'Force Delete', link: '/wiki/video/forceDelete/' },
                         { text: 'Index', link: '/wiki/video/index/' },
+                        { text: 'Restore', link: '/wiki/video/restore/' },
                         { text: 'Show', link: '/wiki/video/show/' },
                         { text: 'Store', link: '/wiki/video/store/' },
                         { text: 'Update', link: '/wiki/video/update/' }
@@ -415,6 +434,7 @@ export default {
                         { text: 'Destroy', link: '/wiki/videoscript/destroy/' },
                         { text: 'Force Delete', link: '/wiki/videoscript/forceDelete/' },
                         { text: 'Index', link: '/wiki/videoscript/index/' },
+                        { text: 'Restore', link: '/wiki/videoscript/restore/' },
                         { text: 'Show', link: '/wiki/videoscript/show/' },
                         { text: 'Store', link: '/wiki/videoscript/store/' },
                         { text: 'Update', link: '/wiki/videoscript/update/' }

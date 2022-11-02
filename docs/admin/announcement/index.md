@@ -38,6 +38,10 @@ The announcement force delete endpoint hard deletes an announcement and returns 
 
 The announcement index endpoint displays a listing of announcement resources.
 
+**[Announcement Restore](/admin/announcement/restore/)**
+
+The announcement restore endpoint restores a soft deleted announcement and returns the restored announcement resource.
+
 **[Announcement Show](/admin/announcement/show/)**
 
 The announcement show endpoint returns an announcement resource.

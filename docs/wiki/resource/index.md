@@ -43,6 +43,10 @@ The resource force delete endpoint hard deletes an external resource and returns
 
 The resource index endpoint returns a listing of external resources.
 
+**[Resource Restore](/wiki/resource/restore/)**
+
+The resource restore endpoint restores a soft deleted external resource and returns the restored external resource.
+
 **[Resource Show](/wiki/resource/show/)**
 
 The resource show endpoint returns an external resource.

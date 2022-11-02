@@ -40,6 +40,10 @@ The balance force delete endpoint hard deletes a balance and returns a confirmat
 
 The balance index endpoint displays a listing of balance resources.
 
+**[Balance Restore](/billing/balance/restore/)**
+
+The balance restore endpoint restores a soft deleted balance and returns the restored balance resource.
+
 **[Balance Show](/billing/balance/show/)**
 
 The balance show endpoint returns a balance resource.

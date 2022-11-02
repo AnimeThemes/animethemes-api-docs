@@ -46,6 +46,10 @@ The artist force delete endpoint hard deletes an artist and returns a confirmati
 
 The artist index endpoint displays a listing of artist resources.
 
+**[Artist Restore](/wiki/artist/restore/)**
+
+The artist restore endpoint restores a soft deletesd artist and returns the restored artist resource.
+
 **[Artist Show](/wiki/artist/show/)**
 
 The artist show endpoint returns an artist resource.

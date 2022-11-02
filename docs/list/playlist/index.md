@@ -43,6 +43,10 @@ The playlist force delete endpoint hard deletes a playlist and returns a confirm
 
 The playlist index endpoint displays a listing of playlist resources.
 
+**[Playlist Restore](/list/playlist/restore/)**
+
+The playlist restore endpoint restores a soft deleted playlist and returns the restored playlist resource.
+
 **[Playlist Show](/list/playlist/show/)**
 
 The playlist show endpoint returns a playlist resource.

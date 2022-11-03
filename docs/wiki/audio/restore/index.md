@@ -20,6 +20,8 @@ PATCH /restore/audio/{basename}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Audio must be soft deleted
+
 ## Parameters
 
 None

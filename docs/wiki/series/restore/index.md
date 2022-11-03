@@ -20,6 +20,8 @@ PATCH /restore/series/{slug}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Series must be soft deleted
+
 ## Parameters
 
 None

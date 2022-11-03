@@ -20,6 +20,8 @@ PATCH /restore/transaction/{id}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Transaction must be soft deleted
+
 ## Parameters
 
 None

@@ -10,7 +10,7 @@ An anime API resource represents a production with at least one opening or endin
 
 For example, Bakemonogatari is an anime production with five opening sequences and one ending sequence.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                                     |
 | :--------: | :-----: | :------: | :-------------------------------------------------------------- |
@@ -24,7 +24,7 @@ For example, Bakemonogatari is an anime production with five opening sequences a
 | updated_at | Date    | No       | The date that the resource was last modified                    |
 | deleted_at | Date    | Yes      | The date that the resource was deleted                          |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * animesynonyms
 * animethemes
@@ -39,7 +39,7 @@ For example, Bakemonogatari is an anime production with five opening sequences a
 * series
 * studios
 
-### Endpoints
+## Endpoints
 
 **[Anime Destroy](/wiki/anime/destroy/)**
 

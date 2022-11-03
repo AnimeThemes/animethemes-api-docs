@@ -10,7 +10,7 @@ A video script API resource represents an encoding script used to produce a vide
 
 For example, the 2009/Summer/Bakemonogatari-OP1.txt video script represents the encoding script of the Bakemonogatari-OP1.webm video.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable |  Description                                 |
 | :--------: | :-----: | :------: | :--------------------------------------------|
@@ -21,11 +21,11 @@ For example, the 2009/Summer/Bakemonogatari-OP1.txt video script represents the 
 | deleted_at | Date    | Yes      | The date that the resource was deleted       |
 | link       | String  | No       | The URL to download the file from storage    |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * video
 
-### Endpoints
+## Endpoints
 
 **[Video Script Destroy](/wiki/videoscript/destroy/)**
 

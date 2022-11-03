@@ -20,6 +20,8 @@ PATCH /restore/dump/{id}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Dump must be soft deleted
+
 ## Parameters
 
 None

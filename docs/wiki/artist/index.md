@@ -10,7 +10,7 @@ An artist API resource represents a musical performer of anime sequences.
 
 For example, Chiwa Saito is the musical performer of the Bakemonogatari OP1 theme, among many others.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                                     |
 | :--------: | :-----: | :------: | :-------------------------------------------------------------- |
@@ -22,7 +22,7 @@ For example, Chiwa Saito is the musical performer of the Bakemonogatari OP1 them
 | updated_at | Date    | No       | The date that the resource was last modified                    |
 | deleted_at | Date    | Yes      | The date that the resource was deleted                          |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * groups
 * images
@@ -32,7 +32,7 @@ For example, Chiwa Saito is the musical performer of the Bakemonogatari OP1 them
 * songs.animethemes
 * songs.animethemes.anime
 
-### Endpoints
+## Endpoints
 
 **[Artist Destroy](/wiki/artist/destroy/)**
 

@@ -20,6 +20,8 @@ PATCH /restore/videoscript/{id}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Video script must be soft deleted
+
 ## Parameters
 
 None

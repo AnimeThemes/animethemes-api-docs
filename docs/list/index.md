@@ -8,7 +8,7 @@ title: List
 
 List API resources pertain to user playlists.
 
-### Resources
+## Resources
 
 **[Playlist](/list/playlist/)**
 

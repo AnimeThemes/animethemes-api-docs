@@ -10,7 +10,7 @@ An anime synonym API resource represents an alternate title or common abbreviati
 
 For example, the anime Bakemonogatari has the anime synonym "Monstory".
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                  |
 | :--------: | :-----: | :------: | :------------------------------------------- |
@@ -20,11 +20,11 @@ For example, the anime Bakemonogatari has the anime synonym "Monstory".
 | updated_at | Date    | No       | The date that the resource was last modified |
 | deleted_at | Date    | Yes      | The date that the resource was deleted       |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * anime
 
-### Endpoints
+## Endpoints
 
 **[Anime Synonym Destroy](/wiki/animesynonym/destroy/)**
 

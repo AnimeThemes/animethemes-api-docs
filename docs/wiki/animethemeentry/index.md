@@ -10,7 +10,7 @@ An anime theme entry API resource represents a version of an anime theme.
 
 For example, the ED theme of the Bakemonogatari anime has three anime theme entries to represent three versions.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                                     |
 | :--------: | :-----: | :------: | :-------------------------------------------------------------- |
@@ -24,13 +24,13 @@ For example, the ED theme of the Bakemonogatari anime has three anime theme entr
 | updated_at | Date    | No       | The date that the resource was last modified                    |
 | deleted_at | Date    | Yes      | The date that the resource was deleted                          |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * animetheme
 * animetheme.anime
 * videos
 
-### Endpoints
+## Endpoints
 
 **[Anime Theme Entry Destroy](/wiki/animethemeentry/destroy/)**
 

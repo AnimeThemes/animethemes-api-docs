@@ -20,6 +20,8 @@ PATCH /restore/resource/{id}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: External resource must be soft deleted
+
 ## Parameters
 
 None

@@ -20,6 +20,8 @@ PATCH /restore/studio/{slug}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Studio must be soft deleted
+
 ## Parameters
 
 None

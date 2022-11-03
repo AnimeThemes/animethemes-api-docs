@@ -10,7 +10,7 @@ A video API resource represents a WebM of an anime theme.
 
 For example, the video Bakemonogatari-OP1.webm represents the WebM of the Bakemonogatari OP1 theme.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                                                           |
 | :--------: | :-----: | :------: | :------------------------------------------------------------------------------------ |
@@ -33,7 +33,7 @@ For example, the video Bakemonogatari-OP1.webm represents the WebM of the Bakemo
 | updated_at | Date    | No       | The date that the resource was last modified                                          |
 | deleted_at | Date    | Yes      | The date that the resource was deleted                                                |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * animethemeentries
 * animethemeentries.animetheme
@@ -41,7 +41,7 @@ For example, the video Bakemonogatari-OP1.webm represents the WebM of the Bakemo
 * audio
 * videoscript
 
-### Endpoints
+## Endpoints
 
 **[Video Destroy](/wiki/video/destroy/)**
 

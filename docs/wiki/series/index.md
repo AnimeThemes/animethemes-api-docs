@@ -10,7 +10,7 @@ A series API resource represents a collection of related anime.
 
 For example, the Monogatari series is the collection of the Bakemonogatari anime and its related productions.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                  |
 | :--------: | :-----: | :------: | :------------------------------------------- |
@@ -21,11 +21,11 @@ For example, the Monogatari series is the collection of the Bakemonogatari anime
 | updated_at | Date    | No       | The date that the resource was last modified |
 | deleted_at | Date    | Yes      | The date that the resource was deleted       |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * anime
 
-### Endpoints
+## Endpoints
 
 **[Series Destroy](/wiki/series/destroy/)**
 

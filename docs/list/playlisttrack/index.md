@@ -10,7 +10,7 @@ A playlist track API resource represents an entry in a playlist.
 
 For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a track for the ParipiKoumei-OP1.webm video.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                  |
 | :--------: | :-----: | :------: | :------------------------------------------- |
@@ -19,14 +19,14 @@ For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a trac
 | updated_at | Date    | No       | The date that the resource was last modified |
 | deleted_at | Date    | Yes      | The date that the resource was deleted       |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * next
 * playlist
 * previous
 * video
 
-### Endpoints
+## Endpoints
 
 **[Playlist Track Destroy](/list/playlisttrack/destroy/)**
 

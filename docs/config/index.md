@@ -8,7 +8,7 @@ title: Config
 
 Config API resources pertain to site configuration.
 
-### Resources
+## Resources
 
 **[Flags](/config/flags/)**
 

@@ -8,7 +8,7 @@ title: Balance
 
 A balance API resource represents an account balance against usage or upcoming charges for the given month.
 
-### Fields
+## Fields
 
 |    Name               |  Type   | Nullable | Description                                                                                              |
 | :-------------------: | :-----: | :------: | :------------------------------------------------------------------------------------------------------- |
@@ -22,11 +22,11 @@ A balance API resource represents an account balance against usage or upcoming c
 | updated_at            | Date    | No       | The date that the resource was last modified                                                             |
 | deleted_at            | Date    | Yes      | The date that the resource was deleted                                                                   |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 None
 
-### Endpoints
+## Endpoints
 
 **[Balance Destroy](/billing/balance/destroy/)**
 

@@ -20,6 +20,8 @@ PATCH /restore/animetheme/{id}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Theme must be soft deleted
+
 ## Parameters
 
 None

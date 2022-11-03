@@ -10,7 +10,7 @@ An external API resource represents a site with supplementary information for an
 
 For example, the Bakemonogatari anime has MyAnimeList, AniList and AniDB resources.
 
-### Fields
+## Fields
 
 |    Name     |  Type   | Nullable | Description                                                        |
 | :---------: | :-----: | :------: | :------------------------------------------------------------------|
@@ -23,13 +23,13 @@ For example, the Bakemonogatari anime has MyAnimeList, AniList and AniDB resourc
 | updated_at  | Date    | No       | The date that the resource was last modified                       |
 | deleted_at  | Date    | Yes      | The date that the resource was deleted                             |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * anime
 * artists
 * studios
 
-### Endpoints
+## Endpoints
 
 **[Resource Destroy](/wiki/resource/destroy/)**
 

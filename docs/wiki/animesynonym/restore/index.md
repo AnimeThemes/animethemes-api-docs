@@ -20,6 +20,8 @@ PATCH /restore/animesynonym/{id}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Synonym must be soft deleted
+
 ## Parameters
 
 None

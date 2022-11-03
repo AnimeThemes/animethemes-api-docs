@@ -20,6 +20,8 @@ PATCH /restore/balance/{id}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Balance must be soft deleted
+
 ## Parameters
 
 None

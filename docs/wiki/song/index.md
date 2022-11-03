@@ -10,7 +10,7 @@ A song API resource represents the composition that accompanies an AnimeTheme.
 
 For example, Staple Stable is the song for the Bakemonogatari OP1 AnimeTheme.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                                    |
 | :--------: | :-----: | :------: | :------------------------------------------------------------- |
@@ -21,13 +21,13 @@ For example, Staple Stable is the song for the Bakemonogatari OP1 AnimeTheme.
 | updated_at | Date    | No       | The date that the resource was last modified                   |
 | deleted_at | Date    | Yes      | The date that the resource was deleted                         |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * animethemes
 * animethemes.anime
 * artists
 
-### Endpoints
+## Endpoints
 
 **[Song Destroy](/wiki/song/destroy/)**
 

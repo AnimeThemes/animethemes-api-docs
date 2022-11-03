@@ -20,6 +20,8 @@ PATCH /restore/video/{basename}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Video must be soft deleted
+
 ## Parameters
 
 None

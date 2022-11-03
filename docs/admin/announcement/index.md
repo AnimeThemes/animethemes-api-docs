@@ -10,7 +10,7 @@ An announcement API resource represents a site-wide message to be broadcasted on
 
 For example, if video streaming is disabled, the site staff may issue a "Video streaming has been disabled!" announcement.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable |  Description                                 |
 | :--------: | :-----: | :------: | :--------------------------------------------|
@@ -20,11 +20,11 @@ For example, if video streaming is disabled, the site staff may issue a "Video s
 | updated_at | Date    | No       | The date that the resource was last modified |
 | deleted_at | Date    | Yes      | The date that the resource was deleted       |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 None
 
-### Endpoints
+## Endpoints
 
 **[Announcement Destroy](/admin/announcement/destroy/)**
 

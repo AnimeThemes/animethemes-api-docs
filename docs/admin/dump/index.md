@@ -10,7 +10,7 @@ A dump API resource represents a database dump of selected tables at a given poi
 
 For example, the animethemes-db-dump-wiki-1663559663946.sql dump represents the database dump of wiki tables performed at 2022-09-19.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable |  Description                                 |
 | :--------: | :-----: | :------: | :--------------------------------------------|
@@ -21,11 +21,11 @@ For example, the animethemes-db-dump-wiki-1663559663946.sql dump represents the 
 | deleted_at | Date    | Yes      | The date that the resource was deleted       |
 | link       | String  | No       | The URL to download the file from storage    |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 None
 
-### Endpoints
+## Endpoints
 
 **[Dump Destroy](/admin/dump/destroy/)**
 

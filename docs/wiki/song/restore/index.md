@@ -20,6 +20,8 @@ PATCH /restore/song/{id}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Song must be soft deleted
+
 ## Parameters
 
 None

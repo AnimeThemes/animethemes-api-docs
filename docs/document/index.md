@@ -8,7 +8,7 @@ title: Document
 
 Document API resources pertain to site documentation.
 
-### Resources
+## Resources
 
 **[Page](/document/page/)**
 

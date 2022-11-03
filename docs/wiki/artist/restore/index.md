@@ -20,6 +20,8 @@ PATCH /restore/artist/{slug}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Artist must be soft deleted
+
 ## Parameters
 
 None

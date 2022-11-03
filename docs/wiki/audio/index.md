@@ -10,7 +10,7 @@ An audio API resource represents the audio track of a video.
 
 For example, the audio Bakemonogatari-OP1.ogg represents the audio track of the Bakemonogatari-OP1.webm video.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                  |
 | :--------: | :-----: | :------: | :------------------------------------------- |
@@ -25,11 +25,11 @@ For example, the audio Bakemonogatari-OP1.ogg represents the audio track of the 
 | deleted_at | Date    | Yes      | The date that the resource was deleted       |
 | link       | String  | No       | The URL to stream the file from storage      |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * videos
 
-### Endpoints
+## Endpoints
 
 **[Audio Destroy](/wiki/audio/destroy/)**
 

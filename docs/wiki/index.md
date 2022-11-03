@@ -8,7 +8,7 @@ title: Wiki
 
 Wiki API resources comprise the repository of anime opening and ending themes and their contextual relations.
 
-### Resources
+## Resources
 
 **[Anime](/wiki/anime/)**
 

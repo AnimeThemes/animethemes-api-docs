@@ -20,6 +20,8 @@ PATCH /restore/animethemeentry/{id}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Entry must be soft deleted
+
 ## Parameters
 
 None

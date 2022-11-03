@@ -8,7 +8,7 @@ title: Admin
 
 Admin API resources pertain to the administration of the site by the moderation team.
 
-### Resources
+## Resources
 
 **[Announcement](/admin/announcement/)**
 

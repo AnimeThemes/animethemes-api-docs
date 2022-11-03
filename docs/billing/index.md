@@ -8,7 +8,7 @@ title: Billing
 
 Billing API resources pertain to the financial status of accounts needed to run AnimeThemes.
 
-### Resources
+## Resources
 
 **[Balance](/billing/balance/)**
 

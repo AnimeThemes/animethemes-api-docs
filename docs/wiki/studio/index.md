@@ -10,7 +10,7 @@ A studio API resource represents a company that produces anime.
 
 For example, Shaft is the studio that produced the anime Bakemonogatari.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                  |
 | :--------: | :-----: | :------: | :------------------------------------------- |
@@ -21,13 +21,13 @@ For example, Shaft is the studio that produced the anime Bakemonogatari.
 | updated_at | Date    | No       | The date that the resource was last modified |
 | deleted_at | Date    | Yes      | The date that the resource was deleted       |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * anime
 * images
 * resources
 
-### Endpoints
+## Endpoints
 
 **[Studio Destroy](/wiki/studio/destroy/)**
 

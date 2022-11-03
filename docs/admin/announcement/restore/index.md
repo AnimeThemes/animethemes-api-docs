@@ -20,6 +20,8 @@ PATCH /restore/announcement/{id}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Announcement must be soft deleted
+
 ## Parameters
 
 None

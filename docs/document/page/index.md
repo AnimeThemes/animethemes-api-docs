@@ -10,7 +10,7 @@ A page API resource represents a static markdown page used for guides and other 
 
 For example, the 'encoding/audio_normalization' page represents the documentation for audio normalization.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable |  Description                                 |
 | :--------: | :-----: | :------: | :--------------------------------------------|
@@ -22,11 +22,11 @@ For example, the 'encoding/audio_normalization' page represents the documentatio
 | updated_at | Date    | No       | The date that the resource was last modified |
 | deleted_at | Date    | Yes      | The date that the resource was deleted       |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 None
 
-### Endpoints
+## Endpoints
 
 **[Page Destroy](/document/page/destroy/)**
 

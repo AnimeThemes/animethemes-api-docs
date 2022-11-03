@@ -10,7 +10,7 @@ An anime theme API resource represents an OP or ED sequence for an anime.
 
 For example, the anime Bakemonogatari has five OP anime themes and one ED anime theme.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                                      |
 | :--------: | :-----: | :------: | :--------------------------------------------------------------- |
@@ -23,7 +23,7 @@ For example, the anime Bakemonogatari has five OP anime themes and one ED anime 
 | updated_at | Date    | No       | The date that the resource was last modified                     |
 | deleted_at | Date    | Yes      | The date that the resource was deleted                           |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * anime
 * anime.images
@@ -32,7 +32,7 @@ For example, the anime Bakemonogatari has five OP anime themes and one ED anime 
 * song
 * song.artists
 
-### Endpoints
+## Endpoints
 
 **[Anime Theme Destroy](/wiki/animetheme/destroy/)**
 

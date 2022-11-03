@@ -18,7 +18,7 @@ PATCH /restore/playlist/{id}/playlisttrack/{id}
 
 **Required Permission**: restore playlist track
 
-**Other Requirements**: User must own playlist
+**Other Requirements**: User must own playlist & playlist track must be soft deleted
 
 ## Parameters
 

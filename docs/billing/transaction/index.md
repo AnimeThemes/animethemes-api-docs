@@ -8,7 +8,7 @@ title: Transaction
 
 A transaction API resource represents an invoice from or a payment to a billing service by AnimeThemes.
 
-### Fields
+## Fields
 
 |    Name               |  Type   | Nullable | Description                                                                              |
 | :-------------------: | :-----: | :------: | :--------------------------------------------------------------------------------------- |
@@ -22,11 +22,11 @@ A transaction API resource represents an invoice from or a payment to a billing 
 | updated_at            | Date    | No       | The date that the resource was last modified                                             |
 | deleted_at            | Date    | Yes      | The date that the resource was deleted                                                   |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 None
 
-### Endpoints
+## Endpoints
 
 **[Transaction Destroy](/billing/transaction/destroy/)**
 

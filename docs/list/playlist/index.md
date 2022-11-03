@@ -10,7 +10,7 @@ A playlist API resource represents a list of ordered tracks intended for continu
 
 For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a collection of tracks allowing the continuous playback of Best OP and ED nominations for the /r/anime Awards.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                                       |
 | :--------: | :-----: | :------: | :---------------------------------------------------------------- |
@@ -21,7 +21,7 @@ For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a coll
 | updated_at | Date    | No       | The date that the resource was last modified                      |
 | deleted_at | Date    | Yes      | The date that the resource was deleted                            |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * first
 * images
@@ -29,7 +29,7 @@ For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a coll
 * tracks
 * user
 
-### Endpoints
+## Endpoints
 
 **[Playlist Destroy](/list/playlist/destroy/)**
 

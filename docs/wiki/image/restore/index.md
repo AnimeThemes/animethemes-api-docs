@@ -20,6 +20,8 @@ PATCH /restore/image/{id}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Image must be soft deleted
+
 ## Parameters
 
 None

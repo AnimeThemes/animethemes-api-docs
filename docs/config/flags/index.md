@@ -8,7 +8,7 @@ title: Flags
 
 The config flags API resource contains the list of feature flags that enable/disable site functionalities.
 
-### Fields
+## Fields
 
 |            Name             |  Type   | Nullable | Description                                                 |
 | :-------------------------: | :-----: | :------: | :---------------------------------------------------------- |
@@ -19,7 +19,7 @@ The config flags API resource contains the list of feature flags that enable/dis
 | allow_dump_downloading      | Boolean | No       | Enable/Disable database dump downloading                    |
 | allow_script_downloading    | Boolean | No       | Enable/Disable encoding script downloading                  |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 None
 

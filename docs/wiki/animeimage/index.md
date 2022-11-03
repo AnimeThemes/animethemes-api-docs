@@ -8,19 +8,19 @@ title: Anime Image
 
 An anime image API resource represents the association between an anime and an image.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                  |
 | :--------: | :-----: | :------: | :------------------------------------------- |
 | created_at | Date    | No       | The date that the resource was created       |
 | updated_at | Date    | No       | The date that the resource was last modified |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * anime
 * image
 
-### Endpoints
+## Endpoints
 
 **[Anime Image Destroy](/wiki/animeimage/destroy/)**
 

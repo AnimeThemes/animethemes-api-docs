@@ -10,7 +10,7 @@ An image API resource represents a visual component for another resource such as
 
 For example, the Bakemonogatari anime has two images to represent small and large cover images.
 
-### Fields
+## Fields
 
 |    Name    |  Type   | Nullable | Description                                                                       |
 | :--------: | :-----: | :------: | :-------------------------------------------------------------------------------- |
@@ -24,13 +24,13 @@ For example, the Bakemonogatari anime has two images to represent small and larg
 | updated_at | Date    | No       | The date that the resource was last modified                                      |
 | deleted_at | Date    | Yes      | The date that the resource was deleted                                            |
 
-### Allowed Include Paths
+## Allowed Include Paths
 
 * anime
 * artists
 * studios
 
-### Endpoints
+## Endpoints
 
 **[Image Destroy](/wiki/image/destroy/)**
 

@@ -20,6 +20,8 @@ PUT|PATCH /transaction/{id}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Transaction must not be soft deleted
+
 ## Parameters
 
 | Name        | Required | Rules                                                      |

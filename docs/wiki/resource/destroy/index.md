@@ -20,6 +20,8 @@ DELETE /resource/{id}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Resource must not be soft deleted
+
 ## Parameters
 
 None

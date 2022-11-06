@@ -20,6 +20,8 @@ DELETE /dump/{id}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Dump must not be soft deleted
+
 ## Parameters
 
 None

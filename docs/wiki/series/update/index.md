@@ -20,6 +20,8 @@ PUT|PATCH /series/{slug}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Series must not be soft deleted
+
 ## Parameters
 
 | Name     | Required | Rules                               |

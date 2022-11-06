@@ -20,6 +20,8 @@ DELETE /image/{id}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Image must not be soft deleted
+
 ## Parameters
 
 None

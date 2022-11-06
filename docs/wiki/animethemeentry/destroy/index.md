@@ -20,6 +20,8 @@ DELETE /animethemeentry/{id}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Anime theme entry must not be soft deleted
+
 ## Parameters
 
 None

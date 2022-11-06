@@ -20,6 +20,8 @@ PUT|PATCH /video/{basename}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Video must not be soft deleted
+
 ## Parameters
 
 | Name       | Required | Rules                                  |

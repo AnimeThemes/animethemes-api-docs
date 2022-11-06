@@ -20,6 +20,8 @@ DELETE /song/{id}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Song must not be soft deleted
+
 ## Parameters
 
 None

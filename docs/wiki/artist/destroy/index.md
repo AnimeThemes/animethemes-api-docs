@@ -20,6 +20,8 @@ DELETE /artist/{slug}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Artist must not be soft deleted
+
 ## Parameters
 
 None

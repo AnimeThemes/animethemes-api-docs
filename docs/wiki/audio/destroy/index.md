@@ -20,6 +20,8 @@ DELETE /audio/{basename}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Audio must not be soft deleted
+
 ## Parameters
 
 None

@@ -18,7 +18,7 @@ DELETE /playlist/{id}
 
 **Required Permission**: delete playlist
 
-**Other Requirements**: User must own playlist
+**Other Requirements**: User must own playlist & playlist must not be soft deleted
 
 ## Parameters
 

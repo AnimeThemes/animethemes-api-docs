@@ -20,6 +20,8 @@ PUT|PATCH /studio/{slug}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Studio must not be soft deleted
+
 ## Parameters
 
 | Name     | Required | Rules                               |

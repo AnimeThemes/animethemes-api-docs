@@ -18,7 +18,7 @@ PUT|PATCH /playlist/{id}/playlisttrack/{id}
 
 **Required Permission**: update playlist track
 
-**Other Requirements**: User must own playlist
+**Other Requirements**: User must own playlist & playlist track must not be soft deleted
 
 ## Parameters
 

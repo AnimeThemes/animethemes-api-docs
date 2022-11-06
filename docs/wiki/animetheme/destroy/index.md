@@ -20,6 +20,8 @@ DELETE /animetheme/{id}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Anime theme must not be soft deleted
+
 ## Parameters
 
 None

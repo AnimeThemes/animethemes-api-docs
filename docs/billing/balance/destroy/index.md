@@ -20,6 +20,8 @@ DELETE /balance/{id}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Balance must not be soft deleted
+
 ## Parameters
 
 None

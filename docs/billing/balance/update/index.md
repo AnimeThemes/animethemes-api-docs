@@ -20,6 +20,8 @@ PUT|PATCH /balance/{id}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Balance must not be soft deleted
+
 ## Parameters
 
 | Name                  | Required | Rules                                                      |

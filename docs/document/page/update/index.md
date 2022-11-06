@@ -20,6 +20,8 @@ PUT|PATCH /page/{slug}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Page must not be soft deleted
+
 ## Parameters
 
 | Name     | Required | Rules                                                |

@@ -20,6 +20,8 @@ PUT|PATCH /videoscript/{id}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Video script must not be soft deleted
+
 ## Parameters
 
 | Name      | Required | Rules                    |

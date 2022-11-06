@@ -20,6 +20,8 @@ DELETE /transaction/{id}
 
 **Roles with Permission**: Admin
 
+**Other Requirements**: Transaction must not be soft deleted
+
 ## Parameters
 
 None

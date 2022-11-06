@@ -20,6 +20,8 @@ PUT|PATCH /audio/{basename}
 
 **Roles with Permission**: Wiki Editor, Admin
 
+**Other Requirements**: Audio must not be soft deleted
+
 ## Parameters
 
 | Name       | Required | Rules                                  |

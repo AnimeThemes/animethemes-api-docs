@@ -6,12 +6,12 @@ title: Playlist Track Force Delete
 
 The playlist track force delete endpoint hard deletes a playlist track and returns a confirmation message.
 
-For example, the `/forceDelete/playlist/1/playlisttrack/1` endpoint will hard delete the playlist track of id `1` and return a confirmation message.
+For example, the `/forceDelete/playlist/1/track/1` endpoint will hard delete the playlist track of id `1` and return a confirmation message.
 
 ## URL
 
 ```sh
-DELETE /forceDelete/playlist/{id}/playlisttrack{id}
+DELETE /forceDelete/playlist/{id}/track{id}
 ```
 
 ## Authentication
@@ -35,5 +35,5 @@ None
 ## Example
 
 ```bash
-curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/forceDelete/playlist/1/playlisttrack/1
+curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/forceDelete/playlist/1/track/1
 ```

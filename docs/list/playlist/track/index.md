@@ -28,30 +28,30 @@ For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a trac
 
 ## Endpoints
 
-**[Playlist Track Destroy](/list/playlisttrack/destroy/)**
+**[Playlist Track Destroy](/list/playlist/track/destroy/)**
 
 The playlist track destroy endpoint soft deletes a playlist track and returns the deleted playlist track resource.
 
-**[Playlist Track Force Delete](/list/playlisttrack/forceDelete/)**
+**[Playlist Track Force Delete](/list/playlist/track/forceDelete/)**
 
 The playlist track force delete endpoint hard deletes a playlist track and returns a confirmation message.
 
-**[Playlist Track Index](/list/playlisttrack/index/)**
+**[Playlist Track Index](/list/playlist/track/index/)**
 
 The playlist track index endpoint displays a listing of playlist track resources.
 
-**[Playlist Track Restore](/list/playlisttrack/restore/)**
+**[Playlist Track Restore](/list/playlist/track/restore/)**
 
 The playlist track restore endpoint restores a soft deleted playlist track and returns the restored playlist track resource.
 
-**[Playlist Track Show](/list/playlisttrack/show/)**
+**[Playlist Track Show](/list/playlist/track/show/)**
 
 The playlist track show endpoint returns a playlist track resource.
 
-**[Playlist Track Store](/list/playlisttrack/store/)**
+**[Playlist Track Store](/list/playlist/track/store/)**
 
 The playlist track store endpoint creates a new playlist track and returns the new playlist track resource.
 
-**[Playlist Track Update](/list/playlisttrack/update/)**
+**[Playlist Track Update](/list/playlist/track/update/)**
 
 The playlist track update endpoint updates a playlist track and returns the updated playlist track resource.

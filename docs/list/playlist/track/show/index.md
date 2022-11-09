@@ -9,7 +9,7 @@ The playlist track show endpoint returns a playlist track resource.
 ## URL
 
 ```sh
-GET /playlist/{id}/playlisttrack/{id}
+GET /playlist/{id}/track/{id}
 ```
 
 ## Authentication
@@ -43,5 +43,5 @@ GET /playlist/{id}/playlisttrack/{id}
 ## Example
 
 ```bash
-curl https://api.animethemes.moe/playlist/1/playlisttrack/1
+curl https://api.animethemes.moe/playlist/1/track/1
 ```

@@ -76,7 +76,7 @@ export default {
                 items: [
                     { text: 'Index', link: '/list/' },
                     { text: 'Playlist', link: '/list/playlist/' },
-                    { text: 'Playlist Track', link: '/list/playlisttrack/' }
+                    { text: 'Playlist Track', link: '/list/playlist/track/' }
                 ]
             },
             {
@@ -226,14 +226,14 @@ export default {
                     text: 'Playlist Track',
                     collapsible: true,
                     items: [
-                        { text: 'Resource', link: '/list/playlisttrack/' },
-                        { text: 'Destroy', link: '/list/playlisttrack/destroy/' },
-                        { text: 'Force Delete', link: '/list/playlisttrack/forceDelete/' },
-                        { text: 'Index', link: '/list/playlisttrack/index/' },
-                        { text: 'Restore', link: '/list/playlisttrack/restore/' },
-                        { text: 'Show', link: '/list/playlisttrack/show/' },
-                        { text: 'Store', link: '/list/playlisttrack/store/' },
-                        { text: 'Update', link: '/list/playlisttrack/update/' }
+                        { text: 'Resource', link: '/list/playlist/track/' },
+                        { text: 'Destroy', link: '/list/playlist/track/destroy/' },
+                        { text: 'Force Delete', link: '/list/playlist/track/forceDelete/' },
+                        { text: 'Index', link: '/list/playlist/track/index/' },
+                        { text: 'Restore', link: '/list/playlist/track/restore/' },
+                        { text: 'Show', link: '/list/playlist/track/show/' },
+                        { text: 'Store', link: '/list/playlist/track/store/' },
+                        { text: 'Update', link: '/list/playlist/track/update/' }
                     ]
                 }
             ],

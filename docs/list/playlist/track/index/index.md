@@ -9,7 +9,7 @@ The playlist index endpoint returns a listing of tracks for the playlist.
 ## URL
 
 ```sh
-GET /playlist/{id}/playlisttrack
+GET /playlist/{id}/track
 ```
 
 ## Authentication
@@ -82,5 +82,5 @@ GET /playlist/{id}/playlisttrack
 ## Example
 
 ```bash
-curl https://api.animethemes.moe/playlist/1/playlisttrack
+curl https://api.animethemes.moe/playlist/1/track
 ```

@@ -6,12 +6,12 @@ title: Playlist Track Restore
 
 The playlist track restore endpoint restores a soft deleted playlist track and returns the restored playlist track resource.
 
-For example, the `/restore/playlist/1/playlisttrack/1` endpoint will restore the soft deleted playlist track of id `1` and return the restored playlist track resource.
+For example, the `/restore/playlist/1/track/1` endpoint will restore the soft deleted playlist track of id `1` and return the restored playlist track resource.
 
 ## URL
 
 ```sh
-PATCH /restore/playlist/{id}/playlisttrack/{id}
+PATCH /restore/playlist/{id}/track/{id}
 ```
 
 ## Authentication
@@ -40,5 +40,5 @@ None
 ## Example
 
 ```bash
-curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/restore/playlist/1/playlisttrack/1
+curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/restore/playlist/1/track/1
 ```

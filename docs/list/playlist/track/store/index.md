@@ -6,12 +6,12 @@ title: Playlist Track Store
 
 The playlist track store endpoint creates a new playlist track and returns the new playlist track resource.
 
-For example, the `/playlist/1/playlisttrack?video_id=2712` endpoint will create a new playlist track for the Bakemonogatari-OP1.webm video and return the new playlist track resource.
+For example, the `/playlist/1/track?video_id=2712` endpoint will create a new playlist track for the Bakemonogatari-OP1.webm video and return the new playlist track resource.
 
 ## URL
 
 ```sh
-POST /playlist/{id}/playlisttrack
+POST /playlist/{id}/track
 ```
 
 ## Authentication
@@ -43,5 +43,5 @@ POST /playlist/{id}/playlisttrack
 ## Example
 
 ```bash
-curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlist/1/playlisttrack
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlist/1/track
 ```

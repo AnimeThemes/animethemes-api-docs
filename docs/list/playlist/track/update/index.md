@@ -6,12 +6,12 @@ title: Playlist Track Update
 
 The playlist track update endpoint updates a playlist track and returns the updated playlist track resource.
 
-For example, the `/playlist/1/playlisttrack/1?next_id=2` endpoint will update the playlist track of id `1` next_id attribute and return the updated playlist track resource.
+For example, the `/playlist/1/track/1?next_id=2` endpoint will update the playlist track of id `1` next_id attribute and return the updated playlist track resource.
 
 ## URL
 
 ```sh
-PUT|PATCH /playlist/{id}/playlisttrack/{id}
+PUT|PATCH /playlist/{id}/track/{id}
 ```
 
 ## Authentication
@@ -44,5 +44,5 @@ PUT|PATCH /playlist/{id}/playlisttrack/{id}
 ## Example
 
 ```bash
-curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlist/1/playlisttrack/1
+curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlist/1/track/1
 ```

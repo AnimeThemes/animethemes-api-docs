@@ -1,10 +1,10 @@
 ---
-title: Playlist Index
+title: Playlist Track Index
 ---
 
-# Playlist Index Endpoint
+# Playlist Track Index Endpoint
 
-The playlist index endpoint returns a listing of tracks for the playlist.
+The playlist track index endpoint returns a listing of tracks for the playlist.
 
 ## URL
 
@@ -54,7 +54,7 @@ GET /playlist/{id}/track
 
 ```json
 {
-    playlisttracks: [
+    tracks: [
         {
             id: id,
             created_at: "created_at",

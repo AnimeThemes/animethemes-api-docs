@@ -233,7 +233,9 @@ export default {
                         { text: 'Restore', link: '/list/playlist/track/restore/' },
                         { text: 'Show', link: '/list/playlist/track/show/' },
                         { text: 'Store', link: '/list/playlist/track/store/' },
-                        { text: 'Update', link: '/list/playlist/track/update/' }
+                        { text: 'Update', link: '/list/playlist/track/update/' },
+                        { text: 'Forward Index', link: '/list/playlist/track/forward/' },
+                        { text: 'Backward Index', link: '/list/playlist/track/backward/' }
                     ]
                 }
             ],

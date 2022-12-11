@@ -11,11 +11,11 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:preview": "vitepress preview docs"
   },
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "vitepress": "^1.0.0-alpha.28"
+    "vitepress": "^1.0.0-alpha.31"
   }
 }

@@ -49,6 +49,14 @@ export default {
                 ],
             },
             {
+                text: 'Auth',
+                items: [
+                    { text: 'Index', link: '/auth/' },
+                    { text: 'Me', link: '/auth/user/me/' },
+                    { text: 'User', link: '/auth/user/' }
+                ],
+            },
+            {
                 text: 'Billing',
                 items: [
                     { text: 'Index', link: '/billing/' },
@@ -128,6 +136,23 @@ export default {
                         { text: 'Show', link: '/admin/dump/show/' },
                         { text: 'Store', link: '/admin/dump/store/' },
                         { text: 'Update', link: '/admin/dump/update/' }
+                    ]
+                }
+            ],
+            '/auth/': [
+                {
+                    text: 'Me',
+                    collapsible: true,
+                    items: [
+                        { text: 'Resource', link: '/auth/user/me/' },
+                        { text: 'Playlists', link: '/auth/user/me/playlist/' }
+                    ]
+                },
+                {
+                    text: 'User',
+                    collapsible: true,
+                    items: [
+                        { text: 'Resource', link: '/auth/user/' }
                     ]
                 }
             ],

@@ -45,6 +45,7 @@ None
 | uncen      | Sort resources on whether the video is an uncensored version             |
 | source     | Sort resources on the origin of the video                                |
 | overlap    | Sort resources on the degree of overlap between the sequence and episode |
+| views      | Sort resources on the number of recorded views                           |
 | created_at | Sort resources on the resource creation date                             |
 | updated_at | Sort resources on the resource last modified date                        |
 | deleted_at | Sort resources on the resource deletion date                             |
@@ -67,6 +68,7 @@ None
 | uncen      | Filter resources on whether the video is an uncensored version             |
 | source     | Filter resources on the origin of the video                                |
 | overlap    | Filter resources on the degree of overlap between the sequence and episode |
+| views      | Filter resources on the number of recorded views                           |
 | created_at | Filter resources on the resource creation date                             |
 | updated_at | Filter resources on the resource last modified date                        |
 | deleted_at | Filter resources on the resource deletion date                             |

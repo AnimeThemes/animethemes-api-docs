@@ -29,6 +29,7 @@ For example, the video Bakemonogatari-OP1.webm represents the WebM of the Bakemo
 | overlap    | Enum    | No       | The degree to which the sequence and episode content overlap [None, Transition, Over] |
 | tags       | String  | No       | The attributes used to distinguish the file within the context of a theme             |
 | link       | String  | No       | The URL to stream the file from storage                                               |
+| views      | Integer | No       | The number of views recorded for the resource. Must be explicitly included.           |
 | created_at | Date    | No       | The date that the resource was created                                                |
 | updated_at | Date    | No       | The date that the resource was last modified                                          |
 | deleted_at | Date    | Yes      | The date that the resource was deleted                                                |

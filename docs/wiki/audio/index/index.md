@@ -37,6 +37,7 @@ None
 | path       | Sort resources on the path of the file in storage                   |
 | size       | Sort resources on the size of hte file in storage in Bytes          |
 | mimetype   | Sort resources on the media type of the file in storage             |
+| views      | Sort resources on the number of recorded views                      |
 | created_at | Sort resources on the resource creation date                        |
 | updated_at | Sort resources on the resource last modified date                   |
 | deleted_at | Sort resources on the resource deletion date                        |
@@ -52,6 +53,7 @@ None
 | path       | Filter resources on the path of the file in storage                |
 | size       | Filter resources on the size of hte file in storage in Bytes       |
 | mimetype   | Filter resources on the media type of the file in storage          |
+| views      | Filter resources on the number of recorded views                   |
 | created_at | Filter resources on the resource creation date                     |
 | updated_at | Filter resources on the resource last modified date                |
 | deleted_at | Filter resources on the resource deletion date                     |

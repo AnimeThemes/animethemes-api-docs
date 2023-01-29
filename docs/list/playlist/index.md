@@ -12,14 +12,15 @@ For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a coll
 
 ## Fields
 
-|    Name    |  Type   | Nullable | Description                                                       |
-| :--------: | :-----: | :------: | :---------------------------------------------------------------- |
-| id         | Integer | No       | The primary key of the resource                                   |
-| name       | String  | No       | The title of the playlist                                         |
-| visibility | Enum    | Yes      | The state of who can see the playlist [Private, Unlisted, Public] |
-| created_at | Date    | No       | The date that the resource was created                            |
-| updated_at | Date    | No       | The date that the resource was last modified                      |
-| deleted_at | Date    | Yes      | The date that the resource was deleted                            |
+|    Name    |  Type   | Nullable | Description                                                                 |
+| :--------: | :-----: | :------: | :-------------------------------------------------------------------------- |
+| id         | Integer | No       | The primary key of the resource                                             |
+| name       | String  | No       | The title of the playlist                                                   |
+| visibility | Enum    | Yes      | The state of who can see the playlist [Private, Unlisted, Public]           |
+| created_at | Date    | No       | The date that the resource was created                                      |
+| updated_at | Date    | No       | The date that the resource was last modified                                |
+| deleted_at | Date    | Yes      | The date that the resource was deleted                                      |
+| views      | Integer | No       | The number of views recorded for the resource. Must be explicitly included. |
 
 ## Allowed Include Paths
 

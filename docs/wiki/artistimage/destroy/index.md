@@ -28,10 +28,7 @@ None
 
 ```json
 {
-    artistimage: {
-        created_at: "created_at",
-        updated_at: "updated_at"
-    }
+    message: "Image 'KXWxcUb0dF3Kb1SmWP2GRcd72Nv6a0OEjj33pDmP.png' has been detached from Artist 'Chiwa Saitou'.",
 }
 ```
 

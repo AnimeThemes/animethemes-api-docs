@@ -95,6 +95,7 @@ export default {
                     { text: 'Anime Image', link: '/wiki/animeimage/' },
                     { text: 'Anime Resource', link: '/wiki/animeresource/' },
                     { text: 'Anime Series', link: '/wiki/animeseries/' },
+                    { text: 'Anime Studio', link: '/wiki/animestudio/' },
                     { text: 'Anime Synonym', link: '/wiki/animesynonym/' },
                     { text: 'Anime Theme', link: '/wiki/animetheme/' },
                     { text: 'Anime Theme Entry', link: '/wiki/animethemeentry/' },
@@ -315,6 +316,17 @@ export default {
                         { text: 'Index', link: '/wiki/animeseries/index/' },
                         { text: 'Show', link: '/wiki/animeseries/show/' },
                         { text: 'Store', link: '/wiki/animeseries/store/' }
+                    ]
+                },
+                {
+                    text: 'Anime Studio',
+                    collapsible: true,
+                    items: [
+                        { text: 'Resource', link: '/wiki/animestudio/' },
+                        { text: 'Destroy', link: '/wiki/animestudio/destroy/' },
+                        { text: 'Index', link: '/wiki/animestudio/index/' },
+                        { text: 'Show', link: '/wiki/animestudio/show/' },
+                        { text: 'Store', link: '/wiki/animestudio/store/' }
                     ]
                 },
                 {

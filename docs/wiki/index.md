@@ -18,6 +18,14 @@ An anime API resource represents a production with at least one opening or endin
 
 An anime image API resource represents the association between an anime and an image.
 
+**[Anime Resource](/wiki/animeresource/)**
+
+An anime resource API resource represents the association between an anime and an external resource.
+
+**[Anime Series](/wiki/animeseries/)**
+
+An anime series API resource represents the association between an anime and a series.
+
 **[Anime Synonym](/wiki/animesynonym/)**
 
 An anime synonym API resource represents an alternate title or common abbreviation for an anime.

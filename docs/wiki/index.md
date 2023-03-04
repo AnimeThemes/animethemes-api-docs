@@ -26,6 +26,10 @@ An anime resource API resource represents the association between an anime and a
 
 An anime series API resource represents the association between an anime and a series.
 
+**[Anime Studio](/wiki/animestudio/)**
+
+An anime studio API resource represents the association between an anime and a studio.
+
 **[Anime Synonym](/wiki/animesynonym/)**
 
 An anime synonym API resource represents an alternate title or common abbreviation for an anime.

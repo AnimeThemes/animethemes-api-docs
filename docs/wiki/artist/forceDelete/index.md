@@ -6,7 +6,7 @@ title: Artist Force Delete
 
 The artist force delete endpoint hard deletes an artist and returns a confirmation message.
 
-For example, the `/forceDelete/artist/chiwa_saito` endpoint will hard delete the Chiwa Saito artist and return a confirmation message.
+For example, the `/forceDelete/artist/chiwa_saitou` endpoint will hard delete the Chiwa Saitou artist and return a confirmation message.
 
 ## URL
 
@@ -28,12 +28,12 @@ None
 
 ```json
 {
-    message: "The Artist 'Chiwa Saito' was deleted.",
+    message: "The Artist 'Chiwa Saitou' was deleted.",
 }
 ```
 
 ## Example
 
 ```bash
-curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/forceDelete/artist/chiwa_saito
+curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/forceDelete/artist/chiwa_saitou
 ```

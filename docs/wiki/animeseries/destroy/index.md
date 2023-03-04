@@ -28,10 +28,7 @@ None
 
 ```json
 {
-    animeseries: {
-        created_at: "created_at",
-        updated_at: "updated_at"
-    }
+    message: "Anime 'Bakemonogatari' has been detached from Series 'Monogatari'.",
 }
 ```
 

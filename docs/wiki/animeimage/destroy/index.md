@@ -28,10 +28,7 @@ None
 
 ```json
 {
-    animeimage: {
-        created_at: "created_at",
-        updated_at: "updated_at"
-    }
+    message: "Image 'OoMI35OjrpjORDlWJvFAZzQOD0vIH1oBQClClSIU.png' has been detached from Anime 'Bakemonogatari'.",
 }
 ```
 

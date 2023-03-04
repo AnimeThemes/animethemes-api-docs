@@ -46,6 +46,10 @@ An anime theme entry API resource represents a version of an anime theme.
 
 An artist API resource represents a musical performer of anime sequences.
 
+**[Artist Image](/wiki/artistimage/)**
+
+An artist image API resource represents the association between an artist and an image.
+
 **[Audio](/wiki/audio/)**
 
 An audio API resource represents the audio track of a video.

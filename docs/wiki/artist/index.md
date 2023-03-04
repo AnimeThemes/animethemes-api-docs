@@ -8,7 +8,7 @@ title: Artist
 
 An artist API resource represents a musical performer of anime sequences.
 
-For example, Chiwa Saito is the musical performer of the Bakemonogatari OP1 theme, among many others.
+For example, Chiwa Saitou is the musical performer of the Bakemonogatari OP1 theme, among many others.
 
 ## Fields
 

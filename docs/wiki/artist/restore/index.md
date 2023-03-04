@@ -6,7 +6,7 @@ title: Artist Restore
 
 The artist restore endpoint restores a soft deleted artist and returns the restored artist resource.
 
-For example, the `/restore/artist/chiwa_saito` endpoint will restore the soft deleted Chiwa Saito artist and return the restored Chiwa Saito resource.
+For example, the `/restore/artist/chiwa_saitou` endpoint will restore the soft deleted Chiwa Saitou artist and return the restored Chiwa Saitou resource.
 
 ## URL
 
@@ -44,5 +44,5 @@ None
 ## Example
 
 ```bash
-curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/restore/artist/chiwa_saito
+curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/restore/artist/chiwa_saitou
 ```

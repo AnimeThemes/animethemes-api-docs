@@ -6,7 +6,7 @@ title: Artist Destroy
 
 The artist destroy endpoint soft deletes an artist and returns the deleted artist resource.
 
-For example, the `/artist/chiwa_saito` endpoint will soft delete the Chiwa Saito artist and return the deleted Chiwa Saito resource.
+For example, the `/artist/chiwa_saitou` endpoint will soft delete the Chiwa Saitou artist and return the deleted Chiwa Saitou resource.
 
 ## URL
 
@@ -44,5 +44,5 @@ None
 ## Example
 
 ```bash
-curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/artist/chiwa_saito
+curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/artist/chiwa_saitou
 ```

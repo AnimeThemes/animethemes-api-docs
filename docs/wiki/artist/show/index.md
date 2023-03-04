@@ -6,7 +6,7 @@ title: Artist Show
 
 The artist show endpoint returns an artist resource.
 
-For example, the `/artist/chiwa_saito` endpoint will return the artist resource for the artist Chiwa Saito.
+For example, the `/artist/chiwa_saitou` endpoint will return the artist resource for the artist Chiwa Saitou.
 
 ## URL
 
@@ -45,5 +45,5 @@ None
 ## Example
 
 ```bash
-curl https://api.animethemes.moe/artist/chiwa_saito
+curl https://api.animethemes.moe/artist/chiwa_saitou
 ```

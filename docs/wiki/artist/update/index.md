@@ -6,7 +6,7 @@ title: Artist Update
 
 The artist update endpoint updates an artist and returns the updated artist resource.
 
-For example, the `/artist/chiwa_saito?name=Chiwa+Saito` endpoint will update the Chiwa Saito artist name attribute and return the updated Chiwa Saito resource.
+For example, the `/artist/chiwa_saitou?name=Chiwa+Saito` endpoint will update the Chiwa Saitou artist name attribute and return the updated Chiwa Saitou resource.
 
 ## URL
 
@@ -47,5 +47,5 @@ PUT|PATCH /artist/{slug}
 ## Example
 
 ```bash
-curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/artist/chiwa_saito
+curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/artist/chiwa_saitou
 ```

@@ -50,6 +50,10 @@ An artist API resource represents a musical performer of anime sequences.
 
 An artist image API resource represents the association between an artist and an image.
 
+**[Artist Resource](/wiki/artistresource/)**
+
+An artist resource API resource represents the association between an artist and an external resource.
+
 **[Audio](/wiki/audio/)**
 
 An audio API resource represents the audio track of a video.

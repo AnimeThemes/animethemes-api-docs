@@ -72,5 +72,5 @@ None
 ## Example
 
 ```bash
-curl https://api.artistthemes.moe/artistimage/
+curl https://api.animethemes.moe/artistimage/
 ```

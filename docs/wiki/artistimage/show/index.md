@@ -36,5 +36,5 @@ None
 ## Example
 
 ```bash
-curl https://api.artistthemes.moe/artistimage/chiwa_saitou/6703
+curl https://api.animethemes.moe/artistimage/chiwa_saitou/6703
 ```

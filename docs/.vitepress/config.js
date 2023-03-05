@@ -101,6 +101,7 @@ export default {
                     { text: 'Anime Theme Entry', link: '/wiki/animethemeentry/' },
                     { text: 'Artist', link: '/wiki/artist/' },
                     { text: 'Artist Image', link: '/wiki/artistimage/' },
+                    { text: 'Artist Resource', link: '/wiki/artistresource/' },
                     { text: 'Audio', link: '/wiki/audio/' },
                     { text: 'Image', link: '/wiki/image/' },
                     { text: 'Resource', link: '/wiki/resource/' },
@@ -395,6 +396,18 @@ export default {
                         { text: 'Index', link: '/wiki/artistimage/index/' },
                         { text: 'Show', link: '/wiki/artistimage/show/' },
                         { text: 'Store', link: '/wiki/artistimage/store/' }
+                    ]
+                },
+                {
+                    text: 'Artist Resource',
+                    collapsible: true,
+                    items: [
+                        { text: 'Resource', link: '/wiki/artistresource/' },
+                        { text: 'Destroy', link: '/wiki/artistresource/destroy/' },
+                        { text: 'Index', link: '/wiki/artistresource/index/' },
+                        { text: 'Show', link: '/wiki/artistresource/show/' },
+                        { text: 'Store', link: '/wiki/artistresource/store/' },
+                        { text: 'Update', link: '/wiki/artistresource/update/' }
                     ]
                 },
                 {

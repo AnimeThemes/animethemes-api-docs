@@ -82,6 +82,10 @@ A studio API resource represents a company that produces anime.
 
 A studio image API resource represents the association between a studio and an image.
 
+**[Studio Resource](/wiki/studioresource/)**
+
+A studio resource API resource represents the association between a studio and an external resource.
+
 **[Video](/wiki/video/)**
 
 A video API resource represents a WebM of an anime theme.

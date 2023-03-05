@@ -41,5 +41,5 @@ POST /artistimage
 ## Example
 
 ```bash
-curl -X POST -H "Authorization: Bearer {token}" https://api.artistthemes.moe/artistimage/
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/artistimage/
 ```

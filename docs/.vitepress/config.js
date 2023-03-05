@@ -108,6 +108,7 @@ export default {
                     { text: 'Series', link: '/wiki/series/' },
                     { text: 'Song', link: '/wiki/song/' },
                     { text: 'Studio', link: '/wiki/studio/' },
+                    { text: 'Studio Image', link: '/wiki/studioimage/' },
                     { text: 'Video', link: '/wiki/video/' },
                     { text: 'Video Script', link: '/wiki/videoscript/' }
                 ]
@@ -499,6 +500,17 @@ export default {
                         { text: 'Show', link: '/wiki/studio/show/' },
                         { text: 'Store', link: '/wiki/studio/store/' },
                         { text: 'Update', link: '/wiki/studio/update/' }
+                    ]
+                },
+                {
+                    text: 'Studio Image',
+                    collapsible: true,
+                    items: [
+                        { text: 'Resource', link: '/wiki/studioimage/' },
+                        { text: 'Destroy', link: '/wiki/studioimage/destroy/' },
+                        { text: 'Index', link: '/wiki/studioimage/index/' },
+                        { text: 'Show', link: '/wiki/studioimage/show/' },
+                        { text: 'Store', link: '/wiki/studioimage/store/' }
                     ]
                 },
                 {

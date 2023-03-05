@@ -78,6 +78,10 @@ A song API resource represents the composition that accompanies an AnimeTheme.
 
 A studio API resource represents a company that produces anime.
 
+**[Studio Image](/wiki/studioimage/)**
+
+A studio image API resource represents the association between a studio and an image.
+
 **[Video](/wiki/video/)**
 
 A video API resource represents a WebM of an anime theme.

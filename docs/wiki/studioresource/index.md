@@ -41,4 +41,4 @@ The studio resource store endpoint creates a new studio resource and returns the
 
 **[Studio Resource Update](/wiki/studioresource/update/)**
 
-The studio update endpoint updates a studio resource and returns the updated studio resource resource.
+The studio resource update endpoint updates a studio resource and returns the updated studio resource resource.

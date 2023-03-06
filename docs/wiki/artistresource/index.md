@@ -41,4 +41,4 @@ The artist resource store endpoint creates a new artist resource and returns the
 
 **[Artist Resource Update](/wiki/artistresource/update/)**
 
-The artist update endpoint updates an artist resource and returns the updated artist resource resource.
+The artist resource update endpoint updates an artist resource and returns the updated artist resource resource.

@@ -41,4 +41,4 @@ The anime resource store endpoint creates a new anime resource and returns the n
 
 **[Anime Resource Update](/wiki/animeresource/update/)**
 
-The anime update endpoint updates an anime resource and returns the updated anime resource resource.
+The anime resource update endpoint updates an anime resource and returns the updated anime resource resource.

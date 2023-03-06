@@ -42,6 +42,10 @@ An anime theme API resource represents an OP or ED sequence for an anime.
 
 An anime theme entry API resource represents a version of an anime theme.
 
+**[Anime Theme Entry Video](/wiki/animethemeentryvideo/)**
+
+An anime theme entry video API resource represents the association between an anime theme entry and a video.
+
 **[Artist](/wiki/artist/)**
 
 An artist API resource represents a musical performer of anime sequences.

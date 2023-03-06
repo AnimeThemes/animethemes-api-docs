@@ -102,6 +102,7 @@ export default {
                     { text: 'Artist', link: '/wiki/artist/' },
                     { text: 'Artist Image', link: '/wiki/artistimage/' },
                     { text: 'Artist Resource', link: '/wiki/artistresource/' },
+                    { text: 'Artist Song', link: '/wiki/artistsong/' },
                     { text: 'Audio', link: '/wiki/audio/' },
                     { text: 'Image', link: '/wiki/image/' },
                     { text: 'Resource', link: '/wiki/resource/' },
@@ -410,6 +411,18 @@ export default {
                         { text: 'Show', link: '/wiki/artistresource/show/' },
                         { text: 'Store', link: '/wiki/artistresource/store/' },
                         { text: 'Update', link: '/wiki/artistresource/update/' }
+                    ]
+                },
+                {
+                    text: 'Artist Song',
+                    collapsible: true,
+                    items: [
+                        { text: 'Resource', link: '/wiki/artistsong/' },
+                        { text: 'Destroy', link: '/wiki/artistsong/destroy/' },
+                        { text: 'Index', link: '/wiki/artistsong/index/' },
+                        { text: 'Show', link: '/wiki/artistsong/show/' },
+                        { text: 'Store', link: '/wiki/artistsong/store/' },
+                        { text: 'Update', link: '/wiki/artistsong/update/' }
                     ]
                 },
                 {

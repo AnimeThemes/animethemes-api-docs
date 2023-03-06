@@ -54,6 +54,10 @@ An artist image API resource represents the association between an artist and an
 
 An artist resource API resource represents the association between an artist and an external resource.
 
+**[Artist Song](/wiki/artistsong/)**
+
+An artist song API resource represents the association between an artist and a song.
+
 **[Audio](/wiki/audio/)**
 
 An audio API resource represents the audio track of a video.

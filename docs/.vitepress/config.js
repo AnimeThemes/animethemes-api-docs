@@ -99,6 +99,7 @@ export default {
                     { text: 'Anime Synonym', link: '/wiki/animesynonym/' },
                     { text: 'Anime Theme', link: '/wiki/animetheme/' },
                     { text: 'Anime Theme Entry', link: '/wiki/animethemeentry/' },
+                    { text: 'Anime Theme Entry Video', link: '/wiki/animethemeentryvideo/' },
                     { text: 'Artist', link: '/wiki/artist/' },
                     { text: 'Artist Image', link: '/wiki/artistimage/' },
                     { text: 'Artist Member', link: '/wiki/artistmember/' },
@@ -375,6 +376,17 @@ export default {
                         { text: 'Show', link: '/wiki/animethemeentry/show/' },
                         { text: 'Store', link: '/wiki/animethemeentry/store/' },
                         { text: 'Update', link: '/wiki/animethemeentry/update/' }
+                    ]
+                },
+                {
+                    text: 'Anime Theme Entry Video',
+                    collapsible: true,
+                    items: [
+                        { text: 'Resource', link: '/wiki/animethemeentryvideo/' },
+                        { text: 'Destroy', link: '/wiki/animethemeentryvideo/destroy/' },
+                        { text: 'Index', link: '/wiki/animethemeentryvideo/index/' },
+                        { text: 'Show', link: '/wiki/animethemeentryvideo/show/' },
+                        { text: 'Store', link: '/wiki/animethemeentryvideo/store/' }
                     ]
                 },
                 {

@@ -155,6 +155,7 @@ export default {
                     collapsible: true,
                     items: [
                         { text: 'Resource', link: '/auth/user/me/' },
+                        { text: 'Show', link: '/auth/user/me/show/' },
                         { text: 'Playlists', link: '/auth/user/me/playlist/' }
                     ]
                 },

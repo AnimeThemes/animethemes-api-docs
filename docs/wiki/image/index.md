@@ -12,17 +12,17 @@ For example, the Bakemonogatari anime has two images to represent small and larg
 
 ## Fields
 
-|    Name    |  Type   | Nullable | Description                                                                       |
-| :--------: | :-----: | :------: | :-------------------------------------------------------------------------------- |
-| id         | Integer | No       | The primary key of the resource                                                   |
-| path       | String  | No       | The path of the file in storage                                                   |
-| size       | Integer | No       | The size of the file in storage in Bytes                                          |
-| mimetype   | String  | No       | The media type of the file in storage                                             |
-| facet      | Enum    | Yes      | The component that the resource is intended for [Small Cover, Large Cover, Grill] |
-| link       | String  | No       | The URL to stream the file from storage                                           |
-| created_at | Date    | No       | The date that the resource was created                                            |
-| updated_at | Date    | No       | The date that the resource was last modified                                      |
-| deleted_at | Date    | Yes      | The date that the resource was deleted                                            |
+|    Name    |  Type   | Nullable | Default | Description                                                                       |
+| :--------: | :-----: | :------: | :-----: | :-------------------------------------------------------------------------------- |
+| id         | Integer | No       | Yes     | The primary key of the resource                                                   |
+| path       | String  | No       | Yes     | The path of the file in storage                                                   |
+| size       | Integer | No       | Yes     | The size of the file in storage in Bytes                                          |
+| mimetype   | String  | No       | No      | The media type of the file in storage                                             |
+| facet      | Enum    | Yes      | Yes     | The component that the resource is intended for [Small Cover, Large Cover, Grill] |
+| link       | String  | No       | Yes     | The URL to stream the file from storage                                           |
+| created_at | Date    | No       | No      | The date that the resource was created                                            |
+| updated_at | Date    | No       | No      | The date that the resource was last modified                                      |
+| deleted_at | Date    | Yes      | No      | The date that the resource was deleted                                            |
 
 ## Allowed Include Paths
 

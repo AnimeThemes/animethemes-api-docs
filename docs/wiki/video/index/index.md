@@ -30,50 +30,50 @@ None
 
 ## Allowed Sort Fields
 
-|    Name    | Description                                                              |
-| :--------: | :----------------------------------------------------------------------- |
-| id         | Sort resources on the primary key                                        |
-| basename   | Sort resources on the basename of the file in storage                    |
-| filename   | Sort resources on the filename of the file in storage                    |
-| path       | Sort resources on the path of the file in storage                        |
-| size       | Sort resources on the size of hte file in storage in Bytes               |
-| mimetype   | Sort resources on the media type of the file in storage                  |
-| resolution | Sort resources on the frame height of the file in storage                |
-| nc         | Sort resources on whether the video is creditless                        |
-| subbed     | Sort resources on whether the video includes subtitles of dialogue       |
-| lyrics     | Sort resources on whether the video includes subtitles of song lyrics    |
-| uncen      | Sort resources on whether the video is an uncensored version             |
-| source     | Sort resources on the origin of the video                                |
-| overlap    | Sort resources on the degree of overlap between the sequence and episode |
-| views      | Sort resources on the number of recorded views                           |
-| created_at | Sort resources on the resource creation date                             |
-| updated_at | Sort resources on the resource last modified date                        |
-| deleted_at | Sort resources on the resource deletion date                             |
-| random     | Sort resources randomly. Ignored if other sort fields are provided.      |
+|    Name     | Description                                                              |
+| :---------: | :----------------------------------------------------------------------- |
+| id          | Sort resources on the primary key                                        |
+| basename    | Sort resources on the basename of the file in storage                    |
+| filename    | Sort resources on the filename of the file in storage                    |
+| path        | Sort resources on the path of the file in storage                        |
+| size        | Sort resources on the size of hte file in storage in Bytes               |
+| mimetype    | Sort resources on the media type of the file in storage                  |
+| resolution  | Sort resources on the frame height of the file in storage                |
+| nc          | Sort resources on whether the video is creditless                        |
+| subbed      | Sort resources on whether the video includes subtitles of dialogue       |
+| lyrics      | Sort resources on whether the video includes subtitles of song lyrics    |
+| uncen       | Sort resources on whether the video is an uncensored version             |
+| source      | Sort resources on the origin of the video                                |
+| overlap     | Sort resources on the degree of overlap between the sequence and episode |
+| views_count | Sort resources on the number of recorded views                           |
+| created_at  | Sort resources on the resource creation date                             |
+| updated_at  | Sort resources on the resource last modified date                        |
+| deleted_at  | Sort resources on the resource deletion date                             |
+| random      | Sort resources randomly. Ignored if other sort fields are provided.      |
 
 ## Filters
 
-|    Name    | Description                                                                |
-| :--------: | :------------------------------------------------------------------------- |
-| id         | Filter resources on the primary key                                        |
-| basename   | Filter resources on the basename of the file in storage                    |
-| filename   | Filter resources on the filename of the file in storage                    |
-| path       | Filter resources on the path of the file in storage                        |
-| size       | Filter resources on the size of hte file in storage in Bytes               |
-| mimetype   | Filter resources on the media type of the file in storage                  |
-| resolution | Filter resources on the frame height of the file in storage                |
-| nc         | Filter resources on whether the video is creditless                        |
-| subbed     | Filter resources on whether the video includes subtitles of dialogue       |
-| lyrics     | Filter resources on whether the video includes subtitles of song lyrics    |
-| uncen      | Filter resources on whether the video is an uncensored version             |
-| source     | Filter resources on the origin of the video                                |
-| overlap    | Filter resources on the degree of overlap between the sequence and episode |
-| views      | Filter resources on the number of recorded views                           |
-| created_at | Filter resources on the resource creation date                             |
-| updated_at | Filter resources on the resource last modified date                        |
-| deleted_at | Filter resources on the resource deletion date                             |
-| trashed    | Filter resources on trashed (deleted) status [With, Without, Only]         |
-| has        | Filter resources on relations within allowed include paths                 |
+|    Name     | Description                                                                |
+| :---------: | :------------------------------------------------------------------------- |
+| id          | Filter resources on the primary key                                        |
+| basename    | Filter resources on the basename of the file in storage                    |
+| filename    | Filter resources on the filename of the file in storage                    |
+| path        | Filter resources on the path of the file in storage                        |
+| size        | Filter resources on the size of hte file in storage in Bytes               |
+| mimetype    | Filter resources on the media type of the file in storage                  |
+| resolution  | Filter resources on the frame height of the file in storage                |
+| nc          | Filter resources on whether the video is creditless                        |
+| subbed      | Filter resources on whether the video includes subtitles of dialogue       |
+| lyrics      | Filter resources on whether the video includes subtitles of song lyrics    |
+| uncen       | Filter resources on whether the video is an uncensored version             |
+| source      | Filter resources on the origin of the video                                |
+| overlap     | Filter resources on the degree of overlap between the sequence and episode |
+| views_count | Filter resources on the number of recorded views                           |
+| created_at  | Filter resources on the resource creation date                             |
+| updated_at  | Filter resources on the resource last modified date                        |
+| deleted_at  | Filter resources on the resource deletion date                             |
+| trashed     | Filter resources on trashed (deleted) status [With, Without, Only]         |
+| has         | Filter resources on relations within allowed include paths                 |
 
 ## Response
 
@@ -98,7 +98,8 @@ None
             updated_at: "updated_at",
             deleted_at: "deleted_at",
             tags: "tags",
-            link: "link"
+            link: "link",
+            views_count: views_count
         },
         ...
     ],

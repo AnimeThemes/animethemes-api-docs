@@ -10,10 +10,10 @@ An artist image API resource represents the association between an artist and an
 
 ## Fields
 
-|    Name    |  Type   | Nullable | Description                                  |
-| :--------: | :-----: | :------: | :------------------------------------------- |
-| created_at | Date    | No       | The date that the resource was created       |
-| updated_at | Date    | No       | The date that the resource was last modified |
+|    Name    |  Type   | Nullable | Default | Description                                  |
+| :--------: | :-----: | :------: | :-----: | :------------------------------------------- |
+| created_at | Date    | No       | No      | The date that the resource was created       |
+| updated_at | Date    | No       | No      | The date that the resource was last modified |
 
 ## Allowed Include Paths
 

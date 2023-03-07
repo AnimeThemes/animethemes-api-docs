@@ -8,6 +8,8 @@ The playlist track destroy endpoint soft deletes a playlist track and returns th
 
 For example, the `/playlist/1/track/1` endpoint will soft delete the playlist track of id `1` and return the deleted playlist track resource.
 
+The track will be dissociated from the list of tracks within the playlist.
+
 ## URL
 
 ```sh

@@ -30,6 +30,9 @@ GET /playlist/{id}/backward
 ## Allowed Include Paths
 
 * video
+* video.animethemeentries.animetheme.anime.images
+* video.animethemeentries.animetheme.song.artists
+* video.audio
 
 ## Response
 

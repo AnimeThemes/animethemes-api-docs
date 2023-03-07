@@ -29,35 +29,35 @@ None
 
 ## Allowed Sort Fields
 
-|    Name    | Description                                                         |
-| :--------: | :------------------------------------------------------------------ |
-| id         | Sort resources on the primary key                                   |
-| basename   | Sort resources on the basename of the file in storage               |
-| filename   | Sort resources on the filename of the file in storage               |
-| path       | Sort resources on the path of the file in storage                   |
-| size       | Sort resources on the size of hte file in storage in Bytes          |
-| mimetype   | Sort resources on the media type of the file in storage             |
-| views      | Sort resources on the number of recorded views                      |
-| created_at | Sort resources on the resource creation date                        |
-| updated_at | Sort resources on the resource last modified date                   |
-| deleted_at | Sort resources on the resource deletion date                        |
-| random     | Sort resources randomly. Ignored if other sort fields are provided. |
+|    Name     | Description                                                         |
+| :---------: | :------------------------------------------------------------------ |
+| id          | Sort resources on the primary key                                   |
+| basename    | Sort resources on the basename of the file in storage               |
+| filename    | Sort resources on the filename of the file in storage               |
+| path        | Sort resources on the path of the file in storage                   |
+| size        | Sort resources on the size of hte file in storage in Bytes          |
+| mimetype    | Sort resources on the media type of the file in storage             |
+| views_count | Sort resources on the number of recorded views                      |
+| created_at  | Sort resources on the resource creation date                        |
+| updated_at  | Sort resources on the resource last modified date                   |
+| deleted_at  | Sort resources on the resource deletion date                        |
+| random      | Sort resources randomly. Ignored if other sort fields are provided. |
 
 ## Filters
 
-|    Name    | Description                                                        |
-| :--------: | :----------------------------------------------------------------- |
-| id         | Filter resources on the primary key                                |
-| basename   | Filter resources on the basename of the file in storage            |
-| filename   | Filter resources on the filename of the file in storage            |
-| path       | Filter resources on the path of the file in storage                |
-| size       | Filter resources on the size of hte file in storage in Bytes       |
-| mimetype   | Filter resources on the media type of the file in storage          |
-| views      | Filter resources on the number of recorded views                   |
-| created_at | Filter resources on the resource creation date                     |
-| updated_at | Filter resources on the resource last modified date                |
-| deleted_at | Filter resources on the resource deletion date                     |
-| trashed    | Filter resources on trashed (deleted) status [With, Without, Only] |
+|    Name     | Description                                                        |
+| :---------: | :----------------------------------------------------------------- |
+| id          | Filter resources on the primary key                                |
+| basename    | Filter resources on the basename of the file in storage            |
+| filename    | Filter resources on the filename of the file in storage            |
+| path        | Filter resources on the path of the file in storage                |
+| size        | Filter resources on the size of hte file in storage in Bytes       |
+| mimetype    | Filter resources on the media type of the file in storage          |
+| views_count | Filter resources on the number of recorded views                   |
+| created_at  | Filter resources on the resource creation date                     |
+| updated_at  | Filter resources on the resource last modified date                |
+| deleted_at  | Filter resources on the resource deletion date                     |
+| trashed     | Filter resources on trashed (deleted) status [With, Without, Only] |
 
 ## Response
 
@@ -74,7 +74,8 @@ None
             created_at: "created_at",
             updated_at: "updated_at",
             deleted_at: "deleted_at",
-            link: "link"
+            link: "link",
+            views_count: views_count
         },
         ...
     ],

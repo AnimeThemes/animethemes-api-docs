@@ -8,6 +8,10 @@ The playlist track update endpoint updates a playlist track and returns the upda
 
 For example, the `/playlist/1/track/1?next_id=2` endpoint will update the playlist track of id `1` next_id attribute and return the updated playlist track resource.
 
+If next_id is set, the track will be moved before the next track in the playlist.
+
+If previous_id is set, the track will be moved after the previous track in the playlist.
+
 ## URL
 
 ```sh

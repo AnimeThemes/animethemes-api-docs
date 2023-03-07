@@ -8,6 +8,8 @@ The playlist track restore endpoint restores a soft deleted playlist track and r
 
 For example, the `/restore/playlist/1/track/1` endpoint will restore the soft deleted playlist track of id `1` and return the restored playlist track resource.
 
+The restored track will be appended to the end of the list of tracks in the playlist.
+
 ## URL
 
 ```sh

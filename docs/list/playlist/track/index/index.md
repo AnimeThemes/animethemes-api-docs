@@ -44,6 +44,7 @@ GET /playlist/{id}/track
 |    Name    | Description                                                        |
 | :--------: | :----------------------------------------------------------------- |
 | id         | Filter resources on the primary key                                |
+| video_id   | Filter resources on related video ID                               |
 | created_at | Filter resources on the resource creation date                     |
 | updated_at | Filter resources on the resource last modified date                |
 | deleted_at | Filter resources on the resource deletion date                     |

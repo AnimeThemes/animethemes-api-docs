@@ -60,7 +60,8 @@ POST /video
         updated_at: "updated_at",
         deleted_at: "deleted_at",
         tags: "tags",
-        link: "link"
+        link: "link",
+        views_count: views_count
     }
 }
 ```

@@ -12,14 +12,14 @@ For example, the 2009/Summer/Bakemonogatari-OP1.txt video script represents the 
 
 ## Fields
 
-|    Name    |  Type   | Nullable |  Description                                 |
-| :--------: | :-----: | :------: | :--------------------------------------------|
-| id         | Integer | No       | The primary key of the resource              |
-| path       | String  | No       | The path of the file in storage              |
-| created_at | Date    | No       | The date that the resource was created       |
-| updated_at | Date    | No       | The date that the resource was last modified |
-| deleted_at | Date    | Yes      | The date that the resource was deleted       |
-| link       | String  | No       | The URL to download the file from storage    |
+|    Name    |  Type   | Nullable | Default |  Description                                 |
+| :--------: | :-----: | :------: | :-----: | :--------------------------------------------|
+| id         | Integer | No       | Yes     | The primary key of the resource              |
+| path       | String  | No       | Yes     | The path of the file in storage              |
+| created_at | Date    | No       | No      | The date that the resource was created       |
+| updated_at | Date    | No       | No      | The date that the resource was last modified |
+| deleted_at | Date    | Yes      | No      | The date that the resource was deleted       |
+| link       | String  | No       | Yes     | The URL to download the file from storage    |
 
 ## Allowed Include Paths
 

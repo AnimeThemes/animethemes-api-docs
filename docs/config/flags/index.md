@@ -10,14 +10,14 @@ The config flags API resource contains the list of feature flags that enable/dis
 
 ## Fields
 
-|            Name             |  Type   | Nullable | Description                                                 |
-| :-------------------------: | :-----: | :------: | :---------------------------------------------------------- |
-| allow_video_streams         | Boolean | No       | Enable/Disable video streaming                              |
-| allow_audio_streams         | Boolean | No       | Enable/Disable audio streaming                              |
-| allow_discord_notifications | Boolean | No       | Enable/Disable discord notifications for the configured bot |
-| allow_view_recording        | Boolean | No       | Enable/Disable the recording of views for view counts       |
-| allow_dump_downloading      | Boolean | No       | Enable/Disable database dump downloading                    |
-| allow_script_downloading    | Boolean | No       | Enable/Disable encoding script downloading                  |
+|            Name             |  Type   | Nullable | Default | Description                                                 |
+| :-------------------------: | :-----: | :------: | :-----: | :---------------------------------------------------------- |
+| allow_video_streams         | Boolean | No       | Yes     | Enable/Disable video streaming                              |
+| allow_audio_streams         | Boolean | No       | Yes     | Enable/Disable audio streaming                              |
+| allow_discord_notifications | Boolean | No       | Yes     | Enable/Disable discord notifications for the configured bot |
+| allow_view_recording        | Boolean | No       | Yes     | Enable/Disable the recording of views for view counts       |
+| allow_dump_downloading      | Boolean | No       | Yes     | Enable/Disable database dump downloading                    |
+| allow_script_downloading    | Boolean | No       | Yes     | Enable/Disable encoding script downloading                  |
 
 ## Allowed Include Paths
 

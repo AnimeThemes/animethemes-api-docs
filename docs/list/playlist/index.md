@@ -12,15 +12,16 @@ For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a coll
 
 ## Fields
 
-|    Name    |  Type   | Nullable | Description                                                                 |
-| :--------: | :-----: | :------: | :-------------------------------------------------------------------------- |
-| id         | Integer | No       | The primary key of the resource                                             |
-| name       | String  | No       | The title of the playlist                                                   |
-| visibility | Enum    | Yes      | The state of who can see the playlist [Private, Unlisted, Public]           |
-| created_at | Date    | No       | The date that the resource was created                                      |
-| updated_at | Date    | No       | The date that the resource was last modified                                |
-| deleted_at | Date    | Yes      | The date that the resource was deleted                                      |
-| views      | Integer | No       | The number of views recorded for the resource. Must be explicitly included. |
+|    Name       |  Type   | Nullable | Default | Description                                                       |
+| :-----------: | :-----: | :------: | :-----: | :---------------------------------------------------------------- |
+| id            | Integer | No       | Yes     | The primary key of the resource                                   |
+| name          | String  | No       | Yes     | The title of the playlist                                         |
+| visibility    | Enum    | Yes      | Yes     | The state of who can see the playlist [Private, Unlisted, Public] |
+| created_at    | Date    | No       | No      | The date that the resource was created                            |
+| updated_at    | Date    | No       | No      | The date that the resource was last modified                      |
+| deleted_at    | Date    | Yes      | No      | The date that the resource was deleted                            |
+| views_count   | Integer | No       | No      | The number of views recorded for the resource                     |
+| tracks_exists | Boolean | No       | No      | The existence of tracks belongs to the resource                   |
 
 ## Allowed Include Paths
 

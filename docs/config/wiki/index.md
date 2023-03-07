@@ -10,9 +10,9 @@ The config wiki API resource contains the list of settings that impact animethem
 
 ## Fields
 
-|      Name      |  Type  | Nullable | Description                                                           |
-| :------------: | :----: | :------: | :-------------------------------------------------------------------- |
-| featured_theme | String | Yes      | The theme played in the background on the homepage of the wiki client |
+|      Name      |  Type  | Nullable | Default | Description                                                           |
+| :------------: | :----: | :------: | :-----: | :-------------------------------------------------------------------- |
+| featured_theme | String | Yes      | Yes     | The theme played in the background on the homepage of the wiki client |
 
 ## Allowed Include Paths
 

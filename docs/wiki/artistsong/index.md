@@ -10,11 +10,11 @@ An artist song API resource represents the association between an artist and an 
 
 ## Fields
 
-|    Name    |  Type   | Nullable | Description                                                    |
-| :--------: | :-----: | :------: | :------------------------------------------------------------- |
-| created_at | Date    | No       | The date that the resource was created                         |
-| updated_at | Date    | No       | The date that the resource was last modified                   |
-| as         | String  | No       | Used to distinguish a performance by alias, character or group |
+|    Name    |  Type   | Nullable | Default | Description                                                    |
+| :--------: | :-----: | :------: | :-----: | :------------------------------------------------------------- |
+| created_at | Date    | No       | No      | The date that the resource was created                         |
+| updated_at | Date    | No       | No      | The date that the resource was last modified                   |
+| as         | String  | No       | Yes     | Used to distinguish a performance by alias, character or group |
 
 ## Allowed Include Paths
 

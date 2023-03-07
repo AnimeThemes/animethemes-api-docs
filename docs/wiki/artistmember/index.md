@@ -10,11 +10,11 @@ An artist member API resource represents the association of an artist and a grou
 
 ## Fields
 
-|    Name    |  Type   | Nullable | Description                                          |
-| :--------: | :-----: | :------: | :--------------------------------------------------- |
-| created_at | Date    | No       | The date that the resource was created               |
-| updated_at | Date    | No       | The date that the resource was last modified         |
-| as         | String  | No       | Used to distinguish membership by alias or character |
+|    Name    |  Type   | Nullable | Default | Description                                          |
+| :--------: | :-----: | :------: | :-----: | :--------------------------------------------------- |
+| created_at | Date    | No       | No      | The date that the resource was created               |
+| updated_at | Date    | No       | No      | The date that the resource was last modified         |
+| as         | String  | No       | Yes     | Used to distinguish membership by alias or character |
 
 ## Allowed Include Paths
 

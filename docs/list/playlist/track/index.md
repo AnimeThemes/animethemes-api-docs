@@ -12,12 +12,12 @@ For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a trac
 
 ## Fields
 
-|    Name    |  Type   | Nullable | Description                                  |
-| :--------: | :-----: | :------: | :------------------------------------------- |
-| id         | Integer | No       | The primary key of the resource              |
-| created_at | Date    | No       | The date that the resource was created       |
-| updated_at | Date    | No       | The date that the resource was last modified |
-| deleted_at | Date    | Yes      | The date that the resource was deleted       |
+|    Name    |  Type   | Nullable | Default | Description                                  |
+| :--------: | :-----: | :------: | :-----: | :------------------------------------------- |
+| id         | Integer | No       | Yes     | The primary key of the resource              |
+| created_at | Date    | No       | No      | The date that the resource was created       |
+| updated_at | Date    | No       | No      | The date that the resource was last modified |
+| deleted_at | Date    | Yes      | No      | The date that the resource was deleted       |
 
 ## Allowed Include Paths
 
@@ -25,6 +25,9 @@ For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a trac
 * playlist
 * previous
 * video
+* video.animethemeentries.animetheme.anime.images
+* video.animethemeentries.animetheme.song.artists
+* video.audio
 
 ## Endpoints
 

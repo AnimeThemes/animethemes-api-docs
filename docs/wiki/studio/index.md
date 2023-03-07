@@ -12,14 +12,14 @@ For example, Shaft is the studio that produced the anime Bakemonogatari.
 
 ## Fields
 
-|    Name    |  Type   | Nullable | Description                                  |
-| :--------: | :-----: | :------: | :------------------------------------------- |
-| id         | Integer | No       | The primary key of the resource              |
-| name       | String  | No       | The primary title of the studio              |
-| slug       | String  | No       | The URL slug & route key of the resource     |
-| created_at | Date    | No       | The date that the resource was created       |
-| updated_at | Date    | No       | The date that the resource was last modified |
-| deleted_at | Date    | Yes      | The date that the resource was deleted       |
+|    Name    |  Type   | Nullable | Default | Description                                  |
+| :--------: | :-----: | :------: | :-----: | :------------------------------------------- |
+| id         | Integer | No       | Yes     | The primary key of the resource              |
+| name       | String  | No       | Yes     | The primary title of the studio              |
+| slug       | String  | No       | Yes     | The URL slug & route key of the resource     |
+| created_at | Date    | No       | No      | The date that the resource was created       |
+| updated_at | Date    | No       | No      | The date that the resource was last modified |
+| deleted_at | Date    | Yes      | No      | The date that the resource was deleted       |
 
 ## Allowed Include Paths
 

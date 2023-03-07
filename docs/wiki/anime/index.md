@@ -12,17 +12,17 @@ For example, Bakemonogatari is an anime production with five opening sequences a
 
 ## Fields
 
-|    Name    |  Type   | Nullable | Description                                                     |
-| :--------: | :-----: | :------: | :-------------------------------------------------------------- |
-| id         | Integer | No       | The primary key of the resource                                 |
-| name       | String  | No       | The primary title of the anime                                  |
-| slug       | String  | No       | The URL slug & route key of the resource                        |
-| year       | Integer | Yes      | The premiere year of the anime                                  |
-| season     | Enum    | Yes      | The premiere season of the anime [Winter, Spring, Summer, Fall] |
-| synopsis   | String  | Yes      | The brief summary of the anime                                  |
-| created_at | Date    | No       | The date that the resource was created                          |
-| updated_at | Date    | No       | The date that the resource was last modified                    |
-| deleted_at | Date    | Yes      | The date that the resource was deleted                          |
+|    Name    |  Type   | Nullable | Default | Description                                                     |
+| :--------: | :-----: | :------: | :-----: | :-------------------------------------------------------------- |
+| id         | Integer | No       | Yes     | The primary key of the resource                                 |
+| name       | String  | No       | Yes     | The primary title of the anime                                  |
+| slug       | String  | No       | Yes     | The URL slug & route key of the resource                        |
+| year       | Integer | Yes      | Yes     | The premiere year of the anime                                  |
+| season     | Enum    | Yes      | Yes     | The premiere season of the anime [Winter, Spring, Summer, Fall] |
+| synopsis   | String  | Yes      | Yes     | The brief summary of the anime                                  |
+| created_at | Date    | No       | No      | The date that the resource was created                          |
+| updated_at | Date    | No       | No      | The date that the resource was last modified                    |
+| deleted_at | Date    | Yes      | No      | The date that the resource was deleted                          |
 
 ## Allowed Include Paths
 
@@ -31,6 +31,7 @@ For example, Bakemonogatari is an anime production with five opening sequences a
 * animethemes.animethemeentries
 * animethemes.animethemeentries.videos
 * animethemes.animethemeentries.videos.audio
+* animethemes.animethemeentries.videos.videoscript
 * animethemes.song
 * animethemes.song.artists
 * images

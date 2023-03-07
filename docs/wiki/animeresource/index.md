@@ -10,11 +10,11 @@ An anime resource API resource represents the association between an anime and a
 
 ## Fields
 
-|    Name    |  Type   | Nullable | Description                                              |
-| :--------: | :-----: | :------: | :------------------------------------------------------- |
-| created_at | Date    | No       | The date that the resource was created                   |
-| updated_at | Date    | No       | The date that the resource was last modified             |
-| as         | String  | No       | Used to distinguish resources that map to the same anime |
+|    Name    |  Type   | Nullable | Default | Description                                              |
+| :--------: | :-----: | :------: | :-----: | :------------------------------------------------------- |
+| created_at | Date    | No       | No      | The date that the resource was created                   |
+| updated_at | Date    | No       | No      | The date that the resource was last modified             |
+| as         | String  | No       | Yes     | Used to distinguish resources that map to the same anime |
 
 ## Allowed Include Paths
 

@@ -12,27 +12,27 @@ For example, the video Bakemonogatari-OP1.webm represents the WebM of the Bakemo
 
 ## Fields
 
-|    Name    |  Type   | Nullable | Description                                                                           |
-| :--------: | :-----: | :------: | :------------------------------------------------------------------------------------ |
-| id         | Integer | No       | The primary key of the resource                                                       |
-| basename   | String  | No       | The basename of the file in storage                                                   |
-| filename   | String  | No       | The filename of the file in storage                                                   |
-| path       | String  | No       | The path of the file in storage                                                       |
-| size       | Integer | No       | The size of the file in storage in Bytes                                              |
-| mimetype   | String  | No       | The media type of the file in storage                                                 |
-| resolution | Integer | Yes      | The frame height of the file in storage                                               |
-| nc         | Boolean | No       | Is the video creditless?                                                              |
-| subbed     | Boolean | No       | Does the video include subtitles of dialogue?                                         |
-| lyrics     | Boolean | No       | Does the video include subtitles of song lyrics?                                      |
-| uncen      | Boolean | No       | Is the video an uncensored version of a censored sequence?                            |
-| source     | Enum    | Yes      | Where did this video come from? [WEB, RAW, BD, DVD, VHS, LD]                          |
-| overlap    | Enum    | No       | The degree to which the sequence and episode content overlap [None, Transition, Over] |
-| tags       | String  | No       | The attributes used to distinguish the file within the context of a theme             |
-| link       | String  | No       | The URL to stream the file from storage                                               |
-| views      | Integer | No       | The number of views recorded for the resource. Must be explicitly included.           |
-| created_at | Date    | No       | The date that the resource was created                                                |
-| updated_at | Date    | No       | The date that the resource was last modified                                          |
-| deleted_at | Date    | Yes      | The date that the resource was deleted                                                |
+|    Name     |  Type   | Nullable | Default | Description                                                                           |
+| :---------: | :-----: | :------: | :-----: | :------------------------------------------------------------------------------------ |
+| id          | Integer | No       | Yes     | The primary key of the resource                                                       |
+| basename    | String  | No       | Yes     | The basename of the file in storage                                                   |
+| filename    | String  | No       | Yes     | The filename of the file in storage                                                   |
+| path        | String  | No       | Yes     | The path of the file in storage                                                       |
+| size        | Integer | No       | Yes     | The size of the file in storage in Bytes                                              |
+| mimetype    | String  | No       | No      | The media type of the file in storage                                                 |
+| resolution  | Integer | Yes      | Yes     | The frame height of the file in storage                                               |
+| nc          | Boolean | No       | Yes     | Is the video creditless?                                                              |
+| subbed      | Boolean | No       | Yes     | Does the video include subtitles of dialogue?                                         |
+| lyrics      | Boolean | No       | Yes     | Does the video include subtitles of song lyrics?                                      |
+| uncen       | Boolean | No       | Yes     | Is the video an uncensored version of a censored sequence?                            |
+| source      | Enum    | Yes      | Yes     | Where did this video come from? [WEB, RAW, BD, DVD, VHS, LD]                          |
+| overlap     | Enum    | No       | Yes     | The degree to which the sequence and episode content overlap [None, Transition, Over] |
+| tags        | String  | No       | Yes     | The attributes used to distinguish the file within the context of a theme             |
+| link        | String  | No       | Yes     | The URL to stream the file from storage                                               |
+| views_count | Integer | No       | No      | The number of views recorded for the resource                                         |
+| created_at  | Date    | No       | No      | The date that the resource was created                                                |
+| updated_at  | Date    | No       | No      | The date that the resource was last modified                                          |
+| deleted_at  | Date    | Yes      | No      | The date that the resource was deleted                                                |
 
 ## Allowed Include Paths
 

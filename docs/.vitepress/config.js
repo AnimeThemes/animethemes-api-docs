@@ -122,7 +122,7 @@ export default {
             '/admin/': [
                 {
                     text: 'Announcement',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/admin/announcement/' },
                         { text: 'Destroy', link: '/admin/announcement/destroy/' },
@@ -136,7 +136,7 @@ export default {
                 },
                 {
                     text: 'Dump',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/admin/dump/' },
                         { text: 'Destroy', link: '/admin/dump/destroy/' },
@@ -152,7 +152,7 @@ export default {
             '/auth/': [
                 {
                     text: 'Me',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/auth/user/me/' },
                         { text: 'Show', link: '/auth/user/me/show/' },
@@ -161,7 +161,7 @@ export default {
                 },
                 {
                     text: 'User',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/auth/user/' }
                     ]
@@ -170,7 +170,7 @@ export default {
             '/billing/': [
                 {
                     text: 'Balance',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/billing/balance/' },
                         { text: 'Destroy', link: '/billing/balance/destroy/' },
@@ -184,7 +184,7 @@ export default {
                 },
                 {
                     text: 'Transaction',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/billing/transaction/' },
                         { text: 'Destroy', link: '/billing/transaction/destroy/' },
@@ -200,7 +200,7 @@ export default {
             '/config/': [
                 {
                     text: 'Feature Flags',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/config/flags/' },
                         { text: 'Show', link: '/config/flags/show/' }
@@ -208,7 +208,7 @@ export default {
                 },
                 {
                     text: 'Wiki Config',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/config/wiki/' },
                         { text: 'Show', link: '/config/wiki/show/' }
@@ -218,7 +218,7 @@ export default {
             '/document/': [
                 {
                     text: 'Page',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/document/page/' },
                         { text: 'Destroy', link: '/document/page/destroy/' },
@@ -234,7 +234,7 @@ export default {
             '/intro/': [
                 {
                     text: 'Introduction',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'JSON:API', link: '/intro/jsonapi/' },
                         { text: 'Rate Limiting', link: '/intro/ratelimiting/' },
@@ -246,7 +246,7 @@ export default {
             '/list/': [
                 {
                     text: 'Playlist',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/list/playlist/' },
                         { text: 'Destroy', link: '/list/playlist/destroy/' },
@@ -260,7 +260,7 @@ export default {
                 },
                 {
                     text: 'Playlist Track',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/list/playlist/track/' },
                         { text: 'Destroy', link: '/list/playlist/track/destroy/' },
@@ -278,7 +278,7 @@ export default {
             '/wiki/': [
                 {
                     text: 'Anime',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/anime/' },
                         { text: 'Destroy', link: '/wiki/anime/destroy/' },
@@ -294,7 +294,7 @@ export default {
                 },
                 {
                     text: 'Anime Image',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/animeimage/' },
                         { text: 'Destroy', link: '/wiki/animeimage/destroy/' },
@@ -305,7 +305,7 @@ export default {
                 },
                 {
                     text: 'Anime Resource',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/animeresource/' },
                         { text: 'Destroy', link: '/wiki/animeresource/destroy/' },
@@ -317,7 +317,7 @@ export default {
                 },
                 {
                     text: 'Anime Series',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/animeseries/' },
                         { text: 'Destroy', link: '/wiki/animeseries/destroy/' },
@@ -328,7 +328,7 @@ export default {
                 },
                 {
                     text: 'Anime Studio',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/animestudio/' },
                         { text: 'Destroy', link: '/wiki/animestudio/destroy/' },
@@ -339,7 +339,7 @@ export default {
                 },
                 {
                     text: 'Anime Synonym',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/animesynonym/' },
                         { text: 'Destroy', link: '/wiki/animesynonym/destroy/' },
@@ -353,7 +353,7 @@ export default {
                 },
                 {
                     text: 'Anime Theme',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/animetheme/' },
                         { text: 'Destroy', link: '/wiki/animetheme/destroy/' },
@@ -367,7 +367,7 @@ export default {
                 },
                 {
                     text: 'Anime Theme Entry',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/animethemeentry/' },
                         { text: 'Destroy', link: '/wiki/animethemeentry/destroy/' },
@@ -381,7 +381,7 @@ export default {
                 },
                 {
                     text: 'Anime Theme Entry Video',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/animethemeentryvideo/' },
                         { text: 'Destroy', link: '/wiki/animethemeentryvideo/destroy/' },
@@ -392,7 +392,7 @@ export default {
                 },
                 {
                     text: 'Artist',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/artist/' },
                         { text: 'Destroy', link: '/wiki/artist/destroy/' },
@@ -406,7 +406,7 @@ export default {
                 },
                 {
                     text: 'Artist Image',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/artistimage/' },
                         { text: 'Destroy', link: '/wiki/artistimage/destroy/' },
@@ -417,7 +417,7 @@ export default {
                 },
                 {
                     text: 'Artist Member',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/artistmember/' },
                         { text: 'Destroy', link: '/wiki/artistmember/destroy/' },
@@ -429,7 +429,7 @@ export default {
                 },
                 {
                     text: 'Artist Resource',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/artistresource/' },
                         { text: 'Destroy', link: '/wiki/artistresource/destroy/' },
@@ -441,7 +441,7 @@ export default {
                 },
                 {
                     text: 'Artist Song',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/artistsong/' },
                         { text: 'Destroy', link: '/wiki/artistsong/destroy/' },
@@ -453,7 +453,7 @@ export default {
                 },
                 {
                     text: 'Audio',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/audio/' },
                         { text: 'Destroy', link: '/wiki/audio/destroy/' },
@@ -467,14 +467,14 @@ export default {
                 },
                 {
                     text: 'Global Search',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Search', link: '/wiki/search/' }
                     ]
                 },
                 {
                     text: 'Image',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/image/' },
                         { text: 'Destroy', link: '/wiki/image/destroy/' },
@@ -488,7 +488,7 @@ export default {
                 },
                 {
                     text: 'Resource',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/resource/' },
                         { text: 'Destroy', link: '/wiki/resource/destroy/' },
@@ -502,7 +502,7 @@ export default {
                 },
                 {
                     text: 'Series',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/series/' },
                         { text: 'Destroy', link: '/wiki/series/destroy/' },
@@ -516,7 +516,7 @@ export default {
                 },
                 {
                     text: 'Song',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/song/' },
                         { text: 'Destroy', link: '/wiki/song/destroy/' },
@@ -530,7 +530,7 @@ export default {
                 },
                 {
                     text: 'Studio',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/studio/' },
                         { text: 'Destroy', link: '/wiki/studio/destroy/' },
@@ -544,7 +544,7 @@ export default {
                 },
                 {
                     text: 'Studio Image',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/studioimage/' },
                         { text: 'Destroy', link: '/wiki/studioimage/destroy/' },
@@ -555,7 +555,7 @@ export default {
                 },
                 {
                     text: 'Studio Resource',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/studioresource/' },
                         { text: 'Destroy', link: '/wiki/studioresource/destroy/' },
@@ -567,7 +567,7 @@ export default {
                 },
                 {
                     text: 'Video',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/video/' },
                         { text: 'Destroy', link: '/wiki/video/destroy/' },
@@ -581,7 +581,7 @@ export default {
                 },
                 {
                     text: 'Video Script',
-                    collapsible: true,
+                    collapsed: true,
                     items: [
                         { text: 'Resource', link: '/wiki/videoscript/' },
                         { text: 'Destroy', link: '/wiki/videoscript/destroy/' },

@@ -20,3 +20,6 @@ dist/
 
 # VuePress temp directory
 .temp
+
+# Cache
+docs/.vitepress/cache/

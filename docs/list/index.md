@@ -14,6 +14,10 @@ List API resources pertain to user playlists.
 
 A playlist API resource represents a list of ordered tracks intended for continuous playback.
 
+**[Playlist Image](/wiki/playlistimage/)**
+
+A playlist image API resource represents the association between a playlist and an image.
+
 **[Playlist Track](/list/playlist/track/)**
 
 A playlist track API resource represents an entry in a playlist.

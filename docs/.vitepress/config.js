@@ -84,6 +84,7 @@ export default {
                 items: [
                     { text: 'Index', link: '/list/' },
                     { text: 'Playlist', link: '/list/playlist/' },
+                    { text: 'Playlist Image', link: '/list/playlistimage/' },
                     { text: 'Playlist Track', link: '/list/playlist/track/' }
                 ]
             },
@@ -256,6 +257,17 @@ export default {
                         { text: 'Show', link: '/list/playlist/show/' },
                         { text: 'Store', link: '/list/playlist/store/' },
                         { text: 'Update', link: '/list/playlist/update/' }
+                    ]
+                },
+                {
+                    text: 'Playlist Image',
+                    collapsed: true,
+                    items: [
+                        { text: 'Resource', link: '/list/playlistimage/' },
+                        { text: 'Destroy', link: '/list/playlistimage/destroy/' },
+                        { text: 'Index', link: '/list/playlistimage/index/' },
+                        { text: 'Show', link: '/list/playlistimage/show/' },
+                        { text: 'Store', link: '/list/playlistimage/store/' }
                     ]
                 },
                 {

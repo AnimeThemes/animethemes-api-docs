@@ -53,6 +53,8 @@ export default {
                 items: [
                     { text: 'Index', link: '/auth/' },
                     { text: 'Me', link: '/auth/user/me/' },
+                    { text: 'Permission', link: '/auth/permission/' },
+                    { text: 'Role', link: '/auth/role/' },
                     { text: 'User', link: '/auth/user/' }
                 ],
             },
@@ -158,6 +160,20 @@ export default {
                         { text: 'Resource', link: '/auth/user/me/' },
                         { text: 'Show', link: '/auth/user/me/show/' },
                         { text: 'Playlists', link: '/auth/user/me/playlist/' }
+                    ]
+                },
+                {
+                    text: 'Permission',
+                    collapsed: true,
+                    items: [
+                        { text: 'Resource', link: '/auth/permission/' }
+                    ]
+                },
+                {
+                    text: 'Role',
+                    collapsed: true,
+                    items: [
+                        { text: 'Resource', link: '/auth/role/' }
                     ]
                 },
                 {

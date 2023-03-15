@@ -104,10 +104,4 @@ A video API resource represents a WebM of an anime theme.
 
 **[Video Script](/wiki/videoscript/)**
 
-A video script API resource represents an encoding script used to produce a video. 
-
-### Other Endpoints
-
-**[Global Search](/wiki/search/)**
-
-The global search endpoint returns a listing of wiki resources that match a given search term.
+A video script API resource represents an encoding script used to produce a video.

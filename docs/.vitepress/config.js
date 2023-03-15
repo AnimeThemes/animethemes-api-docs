@@ -91,6 +91,13 @@ export default {
                 ]
             },
             {
+                text: 'Search',
+                collapsed: true,
+                items: [
+                    { text: 'Search', link: '/search/' }
+                ]
+            },
+            {
                 text: 'Wiki',
                 items: [
                     { text: 'Index', link: '/wiki/' },
@@ -491,13 +498,6 @@ export default {
                         { text: 'Show', link: '/wiki/audio/show/' },
                         { text: 'Store', link: '/wiki/audio/store/' },
                         { text: 'Update', link: '/wiki/audio/update/' }
-                    ]
-                },
-                {
-                    text: 'Global Search',
-                    collapsed: true,
-                    items: [
-                        { text: 'Search', link: '/wiki/search/' }
                     ]
                 },
                 {

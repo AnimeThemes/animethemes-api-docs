@@ -1,15 +1,15 @@
 ---
-title: Track Forward Index
+title: Playlist Backward Index
 ---
 
-# Track Forward Index Endpoint
+# Playlist Backward Index Endpoint
 
-The track forward index endpoint returns a listing of tracks for the playlist in forward order after the specified track.
+The playlist backward index endpoint returns a listing of tracks for the playlist in backward order.
 
 ## URL
 
 ```sh
-GET /playlist/{playlist:id}/track/{track:id}/forward
+GET /playlist/{id}/backward
 ```
 
 ## Authentication
@@ -66,5 +66,5 @@ GET /playlist/{playlist:id}/track/{track:id}/forward
 ## Example
 
 ```bash
-curl https://api.animethemes.moe/playlist/1/track/1/forward
+curl https://api.animethemes.moe/playlist/1/backward
 ```

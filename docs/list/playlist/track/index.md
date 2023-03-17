@@ -59,10 +59,10 @@ The playlist track store endpoint creates a new playlist track and returns the n
 
 The playlist track update endpoint updates a playlist track and returns the updated playlist track resource.
 
-**[Forward Index](/list/playlist/track/forward/)**
+**[Track Forward Index](/list/playlist/track/forward/)**
 
-The forward index endpoint returns a listing of tracks for the playlist in forward order.
+The track forward index endpoint returns a listing of tracks for the playlist in forward order after the specified track.
 
-**[Backward Index](/list/playlist/track/backward/)**
+**[Track Backward Index](/list/playlist/track/backward/)**
 
-The backward index endpoint returns a listing of tracks for the playlist in backward order.
+The track backward index endpoint returns a listing of tracks for the playlist in backward order before the specified track.

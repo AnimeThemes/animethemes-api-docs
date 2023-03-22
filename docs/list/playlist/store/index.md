@@ -37,7 +37,8 @@ POST /playlist
         updated_at: "updated_at",
         deleted_at: "deleted_at",
         views_count: views_count,
-        tracks_exists: tracks_exists
+        tracks_exists: tracks_exists,
+        tracks_count: tracks_count
     }
 }
 ```

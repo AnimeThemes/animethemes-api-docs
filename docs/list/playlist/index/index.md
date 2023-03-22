@@ -37,6 +37,7 @@ GET /playlist/
 | visibility    | Sort resources on the visibility state of the playlist              |
 | views_count   | Sort resources on the number of recorded views                      |
 | tracks_exists | Sort resources on the existence of tracks                           |
+| tracks_count  | Sort resources on the number of tracks                              |
 | created_at    | Sort resources on the resource creation date                        |
 | updated_at    | Sort resources on the resource last modified date                   |
 | deleted_at    | Sort resources on the resource deletion date                        |
@@ -51,6 +52,7 @@ GET /playlist/
 | visibility    | Filter resources on the visibility state of the playlist [Public, Private, Unlisted] |
 | views_count   | Filter resources on the number of recorded views                                     |
 | tracks_exists | Filter resources on existence of tracks                                              |
+| tracks_count  | Filter resources on the number of tracks                                             |
 | created_at    | Filter resources on the resource creation date                                       |
 | updated_at    | Filter resources on the resource last modified date                                  |
 | deleted_at    | Filter resources on the resource deletion date                                       |
@@ -70,7 +72,8 @@ GET /playlist/
             updated_at: "updated_at",
             deleted_at: "deleted_at",
             views_count: views_count,
-            tracks_exists: tracks_exists
+            tracks_exists: tracks_exists,
+            tracks_count: tracks_count
         },
         ...
     ],

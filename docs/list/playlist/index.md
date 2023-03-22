@@ -21,7 +21,8 @@ For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a coll
 | updated_at    | Date    | No       | No      | The date that the resource was last modified                      |
 | deleted_at    | Date    | Yes      | No      | The date that the resource was deleted                            |
 | views_count   | Integer | No       | No      | The number of views recorded for the resource                     |
-| tracks_exists | Boolean | No       | No      | The existence of tracks belongs to the resource                   |
+| tracks_exists | Boolean | No       | No      | The existence of tracks belonging to the resource                 |
+| tracks_count  | Integer | No       | No      | The number of tracks belonging to the resource                    |
 
 ## Allowed Include Paths
 

@@ -6,7 +6,7 @@ title: Playlist Image Show
 
 The playlist image show endpoint returns an playlist image resource.
 
-For example, the `/playlistimage/1/1` endpoint will return the playlist image resource for the association between the playlist of id 1 and the large cover image of id 1.
+For example, the `/playlistimage/N4hG/1` endpoint will return the playlist image resource for the association between the playlist of id N4hG and the large cover image of id 1.
 
 ## URL
 
@@ -38,5 +38,5 @@ None
 ## Example
 
 ```bash
-curl https://api.animethemes.moe/playlistimage/1/1
+curl https://api.animethemes.moe/playlistimage/N4hG/1
 ```

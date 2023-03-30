@@ -6,12 +6,12 @@ title: Anime Resource Store
 
 The anime resource store endpoint creates a new anime resource and returns the new anime resource resource.
 
-For example, the `/animeresource?anime_id=218&resource_id=1083` endpoint will create a new association between the Bakemonogatari anime and the external resource of id 1083.
+For example, the `/animeresource/bakemonogatari/1083` endpoint will create a new association between the Bakemonogatari anime and the external resource of id 1083.
 
 ## URL
 
 ```sh
-POST /animeresource
+POST /animeresource/{anime:slug}/{resource:id}
 ```
 
 ## Authentication
@@ -22,11 +22,9 @@ POST /animeresource
 
 ## Parameters
 
-| Name        | Required | Rules                       |
-| :---------: | :------: | :-------------------------- |
-| anime_id    | Yes      | integer, Anime ID exists    |
-| resource_id | Yes      | integer, Resource ID exists |
-| as          | No       | string, max:192             |
+| Name | Required | Rules           |
+| :--: | :------: | :-------------- |
+| as   | No       | string, max:192 |
 
 ## Response
 
@@ -43,5 +41,5 @@ POST /animeresource
 ## Example
 
 ```bash
-curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/animeresource/
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/animeresource/bakemonogatari/1083
 ```

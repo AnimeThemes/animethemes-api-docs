@@ -6,7 +6,7 @@ title: Playlist Destroy
 
 The playlist destroy endpoint soft deletes a playlist and returns the deleted playlist resource.
 
-For example, the `/playlist/1` endpoint will soft delete the playlist of id `1` and return the deleted playlist resource.
+For example, the `/playlist/N4hG` endpoint will soft delete the playlist of id N4hG and return the deleted playlist resource.
 
 ## URL
 
@@ -29,7 +29,7 @@ None
 ```json
 {
     playlist: {
-        id: id,
+        id: "id",
         name: "name",
         visibility: "visibility",
         created_at: "created_at",
@@ -45,5 +45,5 @@ None
 ## Example
 
 ```bash
-curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlist/1
+curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlist/N4hG
 ```

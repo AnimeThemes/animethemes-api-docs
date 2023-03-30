@@ -6,12 +6,12 @@ title: Artist Member Store
 
 The artist member store endpoint creates a new artist member and returns the new artist member resource.
 
-For example, the `/artistmember?artist_id=410&member_id=191` endpoint will create a new association between the μ's group and the Pile member.
+For example, the `/artistmember/ms/pile` endpoint will create a new association between the μ's group and the Pile member.
 
 ## URL
 
 ```sh
-POST /artistmember
+POST /artistmember/{artist:slug}/{artist:slug}
 ```
 
 ## Authentication
@@ -22,11 +22,9 @@ POST /artistmember
 
 ## Parameters
 
-| Name      | Required | Rules                     |
-| :-------: | :------: | :------------------------ |
-| artist_id | Yes      | integer, Artist ID exists |
-| member_id | Yes      | integer, Artist ID exists |
-| as        | No       | string, max:192           |
+| Name | Required | Rules           |
+| :--: | :------: | :-------------- |
+| as   | No       | string, max:192 |
 
 ## Response
 
@@ -43,5 +41,5 @@ POST /artistmember
 ## Example
 
 ```bash
-curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/artistmember/
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/artistmember/ms/pile
 ```

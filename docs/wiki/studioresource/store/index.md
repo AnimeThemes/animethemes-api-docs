@@ -6,12 +6,12 @@ title: Studio Resource Store
 
 The studio resource store endpoint creates a new studio resource and returns the new studio resource resource.
 
-For example, the `/studioresource?studio_id=11&resource_id=14891` endpoint will create a new association between the Shaft studio and the external resource of id 14891.
+For example, the `/studioresource/shaft/14891` endpoint will create a new association between the Shaft studio and the external resource of id 14891.
 
 ## URL
 
 ```sh
-POST /studioresource
+POST /studioresource/{studio:slug}/{resource:id}
 ```
 
 ## Authentication
@@ -22,11 +22,9 @@ POST /studioresource
 
 ## Parameters
 
-| Name        | Required | Rules                       |
-| :---------: | :------: | :-------------------------- |
-| studio_id   | Yes      | integer, Studio ID exists   |
-| resource_id | Yes      | integer, Resource ID exists |
-| as          | No       | string, max:192             |
+| Name | Required | Rules           |
+| :--: | :------: | :-------------- |
+| as   | No       | string, max:192 |
 
 ## Response
 
@@ -43,5 +41,5 @@ POST /studioresource
 ## Example
 
 ```bash
-curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/studioresource/
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/studioresource/shaft/14891
 ```

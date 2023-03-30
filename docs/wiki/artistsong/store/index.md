@@ -6,12 +6,12 @@ title: Artist Song Store
 
 The artist song store endpoint creates a new artist song and returns the new artist song resource.
 
-For example, the `/artistsong?artist_id=53&song_id=3373` endpoint will create a new association between the Chiwa Saitou artist and the "staple stable" song.
+For example, the `/artistsong/chiwa_saitou/3373` endpoint will create a new association between the Chiwa Saitou artist and the "staple stable" song.
 
 ## URL
 
 ```sh
-POST /artistsong
+POST /artistsong/{artist:slug}/{song:id}
 ```
 
 ## Authentication
@@ -22,11 +22,9 @@ POST /artistsong
 
 ## Parameters
 
-| Name      | Required | Rules                     |
-| :-------: | :------: | :------------------------ |
-| artist_id | Yes      | integer, Artist ID exists |
-| song_id   | Yes      | integer, Song ID exists   |
-| as        | No       | string, max:192           |
+| Name | Required | Rules           |
+| :--: | :------: | :-------------- |
+| as   | No       | string, max:192 |
 
 ## Response
 
@@ -43,5 +41,5 @@ POST /artistsong
 ## Example
 
 ```bash
-curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/artistsong/
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/artistsong/chiwa_saitou/3373
 ```

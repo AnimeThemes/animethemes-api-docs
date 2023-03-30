@@ -65,7 +65,7 @@ GET /playlist/
 {
     playlists: [
         {
-            id: id,
+            id: "id",
             name: "name",
             visibility: "visibility",
             created_at: "created_at",

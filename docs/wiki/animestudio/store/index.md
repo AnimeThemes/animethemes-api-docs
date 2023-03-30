@@ -6,12 +6,12 @@ title: Anime Studio Store
 
 The anime studio store endpoint creates a new anime studio and returns the new anime studio resource.
 
-For example, the `/animestudio?anime_id=218&studio_id=11` endpoint will create a new association between the Bakemonogatari anime and the Shaft studio.
+For example, the `/animestudio/bakemonogatari/shaft` endpoint will create a new association between the Bakemonogatari anime and the Shaft studio.
 
 ## URL
 
 ```sh
-POST /animestudio
+POST /animestudio/{anime:slug}/{studio:slug}
 ```
 
 ## Authentication
@@ -22,10 +22,7 @@ POST /animestudio
 
 ## Parameters
 
-| Name      | Required | Rules                     |
-| :-------: | :------: | :------------------------ |
-| anime_id  | Yes      | integer, Anime ID exists  |
-| studio_id | Yes      | integer, Studio ID exists |
+None
 
 ## Response
 
@@ -41,5 +38,5 @@ POST /animestudio
 ## Example
 
 ```bash
-curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/animestudio/
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/animestudio/bakemonogatari/shaft
 ```

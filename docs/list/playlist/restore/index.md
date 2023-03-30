@@ -6,7 +6,7 @@ title: Playlist Restore
 
 The playlist restore endpoint restores a soft deleted playlist and returns the restored playlist resource.
 
-For example, the `/restore/playlist/1` endpoint will restore the soft deleted playlist of id `1` and return the restored playlist resource.
+For example, the `/restore/playlist/N4hG` endpoint will restore the soft deleted playlist of id N4hG and return the restored playlist resource.
 
 ## URL
 
@@ -29,7 +29,7 @@ None
 ```json
 {
     playlist: {
-        id: id,
+        id: "id",
         name: "name",
         visibility: "visibility",
         created_at: "created_at",
@@ -45,5 +45,5 @@ None
 ## Example
 
 ```bash
-curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/restore/playlist/1
+curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/restore/playlist/N4hG
 ```

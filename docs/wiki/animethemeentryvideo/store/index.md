@@ -6,12 +6,12 @@ title: Anime Theme Entry Video Store
 
 The anime theme entry video store endpoint creates a new anime theme entry video and returns the new anime theme entry video resource.
 
-For example, the `/animethemeentryvideo?entry_id=3814&video_id=2712` endpoint will create a new association between the Bakemonogatari OP1 anime theme entry and the Bakemonogatari-OP1.webm video.
+For example, the `/animethemeentryvideo/3814/Bakemonogatari-OP1.webm` endpoint will create a new association between the Bakemonogatari OP1 anime theme entry and the Bakemonogatari-OP1.webm video.
 
 ## URL
 
 ```sh
-POST /animethemeentryvideo
+POST /animethemeentryvideo/{animethemeentry:id}/{video:slug}
 ```
 
 ## Authentication
@@ -22,10 +22,7 @@ POST /animethemeentryvideo
 
 ## Parameters
 
-| Name     | Required | Rules                    |
-| :------: | :------: | :----------------------- |
-| entry_id | Yes      | integer, Entry ID exists |
-| video_id | Yes      | integer, Video ID exists |
+None
 
 ## Response
 
@@ -41,5 +38,5 @@ POST /animethemeentryvideo
 ## Example
 
 ```bash
-curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/animethemeentryvideo/
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/animethemeentryvideo/3814/Bakemonogatari-OP1.webm
 ```

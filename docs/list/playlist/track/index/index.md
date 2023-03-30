@@ -57,7 +57,7 @@ GET /playlist/{id}/track
 {
     tracks: [
         {
-            id: id,
+            id: "id",
             created_at: "created_at",
             updated_at: "updated_at",
             deleted_at: "deleted_at"
@@ -83,5 +83,5 @@ GET /playlist/{id}/track
 ## Example
 
 ```bash
-curl https://api.animethemes.moe/playlist/1/track
+curl https://api.animethemes.moe/playlist/N4hG/track
 ```

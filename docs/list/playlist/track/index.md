@@ -14,7 +14,7 @@ For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a trac
 
 |    Name    |  Type   | Nullable | Default | Description                                  |
 | :--------: | :-----: | :------: | :-----: | :------------------------------------------- |
-| id         | Integer | No       | Yes     | The primary key of the resource              |
+| id         | String  | No       | Yes     | The primary key of the resource              |
 | created_at | Date    | No       | No      | The date that the resource was created       |
 | updated_at | Date    | No       | No      | The date that the resource was last modified |
 | deleted_at | Date    | Yes      | No      | The date that the resource was deleted       |

@@ -6,7 +6,7 @@ title: Playlist Image Destroy
 
 The playlist image destroy endpoint deletes a playlist image and returns the deleted playlist image resource.
 
-For example, the `/playlistimage/1/1` endpoint will delete the association between the playlist of id 1 and the large cover image of id 1.
+For example, the `/playlistimage/N4hG/1` endpoint will delete the association between the playlist of id N4hG and the large cover image of id 1.
 
 ## URL
 
@@ -35,5 +35,5 @@ None
 ## Example
 
 ```bash
-curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlistimage/1/1
+curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlistimage/N4hG/1
 ```

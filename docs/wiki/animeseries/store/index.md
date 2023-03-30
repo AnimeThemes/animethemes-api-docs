@@ -6,12 +6,12 @@ title: Anime Series Store
 
 The anime series store endpoint creates a new anime series and returns the new anime series resource.
 
-For example, the `/animeseries?anime_id=218&series_id=116` endpoint will create a new association between the Bakemonogatari anime and the Monogatari series.
+For example, the `/animeseries/bakemonogatari/monogatari` endpoint will create a new association between the Bakemonogatari anime and the Monogatari series.
 
 ## URL
 
 ```sh
-POST /animeseries
+POST /animeseries/{anime:slug}/{series:slug}
 ```
 
 ## Authentication
@@ -22,10 +22,7 @@ POST /animeseries
 
 ## Parameters
 
-| Name      | Required | Rules                     |
-| :-------: | :------: | :------------------------ |
-| anime_id  | Yes      | integer, Anime ID exists  |
-| series_id | Yes      | integer, Series ID exists |
+None
 
 ## Response
 
@@ -41,5 +38,5 @@ POST /animeseries
 ## Example
 
 ```bash
-curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/animeseries/
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/animeseries/bakemonogatari/monogatari
 ```

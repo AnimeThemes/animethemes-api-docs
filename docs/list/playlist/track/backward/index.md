@@ -20,12 +20,12 @@ GET /playlist/{playlist:id}/track/{track:id}/backward
 
 ## Parameters
 
-| Name         | Required | Description                                                                      |
-| :----------: | :------: | :------------------------------------------------------------------------------- |
-| fields       | No       | Sparse fieldsets for resource types                                              |
-| include      | No       | Inclusion of related resources                                                   |
-| page[number] | No       | The page of playlist resources to display                                        |
-| page[size]   | No       | The number of playlist resources to display for the current page                 |
+| Name         | Required | Description                                                      |
+| :----------: | :------: | :--------------------------------------------------------------- |
+| fields       | No       | Sparse fieldsets for resource types                              |
+| include      | No       | Inclusion of related resources                                   |
+| page[number] | No       | The page of playlist resources to display                        |
+| page[size]   | No       | The number of playlist resources to display for the current page |
 
 ## Allowed Include Paths
 
@@ -40,7 +40,7 @@ GET /playlist/{playlist:id}/track/{track:id}/backward
 {
     tracks: [
         {
-            id: id,
+            id: "id",
             created_at: "created_at",
             updated_at: "updated_at",
             deleted_at: "deleted_at"
@@ -66,5 +66,5 @@ GET /playlist/{playlist:id}/track/{track:id}/backward
 ## Example
 
 ```bash
-curl https://api.animethemes.moe/playlist/1/track/1/backward
+curl https://api.animethemes.moe/playlist/N4hG/track/Q3hD/backward
 ```

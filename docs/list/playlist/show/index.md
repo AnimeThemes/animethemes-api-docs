@@ -32,7 +32,7 @@ GET /playlist/{id}
 ```json
 {
     playlist: {
-        id: id,
+        id: "id",
         name: "name",
         visibility: "visibility",
         created_at: "created_at",
@@ -48,5 +48,5 @@ GET /playlist/{id}
 ## Example
 
 ```bash
-curl https://api.animethemes.moe/playlist/1
+curl https://api.animethemes.moe/playlist/N4hG
 ```

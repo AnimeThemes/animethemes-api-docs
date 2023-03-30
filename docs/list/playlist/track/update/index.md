@@ -6,11 +6,11 @@ title: Playlist Track Update
 
 The playlist track update endpoint updates a playlist track and returns the updated playlist track resource.
 
-For example, the `/playlist/1/track/1?next_id=2` endpoint will update the playlist track of id `1` next_id attribute and return the updated playlist track resource.
+For example, the `/playlist/N4hG/track/Q3hD?next_id=2` endpoint will update the playlist track of id Q3hD next_id attribute and return the updated playlist track resource.
 
-If next_id is set, the track will be moved before the next track in the playlist.
+If `next` is set, the track will be moved before the next track in the playlist.
 
-If previous_id is set, the track will be moved after the previous track in the playlist.
+If `previous` is set, the track will be moved after the previous track in the playlist.
 
 ## URL
 
@@ -26,18 +26,18 @@ PUT|PATCH /playlist/{id}/track/{id}
 
 ## Parameters
 
-| Name        | Required | Rules                                       |
-| :---------: | :------: | :------------------------------------------ |
-| next_id     | No       | Track ID exists & Track Playlist ID matches |
-| previous_id | No       | Track ID exists & Track Playlist ID matches |
-| video_id    | No       | Video ID Exists                             |
+| Name     | Required | Rules                                               |
+| :------: | :------: | :-------------------------------------------------- |
+| next     | No       | string, Track ID exists & Track Playlist ID matches |
+| previous | No       | string, Track ID exists & Track Playlist ID matches |
+| video_id | No       | Video ID Exists                                     |
 
 ## Response
 
 ```json
 {
     track: {
-        id: id,
+        id: "id",
         created_at: "created_at",
         updated_at: "updated_at",
         deleted_at: "deleted_at"
@@ -48,5 +48,5 @@ PUT|PATCH /playlist/{id}/track/{id}
 ## Example
 
 ```bash
-curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlist/1/track/1
+curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlist/N4hG/track/Q3hD
 ```

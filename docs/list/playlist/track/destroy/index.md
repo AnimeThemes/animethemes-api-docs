@@ -6,7 +6,7 @@ title: Playlist Track Destroy
 
 The playlist track destroy endpoint soft deletes a playlist track and returns the deleted playlist track resource.
 
-For example, the `/playlist/1/track/1` endpoint will soft delete the playlist track of id `1` and return the deleted playlist track resource.
+For example, the `/playlist/N4hG/track/Q3hD` endpoint will soft delete the playlist track of id Q3hD and return the deleted playlist track resource.
 
 The track will be dissociated from the list of tracks within the playlist.
 
@@ -31,7 +31,7 @@ None
 ```json
 {
     track: {
-        id: id,
+        id: "id",
         created_at: "created_at",
         updated_at: "updated_at",
         deleted_at: "deleted_at"
@@ -42,5 +42,5 @@ None
 ## Example
 
 ```bash
-curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlist/1/track/1
+curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlist/N4hG/track/Q3hD
 ```

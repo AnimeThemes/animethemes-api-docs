@@ -6,7 +6,7 @@ title: Playlist Update
 
 The playlist update endpoint updates a playlist and returns the updated playlist resource.
 
-For example, the `/playlist/1?visibility=public` endpoint will update the playlist of id `1` visibility attribute and return the updated playlist resource.
+For example, the `/playlist/N4hG?visibility=public` endpoint will update the playlist of id N4hG visibility attribute and return the updated playlist resource.
 
 ## URL
 
@@ -24,17 +24,17 @@ PUT|PATCH /playlist/{id}
 
 ## Parameters
 
-| Name       | Required | Rules                                       |
-| :--------: | :------: | :------------------------------------------ |
-| name       | No       | string, max:192                             |
-| visibility | No       | EnumValue [Public, Private, Unlisted]       |
+| Name       | Required | Rules                                 |
+| :--------: | :------: | :------------------------------------ |
+| name       | No       | string, max:192                       |
+| visibility | No       | EnumValue [Public, Private, Unlisted] |
 
 ## Response
 
 ```json
 {
     playlist: {
-        id: id,
+        id: "id",
         name: "name",
         visibility: "visibility",
         created_at: "created_at",
@@ -50,5 +50,5 @@ PUT|PATCH /playlist/{id}
 ## Example
 
 ```bash
-curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlist/1
+curl -X PATCH -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlist/N4hG
 ```

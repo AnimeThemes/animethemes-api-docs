@@ -6,12 +6,12 @@ title: Anime Image Store
 
 The anime image store endpoint creates a new anime image and returns the new anime image resource.
 
-For example, the `/animeimage?anime_id=218&image_id=435` endpoint will create a new association between the Bakemonogatari anime and the large cover image of id 435.
+For example, the `/animeimage/bakemonogatari/435` endpoint will create a new association between the Bakemonogatari anime and the large cover image of id 435.
 
 ## URL
 
 ```sh
-POST /animeimage
+POST /animeimage/{anime:slug}/{image:id}
 ```
 
 ## Authentication
@@ -22,10 +22,7 @@ POST /animeimage
 
 ## Parameters
 
-| Name     | Required | Rules                    |
-| :------: | :------: | :----------------------- |
-| anime_id | Yes      | integer, Anime ID exists |
-| image_id | Yes      | integer, Image ID exists |
+None
 
 ## Response
 
@@ -41,5 +38,5 @@ POST /animeimage
 ## Example
 
 ```bash
-curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/animeimage/
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/animeimage/bakemonogatari/435
 ```

@@ -6,12 +6,12 @@ title: Playlist Image Store
 
 The playlist image store endpoint creates a new playlist image and returns the new playlist image resource.
 
-For example, the `/playlistimage?playlist_id=1&image_id=1` endpoint will create a new association between the playlist of id 1 and the large cover image of id 1.
+For example, the `/playlistimage/N4hG/1` endpoint will create a new association between the playlist of id N4hG and the large cover image of id 1.
 
 ## URL
 
 ```sh
-POST /playlistimage
+POST /playlistimage/{playlist:id}/{image:id}
 ```
 
 ## Authentication
@@ -20,10 +20,7 @@ POST /playlistimage
 
 ## Parameters
 
-| Name        | Required | Rules                       |
-| :---------: | :------: | :-------------------------- |
-| playlist_id | Yes      | integer, Playlist ID exists |
-| image_id    | Yes      | integer, Image ID exists    |
+None
 
 ## Response
 
@@ -39,5 +36,5 @@ POST /playlistimage
 ## Example
 
 ```bash
-curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlistimage/
+curl -X POST -H "Authorization: Bearer {token}" https://api.animethemes.moe/playlistimage/N4hG/1
 ```

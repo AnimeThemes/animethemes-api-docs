@@ -6,7 +6,7 @@ title: Playlist Force Delete
 
 The playlist force delete endpoint hard deletes a playlist and returns a confirmation message.
 
-For example, the `/forceDelete/playlist/1` endpoint will hard delete the playlist of id `1` and return a confirmation message.
+For example, the `/forceDelete/playlist/N4hG` endpoint will hard delete the playlist of id N4hG and return a confirmation message.
 
 ## URL
 
@@ -35,5 +35,5 @@ None
 ## Example
 
 ```bash
-curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/forceDelete/playlist/1
+curl -X DELETE -H "Authorization: Bearer {token}" https://api.animethemes.moe/forceDelete/playlist/N4hG
 ```

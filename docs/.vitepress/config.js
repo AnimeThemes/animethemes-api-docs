@@ -19,7 +19,7 @@ export default {
             dark: '/logo-dark.svg',
             alt: 'Logo'
         },
-        siteTitle: 'AnimeThemes API Documentation',
+        siteTitle: 'AnimeThemes',
         socialLinks: [
             { icon: 'discord', link: 'https://discordapp.com/invite/m9zbVyQ' },
             { icon: 'github', link: 'https://github.com/AnimeThemes' },
@@ -28,6 +28,9 @@ export default {
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © AnimeThemes'
+        },
+        search: {
+            provider: 'local'
         },
         nav: [
             {

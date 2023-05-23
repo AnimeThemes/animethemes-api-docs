@@ -48,7 +48,9 @@ export default {
                 items: [
                     { text: 'Index', link: '/admin/' },
                     { text: 'Announcement', link: '/admin/announcement/' },
-                    { text: 'Dump', link: '/admin/dump/' }
+                    { text: 'Dump', link: '/admin/dump/' },
+                    { text: 'Feature', link: '/admin/feature/' },
+                    { text: 'Featured Theme', link: '/admin/featuredtheme/' }
                 ],
             },
             {
@@ -73,7 +75,6 @@ export default {
                 text: 'Config',
                 items: [
                     { text: 'Index', link: '/config/' },
-                    { text: 'Flags', link: '/config/flags/' },
                     { text: 'Wiki', link: '/config/wiki/' }
                 ]
             },
@@ -160,6 +161,31 @@ export default {
                         { text: 'Store', link: '/admin/dump/store/' },
                         { text: 'Update', link: '/admin/dump/update/' }
                     ]
+                },
+                {
+                    text: 'Feature',
+                    collapsed: true,
+                    items: [
+                        { text: 'Resource', link: '/admin/feature/' },
+                        { text: 'Index', link: '/admin/feature/index/' },
+                        { text: 'Show', link: '/admin/feature/show/' },
+                        { text: 'Update', link: '/admin/feature/update/' }
+                    ]
+                },
+                {
+                    text: 'Featured Theme',
+                    collapsed: true,
+                    items: [
+                        { text: 'Resource', link: '/admin/featuredtheme/' },
+                        { text: 'Current', link: '/admin/featuredtheme/current/' },
+                        { text: 'Destroy', link: '/admin/featuredtheme/destroy/' },
+                        { text: 'Force Delete', link: '/admin/featuredtheme/forceDelete/' },
+                        { text: 'Index', link: '/admin/featuredtheme/index/' },
+                        { text: 'Restore', link: '/admin/featuredtheme/restore/' },
+                        { text: 'Show', link: '/admin/featuredtheme/show/' },
+                        { text: 'Store', link: '/admin/featuredtheme/store/' },
+                        { text: 'Update', link: '/admin/featuredtheme/update/' }
+                    ]
                 }
             ],
             '/auth/': [
@@ -225,14 +251,6 @@ export default {
                 }
             ],
             '/config/': [
-                {
-                    text: 'Feature Flags',
-                    collapsed: true,
-                    items: [
-                        { text: 'Resource', link: '/config/flags/' },
-                        { text: 'Show', link: '/config/flags/show/' }
-                    ]
-                },
                 {
                     text: 'Wiki Config',
                     collapsed: true,

@@ -39,6 +39,10 @@ For example, Bakemonogatari is an anime production with five opening sequences a
 * series
 * studios
 
+## Allowed Pivots
+
+* animeresource
+
 ## Endpoints
 
 **[Anime Destroy](/wiki/anime/destroy/)**

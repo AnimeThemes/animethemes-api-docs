@@ -27,6 +27,10 @@ For example, Shaft is the studio that produced the anime Bakemonogatari.
 * images
 * resources
 
+## Allowed Pivots
+
+* studioresource
+
 ## Endpoints
 
 **[Studio Destroy](/wiki/studio/destroy/)**

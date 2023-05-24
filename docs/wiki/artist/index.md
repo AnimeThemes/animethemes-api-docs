@@ -17,7 +17,6 @@ For example, Chiwa Saitou is the musical performer of the Bakemonogatari OP1 the
 | id         | Integer | No       | Yes     | The primary key of the resource                                |
 | name       | String  | No       | Yes     | The primary title of the artist                                |
 | slug       | String  | No       | Yes     | The URL slug & route key of the resource                       |
-| as         | String  | No       | Yes     | Used to distinguish a performance by alias, character or group |
 | created_at | Date    | No       | No      | The date that the resource was created                         |
 | updated_at | Date    | No       | No      | The date that the resource was last modified                   |
 | deleted_at | Date    | Yes      | No      | The date that the resource was deleted                         |
@@ -31,6 +30,12 @@ For example, Chiwa Saitou is the musical performer of the Bakemonogatari OP1 the
 * songs
 * songs.animethemes
 * songs.animethemes.anime
+
+## Allowed Pivots
+
+* artistmember
+* artistresource
+* artistsong
 
 ## Endpoints
 

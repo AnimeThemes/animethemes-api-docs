@@ -12,20 +12,23 @@ For example, Staple Stable is the song for the Bakemonogatari OP1 AnimeTheme.
 
 ## Fields
 
-|    Name    |  Type   | Nullable | Default | Description                                                    |
-| :--------: | :-----: | :------: | :-----: | :------------------------------------------------------------- |
-| id         | Integer | No       | Yes     | The primary key of the resource                                |
-| title      | String  | Yes      | Yes     | The name of the composition                                    |
-| as         | String  | Yes      | Yes     | Used to distinguish a performance by alias, character or group |
-| created_at | Date    | No       | No      | The date that the resource was created                         |
-| updated_at | Date    | No       | No      | The date that the resource was last modified                   |
-| deleted_at | Date    | Yes      | No      | The date that the resource was deleted                         |
+|    Name    |  Type   | Nullable | Default | Description                                  |
+| :--------: | :-----: | :------: | :-----: | :------------------------------------------- |
+| id         | Integer | No       | Yes     | The primary key of the resource              |
+| title      | String  | Yes      | Yes     | The name of the composition                  |
+| created_at | Date    | No       | No      | The date that the resource was created       |
+| updated_at | Date    | No       | No      | The date that the resource was last modified |
+| deleted_at | Date    | Yes      | No      | The date that the resource was deleted       |
 
 ## Allowed Include Paths
 
 * animethemes
 * animethemes.anime
 * artists
+
+## Allowed Pivots
+
+* artistsong
 
 ## Endpoints
 

@@ -36,6 +36,7 @@ None
         slug: "slug",
         year: year,
         season: "season",
+        media_format: "media_format",
         synopsis: "synopsis",
         created_at: "created_at",
         updated_at: "updated_at",

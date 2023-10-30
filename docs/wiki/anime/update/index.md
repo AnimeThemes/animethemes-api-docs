@@ -24,13 +24,14 @@ PUT|PATCH /anime/{slug}
 
 ## Parameters
 
-| Name     | Required | Rules                                                  |
-| :------: | :------: | :----------------------------------------------------- |
-| name     | No       | string, max:192                                        |
-| season   | No       | EnumValue [Winter, Spring, Summer, Fall]               |
-| slug     | No       | string, max:192, alpha_dash, unique                    |
-| synopsis | No       | string, max:65535                                      |
-| year     | No       | integer, digits:4, min:1960, max:[current year + 1]    |
+| Name         | Required | Rules                                                       |
+| :----------: | :------: | :---------------------------------------------------------- |
+| name         | No       | string, max:192                                             |
+| season       | No       | EnumValue [Winter, Spring, Summer, Fall]                    |
+| media_format | No       | EnumValue [Unknown, TV, TV Short, OVA, Movie, Special, ONA] |
+| slug         | No       | string, max:192, alpha_dash, unique                         |
+| synopsis     | No       | string, max:65535                                           |
+| year         | No       | integer, digits:4, min:1960, max:[current year + 1]         |
 
 ## Response
 
@@ -42,6 +43,7 @@ PUT|PATCH /anime/{slug}
         slug: "slug",
         year: year,
         season: "season",
+        media_format: "media_format",
         synopsis: "synopsis",
         created_at: "created_at",
         updated_at: "updated_at",

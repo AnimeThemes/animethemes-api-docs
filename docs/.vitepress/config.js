@@ -124,6 +124,7 @@ export default {
                     { text: 'Resource', link: '/wiki/resource/' },
                     { text: 'Series', link: '/wiki/series/' },
                     { text: 'Song', link: '/wiki/song/' },
+                    { text: 'Song Resource', link: '/wiki/songresource/' },
                     { text: 'Studio', link: '/wiki/studio/' },
                     { text: 'Studio Image', link: '/wiki/studioimage/' },
                     { text: 'Studio Resource', link: '/wiki/studioresource/' },
@@ -577,6 +578,18 @@ export default {
                         { text: 'Show', link: '/wiki/song/show/' },
                         { text: 'Store', link: '/wiki/song/store/' },
                         { text: 'Update', link: '/wiki/song/update/' }
+                    ]
+                },
+                {
+                    text: 'Song Resource',
+                    collapsed: true,
+                    items: [
+                        { text: 'Resource', link: '/wiki/songresource/' },
+                        { text: 'Destroy', link: '/wiki/songresource/destroy/' },
+                        { text: 'Index', link: '/wiki/songresource/index/' },
+                        { text: 'Show', link: '/wiki/songresource/show/' },
+                        { text: 'Store', link: '/wiki/songresource/store/' },
+                        { text: 'Update', link: '/wiki/songresource/update/' }
                     ]
                 },
                 {

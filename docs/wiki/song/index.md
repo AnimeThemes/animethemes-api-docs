@@ -30,6 +30,7 @@ For example, Staple Stable is the song for the Bakemonogatari OP1 AnimeTheme.
 ## Allowed Pivots
 
 * artistsong
+* songresource
 
 ## Endpoints
 

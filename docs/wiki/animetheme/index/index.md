@@ -44,11 +44,12 @@ None
 
 ## Allowed Relation Sort Fields
 
-|     Name     | Description                                                            |
-| :----------: | :--------------------------------------------------------------------- |
-| anime.season | Sort resources on the season of the anime that the resource belongs to | 
-| anime.year   | Sort resources on the year of the anime that the resource belongs to   |
-| song.title   | Sort resources on the title of the song that the resource belongs to   |
+|     Name           | Description                                                                  |
+| :----------------: | :--------------------------------------------------------------------------- |
+| anime.season       | Sort resources on the season of the anime that the resource belongs to       |
+| anime.media_format | Sort resources on the media_format of the anime that the resource belongs to |
+| anime.year         | Sort resources on the year of the anime that the resource belongs to         |
+| song.title         | Sort resources on the title of the song that the resource belongs to         |
 
 ## Filters
 

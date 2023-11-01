@@ -86,7 +86,7 @@ A series API resource represents a collection of related anime.
 
 A song API resource represents the composition that accompanies an AnimeTheme.
 
-**[Song Resource](/wiki/songresource)**
+**[Song Resource](/wiki/songresource/)**
 
 An song resource API resource represents the association between an song and an external resource.
 

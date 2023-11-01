@@ -17,7 +17,7 @@ For example, the Bakemonogatari anime has MyAnimeList, AniList and AniDB resourc
 | id          | Integer | No       | Yes     | The primary key of the resource                                    |
 | link        | String  | Yes      | Yes     | The URL of the external site                                       |
 | external_id | Integer | Yes      | Yes     | The primary key of the resource in the external site               |
-| site        | Enum    | Yes      | Yes     | The external site that the resource belongs to [Official Website, Twitter, AniDB, Anilist, Anime-Planet, Anime News Network, Kitsu, MyAnimeList, Wikipedia] |
+| site        | Enum    | Yes      | Yes     | The external site that the resource belongs to [Official Website, Twitter, AniDB, Anilist, Anime-Planet, Anime News Network, Kitsu, MyAnimeList, Wikipedia, Spotify, YouTube Music, YouTube, Apple Music, Amazon Music ] |
 | created_at  | Date    | No       | No      | The date that the resource was created                             |
 | updated_at  | Date    | No       | No      | The date that the resource was last modified                       |
 | deleted_at  | Date    | Yes      | No      | The date that the resource was deleted                             |
@@ -26,12 +26,14 @@ For example, the Bakemonogatari anime has MyAnimeList, AniList and AniDB resourc
 
 * anime
 * artists
+* song
 * studios
 
 ## Allowed Pivots
 
 * animeresource
 * artistresource
+* songresource
 * studioresource
 
 ## Endpoints

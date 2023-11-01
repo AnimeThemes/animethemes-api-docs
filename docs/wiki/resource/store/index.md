@@ -26,7 +26,7 @@ POST /resource
 | :---------: | :------: | :--------------------------------------------------------------------------------------------------------------------- |
 | link        | Yes      | max:192, url, link matches site                                                                                        |
 | external_id | No       | integer, min:0                                                                                                         |
-| site        | Yes      | EnumValue [Official Website, Twitter, AniDB, Anilist, Anime-Planet, Anime News Network, Kitsu, MyAnimeList, Wikipedia] |
+| site        | Yes      | EnumValue [Official Website, Twitter, AniDB, Anilist, Anime-Planet, Anime News Network, Kitsu, MyAnimeList, Wikipedia, Spotify, YouTube Music, YouTube, Apple Music, Amazon Music ] |
 
 ## Response
 

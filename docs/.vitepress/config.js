@@ -64,14 +64,6 @@ export default {
                 ],
             },
             {
-                text: 'Billing',
-                items: [
-                    { text: 'Index', link: '/billing/' },
-                    { text: 'Balance', link: '/billing/balance/' },
-                    { text: 'Transaction', link: '/billing/transaction/' }
-                ]
-            },
-            {
                 text: 'Config',
                 items: [
                     { text: 'Index', link: '/config/' },
@@ -218,36 +210,6 @@ export default {
                     collapsed: true,
                     items: [
                         { text: 'Resource', link: '/auth/user/' }
-                    ]
-                }
-            ],
-            '/billing/': [
-                {
-                    text: 'Balance',
-                    collapsed: true,
-                    items: [
-                        { text: 'Resource', link: '/billing/balance/' },
-                        { text: 'Destroy', link: '/billing/balance/destroy/' },
-                        { text: 'Force Delete', link: '/billing/balance/forceDelete/' },
-                        { text: 'Index', link: '/billing/balance/index/' },
-                        { text: 'Restore', link: '/billing/balance/restore/' },
-                        { text: 'Show', link: '/billing/balance/show/' },
-                        { text: 'Store', link: '/billing/balance/store/' },
-                        { text: 'Update', link: '/billing/balance/update/' }
-                    ]
-                },
-                {
-                    text: 'Transaction',
-                    collapsed: true,
-                    items: [
-                        { text: 'Resource', link: '/billing/transaction/' },
-                        { text: 'Destroy', link: '/billing/transaction/destroy/' },
-                        { text: 'Force Delete', link: '/billing/transaction/forceDelete/' },
-                        { text: 'Index', link: '/billing/transaction/index/' },
-                        { text: 'Restore', link: '/billing/transaction/restore/' },
-                        { text: 'Show', link: '/billing/transaction/show/' },
-                        { text: 'Store', link: '/billing/transaction/store/' },
-                        { text: 'Update', link: '/billing/transaction/update/' }
                     ]
                 }
             ],

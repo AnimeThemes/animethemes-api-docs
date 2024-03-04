@@ -64,13 +64,6 @@ export default {
                 ],
             },
             {
-                text: 'Config',
-                items: [
-                    { text: 'Index', link: '/config/' },
-                    { text: 'Wiki', link: '/config/wiki/' }
-                ]
-            },
-            {
                 text: 'Document',
                 items: [
                     { text: 'Index', link: '/document/' },
@@ -210,16 +203,6 @@ export default {
                     collapsed: true,
                     items: [
                         { text: 'Resource', link: '/auth/user/' }
-                    ]
-                }
-            ],
-            '/config/': [
-                {
-                    text: 'Wiki Config',
-                    collapsed: true,
-                    items: [
-                        { text: 'Resource', link: '/config/wiki/' },
-                        { text: 'Show', link: '/config/wiki/show/' }
                     ]
                 }
             ],

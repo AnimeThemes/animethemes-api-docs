@@ -19,7 +19,7 @@ For example, Bakemonogatari is an anime production with five opening sequences a
 | slug         | String  | No       | The URL slug & route key of the resource                                        |
 | year         | Integer | Yes      | The premiere year of the anime                                                  |
 | season       | Enum    | Yes      | The premiere season of the anime [Winter, Spring, Summer, Fall]                 |
-| media_format | Enum    | Yes      | The media format of the anime [Unknown, TV, TV Short, OVA, Movie, Special, ONA] |
+| media_format | Enum    | No       | The media format of the anime [Unknown, TV, TV Short, OVA, Movie, Special, ONA] |
 | synopsis     | String  | Yes      | The brief summary of the anime                                                  |
 | created_at   | Date    | No       | The date that the resource was created                                          |
 | updated_at   | Date    | No       | The date that the resource was last modified                                    |

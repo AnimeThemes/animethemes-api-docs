@@ -1,6 +1,6 @@
 {
   "name": "animethemes-api-docs",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "AnimeThemes.moe API Documentation",
   "main": "index.js",
   "authors": {
@@ -11,12 +11,11 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:preview": "vitepress preview docs"
   },
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.0.2",
-    "vitepress": "^1.0.0-alpha.15",
-    "vue": "^3.2.39"
+    "dotenv": "^16.1.4",
+    "vitepress": "^1.0.0-beta.2"
   }
 }

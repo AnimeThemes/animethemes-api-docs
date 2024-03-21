@@ -4,7 +4,7 @@ title: Global Search
 
 # Global Search Endpoint
 
-The global search endpoint returns a listing of wiki resources that match a given search term.
+The global search endpoint returns a listing of resources that match a given search term.
 
 ## URL
 
@@ -39,6 +39,7 @@ None
                 slug: "slug",
                 year: year,
                 season: "season", 
+                media_format: "media_format",
                 synopsis: "synopsis",
                 created_at: "created_at",
                 updated_at: "updated_at",
@@ -62,6 +63,16 @@ None
                 id: id,
                 name: "name",
                 slug: "slug",
+                created_at: "created_at",
+                updated_at: "updated_at",
+                deleted_at: "deleted_at"
+            }
+        ],
+        playlists: [
+            {
+                id: id,
+                name: "name",
+                visibility: "visibility",
                 created_at: "created_at",
                 updated_at: "updated_at",
                 deleted_at: "deleted_at"

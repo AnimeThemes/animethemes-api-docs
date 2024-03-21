@@ -18,7 +18,7 @@ Follow the Installation Guide in the README to ensure a functional local instanc
 
 Set this repository as upstream to the forked repository.
 
-`git remote add upstream https://github.com/AnimeThemes/animethemes-api-docs.git`
+`git remote add upstream git@github.com:AnimeThemes/animethemes-api-docs.git`
 
 Pull upstream changes so that the local main branch is even with the upstream main branch.
 

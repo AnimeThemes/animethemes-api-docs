@@ -105,7 +105,7 @@ export default {
                     { text: 'Artist Resource', link: '/wiki/artistresource/' },
                     { text: 'Artist Song', link: '/wiki/artistsong/' },
                     { text: 'Audio', link: '/wiki/audio/' },
-                    { text: 'Group', link: '/wiki/group/ '},
+                    { text: 'Group', link: '/wiki/group/' },
                     { text: 'Image', link: '/wiki/image/' },
                     { text: 'Resource', link: '/wiki/resource/' },
                     { text: 'Series', link: '/wiki/series/' },

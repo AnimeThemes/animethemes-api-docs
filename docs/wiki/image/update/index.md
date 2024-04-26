@@ -18,7 +18,7 @@ PUT|PATCH /image/{id}
 
 **Required Permission**: update image
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Image must not be soft deleted
 

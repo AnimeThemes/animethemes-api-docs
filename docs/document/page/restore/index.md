@@ -18,7 +18,7 @@ PATCH /restore/page/{slug}
 
 **Required Permission**: restore page
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Page must be soft deleted
 

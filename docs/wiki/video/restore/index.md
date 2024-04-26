@@ -18,7 +18,7 @@ PATCH /restore/video/{basename}
 
 **Required Permission**: restore video
 
-**Roles with Permission**: Admin
+**Roles with Permission**: Encoder, Admin
 
 **Other Requirements**: Video must be soft deleted
 

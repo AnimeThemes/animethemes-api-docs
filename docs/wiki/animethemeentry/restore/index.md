@@ -18,7 +18,7 @@ PATCH /restore/animethemeentry/{id}
 
 **Required Permission**: restore anime theme entry
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Entry must be soft deleted
 

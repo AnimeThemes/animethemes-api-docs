@@ -18,7 +18,7 @@ PUT|PATCH /artist/{slug}
 
 **Required Permission**: update artist
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Artist must not be soft deleted
 

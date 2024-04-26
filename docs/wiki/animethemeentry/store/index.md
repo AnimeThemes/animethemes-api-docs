@@ -18,7 +18,7 @@ POST /animethemeentry
 
 **Required Permission**: create anime theme entry
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

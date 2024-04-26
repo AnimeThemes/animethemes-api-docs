@@ -18,7 +18,7 @@ DELETE /anime/{slug}
 
 **Required Permission**: delete anime
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Anime must not be soft deleted
 

@@ -18,7 +18,7 @@ DELETE /series/{slug}
 
 **Required Permission**: delete series
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Series must not be soft deleted
 

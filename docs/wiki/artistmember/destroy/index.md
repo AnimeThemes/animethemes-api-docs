@@ -18,7 +18,7 @@ DELETE /artistmember/{artist:slug}/{artist:slug}
 
 **Required Permission**: delete artist
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

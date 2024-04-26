@@ -18,7 +18,7 @@ DELETE /songresource/{song:id}/{resource:id}
 
 **Required Permission**: delete song, delete external resource
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

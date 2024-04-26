@@ -105,6 +105,7 @@ export default {
                     { text: 'Artist Resource', link: '/wiki/artistresource/' },
                     { text: 'Artist Song', link: '/wiki/artistsong/' },
                     { text: 'Audio', link: '/wiki/audio/' },
+                    { text: 'Group', link: '/wiki/group/ '},
                     { text: 'Image', link: '/wiki/image/' },
                     { text: 'Resource', link: '/wiki/resource/' },
                     { text: 'Series', link: '/wiki/series/' },
@@ -467,6 +468,20 @@ export default {
                         { text: 'Show', link: '/wiki/audio/show/' },
                         { text: 'Store', link: '/wiki/audio/store/' },
                         { text: 'Update', link: '/wiki/audio/update/' }
+                    ]
+                },
+                {
+                    text: 'Group',
+                    collapsed: true,
+                    items: [
+                        { text: 'Resource', link: '/wiki/group/' },
+                        { text: 'Destroy', link: '/wiki/group/destroy/' },
+                        { text: 'Force Delete', link: '/wiki/group/forceDelete/' },
+                        { text: 'Index', link: '/wiki/group/index/' },
+                        { text: 'Restore', link: '/wiki/group/restore/' },
+                        { text: 'Show', link: '/wiki/group/show/' },
+                        { text: 'Store', link: '/wiki/group/store/' },
+                        { text: 'Update', link: '/wiki/group/update/' }
                     ]
                 },
                 {

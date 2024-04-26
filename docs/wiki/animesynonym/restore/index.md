@@ -18,7 +18,7 @@ PATCH /restore/animesynonym/{id}
 
 **Required Permission**: restore anime synonym
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Synonym must be soft deleted
 

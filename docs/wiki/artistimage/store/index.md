@@ -18,7 +18,7 @@ POST /artistimage/{artist:slug}/{image:id}
 
 **Required Permission**: create artist, create image
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

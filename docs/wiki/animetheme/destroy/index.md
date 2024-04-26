@@ -18,7 +18,7 @@ DELETE /animetheme/{id}
 
 **Required Permission**: delete anime theme
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Anime theme must not be soft deleted
 
@@ -34,7 +34,6 @@ None
         id: id,
         type: "type",
         sequence: sequence,
-        group: "group",
         slug: "slug",
         created_at: "created_at",
         updated_at: "updated_at",

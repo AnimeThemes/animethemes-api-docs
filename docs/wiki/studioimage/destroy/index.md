@@ -18,7 +18,7 @@ DELETE /studioimage/{studio:slug}/{image:id}
 
 **Required Permission**: delete studio, delete image
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

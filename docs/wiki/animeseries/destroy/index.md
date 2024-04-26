@@ -18,7 +18,7 @@ DELETE /animeseries/{anime:slug}/{series:slug}
 
 **Required Permission**: delete anime, delete series
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

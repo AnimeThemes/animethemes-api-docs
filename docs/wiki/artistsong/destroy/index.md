@@ -18,7 +18,7 @@ DELETE /artistsong/{artist:slug}/{song:id}
 
 **Required Permission**: delete artist, delete song
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

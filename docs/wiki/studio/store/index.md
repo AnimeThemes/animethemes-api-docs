@@ -18,7 +18,7 @@ POST /studio
 
 **Required Permission**: create studio
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

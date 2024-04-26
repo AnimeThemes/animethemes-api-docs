@@ -18,7 +18,7 @@ PUT|PATCH /video/{basename}
 
 **Required Permission**: update video
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Video must not be soft deleted
 

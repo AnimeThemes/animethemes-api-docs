@@ -18,7 +18,7 @@ DELETE /artistimage/{artist:slug}/{image:id}
 
 **Required Permission**: delete artist, delete image
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

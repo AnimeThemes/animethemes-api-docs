@@ -18,7 +18,7 @@ PUT|PATCH /audio/{basename}
 
 **Required Permission**: update audio
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Audio must not be soft deleted
 

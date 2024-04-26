@@ -18,7 +18,7 @@ PUT|PATCH /songresource/{song:id}/{resource:id}
 
 **Required Permission**: update song, update external resource
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

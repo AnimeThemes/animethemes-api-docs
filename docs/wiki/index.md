@@ -70,6 +70,10 @@ An artist song API resource represents the association between an artist and a s
 
 An audio API resource represents the audio track of a video.
 
+**[Group](/wiki/group/)**
+
+A group API resource represents the group that accompanies an AnimeTheme.
+
 **[Image](/wiki/image/)**
 
 An image API resource represents a visual component for another resource such as an anime or artist.

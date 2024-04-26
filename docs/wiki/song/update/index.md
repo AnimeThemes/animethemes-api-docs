@@ -6,7 +6,7 @@ title: Song Update
 
 The song update endpoint updates a song and returns the updated song resource.
 
-For example, the `/song/song?title=staple+stable` endpoint will update the "staple stable" song title attribute and return the updated "staple stable" resource.
+For example, the `/song/3373?title=staple+stable` endpoint will update the "staple stable" song title attribute and return the updated "staple stable" resource.
 
 ## URL
 
@@ -18,7 +18,7 @@ PUT|PATCH /song/{id}
 
 **Required Permission**: update song
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Song must not be soft deleted
 

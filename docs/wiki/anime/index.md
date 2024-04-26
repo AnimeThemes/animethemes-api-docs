@@ -33,6 +33,7 @@ For example, Bakemonogatari is an anime production with five opening sequences a
 * animethemes.animethemeentries.videos
 * animethemes.animethemeentries.videos.audio
 * animethemes.animethemeentries.videos.videoscript
+* animethemes.group
 * animethemes.song
 * animethemes.song.artists
 * images

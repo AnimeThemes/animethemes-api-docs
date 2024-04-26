@@ -18,7 +18,7 @@ PUT|PATCH /resource/{id}
 
 **Required Permission**: update external resource
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Resource must not be soft deleted
 

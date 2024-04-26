@@ -35,7 +35,6 @@ None
 | id         | Sort resources on the primary key                                   |
 | type       | Sort resources on the type of the sequence                          |
 | sequence   | Sort resources on the numeric ordering                              |
-| group      | Sort resources on the distinguishing of themes to dubs, etc         |
 | slug       | Sort resources on the URL slug of the theme                         |
 | created_at | Sort resources on the resource creation date                        |
 | updated_at | Sort resources on the resource last modified date                   |
@@ -58,7 +57,6 @@ None
 | id         | Filter resources on the primary key                                |
 | type       | Filter resources on the type of the sequence                       |
 | sequence   | Filter resources on the numeric ordering                           |
-| group      | Filter resources on the distinguishing of themes to dubs, etc      |
 | slug       | Filter resources on the URL slug of the theme                      |
 | created_at | Filter resources on the resource creation date                     |
 | updated_at | Filter resources on the resource last modified date                |
@@ -75,7 +73,6 @@ None
             id: id,
             type: "type",
             sequence: sequence,
-            group: "group",
             slug: "slug",
             created_at: "created_at",
             updated_at: "updated_at",

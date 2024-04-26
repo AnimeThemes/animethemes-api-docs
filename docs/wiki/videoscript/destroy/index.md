@@ -18,7 +18,7 @@ DELETE /videoscript/{id}
 
 **Required Permission**: delete video script
 
-**Roles with Permission**: Admin
+**Roles with Permission**: Encoder, Admin
 
 **Other Requirements**: Video script must not be soft deleted
 

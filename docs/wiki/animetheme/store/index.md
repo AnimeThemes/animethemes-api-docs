@@ -18,7 +18,7 @@ POST /animetheme
 
 **Required Permission**: create anime theme
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 
@@ -27,7 +27,6 @@ POST /animetheme
 | anime_id | Yes      | integer, Anime ID exists    |
 | type     | Yes      | EnumValue [OP, ED]          |
 | sequence | No       | integer, min:0              |
-| group    | No       | string, max:192             |
 | slug     | Yes      | string, max:192, alpha_dash |
 | song_id  | No       | integer, Song ID exists     |
 
@@ -39,7 +38,6 @@ POST /animetheme
         id: id,
         type: "type",
         sequence: sequence,
-        group: "group",
         slug: "slug",
         created_at: "created_at",
         updated_at: "updated_at",

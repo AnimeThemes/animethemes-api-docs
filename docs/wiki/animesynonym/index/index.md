@@ -34,6 +34,7 @@ None
 | :--------: | :------------------------------------------------------------------ |
 | id         | Sort resources on the primary key                                   |
 | text       | Sort resources on the alternate title or common abbreviation        |
+| type       | Sort resources on the type                                          |
 | created_at | Sort resources on the resource creation date                        |
 | updated_at | Sort resources on the resource last modified date                   |
 | deleted_at | Sort resources on the resource deletion date                        |
@@ -45,6 +46,7 @@ None
 | :--------: | :----------------------------------------------------------------- |
 | id         | Filter resources on the primary key                                |
 | text       | Filter resources on the alternate title or common abbreviation     |
+| type       | Filter resources on the type                                       |
 | created_at | Filter resources on the resource creation date                     |
 | updated_at | Filter resources on the resource last modified date                |
 | deleted_at | Filter resources on the resource deletion date                     |
@@ -59,6 +61,7 @@ None
         {
             id: id,
             text: "text",
+            type: "type",
             created_at: "created_at",
             updated_at: "updated_at",
             deleted_at: "deleted_at"

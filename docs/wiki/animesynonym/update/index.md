@@ -24,10 +24,11 @@ PUT|PATCH /animesynonym/{id}
 
 ## Parameters
 
-| Name     | Required | Rules                    |
-| :------: | :------: | :----------------------- |
-| anime_id | No       | integer, Anime ID exists |
-| text     | No       | string, max:192          |
+| Name     | Required | Rules                                     |
+| :------: | :------: | :---------------------------------------- |
+| anime_id | No       | integer, Anime ID exists                  |
+| text     | No       | string, max:192                           |
+| type     | No       | EnumValue [Other, Native, English, Short] |
 
 ## Response
 
@@ -36,6 +37,7 @@ PUT|PATCH /animesynonym/{id}
     animesynonym: {
         id: id,
         text: "text",
+        type: "type",
         created_at: "created_at",
         updated_at: "updated_at",
         deleted_at: "deleted_at"

@@ -18,7 +18,7 @@ PUT|PATCH /studio/{slug}
 
 **Required Permission**: update studio
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Studio must not be soft deleted
 

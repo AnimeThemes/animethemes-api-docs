@@ -18,7 +18,7 @@ DELETE /audio/{basename}
 
 **Required Permission**: delete audio
 
-**Roles with Permission**: Admin
+**Roles with Permission**: Encoder, Admin
 
 **Other Requirements**: Audio must not be soft deleted
 

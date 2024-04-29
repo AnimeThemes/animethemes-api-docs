@@ -18,7 +18,7 @@ PATCH /restore/anime/{slug}
 
 **Required Permission**: restore anime
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Anime must be soft deleted
 

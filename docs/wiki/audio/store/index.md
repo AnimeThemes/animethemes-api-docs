@@ -18,7 +18,7 @@ POST /audio
 
 **Required Permission**: create audio
 
-**Roles with Permission**: Admin
+**Roles with Permission**: Encoder, Admin
 
 ## Parameters
 

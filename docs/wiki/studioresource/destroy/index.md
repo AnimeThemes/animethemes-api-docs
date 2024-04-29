@@ -18,7 +18,7 @@ DELETE /studioresource/{studio:slug}/{resource:id}
 
 **Required Permission**: delete studio, delete external resource
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

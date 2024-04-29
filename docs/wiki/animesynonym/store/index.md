@@ -18,7 +18,7 @@ POST /animesynonym
 
 **Required Permission**: create anime synonym
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

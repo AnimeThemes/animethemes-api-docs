@@ -18,7 +18,7 @@ POST /song
 
 **Required Permission**: create song
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

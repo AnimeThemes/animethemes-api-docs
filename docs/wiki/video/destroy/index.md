@@ -18,7 +18,7 @@ DELETE /video/{basename}
 
 **Required Permission**: delete video
 
-**Roles with Permission**: Admin
+**Roles with Permission**: Encoder, Admin
 
 **Other Requirements**: Video must not be soft deleted
 

@@ -18,7 +18,7 @@ PATCH /restore/videoscript/{id}
 
 **Required Permission**: restore video script
 
-**Roles with Permission**: Admin
+**Roles with Permission**: Encoder, Admin
 
 **Other Requirements**: Video script must be soft deleted
 

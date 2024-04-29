@@ -18,7 +18,7 @@ PUT|PATCH /artistmember/{artist:slug}/{artist:slug}
 
 **Required Permission**: update artist
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

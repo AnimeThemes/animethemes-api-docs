@@ -17,7 +17,6 @@ For example, the anime Bakemonogatari has five OP anime themes and one ED anime 
 | id         | Integer | No       | Yes     | The primary key of the resource                                  |
 | type       | Enum    | Yes      | Yes     | The type of the sequence [OP, ED]                                |
 | sequence   | Integer | Yes      | Yes     | The numeric ordering of the theme                                |
-| group      | String  | Yes      | Yes     | Used to distinguish sequence belongs to dubs, rebroadcasts, etc. |
 | slug       | String  | No       | Yes     | The URL slug & route key of the resource                         |
 | created_at | Date    | No       | No      | The date that the resource was created                           |
 | updated_at | Date    | No       | No      | The date that the resource was last modified                     |
@@ -29,6 +28,7 @@ For example, the anime Bakemonogatari has five OP anime themes and one ED anime 
 * anime.images
 * animethemeentries
 * animethemeentries.videos
+* group
 * song
 * song.artists
 

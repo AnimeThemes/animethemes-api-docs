@@ -18,7 +18,7 @@ PUT|PATCH /artistresource/{artist:slug}/{resource:id}
 
 **Required Permission**: update artist, update external resource
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

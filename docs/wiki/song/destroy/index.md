@@ -18,7 +18,7 @@ DELETE /song/{id}
 
 **Required Permission**: delete song
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Song must not be soft deleted
 

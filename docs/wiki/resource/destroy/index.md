@@ -18,7 +18,7 @@ DELETE /resource/{id}
 
 **Required Permission**: delete external resource
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Resource must not be soft deleted
 

@@ -18,7 +18,7 @@ DELETE /animesynonym/{id}
 
 **Required Permission**: delete anime synonym
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Anime synonym must not be soft deleted
 

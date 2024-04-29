@@ -18,7 +18,7 @@ POST /videoscript
 
 **Required Permission**: create video script
 
-**Roles with Permission**: Admin
+**Roles with Permission**: Encoder, Admin
 
 ## Parameters
 

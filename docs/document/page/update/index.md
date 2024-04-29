@@ -18,7 +18,7 @@ PUT|PATCH /page/{slug}
 
 **Required Permission**: update page
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Page must not be soft deleted
 

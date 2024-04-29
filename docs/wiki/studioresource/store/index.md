@@ -18,7 +18,7 @@ POST /studioresource/{studio:slug}/{resource:id}
 
 **Required Permission**: create studio, create external resource
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

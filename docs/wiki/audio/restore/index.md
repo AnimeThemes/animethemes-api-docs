@@ -18,7 +18,7 @@ PATCH /restore/audio/{basename}
 
 **Required Permission**: restore audio
 
-**Roles with Permission**: Admin
+**Roles with Permission**: Encoder, Admin
 
 **Other Requirements**: Audio must be soft deleted
 

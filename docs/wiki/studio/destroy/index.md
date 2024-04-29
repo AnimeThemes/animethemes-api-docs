@@ -18,7 +18,7 @@ DELETE /studio/{slug}
 
 **Required Permission**: delete studio
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Studio must not be soft deleted
 

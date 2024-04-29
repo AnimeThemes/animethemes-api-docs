@@ -18,7 +18,7 @@ PUT|PATCH /animetheme/{id}
 
 **Required Permission**: update anime theme
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 **Other Requirements**: Anime theme must not be soft deleted
 
@@ -29,7 +29,6 @@ PUT|PATCH /animetheme/{id}
 | anime_id | No       | integer, Anime ID exists    |
 | type     | No       | EnumValue [OP, ED]          |
 | sequence | No       | integer, min:0              |
-| group    | No       | string, max:192             |
 | slug     | No       | string, max:192, alpha_dash |
 | song_id  | No       | integer, Song ID exists     |
 
@@ -41,7 +40,6 @@ PUT|PATCH /animetheme/{id}
         id: id,
         type: "type",
         sequence: sequence,
-        group: "group",
         slug: "slug",
         created_at: "created_at",
         updated_at: "updated_at",

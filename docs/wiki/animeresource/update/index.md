@@ -18,7 +18,7 @@ PUT|PATCH /animeresource/{anime:slug}/{resource:id}
 
 **Required Permission**: update anime, update external resource
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

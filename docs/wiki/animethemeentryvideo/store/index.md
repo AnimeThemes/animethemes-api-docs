@@ -18,7 +18,7 @@ POST /animethemeentryvideo/{animethemeentry:id}/{video:slug}
 
 **Required Permission**: create anime theme entry, create video
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

@@ -18,7 +18,7 @@ POST /video
 
 **Required Permission**: create video
 
-**Roles with Permission**: Admin
+**Roles with Permission**: Encoder, Admin
 
 ## Parameters
 

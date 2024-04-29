@@ -18,7 +18,7 @@ POST /artist
 
 **Required Permission**: create artist
 
-**Roles with Permission**: Wiki Editor, Admin
+**Roles with Permission**: Wiki Editor, Encoder, Admin
 
 ## Parameters
 

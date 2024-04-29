@@ -18,7 +18,7 @@ PUT|PATCH /videoscript/{id}
 
 **Required Permission**: update video script
 
-**Roles with Permission**: Admin
+**Roles with Permission**: Encoder, Admin
 
 **Other Requirements**: Video script must not be soft deleted
 

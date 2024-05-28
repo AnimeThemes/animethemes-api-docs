@@ -39,6 +39,7 @@ For example, the video Bakemonogatari-OP1.webm represents the WebM of the Bakemo
 * animethemeentries
 * animethemeentries.animetheme
 * animethemeentries.animetheme.anime
+* animethemeentries.animetheme.group
 * audio
 * videoscript
 

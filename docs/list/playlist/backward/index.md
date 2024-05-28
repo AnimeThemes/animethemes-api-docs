@@ -31,6 +31,7 @@ GET /playlist/{id}/backward
 
 * video
 * video.animethemeentries.animetheme.anime.images
+* video.animethemeentries.animetheme.group
 * video.animethemeentries.animetheme.song.artists
 * video.audio
 

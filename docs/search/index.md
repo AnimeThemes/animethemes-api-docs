@@ -72,6 +72,7 @@ None
             {
                 id: id,
                 name: "name",
+                description: "description",
                 visibility: "visibility",
                 created_at: "created_at",
                 updated_at: "updated_at",

@@ -24,10 +24,11 @@ PUT|PATCH /playlist/{id}
 
 ## Parameters
 
-| Name       | Required | Rules                                 |
-| :--------: | :------: | :------------------------------------ |
-| name       | No       | string, max:192                       |
-| visibility | No       | EnumValue [Public, Private, Unlisted] |
+| Name        | Required | Rules                                 |
+| :--------:  | :------: | :------------------------------------ |
+| name        | No       | string, max:192                       |
+| description | No       | string, max:1000                      |
+| visibility  | No       | EnumValue [Public, Private, Unlisted] |
 
 ## Response
 
@@ -36,6 +37,7 @@ PUT|PATCH /playlist/{id}
     playlist: {
         id: "id",
         name: "name",
+        description: "description",
         visibility: "visibility",
         created_at: "created_at",
         updated_at: "updated_at",

@@ -16,6 +16,7 @@ For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a coll
 | :-----------: | :-----: | :------: | :-----: | :---------------------------------------------------------------- |
 | id            | String  | No       | Yes     | The primary key of the resource                                   |
 | name          | String  | No       | Yes     | The title of the playlist                                         |
+| description   | String  | Yes      | No      | The description of the playlist                                   |
 | visibility    | Enum    | Yes      | Yes     | The state of who can see the playlist [Private, Unlisted, Public] |
 | created_at    | Date    | No       | No      | The date that the resource was created                            |
 | updated_at    | Date    | No       | No      | The date that the resource was last modified                      |

@@ -34,6 +34,7 @@ GET /playlist/
 | :-----------: | :------------------------------------------------------------------ |
 | id            | Sort resources on the primary key                                   |
 | name          | Sort resources on the title of the playlist                         |
+| description   | Sort resources on the description of the playlist                   |
 | visibility    | Sort resources on the visibility state of the playlist              |
 | views_count   | Sort resources on the number of recorded views                      |
 | tracks_exists | Sort resources on the existence of tracks                           |
@@ -49,6 +50,7 @@ GET /playlist/
 | :-----------: | :----------------------------------------------------------------------------------- |
 | id            | Filter resources on the primary key                                                  |
 | name          | Filter resources on the title of the playlist                                        |
+| description   | Filter resources on the description of the playlist                                  |
 | visibility    | Filter resources on the visibility state of the playlist [Public, Private, Unlisted] |
 | views_count   | Filter resources on the number of recorded views                                     |
 | tracks_exists | Filter resources on existence of tracks                                              |
@@ -67,6 +69,7 @@ GET /playlist/
         {
             id: "id",
             name: "name",
+            description: "description",
             visibility: "visibility",
             created_at: "created_at",
             updated_at: "updated_at",

@@ -26,6 +26,7 @@ The "Me" namespace is a collection of endpoints that pertain to the currently au
 * permissions
 * playlists
 * roles
+* roles.permissions
 
 ## Endpoints
 

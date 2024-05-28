@@ -20,3 +20,7 @@ A role API resource represents an assignable label for users that provides a con
 | priority   | Integer | Yes      | Yes     | The weight assigned to the resource, where higher values correspond to higher priority |
 | created_at | Date    | No       | No      | The date that the resource was created                                                 |
 | updated_at | Date    | No       | No      | The date that the resource was last modified                                           |
+
+## Allowed Include Paths
+
+* permissions

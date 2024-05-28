@@ -30,6 +30,7 @@ For example, Chiwa Saitou is the musical performer of the Bakemonogatari OP1 the
 * songs
 * songs.animethemes
 * songs.animethemes.anime
+* songs.animethemes.group
 
 ## Allowed Pivots
 

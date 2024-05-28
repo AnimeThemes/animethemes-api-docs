@@ -20,10 +20,11 @@ POST /playlist
 
 ## Parameters
 
-| Name       | Required | Rules                                 |
-| :--------: | :------: | :------------------------------------ |
-| name       | Yes      | string, max:192                       |
-| visibility | Yes      | EnumValue [Public, Private, Unlisted] |
+| Name        | Required | Rules                                 |
+| :--------:  | :------: | :------------------------------------ |
+| name        | Yes      | string, max:192                       |
+| description | No       | string, max:1000                      |
+| visibility  | Yes      | EnumValue [Public, Private, Unlisted] |
 
 ## Response
 
@@ -32,6 +33,7 @@ POST /playlist
     playlist: {
         id: "id",
         name: "name",
+        description: "description",
         visibility: "visibility",
         created_at: "created_at",
         updated_at: "updated_at",

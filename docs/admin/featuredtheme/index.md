@@ -25,6 +25,7 @@ A featured theme API resource represents a video to be featured on the homepage 
 * animethemeentry.animetheme
 * animethemeentry.animetheme.anime
 * animethemeentry.animetheme.anime.images
+* animethemeentry.animetheme.group
 * animethemeentry.animetheme.song
 * animethemeentry.animetheme.song.artists
 * user

@@ -30,9 +30,9 @@ GET /playlist/{playlist:id}/track/{track:id}/forward
 ## Allowed Include Paths
 
 * video
-* video.animethemeentries.animetheme.anime.images
-* video.animethemeentries.animetheme.group
-* video.animethemeentries.animetheme.song.artists
+* animethemeentry.animetheme.anime.images
+* animethemeentry.animetheme.group
+* animethemeentry.animetheme.song.artists
 * video.audio
 
 ## Response

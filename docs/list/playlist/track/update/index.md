@@ -26,11 +26,12 @@ PUT|PATCH /playlist/{id}/track/{id}
 
 ## Parameters
 
-| Name     | Required | Rules                                               |
-| :------: | :------: | :-------------------------------------------------- |
-| next     | No       | string, Track ID exists & Track Playlist ID matches |
-| previous | No       | string, Track ID exists & Track Playlist ID matches |
-| video_id | No       | Video ID Exists                                     |
+| Name     | Required | Rules                                                                              |
+| :------: | :------: | :--------------------------------------------------------------------------------- |
+| next     | No       | string, Track ID exists & Track Playlist ID matches                                |
+| previous | No       | string, Track ID exists & Track Playlist ID matches                                |
+| entry_id | No       | integer, Entry ID Exists, Anime Theme Entry Video Exists when video_id is provided |
+| video_id | No       | integer, Video ID Exists, Anime Theme Entry Video Exists when entry_id is provided |
 
 ## Response
 

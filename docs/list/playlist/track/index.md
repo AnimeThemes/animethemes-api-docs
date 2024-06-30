@@ -25,8 +25,9 @@ For example, a "/r/anime's Best OPs and EDs of 2022" playlist may contain a trac
 * playlist
 * previous
 * video
-* video.animethemeentries.animetheme.anime.images
-* video.animethemeentries.animetheme.song.artists
+* animethemeentry.animetheme.group
+* animethemeentry.animetheme.anime.images
+* animethemeentry.animetheme.song.artists
 * video.audio
 
 ## Endpoints

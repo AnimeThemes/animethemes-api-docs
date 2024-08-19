@@ -6,7 +6,7 @@ title: Playlist Track Store
 
 The playlist track store endpoint creates a new playlist track and returns the new playlist track resource.
 
-For example, the `/playlist/N4hG/track?video_id=2712` endpoint will create a new playlist track for the Bakemonogatari-OP1.webm video and return the new playlist track resource.
+For example, the `/playlist/N4hG/track?video_id=2712&entry_id=3814` endpoint will create a new playlist track for the Bakemonogatari-OP1.webm video and return the new playlist track resource.
 
 If `next` is set, the new track will be inserted before the next track in the playlist.
 
@@ -28,12 +28,13 @@ POST /playlist/{id}/track
 
 ## Parameters
 
-| Name     | Required | Rules                                                   |
-| :------: | :------: | :------------------------------------------------------ |
-| name     | Yes      | string, max:192                                         |
-| next     | No       | string, Track ID Exists in Playlist, prohibits:previous |
-| previous | No       | string, Track ID Exists in Playlist, prohibits:next     |
-| video_id | Yes      | Video ID Exists                                         |
+| Name     | Required | Rules                                                                              |
+| :------: | :------: | :--------------------------------------------------------------------------------- |
+| name     | Yes      | string, max:192                                                                    |
+| next     | No       | string, Track ID Exists in Playlist, prohibits:previous                            |
+| previous | No       | string, Track ID Exists in Playlist, prohibits:next                                |
+| entry_id | Yes      | integer, Entry ID Exists, Anime Theme Entry Video Exists when video_id is provided |
+| video_id | Yes      | integer, Video ID Exists, Anime Theme Entry Video Exists when entry_id is provided |
 
 ## Response
 

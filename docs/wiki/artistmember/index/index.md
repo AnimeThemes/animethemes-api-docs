@@ -33,7 +33,8 @@ None
 | :--------: | :------------------------------------------------------------ |
 | created_at | Sort resources on the resource creation date                  |
 | updated_at | Sort resources on the resource last modified date             |
-| as         | Sort resources on distinguishing label for alias or character |
+| alias      | Sort resources on distinguishing label for alias              |
+| as         | Sort resources on distinguishing label for character          |
 
 ## Filters
 
@@ -42,7 +43,8 @@ None
 | created_at | Filter resources on the resource creation date                  |
 | updated_at | Filter resources on the resource last modified date             |
 | has        | Filter resources on relations within allowed include paths      |
-| as         | Filter resources on distinguishing label for alias or character |
+| alias      | Filter resources on distinguishing label for alias              |
+| as         | Filter resources on distinguishing label for character          |
 
 ## Response
 
@@ -52,6 +54,7 @@ None
         {
             created_at: "created_at",
             updated_at: "updated_at",
+            alias: "alias",
             as: "as"
         },
         ...

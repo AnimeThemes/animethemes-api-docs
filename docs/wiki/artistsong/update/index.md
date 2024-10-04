@@ -24,6 +24,7 @@ PUT|PATCH /artistsong/{artist:slug}/{song:id}
 
 | Name        | Required | Rules           |
 | :---------: | :------: | :-------------- |
+| alias       | No       | string, max:192 |
 | as          | No       | string, max:192 |
 
 ## Response
@@ -33,6 +34,7 @@ PUT|PATCH /artistsong/{artist:slug}/{song:id}
     artistsong: {
         created_at: "created_at",
         updated_at: "updated_at",
+        alias: "alias",
         as: "as"
     }
 }

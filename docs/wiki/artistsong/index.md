@@ -14,7 +14,8 @@ An artist song API resource represents the association between an artist and an 
 | :--------: | :-----: | :------: | :-----: | :------------------------------------------------------------- |
 | created_at | Date    | No       | No      | The date that the resource was created                         |
 | updated_at | Date    | No       | No      | The date that the resource was last modified                   |
-| as         | String  | No       | Yes     | Used to distinguish a performance by alias, character or group |
+| as         | String  | Yes       | Yes    | Used to distinguish a performance by alias                     |
+| as         | String  | Yes       | Yes    | Used to distinguish a performance by character                 |
 
 ## Allowed Include Paths
 

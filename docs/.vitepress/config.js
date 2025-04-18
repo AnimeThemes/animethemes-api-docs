@@ -417,7 +417,8 @@ export default {
                         { text: 'Destroy', link: '/wiki/artistimage/destroy/' },
                         { text: 'Index', link: '/wiki/artistimage/index/' },
                         { text: 'Show', link: '/wiki/artistimage/show/' },
-                        { text: 'Store', link: '/wiki/artistimage/store/' }
+                        { text: 'Store', link: '/wiki/artistimage/store/' },
+                        { text: 'Update', link: '/wiki/artistimage/update/' }
                     ]
                 },
                 {

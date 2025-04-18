@@ -24,10 +24,11 @@ PUT|PATCH /artist/{slug}
 
 ## Parameters
 
-| Name     | Required | Rules                               |
-| :------: | :------: | :---------------------------------- |
-| name     | No       | string, max:192                     |
-| slug     | No       | string, max:192, alpha_dash, unique |
+| Name        | Required | Rules                               |
+| :---------: | :------: | :---------------------------------- |
+| name        | No       | string, max:192                     |
+| slug        | No       | string, max:192, alpha_dash, unique |
+| information | No       | string, max:65535                   |
 
 ## Response
 
@@ -37,6 +38,7 @@ PUT|PATCH /artist/{slug}
         id: id,
         name: "name",
         slug: "slug",
+        information: "information",
         created_at: "created_at",
         updated_at: "updated_at",
         deleted_at: "deleted_at"

@@ -22,7 +22,9 @@ POST /artistimage/{artist:slug}/{image:id}
 
 ## Parameters
 
-None
+| Name   | Required | Rules           |
+| :---:  | :------: | :-------------- |
+| depth  | No       | integer, min:1  |
 
 ## Response
 
@@ -30,7 +32,8 @@ None
 {
     artistimage: {
         created_at: "created_at",
-        updated_at: "updated_at"
+        updated_at: "updated_at",
+        depth: depth
     }
 }
 ```

@@ -14,6 +14,7 @@ An artist image API resource represents the association between an artist and an
 | :--------: | :-----: | :------: | :-----: | :------------------------------------------- |
 | created_at | Date    | No       | No      | The date that the resource was created       |
 | updated_at | Date    | No       | No      | The date that the resource was last modified |
+| depth      | Int     | Yes      | No      | Used to sort the artist images               |
 
 ## Allowed Include Paths
 
@@ -37,3 +38,7 @@ The artist image show endpoint returns an artist image resource.
 **[Artist Image Store](/wiki/artistimage/store/)**
 
 The artist image store endpoint creates a new artist image and returns the new artist image resource.
+
+**[Artist Image Update](/wiki/artistimage/update/)**
+
+The artist image update endpoint updates an artist image and returns the updated artist image resource.

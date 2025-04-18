@@ -35,6 +35,7 @@ None
 | updated_at | Sort resources on the resource last modified date             |
 | alias      | Sort resources on distinguishing label for alias              |
 | as         | Sort resources on distinguishing label for character          |
+| notes      | Sort resources on distinguishing label for notes              |
 
 ## Filters
 
@@ -45,6 +46,7 @@ None
 | has        | Filter resources on relations within allowed include paths      |
 | alias      | Filter resources on distinguishing label for alias              |
 | as         | Filter resources on distinguishing label for character          |
+| notes      | Filter resources on distinguishing label for notes              |
 
 ## Response
 
@@ -55,7 +57,8 @@ None
             created_at: "created_at",
             updated_at: "updated_at",
             alias: "alias",
-            as: "as"
+            as: "as",
+            notes: "notes"
         },
         ...
     ],

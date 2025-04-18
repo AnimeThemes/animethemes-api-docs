@@ -22,10 +22,11 @@ POST /artistmember/{artist:slug}/{artist:slug}
 
 ## Parameters
 
-| Name  | Required | Rules           |
-| :---: | :------: | :-------------- |
-| alias | No       | string, max:192 |
-| as    | No       | string, max:192 |
+| Name   | Required | Rules           |
+| :---:  | :------: | :-------------- |
+| alias  | No       | string, max:192 |
+| as     | No       | string, max:192 |
+| notes  | No       | string, max:192 |
 
 ## Response
 
@@ -35,7 +36,8 @@ POST /artistmember/{artist:slug}/{artist:slug}
         created_at: "created_at",
         updated_at: "updated_at",
         alias: "alias",
-        as: "as"
+        as: "as",
+        notes: "notes"
     }
 }
 ```

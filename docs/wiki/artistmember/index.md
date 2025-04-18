@@ -16,6 +16,7 @@ An artist member API resource represents the association of an artist and a grou
 | updated_at | Date    | No       | No      | The date that the resource was last modified         |
 | alias      | String  | Yes      | Yes     | Used to distinguish membership by alias              |
 | as         | String  | Yes      | Yes     | Used to distinguish membership by character          |
+| notes      | String  | Yes      | Yes     | Used to extra annotation, like member role           |
 
 ## Allowed Include Paths
 

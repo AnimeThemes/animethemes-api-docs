@@ -22,10 +22,11 @@ POST /artist
 
 ## Parameters
 
-| Name     | Required | Rules                               |
-| :------: | :------: | :---------------------------------- |
-| name     | Yes      | string, max:192                     |
-| slug     | Yes      | string, max:192, alpha_dash, unique |
+| Name        | Required | Rules                               |
+| :---------: | :------: | :---------------------------------- |
+| name        | Yes      | string, max:192                     |
+| slug        | Yes      | string, max:192, alpha_dash, unique |
+| information | No       | string, max:65535                   |
 
 ## Response
 
@@ -35,6 +36,7 @@ POST /artist
         id: id,
         name: "name",
         slug: "slug",
+        information: "information",
         created_at: "created_at",
         updated_at: "updated_at",
         deleted_at: "deleted_at"

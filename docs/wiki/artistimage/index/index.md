@@ -33,6 +33,7 @@ None
 | :--------: | :------------------------------------------------ |
 | created_at | Sort resources on the resource creation date      |
 | updated_at | Sort resources on the resource last modified date |
+| depth      | Sort resources by orderable images                |
 
 ## Filters
 
@@ -41,6 +42,7 @@ None
 | created_at | Filter resources on the resource creation date             |
 | updated_at | Filter resources on the resource last modified date        |
 | has        | Filter resources on relations within allowed include paths |
+| depth      | Filter resources on depth level                            |
 
 ## Response
 
@@ -49,7 +51,8 @@ None
     artistimages: [
         {
             created_at: "created_at",
-            updated_at: "updated_at"
+            updated_at: "updated_at",
+            depth: depth
         },
         ...
     ],

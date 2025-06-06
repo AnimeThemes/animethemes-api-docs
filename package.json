@@ -1,7 +1,7 @@
 {
   "name": "animethemes-api-docs",
-  "version": "3.0.0",
-  "description": "AnimeThemes.moe API Documentation",
+  "version": "4.0.0",
+  "description": "AnimeThemes.moe GraphQL API Documentation",
   "main": "index.js",
   "authors": {
     "name": "AnimeThemes",

@@ -35,7 +35,6 @@ None
 | end_at     | Sort resources on the resource end date                             |
 | created_at | Sort resources on the resource creation date                        |
 | updated_at | Sort resources on the resource last modified date                   |
-| deleted_at | Sort resources on the resource deletion date                        |
 | random     | Sort resources randomly. Ignored if other sort fields are provided. |
 
 ## Filters
@@ -47,8 +46,6 @@ None
 | end_at     | Filter resources on the resource end date                          |
 | created_at | Filter resources on the resource creation date                     |
 | updated_at | Filter resources on the resource last modified date                |
-| deleted_at | Filter resources on the resource deletion date                     |
-| trashed    | Filter resources on trashed (deleted) status [With, Without, Only] |
 
 ## Response
 
@@ -60,8 +57,7 @@ None
             start_at: "start_at",
             end_at: "end_at",
             created_at: "created_at",
-            updated_at: "updated_at",
-            deleted_at: "deleted_at"
+            updated_at: "updated_at"
         },
         ...
     ],

@@ -24,7 +24,7 @@ A playlist image API resource represents the association between a playlist and 
 
 **[Playlist Image Destroy](/list/playlistimage/destroy/)**
 
-The playlist image destroy endpoint deletes a playlist image and returns the deleted playlist image resource.
+The playlist image destroy endpoint deletes a playlist image and returns a confirmation message.
 
 **[Playlist Image Index](/list/playlistimage/index/)**
 

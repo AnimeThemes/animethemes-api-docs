@@ -4,9 +4,9 @@ title: Dump Destroy
 
 # Dump Destroy Endpoint
 
-The dump destroy endpoint soft deletes a dump and returns the deleted dump resource.
+The dump destroy endpoint deletes a dump and returns a confirmation message.
 
-For example, the `/dump/1` endpoint will soft delete the dump of id '1' and return the deleted dump resource.
+For example, the `/dump/1` endpoint will delete the dump of id '1' and return a confirmation message.
 
 ## URL
 
@@ -19,8 +19,6 @@ DELETE /dump/{id}
 **Required Permission**: delete dump
 
 **Roles with Permission**: Admin
-
-**Other Requirements**: Dump must not be soft deleted
 
 ## Parameters
 
@@ -35,7 +33,6 @@ None
         path: "path",
         created_at: "created_at",
         updated_at: "updated_at",
-        deleted_at: "deleted_at",
         link: "link
     }
 }

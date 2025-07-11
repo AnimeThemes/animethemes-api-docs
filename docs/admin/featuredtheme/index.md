@@ -17,7 +17,6 @@ A featured theme API resource represents a video to be featured on the homepage 
 | end_at     | Date    | No       | Yes     | The end date of the resource                 |
 | created_at | Date    | No       | No      | The date that the resource was created       |
 | updated_at | Date    | No       | No      | The date that the resource was last modified |
-| deleted_at | Date    | Yes      | No      | The date that the resource was deleted       |
 
 ## Allowed Include Paths
 
@@ -39,19 +38,11 @@ The current featured theme show endpoint returns the first featured theme where 
 
 **[Featured Theme Destroy](/admin/featuredtheme/destroy/)**
 
-The featured theme destroy endpoint soft deletes a featured theme and returns the deleted featured theme resource.
-
-**[Featured Theme Force Delete](/admin/featuredtheme/forceDelete/)**
-
-The featured theme force delete endpoint hard deletes a featured theme and returns a confirmation message.
+The featured theme destroy endpoint deletes a featured theme and returns a confirmation message.
 
 **[Featured Theme Index](/admin/featuredtheme/index/)**
 
 The featured theme index endpoint displays a listing of featured theme resources.
-
-**[Featured Theme Restore](/admin/featuredtheme/restore/)**
-
-The featured theme restore endpoint restores a soft deleted featured theme and returns the restored featured theme resource.
 
 **[Featured Theme Show](/admin/featuredtheme/show/)**
 

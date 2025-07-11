@@ -18,7 +18,7 @@ DELETE /playlistimage/{playlist:id}/{image:id}
 
 **Required Permission**: delete playlist, delete image
 
-**Other Requirements**: User must own playlist & playlist must not be soft deleted
+**Other Requirements**: User must own playlist
 
 ## Parameters
 

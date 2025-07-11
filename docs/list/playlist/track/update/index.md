@@ -4,9 +4,9 @@ title: Playlist Track Update
 
 # Playlist Track Update Endpoint
 
-The playlist track update endpoint updates a playlist track and returns the updated playlist track resource.
+The playlist track update endpoint updates a playlist track and returns a confirmation message.
 
-For example, the `/playlist/N4hG/track/Q3hD?next_id=2` endpoint will update the playlist track of id Q3hD next_id attribute and return the updated playlist track resource.
+For example, the `/playlist/N4hG/track/Q3hD?next_id=2` endpoint will update the playlist track of id Q3hD next_id attribute and return a confirmation message.
 
 If `next` is set, the track will be moved before the next track in the playlist.
 
@@ -22,7 +22,7 @@ PUT|PATCH /playlist/{id}/track/{id}
 
 **Required Permission**: update playlist track
 
-**Other Requirements**: User must own playlist & playlist track must not be soft deleted
+**Other Requirements**: User must own playlist
 
 ## Parameters
 
@@ -40,8 +40,7 @@ PUT|PATCH /playlist/{id}/track/{id}
     track: {
         id: "id",
         created_at: "created_at",
-        updated_at: "updated_at",
-        deleted_at: "deleted_at"
+        updated_at: "updated_at"
     }
 }
 ```

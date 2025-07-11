@@ -6,7 +6,7 @@ title: Announcement
 
 ---
 
-An announcement API resource represents a site-wide message to be broadcasted on the homepage. 
+An announcement API resource represents a site-wide message to be broadcasted on the homepage.
 
 For example, if video streaming is disabled, the site staff may issue a "Video streaming has been disabled!" announcement.
 
@@ -18,7 +18,6 @@ For example, if video streaming is disabled, the site staff may issue a "Video s
 | content    | String  | No       | Yes     | The announcement text                        |
 | created_at | Date    | No       | No      | The date that the resource was created       |
 | updated_at | Date    | No       | No      | The date that the resource was last modified |
-| deleted_at | Date    | Yes      | No      | The date that the resource was deleted       |
 
 ## Allowed Include Paths
 
@@ -28,19 +27,11 @@ None
 
 **[Announcement Destroy](/admin/announcement/destroy/)**
 
-The announcement destroy endpoint soft deletes an announcement and returns the deleted announcement resource.
-
-**[Announcement Force Delete](/admin/announcement/forceDelete/)**
-
-The announcement force delete endpoint hard deletes an announcement and returns a confirmation message.
+The announcement destroy endpoint deletes an announcement and returns a confirmation message.
 
 **[Announcement Index](/admin/announcement/index/)**
 
 The announcement index endpoint displays a listing of announcement resources.
-
-**[Announcement Restore](/admin/announcement/restore/)**
-
-The announcement restore endpoint restores a soft deleted announcement and returns the restored announcement resource.
 
 **[Announcement Show](/admin/announcement/show/)**
 

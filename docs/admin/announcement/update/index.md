@@ -20,8 +20,6 @@ PUT|PATCH /announcement/{id}
 
 **Roles with Permission**: Admin
 
-**Other Requirements**: Announcement must not be soft deleted
-
 ## Parameters
 
 | Name    | Required | Rules             |
@@ -36,8 +34,7 @@ PUT|PATCH /announcement/{id}
         id: id,
         content: "content",
         created_at: "created_at",
-        updated_at: "updated_at",
-        deleted_at: "deleted_at"
+        updated_at: "updated_at"
     }
 }
 ```

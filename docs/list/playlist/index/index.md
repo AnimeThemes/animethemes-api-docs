@@ -41,7 +41,6 @@ GET /playlist/
 | tracks_count  | Sort resources on the number of tracks                              |
 | created_at    | Sort resources on the resource creation date                        |
 | updated_at    | Sort resources on the resource last modified date                   |
-| deleted_at    | Sort resources on the resource deletion date                        |
 | random        | Sort resources randomly. Ignored if other sort fields are provided. |
 
 ## Filters
@@ -57,8 +56,6 @@ GET /playlist/
 | tracks_count  | Filter resources on the number of tracks                                             |
 | created_at    | Filter resources on the resource creation date                                       |
 | updated_at    | Filter resources on the resource last modified date                                  |
-| deleted_at    | Filter resources on the resource deletion date                                       |
-| trashed       | Filter resources on trashed (deleted) status [With, Without, Only]                   |
 | has           | Filter resources on relations within allowed include paths                           |
 
 ## Response
@@ -73,7 +70,6 @@ GET /playlist/
             visibility: "visibility",
             created_at: "created_at",
             updated_at: "updated_at",
-            deleted_at: "deleted_at",
             views_count: views_count,
             tracks_exists: tracks_exists,
             tracks_count: tracks_count

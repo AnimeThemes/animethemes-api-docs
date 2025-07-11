@@ -4,9 +4,9 @@ title: Playlist Destroy
 
 # Playlist Destroy Endpoint
 
-The playlist destroy endpoint soft deletes a playlist and returns the deleted playlist resource.
+The playlist destroy endpoint deletes a playlist and returns a confirmation message.
 
-For example, the `/playlist/N4hG` endpoint will soft delete the playlist of id N4hG and return the deleted playlist resource.
+For example, the `/playlist/N4hG` endpoint will delete the playlist of id N4hG and return a confirmation message.
 
 ## URL
 
@@ -18,7 +18,7 @@ DELETE /playlist/{id}
 
 **Required Permission**: delete playlist
 
-**Other Requirements**: User must own playlist & playlist must not be soft deleted
+**Other Requirements**: User must own playlist
 
 ## Parameters
 
@@ -35,7 +35,6 @@ None
         visibility: "visibility",
         created_at: "created_at",
         updated_at: "updated_at",
-        deleted_at: "deleted_at",
         views_count: views_count,
         tracks_exists: tracks_exists,
         tracks_count: tracks_count

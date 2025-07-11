@@ -20,8 +20,6 @@ PUT|PATCH /featuredtheme/{id}
 
 **Roles with Permission**: Admin
 
-**Other Requirements**: Featured Theme must not be soft deleted
-
 ## Parameters
 
 | Name     | Required | Rules                                                                              |
@@ -41,8 +39,7 @@ PUT|PATCH /featuredtheme/{id}
         start_at: "start_at",
         end_at: "end_at",
         created_at: "created_at",
-        updated_at: "updated_at",
-        deleted_at: "deleted_at"
+        updated_at: "updated_at"
     }
 }
 ```

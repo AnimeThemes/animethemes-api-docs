@@ -20,8 +20,6 @@ PUT|PATCH /dump/{id}
 
 **Roles with Permission**: Admin
 
-**Other Requirements**: Dump must not be soft deleted
-
 ## Parameters
 
 | Name    | Required | Rules             |
@@ -37,7 +35,6 @@ PUT|PATCH /dump/{id}
         path: "path",
         created_at: "created_at",
         updated_at: "updated_at",
-        deleted_at: "deleted_at",
         link: "link"
     }
 }

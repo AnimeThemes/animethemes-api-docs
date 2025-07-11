@@ -4,9 +4,9 @@ title: Announcement Destroy
 
 # Announcement Destroy Endpoint
 
-The announcement destroy endpoint soft deletes an announcement and returns the deleted announcement resource.
+The announcement destroy endpoint deletes an announcement and returns a confirmation message.
 
-For example, the `/announcement/1` endpoint will soft delete the announcement of id '1' and return the deleted announcement resource.
+For example, the `/announcement/1` endpoint will delete the announcement of id '1' and return a confirmation message.
 
 ## URL
 
@@ -20,8 +20,6 @@ DELETE /announcement/{id}
 
 **Roles with Permission**: Admin
 
-**Other Requirements**: Announcement must not be soft deleted
-
 ## Parameters
 
 None
@@ -34,8 +32,7 @@ None
         id: id,
         content: "content",
         created_at: "created_at",
-        updated_at: "updated_at",
-        deleted_at: "deleted_at"
+        updated_at: "updated_at"
     }
 }
 ```

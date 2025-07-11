@@ -127,9 +127,7 @@ export default {
                     items: [
                         { text: 'Resource', link: '/admin/announcement/' },
                         { text: 'Destroy', link: '/admin/announcement/destroy/' },
-                        { text: 'Force Delete', link: '/admin/announcement/forceDelete/' },
                         { text: 'Index', link: '/admin/announcement/index/' },
-                        { text: 'Restore', link: '/admin/announcement/restore/' },
                         { text: 'Show', link: '/admin/announcement/show/' },
                         { text: 'Store', link: '/admin/announcement/store/' },
                         { text: 'Update', link: '/admin/announcement/update/' }
@@ -141,9 +139,7 @@ export default {
                     items: [
                         { text: 'Resource', link: '/admin/dump/' },
                         { text: 'Destroy', link: '/admin/dump/destroy/' },
-                        { text: 'Force Delete', link: '/admin/dump/forceDelete/' },
                         { text: 'Index', link: '/admin/dump/index/' },
-                        { text: 'Restore', link: '/admin/dump/restore/' },
                         { text: 'Show', link: '/admin/dump/show/' },
                         { text: 'Store', link: '/admin/dump/store/' },
                         { text: 'Update', link: '/admin/dump/update/' }
@@ -166,9 +162,7 @@ export default {
                         { text: 'Resource', link: '/admin/featuredtheme/' },
                         { text: 'Current', link: '/admin/featuredtheme/current/' },
                         { text: 'Destroy', link: '/admin/featuredtheme/destroy/' },
-                        { text: 'Force Delete', link: '/admin/featuredtheme/forceDelete/' },
                         { text: 'Index', link: '/admin/featuredtheme/index/' },
-                        { text: 'Restore', link: '/admin/featuredtheme/restore/' },
                         { text: 'Show', link: '/admin/featuredtheme/show/' },
                         { text: 'Store', link: '/admin/featuredtheme/store/' },
                         { text: 'Update', link: '/admin/featuredtheme/update/' }
@@ -242,9 +236,7 @@ export default {
                     items: [
                         { text: 'Resource', link: '/list/playlist/' },
                         { text: 'Destroy', link: '/list/playlist/destroy/' },
-                        { text: 'Force Delete', link: '/list/playlist/forceDelete/' },
                         { text: 'Index', link: '/list/playlist/index/' },
-                        { text: 'Restore', link: '/list/playlist/restore/' },
                         { text: 'Show', link: '/list/playlist/show/' },
                         { text: 'Store', link: '/list/playlist/store/' },
                         { text: 'Update', link: '/list/playlist/update/' },
@@ -269,9 +261,7 @@ export default {
                     items: [
                         { text: 'Resource', link: '/list/playlist/track/' },
                         { text: 'Destroy', link: '/list/playlist/track/destroy/' },
-                        { text: 'Force Delete', link: '/list/playlist/track/forceDelete/' },
                         { text: 'Index', link: '/list/playlist/track/index/' },
-                        { text: 'Restore', link: '/list/playlist/track/restore/' },
                         { text: 'Show', link: '/list/playlist/track/show/' },
                         { text: 'Store', link: '/list/playlist/track/store/' },
                         { text: 'Update', link: '/list/playlist/track/update/' },

@@ -65,8 +65,10 @@ query {
         data {
             name
             animethemes(type: OP) {
-                type
-                sequence
+                data {
+                    type
+                    sequence
+                }
             }
         }
     }

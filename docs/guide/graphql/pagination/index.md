@@ -10,15 +10,13 @@ The AnimeThemes API query that uses pagination shall contain a `paginatorInfo` o
 
 
 ## Arguments
+
 There are two arguments available for every query that uses pagination.
 
-* first: Int! = 15
-
-Limits number of fetched items. Default value: 15. Maximum allowed value: 100.
-
-* page: Int
-
-The offset from which items are returned.
+| Name      | Type     | Default  | Max      | Description                               |
+| :-------: | :------: | :------: | :------: | ----------------------------------------- |
+| first     | Int!     | 15       | 100      | Limits number of fetched items            |
+| page      | Int      | 1        | lastPage | The offset from which items are returned  |
 
 ## Query
 

@@ -6,16 +6,19 @@ title: Filtering
 
 ---
 
-Most queries provide filtering arguments using the AND operator. Filtering arguments are built using `{fields}_{filter}`.
+Most queries provide filtering arguments using the AND operator. Filtering arguments are built using the `{fields}_{filter}` pattern.
 
 ## All Filters
 
-* Eq: `name` (without the filter argument)
-* Like: `name_like`
-* In: `id_in`
-* Not in: `id_not_in`
-* Greater: `id_greater`
-* Lesser: `id_lesser`
+| Name    | Fields                                         | Example    | Description                           |
+| :-----: | :--------------------------------------------: | :--------: | ------------------------------------- |
+| Eq      | String, Int, Float, Boolean, enums, DateTimeTz | name       | Add an `equal` conditional to the query |
+| Like    | String                                         | name_like  | Add a `like` conditional to the query   |
+| In      | Int, Float, enums                              | id_in      | Add an `in` conditional to the query    |
+| Not in  | Int, Float, enums                              | id_not_in  | Add a `not in` conditional to the query |
+| Greater | Int, Float, DateTimeTz                         | id_greater | Add a `gt` conditional to the query     |
+| Lesser  | Int, Float, DateTimeTz                         | id_lesser  | Add a `lt` conditional to the query     |
+
 
 Query example:
 ```graphql
@@ -28,45 +31,29 @@ query {
 }
 ```
 
-## Available Filters for the fields
+## Trashed Filter
 
-### String Fields
+The queries that return a type that implements soft-deletes have a `trashed` filter.
 
-* Eq
-* Like
+The argument is: `trashed: Trashed`, which allows to filter if trashed elements should be fetched.
 
-### Int Fields
+`Trashed` is an enum with the following values:
 
-* Eq
-* In
-* Not in
-* Greater
-* Lesser
+| Value        | Description                                  |
+| :----------: | :------------------------------------------- |
+| ONLY         | Only return trashed results.                 |
+| WITH         | Return both trashed and non-trashed results. |
+| WITHOUT      | Only return non-trashed results.             |
 
-### Float Fields
-
-* Eq
-* In
-* Not in
-* Lesser
-* Greater
-
-### Boolean Fields
-
-* Eq
-
-### Enum Fields
-
-* Eq
-* In
-* Not in
-
-### DateTimeTz Fields
-
-* Eq
-* Greater
-* Lesser
-
+```graphql
+query {
+    animes(trashed: ONLY) {
+        data {
+            name
+        }
+    }
+}
+```
 
 ## Nested Filtering
 

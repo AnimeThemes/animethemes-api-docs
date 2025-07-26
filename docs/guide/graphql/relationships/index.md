@@ -48,9 +48,18 @@ query {
 
 ## Many-to-Many (BelongsToMany)
 
-A many-to-many relationship has a `edges` list that contains edge objects.
+Every many-to-many relationship applies the connection pagination and it has three top fields.
+Read about it in the [graphql.org](https://graphql.org/learn/pagination/#pagination-and-edges)
+and [relay.dev](https://relay.dev/graphql/connections.htm) documentations if you don't know what it is.
 
-The edge object contains the pivot fields of the relationship and a `node` object that references the related type.
+The `pageInfo` field for pagination information.
+
+The `nodes` field will return a list of objects that reference the related type.
+Use this field if you don't care about the pivot fields of the relationship.
+
+The `edges` field will return a list of `edge` objects.
+The `edge` object always contains a `node` field that returns a singular object of the related type,
+and the pivot fields of the relationship.
 
 Both fields `createdAt` and `updatedAt` are available for every many-to-many relationship.
 
@@ -61,7 +70,13 @@ query {
         data {
             name
             resources {
-                edges {
+                pageInfo { # Pagination
+                    total
+                }
+                nodes { # Without pivot fields
+                    link
+                }
+                edges { # With pivot fields
                     node {
                         link
                     }
@@ -83,6 +98,15 @@ will return the JSON:
                 {
                     "name": ".hack//Liminality",
                     "resources": {
+                        "pageInfo": {
+                            "total": 6
+                        },
+                        "nodes": [
+                            {
+                                "link": "https://myanimelist.net/anime/299"
+                            },
+                            ...
+                        ],
                         "edges": [
                             {
                                 "node": {

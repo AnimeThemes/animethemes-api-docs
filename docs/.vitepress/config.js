@@ -73,6 +73,7 @@ export default {
                     collapsed: false,
                     items: [
                         { text: 'Search', link: '/guide/examples/search/' },
+                        { text: 'Filter by External Site', link: '/guide/examples/filter-by-external-site/' },
                     ],
                 },
                 {

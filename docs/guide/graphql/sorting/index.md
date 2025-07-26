@@ -1,8 +1,8 @@
 ---
-title: Ordering
+title: Sorting
 ---
 
-# Ordering
+# Sorting
 
 ---
 

@@ -23,7 +23,7 @@ There are two arguments available for every query that uses pagination.
 The following query
 ```graphql
 query {
-    animes(first: 15, page: 1) {
+    animes(first: 2, page: 1) {
         paginatorInfo {
             count
             currentPage
@@ -40,7 +40,7 @@ query {
     }
 }
 ```
-will return a JSON like:
+will return the JSON:
 ```json
 {
     "data": {

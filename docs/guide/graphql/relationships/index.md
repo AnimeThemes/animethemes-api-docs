@@ -6,13 +6,13 @@ title: Relationships
 
 ---
 
-The AnimeThemes API implements relationships for most types, previously known as allowed included in the REST API.
+The AnimeThemes API implements relationships for most types, previously known as "allowed includes" in the REST API.
 
-The many-to-many, one-to-many and polymorphic one-to-many relationships apply pagination.
+The many-to-many, one-to-many, and polymorphic one-to-many relationships apply pagination.
 
 ## Many-to-One (BelongsTo)
 
-A many-to-one relationship has a object that references the foreign type.
+A many-to-one relationship has an object that references the foreign type.
 
 ```graphql
 query {
@@ -29,7 +29,7 @@ query {
 
 ## One-to-Many (HasMany)
 
-An one-to-many relationship has a list of objects that reference the related type.
+A one-to-many relationship has a list of objects that reference the related type.
 
 ```graphql
 query {
@@ -48,9 +48,18 @@ query {
 
 ## Many-to-Many (BelongsToMany)
 
-A many-to-many relationship has a `edges` list that contains edge objects.
+Every many-to-many relationship applies connection pagination and has three top fields.
+Read about it in the [graphql.org](https://graphql.org/learn/pagination/#pagination-and-edges)
+and [relay.dev](https://relay.dev/graphql/connections.htm) documentations if you don't know what it is.
 
-The edge object contains the pivot fields of the relationship and a `node` object that references the related type.
+The `pageInfo` field provides pagination information.
+
+The `nodes` field returns a list of objects that reference the related type.
+Use this field if you don't care about the pivot fields of the relationship.
+
+The `edges` field returns a list of `edge` objects.
+The `edge` object always contains a `node` field that returns a singular object of the related type,
+and the pivot fields of the relationship.
 
 Both fields `createdAt` and `updatedAt` are available for every many-to-many relationship.
 
@@ -61,7 +70,13 @@ query {
         data {
             name
             resources {
-                edges {
+                pageInfo { # Pagination
+                    total
+                }
+                nodes { # Without pivot fields
+                    link
+                }
+                edges { # With pivot fields
                     node {
                         link
                     }
@@ -83,6 +98,15 @@ will return the JSON:
                 {
                     "name": ".hack//Liminality",
                     "resources": {
+                        "pageInfo": {
+                            "total": 6
+                        },
+                        "nodes": [
+                            {
+                                "link": "https://myanimelist.net/anime/299"
+                            },
+                            ...
+                        ],
                         "edges": [
                             {
                                 "node": {
@@ -105,7 +129,7 @@ will return the JSON:
 
 ## Polymorphic Many-to-One (MorphTo)
 
-An union type indicates that a field might have multiple object types.
+A union type indicates that a field might have multiple object types.
 
 ```graphql
 query {

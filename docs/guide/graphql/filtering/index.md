@@ -12,12 +12,12 @@ Most queries provide filtering arguments using the AND operator. Filtering argum
 
 | Name    | Fields                                         | Example    | Description                           |
 | :-----: | :--------------------------------------------: | :--------: | ------------------------------------- |
-| Eq      | String, Int, Float, Boolean, enums, DateTimeTz | name       | Add an `equal` conditional to the query |
-| Like    | String                                         | name_like  | Add a `like` conditional to the query   |
-| In      | Int, Float, enums                              | id_in      | Add an `in` conditional to the query    |
-| Not in  | Int, Float, enums                              | id_not_in  | Add a `not in` conditional to the query |
-| Greater | Int, Float, DateTimeTz                         | id_greater | Add a `gt` conditional to the query     |
-| Lesser  | Int, Float, DateTimeTz                         | id_lesser  | Add a `lt` conditional to the query     |
+| Eq      | String, Int, Float, Boolean, enums, DateTimeTz | name       | Add an `equal` conditim to the query |
+| Like    | String                                         | name_like  | Add a `like` condition to the query   |
+| In      | Int, Float, enums                              | id_in      | Add an `in` condition to the query    |
+| Not in  | Int, Float, enums                              | id_not_in  | Add a `not in` condition to the query |
+| Greater | Int, Float, DateTimeTz                         | id_greater | Add a `greater than` condition to the query     |
+| Lesser  | Int, Float, DateTimeTz                         | id_lesser  | Add a `less than` condition to the query     |
 
 
 Query example:
@@ -33,9 +33,9 @@ query {
 
 ## Trashed Filter
 
-The queries that return a type that implements soft-deletes have a `trashed` filter.
+Queries that return a type implementing soft deletes have a `trashed` filter.
 
-The argument is: `trashed: Trashed`, which allows to filter if trashed elements should be fetched.
+The argument is `trashed: Trashed`, which allows filtering to determine if trashed elements should be fetched.
 
 `Trashed` is an enum with the following values:
 
@@ -57,7 +57,7 @@ query {
 
 ## Nested Filtering
 
-Filtering in relationships is applied **ONLY** on the relationship and it doesn't affect the previous root.
+Filtering in relationships is applied **ONLY** to the relationship and does not affect the previous root.
 
 ```graphql
 query {

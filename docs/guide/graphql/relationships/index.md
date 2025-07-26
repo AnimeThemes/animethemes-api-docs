@@ -6,13 +6,13 @@ title: Relationships
 
 ---
 
-The AnimeThemes API implements relationships for most types, previously known as allowed included in the REST API.
+The AnimeThemes API implements relationships for most types, previously known as "allowed includes" in the REST API.
 
-The many-to-many, one-to-many and polymorphic one-to-many relationships apply pagination.
+The many-to-many, one-to-many, and polymorphic one-to-many relationships apply pagination.
 
 ## Many-to-One (BelongsTo)
 
-A many-to-one relationship has a object that references the foreign type.
+A many-to-one relationship has an object that references the foreign type.
 
 ```graphql
 query {
@@ -29,7 +29,7 @@ query {
 
 ## One-to-Many (HasMany)
 
-An one-to-many relationship has a list of objects that reference the related type.
+A one-to-many relationship has a list of objects that reference the related type.
 
 ```graphql
 query {
@@ -48,16 +48,16 @@ query {
 
 ## Many-to-Many (BelongsToMany)
 
-Every many-to-many relationship applies the connection pagination and it has three top fields.
+Every many-to-many relationship applies connection pagination and has three top fields.
 Read about it in the [graphql.org](https://graphql.org/learn/pagination/#pagination-and-edges)
 and [relay.dev](https://relay.dev/graphql/connections.htm) documentations if you don't know what it is.
 
-The `pageInfo` field for pagination information.
+The `pageInfo` field provides pagination information.
 
-The `nodes` field will return a list of objects that reference the related type.
+The `nodes` field returns a list of objects that reference the related type.
 Use this field if you don't care about the pivot fields of the relationship.
 
-The `edges` field will return a list of `edge` objects.
+The `edges` field returns a list of `edge` objects.
 The `edge` object always contains a `node` field that returns a singular object of the related type,
 and the pivot fields of the relationship.
 
@@ -129,7 +129,7 @@ will return the JSON:
 
 ## Polymorphic Many-to-One (MorphTo)
 
-An union type indicates that a field might have multiple object types.
+A union type indicates that a field might have multiple object types.
 
 ```graphql
 query {

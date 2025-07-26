@@ -4,6 +4,8 @@ title: Global Search
 
 # Global Search Query
 
+---
+
 The global search query returns a listing of resources that match a given search term.
 
 ## Query Example

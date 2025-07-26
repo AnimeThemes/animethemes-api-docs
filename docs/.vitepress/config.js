@@ -64,7 +64,7 @@ export default {
                         { text: 'Getting Started', link: '/guide/graphql/getting-started/' },
                         { text: 'Pagination', link: '/guide/graphql/pagination/' },
                         { text: 'Filtering', link: '/guide/graphql/filtering/' },
-                        { text: 'Ordering', link: '/guide/graphql/ordering/' },
+                        { text: 'Sorting', link: '/guide/graphql/sorting/' },
                         { text: 'Relationships', link: '/guide/graphql/relationships/' },
                     ],
                 },

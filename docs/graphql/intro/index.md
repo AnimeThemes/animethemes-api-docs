@@ -10,23 +10,23 @@ AnimeThemes is a simple and consistent repository of anime opening and ending th
 
 The AnimeThemes API provides access to our repository resources for your development needs.
 
-## [GraphQL](/guide/intro/graphql/)
+## [GraphQL](/graphql/intro/graphql/)
 
 The AnimeThemes API selectively implements the [**GraphQL Tool**](https://graphql.org).
 
 We provide an overview of where the AnimeThemes API adheres to or deviates from the specification.
 
-## [Rate Limiting](/guide/intro/ratelimiting/)
+## [Rate Limiting](/graphql/intro/ratelimiting/)
 
 The AnimeThemes API applies the standard named rate limiter of the Laravel Framework.
 
 We provide an overview of managing request quotas.
 
-## [Authentication](/guide/intro/authentication/)
+## [Authentication](/graphql/intro/authentication/)
 
 The AnimeThemes API uses token-based authentication to grant the user access to mutations.
 
-## [Validation](/guide/intro/validation/)
+## [Validation](/graphql/intro/validation/)
 
 The AnimeThemes API uses form requests to validate query parameters.
 

@@ -12,7 +12,7 @@ hero:
     actions:
         - theme: brand
           text: Get Started
-          link: /guide/intro/
+          link: /graphql/intro/
         - theme: alt
           text: GraphiQL
           link: https://graphql.animethemes.moe/graphiql
@@ -20,6 +20,6 @@ features:
   - icon: 🔍
     title: Advanced Querying
     details: Support for randomization, searching and filtering by direct fields and relation fields out of the box
-    link: /guide/graphql/filtering/
+    link: /graphql/graphql/filtering/
     linkText: Example
 ---

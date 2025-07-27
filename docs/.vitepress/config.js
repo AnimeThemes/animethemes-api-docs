@@ -589,11 +589,11 @@ export default {
                     text: 'GraphQL',
                     collapsed: false,
                     items: [
-                        { text: 'Getting Started', link: '/graphql/graphql/getting-started/' },
-                        { text: 'Pagination', link: '/graphql/graphql/pagination/' },
-                        { text: 'Filtering', link: '/graphql/graphql/filtering/' },
-                        { text: 'Sorting', link: '/graphql/graphql/sorting/' },
-                        { text: 'Relationships', link: '/graphql/graphql/relationships/' },
+                        { text: 'Getting Started', link: '/graphql/guide/getting-started/' },
+                        { text: 'Pagination', link: '/graphql/guide/pagination/' },
+                        { text: 'Filtering', link: '/graphql/guide/filtering/' },
+                        { text: 'Sorting', link: '/graphql/guide/sorting/' },
+                        { text: 'Relationships', link: '/graphql/guide/relationships/' },
                     ],
                 },
                 {

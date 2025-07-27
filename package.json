@@ -1,21 +1,24 @@
 {
-  "name": "animethemes-api-docs",
-  "version": "4.0.0",
-  "description": "AnimeThemes.moe GraphQL API Documentation",
-  "main": "index.js",
-  "authors": {
-    "name": "AnimeThemes",
-    "email": "admin@animethemes.moe"
-  },
-  "repository": "https://github.com/AnimeThemes/animethemes-api-docs",
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "dotenv": "^16.1.4",
-    "vitepress": "^2.0.0-alpha.9"
-  }
+    "name": "animethemes-api-docs",
+    "version": "4.0.0",
+    "description": "AnimeThemes.moe GraphQL API Documentation",
+    "main": "index.js",
+    "authors": {
+        "name": "AnimeThemes",
+        "email": "admin@animethemes.moe"
+    },
+    "repository": "https://github.com/AnimeThemes/animethemes-api-docs",
+    "scripts": {
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.1.4",
+        "vitepress": "^2.0.0-alpha.9"
+    },
+    "devDependencies": {
+        "prettier": "3.6.2"
+    }
 }

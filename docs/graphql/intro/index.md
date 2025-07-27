@@ -10,7 +10,7 @@ AnimeThemes is a simple and consistent repository of anime opening and ending th
 
 The AnimeThemes API provides access to our repository resources for your development needs.
 
-## [GraphQL](/graphql/intro/graphql/)
+## [GraphQL](/graphql/guide/getting-started/)
 
 The AnimeThemes API selectively implements the [**GraphQL Tool**](https://graphql.org).
 

@@ -586,7 +586,7 @@ export default {
                     ]
                 },
                 {
-                    text: 'GraphQL',
+                    text: 'Guide',
                     collapsed: false,
                     items: [
                         { text: 'Getting Started', link: '/graphql/guide/getting-started/' },

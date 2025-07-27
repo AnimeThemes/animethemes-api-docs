@@ -575,40 +575,40 @@ export default {
             },
         ],
         sidebar: {
-            '/guide/': [
+            '/graphql/': [
                 {
                     text: 'Introduction',
                     collapsed: false,
                     items: [
-                        { text: 'Rate Limiting', link: '/guide/intro/ratelimiting/' },
-                        { text: 'Authentication', link: '/guide/intro/authentication/' },
-                        { text: 'Validation', link: '/guide/intro/validation/' },
+                        { text: 'Rate Limiting', link: '/graphql/intro/ratelimiting/' },
+                        { text: 'Authentication', link: '/graphql/intro/authentication/' },
+                        { text: 'Validation', link: '/graphql/intro/validation/' },
                     ]
                 },
                 {
-                    text: 'GraphQL',
+                    text: 'Guide',
                     collapsed: false,
                     items: [
-                        { text: 'Getting Started', link: '/guide/graphql/getting-started/' },
-                        { text: 'Pagination', link: '/guide/graphql/pagination/' },
-                        { text: 'Filtering', link: '/guide/graphql/filtering/' },
-                        { text: 'Sorting', link: '/guide/graphql/sorting/' },
-                        { text: 'Relationships', link: '/guide/graphql/relationships/' },
+                        { text: 'Getting Started', link: '/graphql/guide/getting-started/' },
+                        { text: 'Pagination', link: '/graphql/guide/pagination/' },
+                        { text: 'Filtering', link: '/graphql/guide/filtering/' },
+                        { text: 'Sorting', link: '/graphql/guide/sorting/' },
+                        { text: 'Relationships', link: '/graphql/guide/relationships/' },
                     ],
                 },
                 {
                     text: 'Examples',
                     collapsed: false,
                     items: [
-                        { text: 'Search', link: '/guide/examples/search/' },
-                        { text: 'Filter by External Site', link: '/guide/examples/filter-by-external-site/' },
+                        { text: 'Search', link: '/graphql/examples/search/' },
+                        { text: 'Filter by External Site', link: '/graphql/examples/filter-by-external-site/' },
                     ],
                 },
                 {
                     text: 'Migrating',
                     collapsed: false,
                     items: [
-                        { text: 'Migrating from REST API', link: '/guide/migrating/' },
+                        { text: 'Migrating from REST API', link: '/graphql/migrating/' },
                     ],
                 }
             ],

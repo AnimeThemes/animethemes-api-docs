@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import graphqlWarnPlugin from './theme/graphql-warn-plugin';
 
 const referenceSidebarItems = [
     {
@@ -511,6 +512,9 @@ const referenceSidebarItems = [
 ];
 
 export default {
+    vite: {
+        plugins: [graphqlWarnPlugin()],
+    },
     base: process.env.VITEPRESS_BASE,
     lang: 'en-US',
     lastUpdated: true,

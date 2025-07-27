@@ -20,6 +20,6 @@ features:
   - icon: 🔍
     title: Advanced Querying
     details: Support for randomization, searching and filtering by direct fields and relation fields out of the box
-    link: /graphql/graphql/filtering/
+    link: /graphql/guide/filtering/
     linkText: Example
 ---

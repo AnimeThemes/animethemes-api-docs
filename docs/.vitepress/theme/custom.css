@@ -1,7 +1,6 @@
 :root {
-    --vp-c-brand: #40b8a6;
-    --vp-c-brand-light: #75ead4;
-    --vp-c-brand-lighter: #d1fbf1;
-    --vp-c-brand-dark: #28766e;
-    --vp-c-brand-darker: #1e4e4a;
+    --vp-c-brand-1: #40b8a6;
+    --vp-c-brand-2: #28766e;
+    --vp-c-brand-3: #1e4e4a;
+    --vp-c-brand-soft: rgba(64, 184, 166, 0.16);
 }

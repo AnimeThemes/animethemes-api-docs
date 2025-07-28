@@ -519,8 +519,8 @@ export default {
     lang: 'en-US',
     lastUpdated: true,
     title: 'AnimeThemes',
-    titleTemplate: 'AnimeThemes GraphQL API Documentation',
-    description: 'AnimeThemes GraphQL API Documentation',
+    titleTemplate: 'AnimeThemes API Documentation',
+    description: 'AnimeThemes API Documentation',
     markdown: {
         lineNumbers: true
     },
@@ -556,7 +556,7 @@ export default {
                     },
                     {
                         text: 'API Reference',
-                        link: '/',
+                        link: '/reference',
                     }
                 ]
             },
@@ -627,6 +627,7 @@ export default {
                     ]
                 },
             ],
+            '/reference': referenceSidebarItems,
             '/admin/': referenceSidebarItems,
             '/auth/': referenceSidebarItems,
             '/document/': referenceSidebarItems,

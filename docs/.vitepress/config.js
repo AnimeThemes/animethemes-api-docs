@@ -585,8 +585,6 @@ export default {
                     collapsed: false,
                     items: [
                         { text: 'Rate Limiting', link: '/graphql/intro/ratelimiting/' },
-                        { text: 'Authentication', link: '/graphql/intro/authentication/' },
-                        { text: 'Validation', link: '/graphql/intro/validation/' },
                     ]
                 },
                 {

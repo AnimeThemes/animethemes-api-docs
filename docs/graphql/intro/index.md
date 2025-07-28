@@ -22,14 +22,6 @@ The AnimeThemes API applies the standard named rate limiter of the Laravel Frame
 
 We provide an overview of managing request quotas.
 
-## [Authentication](/graphql/intro/authentication/)
-
-The AnimeThemes API uses token-based authentication to grant the user access to mutations.
-
-## [Validation](/graphql/intro/validation/)
-
-The AnimeThemes API uses form requests to validate query parameters.
-
 ## Terms of Use
 
 The AnimeThemes API applies the [**AnimeThemes Terms of Service**](https://animethemes.moe/about/terms-of-service).

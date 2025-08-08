@@ -14,13 +14,11 @@ An external resource may be linked to multiple anime.
 
 ```graphql
 query ($id: Int!) {
-    {
-        findAnimeByExternalSite(site: ANILIST, id: $id) {
-            name
-            mediaFormat
-            season
-            year
-        }
+    findAnimeByExternalSite(site: ANILIST, id: $id) {
+        name
+        mediaFormat
+        season
+        year
     }
 }
 ```

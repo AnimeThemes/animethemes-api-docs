@@ -20,7 +20,7 @@ The AnimeThemes API needs a `Content-Type` header.
 # A simple curl request works like this.
 curl -X POST
     -H "Content-Type: application/json"
-    -d "{\"query\": \"{ animes { data { name } } }\"}"
+    -d "{\"query\": \"{ animePaginator { data { name } } }\"}"
     https://graphql.animethemes.moe/
 ```
 
@@ -28,12 +28,12 @@ curl -X POST
 
 ### Top Level
 
-The AnimeThemes API specifies a custom `data` wrap for top-level members.
+The AnimeThemes API specifies a custom `data` wrap for top-level members that use pagination.
 
 The following query
 ```graphql
 query {
-    animes {
+    animePaginator {
         data {
             name
         }
@@ -44,7 +44,7 @@ will return the JSON:
 ```json
 {
     "data": {
-        "animes": {
+        "animePaginator": {
             "data": [
                 {
                     "name": ".hack//Liminality"
@@ -52,6 +52,20 @@ will return the JSON:
                 ...
             ]
         }
+    }
+}
+```
+
+### Singular Query
+
+In case you want to return a single object, there are a few types that allow it.
+The following example returns the first anime with the slug hibike_euphonium.
+
+```graphql
+query {
+    anime(slug: "hibike_euphonium") {
+        name
+        slug
     }
 }
 ```

@@ -23,7 +23,7 @@ Most queries provide filtering arguments using the AND operator. Filtering argum
 Query example:
 ```graphql
 query {
-    animes(name_like: "%monogatari%") {
+    animePaginator(name_like: "%monogatari%") {
         data {
             name
         }
@@ -47,7 +47,7 @@ The argument is `trashed: Trashed`, which allows filtering to determine if trash
 
 ```graphql
 query {
-    animes(trashed: ONLY) {
+    animePaginator(trashed: ONLY) {
         data {
             name
         }
@@ -61,14 +61,12 @@ Filtering in relationships is applied **ONLY** to the relationship and does not 
 
 ```graphql
 query {
-    animes {
-        data {
-            name
-            animethemes(type: OP) {
-                data {
-                    type
-                    sequence
-                }
+    anime(slug: "hibike_euphonium") {
+        name
+        animethemes(type: OP) {
+            data {
+                type
+                sequence
             }
         }
     }

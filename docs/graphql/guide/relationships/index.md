@@ -16,7 +16,7 @@ A many-to-one relationship has an object that references the foreign type.
 
 ```graphql
 query {
-    animethemes {
+    animethemePaginator {
         data {
             sequence
             anime {
@@ -33,13 +33,11 @@ A one-to-many relationship has a list of objects that reference the related type
 
 ```graphql
 query {
-    animes {
-        data {
-            name
-            animethemes(first: 2) {
-                data {
-                    sequence
-                }
+    anime(slug: "hibike_euphonium") {
+        name
+        animethemes(first: 2) {
+            data {
+                sequence
             }
         }
     }
@@ -66,24 +64,22 @@ Both fields `createdAt` and `updatedAt` are available for every many-to-many rel
 The following query
 ```graphql
 query {
-    animes {
-        data {
-            name
-            resources {
-                pageInfo { # Pagination
-                    total
-                }
-                nodes { # Without pivot fields
+    anime(slug: "hibike_euphonium") {
+        name
+        resources {
+            pageInfo { # Pagination
+                total
+            }
+            nodes { # Without pivot fields
+                link
+            }
+            edges { # With pivot fields
+                node {
                     link
                 }
-                edges { # With pivot fields
-                    node {
-                        link
-                    }
-                    as
-                    createdAt
-                    updatedAt
-                }
+                as
+                createdAt
+                updatedAt
             }
         }
     }
@@ -93,35 +89,30 @@ will return the JSON:
 ```json
 {
     "data": {
-        "animes": {
-            "data": [
-                {
-                    "name": ".hack//Liminality",
-                    "resources": {
-                        "pageInfo": {
-                            "total": 6
+        "anime": {
+            "name": "Hibike! Euphonium",
+            "resources": {
+                "pageInfo": {
+                    "total": 9
+                },
+                "nodes": [
+                    {
+                        "link": "https://myanimelist.net/anime/27989"
+                    },
+                    ...
+                ],
+                "edges": [
+                    {
+                        "node": {
+                            "link": "https://myanimelist.net/anime/27989"
                         },
-                        "nodes": [
-                            {
-                                "link": "https://myanimelist.net/anime/299"
-                            },
-                            ...
-                        ],
-                        "edges": [
-                            {
-                                "node": {
-                                    "link": "https://myanimelist.net/anime/299"
-                                },
-                                "as": null,
-                                "createdAt": "2021-03-27T00:46:24+00:00",
-                                "updatedAt": "2021-03-27T00:46:24+00:00"
-                            }
-                            ...
-                        ]
+                        "as": null,
+                        "createdAt": "2021-03-26T21:49:16+00:00",
+                        "updatedAt": "2021-03-26T21:49:16+00:00"
                     }
-                }
-                ...
-            ]
+                    ...
+                ]
+            }
         }
     }
 }
@@ -133,7 +124,7 @@ A union type indicates that a field might have multiple object types.
 
 ```graphql
 query {
-    performances {
+    performancePaginator {
         data {
             artist {
                 ... on Artist {
@@ -159,7 +150,7 @@ The inverse relationship of polymorphic many-to-one. Applies pagination.
 
 ```graphql
 query {
-    memberships {
+    membershipPaginator {
         data {
             performances {
                 data {

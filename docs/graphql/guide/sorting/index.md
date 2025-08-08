@@ -16,14 +16,14 @@ To sort in descending order, append `_DESC` to the field name.
 ## Query
 
 ```graphql
-{
-    animes(sort: NAME) { # Sorting in ascending direction.
+query {
+    animePaginator(sort: NAME) { # Sorting in ascending direction.
         data {
             name
         }
     }
 
-    animes(sort: NAME_DESC) { # Sorting in descending direction.
+    animePaginator(sort: NAME_DESC) { # Sorting in descending direction.
         data {
             name
         }
@@ -36,13 +36,11 @@ To sort in descending order, append `_DESC` to the field name.
 It is possible to sort the relationships of the parent type.
 
 ```graphql
-{
-    animes {
-        data {
-            resources(sort: EXTERNAL_ID) {
-                nodes {
-                    externalId
-                }
+query {
+    anime(slug: "hibike_euphonium") {
+        resources(sort: EXTERNAL_ID) {
+            nodes {
+                externalId
             }
         }
     }
@@ -55,7 +53,7 @@ By providing a list of enum cases, the sort will be applied in the order of the 
 
 ```graphql
 {
-    animes(sort: [YEAR_DESC, SEASON]) {
+    animePaginator(sort: [YEAR_DESC, SEASON]) {
         data {
             year
             season

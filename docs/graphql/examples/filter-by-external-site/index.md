@@ -7,20 +7,18 @@ title: Filter by External Site
 ---
 
 The AnimeThemes API provides an exclusive query for one of its most common use cases.
-The `findAnimesByExternalSite` query accepts three arguments to filter animes by external resources.
-An external resource may be linked to multiple animes.
+The `findAnimeByExternalSite` query accepts three arguments to filter anime by external resources.
+An external resource may be linked to multiple anime.
 
 ## Query Example
 
 ```graphql
 query ($id: Int!) {
-    {
-        findAnimesByExternalSite(site: ANILIST, id: $id) {
-            name
-            mediaFormat
-            season
-            year
-        }
+    findAnimeByExternalSite(site: ANILIST, id: $id) {
+        name
+        mediaFormat
+        season
+        year
     }
 }
 ```
@@ -42,7 +40,7 @@ None
 ```json
 {
     "data": {
-        "findAnimesByExternalSite": [
+        "findAnimeByExternalSite": [
             {
                 "name": "Hibike! Euphonium 3",
                 "mediaFormat": "TV",

@@ -8,24 +8,7 @@ title: Relationships
 
 The AnimeThemes API implements relationships for most types, previously known as "allowed includes" in the REST API.
 
-The many-to-many, one-to-many, and polymorphic one-to-many relationships apply pagination.
-
-## Many-to-One (BelongsTo)
-
-A many-to-one relationship has an object that references the foreign type.
-
-```graphql
-query {
-    animethemePaginator {
-        data {
-            sequence
-            anime {
-                name
-            }
-        }
-    }
-}
-```
+The many-to-many relationships apply connections. The one-to-many relationships apply simple pagination.
 
 ## One-to-Many (HasMany)
 
@@ -35,9 +18,24 @@ A one-to-many relationship has a list of objects that reference the related type
 query {
     anime(slug: "hibike_euphonium") {
         name
-        animethemes(first: 2) {
-            data {
-                sequence
+        animethemes(first: 2, type: OP) {
+            sequence
+        }
+    }
+}
+```
+
+## Inverse One-to-Many (BelongsTo)
+
+An inverse one-to-many relationship has an object that references the foreign type.
+
+```graphql
+query {
+    animethemePagination {
+        data {
+            sequence
+            anime {
+                name
             }
         }
     }
@@ -118,13 +116,31 @@ will return the JSON:
 }
 ```
 
-## Polymorphic Many-to-One (MorphTo)
+## Polymorphic One-to-Many (MorphMany)
 
+The relationship of polymorphic one-to-many. Applies simple pagination.
+
+```graphql
+query {
+    membershipPagination {
+        data {
+            performances {
+                alias
+                as
+            }
+        }
+    }
+}
+```
+
+## Polymorphic inverse One-to-Many (MorphTo)
+
+The inverse type of polymorphic one-to-many.
 A union type indicates that a field might have multiple object types.
 
 ```graphql
 query {
-    performancePaginator {
+    performancePagination {
         data {
             artist {
                 ... on Artist {
@@ -137,25 +153,6 @@ query {
                     member {
                         name
                     }
-                }
-            }
-        }
-    }
-}
-```
-
-## Polymorphic One-to-Many (MorphMany)
-
-The inverse relationship of polymorphic many-to-one. Applies pagination.
-
-```graphql
-query {
-    membershipPaginator {
-        data {
-            performances {
-                data {
-                    alias
-                    as
                 }
             }
         }

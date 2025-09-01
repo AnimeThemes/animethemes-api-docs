@@ -64,6 +64,107 @@ The following query
 query {
     anime(slug: "hibike_euphonium") {
         name
+        series {
+            pageInfo { # Pagination
+                total
+            }
+            nodes { # Without pivot fields
+                name
+            }
+            edges { # With pivot fields
+                node {
+                    name
+                }
+                createdAt
+                updatedAt
+            }
+        }
+    }
+}
+```
+will return the JSON:
+```json
+{
+    "data": {
+        "anime": {
+            "name": "Hibike! Euphonium",
+            "series": {
+                "pageInfo": {
+                    "total": 1
+                },
+                "nodes": [
+                    {
+                        "name": "Hibike! Euphonium"
+                    }
+                ],
+                "edges": [
+                    {
+                        "node": {
+                            "name": "Hibike! Euphonium"
+                        },
+                        "createdAt": "2021-03-27 01:58:45",
+                        "updatedAt": "2021-03-27 01:58:45"
+                    }
+                ]
+            }
+        }
+    }
+}
+```
+
+## Polymorphic One-to-Many (MorphMany)
+
+The relationship of polymorphic one-to-many. Applies simple pagination.
+
+```graphql
+query {
+    membershipPagination {
+        data {
+            performances {
+                alias
+                as
+            }
+        }
+    }
+}
+```
+
+## Polymorphic inverse One-to-Many (MorphTo)
+
+The inverse type of polymorphic one-to-many.
+A union type indicates that a field might have multiple object types.
+
+```graphql
+query {
+    performancePagination {
+        data {
+            artist {
+                ... on Artist {
+                    name
+                }
+                ... on Membership {
+                    group {
+                        name
+                    }
+                    member {
+                        name
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+## Polymorphic Many-to-Many (MorphToMany)
+
+The polymorphic many-to-many relationship uses the same strategy as the usual [many-to-many](#many-to-many-belongstomany).
+
+The following query
+```graphql
+query {
+    anime(slug: "hibike_euphonium") {
+        name
         resources {
             pageInfo { # Pagination
                 total
@@ -110,50 +211,6 @@ will return the JSON:
                     }
                     ...
                 ]
-            }
-        }
-    }
-}
-```
-
-## Polymorphic One-to-Many (MorphMany)
-
-The relationship of polymorphic one-to-many. Applies simple pagination.
-
-```graphql
-query {
-    membershipPagination {
-        data {
-            performances {
-                alias
-                as
-            }
-        }
-    }
-}
-```
-
-## Polymorphic inverse One-to-Many (MorphTo)
-
-The inverse type of polymorphic one-to-many.
-A union type indicates that a field might have multiple object types.
-
-```graphql
-query {
-    performancePagination {
-        data {
-            artist {
-                ... on Artist {
-                    name
-                }
-                ... on Membership {
-                    group {
-                        name
-                    }
-                    member {
-                        name
-                    }
-                }
             }
         }
     }

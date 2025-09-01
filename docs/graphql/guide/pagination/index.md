@@ -6,9 +6,9 @@ title: Pagination
 
 ---
 
-The AnimeThemes API query that uses pagination shall contain a `paginatorInfo` object for pagination strategies and a `data` collection with the resources.
+The AnimeThemes API query that uses pagination shall contain a `paginationInfo` object for pagination strategies and a `data` collection with the resources.
 
-The top-level fields that use pagination are singular and have the `Paginator` suffix.
+The top-level fields that use pagination are singular and have the `Pagination` suffix.
 
 
 ## Arguments
@@ -25,8 +25,8 @@ There are two arguments available for every query that uses pagination.
 The following query
 ```graphql
 query {
-    animePaginator(first: 2, page: 1) {
-        paginatorInfo {
+    animePagination(first: 2, page: 1) {
+        paginationInfo {
             count
             currentPage
             firstItem
@@ -46,8 +46,8 @@ will return the JSON:
 ```json
 {
     "data": {
-        "animePaginator": {
-            "paginatorInfo": {
+        "animePagination": {
+            "paginationInfo": {
                 "count": 2,
                 "currentPage": 1,
                 "firstItem": 1,

@@ -26,23 +26,14 @@ const referenceSidebarItems = [
                 text: 'Anime Image',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/animeimage/' },
-                    { text: 'Destroy', link: '/wiki/animeimage/destroy/' },
-                    { text: 'Index', link: '/wiki/animeimage/index/' },
-                    { text: 'Show', link: '/wiki/animeimage/show/' },
-                    { text: 'Store', link: '/wiki/animeimage/store/' }
+                    { text: 'Resource', link: '/wiki/animeimage/' }
                 ]
             },
             {
                 text: 'Anime Resource',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/animeresource/' },
-                    { text: 'Destroy', link: '/wiki/animeresource/destroy/' },
-                    { text: 'Index', link: '/wiki/animeresource/index/' },
-                    { text: 'Show', link: '/wiki/animeresource/show/' },
-                    { text: 'Store', link: '/wiki/animeresource/store/' },
-                    { text: 'Update', link: '/wiki/animeresource/update/' }
+                    { text: 'Resource', link: '/wiki/animeresource/' }
                 ]
             },
             {
@@ -138,12 +129,7 @@ const referenceSidebarItems = [
                 text: 'Artist Image',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/artistimage/' },
-                    { text: 'Destroy', link: '/wiki/artistimage/destroy/' },
-                    { text: 'Index', link: '/wiki/artistimage/index/' },
-                    { text: 'Show', link: '/wiki/artistimage/show/' },
-                    { text: 'Store', link: '/wiki/artistimage/store/' },
-                    { text: 'Update', link: '/wiki/artistimage/update/' }
+                    { text: 'Resource', link: '/wiki/artistimage/' }
                 ]
             },
             {
@@ -162,12 +148,7 @@ const referenceSidebarItems = [
                 text: 'Artist Resource',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/artistresource/' },
-                    { text: 'Destroy', link: '/wiki/artistresource/destroy/' },
-                    { text: 'Index', link: '/wiki/artistresource/index/' },
-                    { text: 'Show', link: '/wiki/artistresource/show/' },
-                    { text: 'Store', link: '/wiki/artistresource/store/' },
-                    { text: 'Update', link: '/wiki/artistresource/update/' }
+                    { text: 'Resource', link: '/wiki/artistresource/' }
                 ]
             },
             {
@@ -270,12 +251,7 @@ const referenceSidebarItems = [
                 text: 'Song Resource',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/songresource/' },
-                    { text: 'Destroy', link: '/wiki/songresource/destroy/' },
-                    { text: 'Index', link: '/wiki/songresource/index/' },
-                    { text: 'Show', link: '/wiki/songresource/show/' },
-                    { text: 'Store', link: '/wiki/songresource/store/' },
-                    { text: 'Update', link: '/wiki/songresource/update/' }
+                    { text: 'Resource', link: '/wiki/songresource/' }
                 ]
             },
             {
@@ -296,23 +272,14 @@ const referenceSidebarItems = [
                 text: 'Studio Image',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/studioimage/' },
-                    { text: 'Destroy', link: '/wiki/studioimage/destroy/' },
-                    { text: 'Index', link: '/wiki/studioimage/index/' },
-                    { text: 'Show', link: '/wiki/studioimage/show/' },
-                    { text: 'Store', link: '/wiki/studioimage/store/' }
+                    { text: 'Resource', link: '/wiki/studioimage/' }
                 ]
             },
             {
                 text: 'Studio Resource',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/studioresource/' },
-                    { text: 'Destroy', link: '/wiki/studioresource/destroy/' },
-                    { text: 'Index', link: '/wiki/studioresource/index/' },
-                    { text: 'Show', link: '/wiki/studioresource/show/' },
-                    { text: 'Store', link: '/wiki/studioresource/store/' },
-                    { text: 'Update', link: '/wiki/studioresource/update/' }
+                    { text: 'Resource', link: '/wiki/studioresource/' }
                 ]
             },
             {
@@ -486,11 +453,7 @@ const referenceSidebarItems = [
                 text: 'Playlist Image',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/list/playlistimage/' },
-                    { text: 'Destroy', link: '/list/playlistimage/destroy/' },
-                    { text: 'Index', link: '/list/playlistimage/index/' },
-                    { text: 'Show', link: '/list/playlistimage/show/' },
-                    { text: 'Store', link: '/list/playlistimage/store/' }
+                    { text: 'Resource', link: '/list/playlistimage/' }
                 ]
             },
             {

@@ -6,7 +6,7 @@ title: Relationships
 
 ---
 
-The AnimeThemes API implements relationships for most types, previously known as "allowed includes" in the REST API.
+The AnimeThemes API implements relationships for most types, previously known as "allowed includes" in the JSON:API.
 
 The many-to-many relationships apply connections. The one-to-many relationships apply simple pagination.
 

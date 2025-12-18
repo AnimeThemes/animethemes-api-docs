@@ -6,7 +6,7 @@ title: Dump Update
 
 The dump update endpoint updates a dump and returns the updated dump resource.
 
-For example, the `/dump/1?path=animethemes-db-dump-wiki-1663559663946.sql` endpoint will update the dump path attribute and return the updated dump resource.
+For example, the `/dump/1?path=animethemes-db-dump-content-1663559663946.sql` endpoint will update the dump path attribute and return the updated dump resource.
 
 ## URL
 

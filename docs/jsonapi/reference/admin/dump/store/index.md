@@ -6,7 +6,7 @@ title: Dump Store
 
 The dump store endpoint creates a new dump and returns the new dump resource.
 
-For example, the `/dump?path=animethemes-db-dump-wiki-1663559663946.sql` endpoint will create a new dump and return the new dump resource.
+For example, the `/dump?path=animethemes-db-dump-content-1663559663946.sql` endpoint will create a new dump and return the new dump resource.
 
 ## URL
 

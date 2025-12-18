@@ -18,14 +18,14 @@ None
 
 ## Parameters
 
-| Name          | Required | Description                                                                  |
-| :----------:  | :------: | :--------------------------------------------------------------------------- |
-| fields        | No       | Sparse fieldsets for resource types                                          |
-| filter        | No       | Filters for wiki resources & constraining the inclusion of related resources |
-| include[type] | No       | Inclusion of related resources by type                                       |
-| page[limit]   | No       | The maximum number of wiki resource matches to return                        |
-| q             | Yes      | The query to search for matching wiki resources                              |
-| sort[type]    | No       | The list of fields to sort the resources                                     |
+| Name          | Required | Description                                                                     |
+| :----------:  | :------: | :------------------------------------------------------------------------------ |
+| fields        | No       | Sparse fieldsets for resource types                                             |
+| filter        | No       | Filters for content resources & constraining the inclusion of related resources |
+| include[type] | No       | Inclusion of related resources by type                                          |
+| page[limit]   | No       | The maximum number of content resource matches to return                        |
+| q             | Yes      | The query to search for matching content resources                              |
+| sort[type]    | No       | The list of fields to sort the resources                                        |
 
 ## Response
 

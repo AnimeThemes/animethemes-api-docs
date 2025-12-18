@@ -3,311 +3,311 @@ import graphqlWarnPlugin from './theme/graphql-warn-plugin';
 
 const referenceSidebarItems = [
     {
-        text: 'Wiki',
+        text: 'Content',
         collapsed: true,
         items: [
             {
                 text: 'Anime',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/anime/' },
-                    { text: 'Destroy', link: '/wiki/anime/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/anime/forceDelete/' },
-                    { text: 'Index', link: '/wiki/anime/index/' },
-                    { text: 'Restore', link: '/wiki/anime/restore/' },
-                    { text: 'Show', link: '/wiki/anime/show/' },
-                    { text: 'Store', link: '/wiki/anime/store/' },
-                    { text: 'Update', link: '/wiki/anime/update/' },
-                    { text: 'Year Index', link: '/wiki/animeyear/index/' },
-                    { text: 'Year Show', link: '/wiki/animeyear/show/' }
+                    { text: 'Resource', link: '/content/anime/' },
+                    { text: 'Destroy', link: '/content/anime/destroy/' },
+                    { text: 'Force Delete', link: '/content/anime/forceDelete/' },
+                    { text: 'Index', link: '/content/anime/index/' },
+                    { text: 'Restore', link: '/content/anime/restore/' },
+                    { text: 'Show', link: '/content/anime/show/' },
+                    { text: 'Store', link: '/content/anime/store/' },
+                    { text: 'Update', link: '/content/anime/update/' },
+                    { text: 'Year Index', link: '/content/animeyear/index/' },
+                    { text: 'Year Show', link: '/content/animeyear/show/' }
                 ]
             },
             {
                 text: 'Anime Image',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/animeimage/' }
+                    { text: 'Resource', link: '/content/animeimage/' }
                 ]
             },
             {
                 text: 'Anime Resource',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/animeresource/' }
+                    { text: 'Resource', link: '/content/animeresource/' }
                 ]
             },
             {
                 text: 'Anime Series',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/animeseries/' },
-                    { text: 'Destroy', link: '/wiki/animeseries/destroy/' },
-                    { text: 'Index', link: '/wiki/animeseries/index/' },
-                    { text: 'Show', link: '/wiki/animeseries/show/' },
-                    { text: 'Store', link: '/wiki/animeseries/store/' }
+                    { text: 'Resource', link: '/content/animeseries/' },
+                    { text: 'Destroy', link: '/content/animeseries/destroy/' },
+                    { text: 'Index', link: '/content/animeseries/index/' },
+                    { text: 'Show', link: '/content/animeseries/show/' },
+                    { text: 'Store', link: '/content/animeseries/store/' }
                 ]
             },
             {
                 text: 'Anime Studio',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/animestudio/' },
-                    { text: 'Destroy', link: '/wiki/animestudio/destroy/' },
-                    { text: 'Index', link: '/wiki/animestudio/index/' },
-                    { text: 'Show', link: '/wiki/animestudio/show/' },
-                    { text: 'Store', link: '/wiki/animestudio/store/' }
+                    { text: 'Resource', link: '/content/animestudio/' },
+                    { text: 'Destroy', link: '/content/animestudio/destroy/' },
+                    { text: 'Index', link: '/content/animestudio/index/' },
+                    { text: 'Show', link: '/content/animestudio/show/' },
+                    { text: 'Store', link: '/content/animestudio/store/' }
                 ]
             },
             {
                 text: 'Anime Synonym',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/animesynonym/' },
-                    { text: 'Destroy', link: '/wiki/animesynonym/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/animesynonym/forceDelete/' },
-                    { text: 'Index', link: '/wiki/animesynonym/index/' },
-                    { text: 'Restore', link: '/wiki/animesynonym/restore/' },
-                    { text: 'Show', link: '/wiki/animesynonym/show/' },
-                    { text: 'Store', link: '/wiki/animesynonym/store/' },
-                    { text: 'Update', link: '/wiki/animesynonym/update/' }
+                    { text: 'Resource', link: '/content/animesynonym/' },
+                    { text: 'Destroy', link: '/content/animesynonym/destroy/' },
+                    { text: 'Force Delete', link: '/content/animesynonym/forceDelete/' },
+                    { text: 'Index', link: '/content/animesynonym/index/' },
+                    { text: 'Restore', link: '/content/animesynonym/restore/' },
+                    { text: 'Show', link: '/content/animesynonym/show/' },
+                    { text: 'Store', link: '/content/animesynonym/store/' },
+                    { text: 'Update', link: '/content/animesynonym/update/' }
                 ]
             },
             {
                 text: 'Anime Theme',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/animetheme/' },
-                    { text: 'Destroy', link: '/wiki/animetheme/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/animetheme/forceDelete/' },
-                    { text: 'Index', link: '/wiki/animetheme/index/' },
-                    { text: 'Restore', link: '/wiki/animetheme/restore/' },
-                    { text: 'Show', link: '/wiki/animetheme/show/' },
-                    { text: 'Store', link: '/wiki/animetheme/store/' },
-                    { text: 'Update', link: '/wiki/animetheme/update/' }
+                    { text: 'Resource', link: '/content/animetheme/' },
+                    { text: 'Destroy', link: '/content/animetheme/destroy/' },
+                    { text: 'Force Delete', link: '/content/animetheme/forceDelete/' },
+                    { text: 'Index', link: '/content/animetheme/index/' },
+                    { text: 'Restore', link: '/content/animetheme/restore/' },
+                    { text: 'Show', link: '/content/animetheme/show/' },
+                    { text: 'Store', link: '/content/animetheme/store/' },
+                    { text: 'Update', link: '/content/animetheme/update/' }
                 ]
             },
             {
                 text: 'Anime Theme Entry',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/animethemeentry/' },
-                    { text: 'Destroy', link: '/wiki/animethemeentry/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/animethemeentry/forceDelete/' },
-                    { text: 'Index', link: '/wiki/animethemeentry/index/' },
-                    { text: 'Restore', link: '/wiki/animethemeentry/restore/' },
-                    { text: 'Show', link: '/wiki/animethemeentry/show/' },
-                    { text: 'Store', link: '/wiki/animethemeentry/store/' },
-                    { text: 'Update', link: '/wiki/animethemeentry/update/' }
+                    { text: 'Resource', link: '/content/animethemeentry/' },
+                    { text: 'Destroy', link: '/content/animethemeentry/destroy/' },
+                    { text: 'Force Delete', link: '/content/animethemeentry/forceDelete/' },
+                    { text: 'Index', link: '/content/animethemeentry/index/' },
+                    { text: 'Restore', link: '/content/animethemeentry/restore/' },
+                    { text: 'Show', link: '/content/animethemeentry/show/' },
+                    { text: 'Store', link: '/content/animethemeentry/store/' },
+                    { text: 'Update', link: '/content/animethemeentry/update/' }
                 ]
             },
             {
                 text: 'Anime Theme Entry Video',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/animethemeentryvideo/' },
-                    { text: 'Destroy', link: '/wiki/animethemeentryvideo/destroy/' },
-                    { text: 'Index', link: '/wiki/animethemeentryvideo/index/' },
-                    { text: 'Show', link: '/wiki/animethemeentryvideo/show/' },
-                    { text: 'Store', link: '/wiki/animethemeentryvideo/store/' }
+                    { text: 'Resource', link: '/content/animethemeentryvideo/' },
+                    { text: 'Destroy', link: '/content/animethemeentryvideo/destroy/' },
+                    { text: 'Index', link: '/content/animethemeentryvideo/index/' },
+                    { text: 'Show', link: '/content/animethemeentryvideo/show/' },
+                    { text: 'Store', link: '/content/animethemeentryvideo/store/' }
                 ]
             },
             {
                 text: 'Artist',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/artist/' },
-                    { text: 'Destroy', link: '/wiki/artist/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/artist/forceDelete/' },
-                    { text: 'Index', link: '/wiki/artist/index/' },
-                    { text: 'Restore', link: '/wiki/artist/restore/' },
-                    { text: 'Show', link: '/wiki/artist/show/' },
-                    { text: 'Store', link: '/wiki/artist/store/' },
-                    { text: 'Update', link: '/wiki/artist/update/' }
+                    { text: 'Resource', link: '/content/artist/' },
+                    { text: 'Destroy', link: '/content/artist/destroy/' },
+                    { text: 'Force Delete', link: '/content/artist/forceDelete/' },
+                    { text: 'Index', link: '/content/artist/index/' },
+                    { text: 'Restore', link: '/content/artist/restore/' },
+                    { text: 'Show', link: '/content/artist/show/' },
+                    { text: 'Store', link: '/content/artist/store/' },
+                    { text: 'Update', link: '/content/artist/update/' }
                 ]
             },
             {
                 text: 'Artist Image',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/artistimage/' }
+                    { text: 'Resource', link: '/content/artistimage/' }
                 ]
             },
             {
                 text: 'Artist Member',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/artistmember/' },
-                    { text: 'Destroy', link: '/wiki/artistmember/destroy/' },
-                    { text: 'Index', link: '/wiki/artistmember/index/' },
-                    { text: 'Show', link: '/wiki/artistmember/show/' },
-                    { text: 'Store', link: '/wiki/artistmember/store/' },
-                    { text: 'Update', link: '/wiki/artistmember/update/' }
+                    { text: 'Resource', link: '/content/artistmember/' },
+                    { text: 'Destroy', link: '/content/artistmember/destroy/' },
+                    { text: 'Index', link: '/content/artistmember/index/' },
+                    { text: 'Show', link: '/content/artistmember/show/' },
+                    { text: 'Store', link: '/content/artistmember/store/' },
+                    { text: 'Update', link: '/content/artistmember/update/' }
                 ]
             },
             {
                 text: 'Artist Resource',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/artistresource/' }
+                    { text: 'Resource', link: '/content/artistresource/' }
                 ]
             },
             {
                 text: 'Artist Song',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/artistsong/' },
-                    { text: 'Destroy', link: '/wiki/artistsong/destroy/' },
-                    { text: 'Index', link: '/wiki/artistsong/index/' },
-                    { text: 'Show', link: '/wiki/artistsong/show/' },
-                    { text: 'Store', link: '/wiki/artistsong/store/' },
-                    { text: 'Update', link: '/wiki/artistsong/update/' }
+                    { text: 'Resource', link: '/content/artistsong/' },
+                    { text: 'Destroy', link: '/content/artistsong/destroy/' },
+                    { text: 'Index', link: '/content/artistsong/index/' },
+                    { text: 'Show', link: '/content/artistsong/show/' },
+                    { text: 'Store', link: '/content/artistsong/store/' },
+                    { text: 'Update', link: '/content/artistsong/update/' }
                 ]
             },
             {
                 text: 'Audio',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/audio/' },
-                    { text: 'Destroy', link: '/wiki/audio/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/audio/forceDelete/' },
-                    { text: 'Index', link: '/wiki/audio/index/' },
-                    { text: 'Restore', link: '/wiki/audio/restore/' },
-                    { text: 'Show', link: '/wiki/audio/show/' },
-                    { text: 'Store', link: '/wiki/audio/store/' },
-                    { text: 'Update', link: '/wiki/audio/update/' }
+                    { text: 'Resource', link: '/content/audio/' },
+                    { text: 'Destroy', link: '/content/audio/destroy/' },
+                    { text: 'Force Delete', link: '/content/audio/forceDelete/' },
+                    { text: 'Index', link: '/content/audio/index/' },
+                    { text: 'Restore', link: '/content/audio/restore/' },
+                    { text: 'Show', link: '/content/audio/show/' },
+                    { text: 'Store', link: '/content/audio/store/' },
+                    { text: 'Update', link: '/content/audio/update/' }
                 ]
             },
             {
                 text: 'Group',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/group/' },
-                    { text: 'Destroy', link: '/wiki/group/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/group/forceDelete/' },
-                    { text: 'Index', link: '/wiki/group/index/' },
-                    { text: 'Restore', link: '/wiki/group/restore/' },
-                    { text: 'Show', link: '/wiki/group/show/' },
-                    { text: 'Store', link: '/wiki/group/store/' },
-                    { text: 'Update', link: '/wiki/group/update/' }
+                    { text: 'Resource', link: '/content/group/' },
+                    { text: 'Destroy', link: '/content/group/destroy/' },
+                    { text: 'Force Delete', link: '/content/group/forceDelete/' },
+                    { text: 'Index', link: '/content/group/index/' },
+                    { text: 'Restore', link: '/content/group/restore/' },
+                    { text: 'Show', link: '/content/group/show/' },
+                    { text: 'Store', link: '/content/group/store/' },
+                    { text: 'Update', link: '/content/group/update/' }
                 ]
             },
             {
                 text: 'Image',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/image/' },
-                    { text: 'Destroy', link: '/wiki/image/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/image/forceDelete/' },
-                    { text: 'Index', link: '/wiki/image/index/' },
-                    { text: 'Restore', link: '/wiki/image/restore/' },
-                    { text: 'Show', link: '/wiki/image/show/' },
-                    { text: 'Store', link: '/wiki/image/store/' },
-                    { text: 'Update', link: '/wiki/image/update/' }
+                    { text: 'Resource', link: '/content/image/' },
+                    { text: 'Destroy', link: '/content/image/destroy/' },
+                    { text: 'Force Delete', link: '/content/image/forceDelete/' },
+                    { text: 'Index', link: '/content/image/index/' },
+                    { text: 'Restore', link: '/content/image/restore/' },
+                    { text: 'Show', link: '/content/image/show/' },
+                    { text: 'Store', link: '/content/image/store/' },
+                    { text: 'Update', link: '/content/image/update/' }
                 ]
             },
             {
                 text: 'Resource',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/resource/' },
-                    { text: 'Destroy', link: '/wiki/resource/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/resource/forceDelete/' },
-                    { text: 'Index', link: '/wiki/resource/index/' },
-                    { text: 'Restore', link: '/wiki/resource/restore/' },
-                    { text: 'Show', link: '/wiki/resource/show/' },
-                    { text: 'Store', link: '/wiki/resource/store/' },
-                    { text: 'Update', link: '/wiki/resource/update/' }
+                    { text: 'Resource', link: '/content/resource/' },
+                    { text: 'Destroy', link: '/content/resource/destroy/' },
+                    { text: 'Force Delete', link: '/content/resource/forceDelete/' },
+                    { text: 'Index', link: '/content/resource/index/' },
+                    { text: 'Restore', link: '/content/resource/restore/' },
+                    { text: 'Show', link: '/content/resource/show/' },
+                    { text: 'Store', link: '/content/resource/store/' },
+                    { text: 'Update', link: '/content/resource/update/' }
                 ]
             },
             {
                 text: 'Series',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/series/' },
-                    { text: 'Destroy', link: '/wiki/series/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/series/forceDelete/' },
-                    { text: 'Index', link: '/wiki/series/index/' },
-                    { text: 'Restore', link: '/wiki/series/restore/' },
-                    { text: 'Show', link: '/wiki/series/show/' },
-                    { text: 'Store', link: '/wiki/series/store/' },
-                    { text: 'Update', link: '/wiki/series/update/' }
+                    { text: 'Resource', link: '/content/series/' },
+                    { text: 'Destroy', link: '/content/series/destroy/' },
+                    { text: 'Force Delete', link: '/content/series/forceDelete/' },
+                    { text: 'Index', link: '/content/series/index/' },
+                    { text: 'Restore', link: '/content/series/restore/' },
+                    { text: 'Show', link: '/content/series/show/' },
+                    { text: 'Store', link: '/content/series/store/' },
+                    { text: 'Update', link: '/content/series/update/' }
                 ]
             },
             {
                 text: 'Song',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/song/' },
-                    { text: 'Destroy', link: '/wiki/song/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/song/forceDelete/' },
-                    { text: 'Index', link: '/wiki/song/index/' },
-                    { text: 'Restore', link: '/wiki/song/restore/' },
-                    { text: 'Show', link: '/wiki/song/show/' },
-                    { text: 'Store', link: '/wiki/song/store/' },
-                    { text: 'Update', link: '/wiki/song/update/' }
+                    { text: 'Resource', link: '/content/song/' },
+                    { text: 'Destroy', link: '/content/song/destroy/' },
+                    { text: 'Force Delete', link: '/content/song/forceDelete/' },
+                    { text: 'Index', link: '/content/song/index/' },
+                    { text: 'Restore', link: '/content/song/restore/' },
+                    { text: 'Show', link: '/content/song/show/' },
+                    { text: 'Store', link: '/content/song/store/' },
+                    { text: 'Update', link: '/content/song/update/' }
                 ]
             },
             {
                 text: 'Song Resource',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/songresource/' }
+                    { text: 'Resource', link: '/content/songresource/' }
                 ]
             },
             {
                 text: 'Studio',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/studio/' },
-                    { text: 'Destroy', link: '/wiki/studio/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/studio/forceDelete/' },
-                    { text: 'Index', link: '/wiki/studio/index/' },
-                    { text: 'Restore', link: '/wiki/studio/restore/' },
-                    { text: 'Show', link: '/wiki/studio/show/' },
-                    { text: 'Store', link: '/wiki/studio/store/' },
-                    { text: 'Update', link: '/wiki/studio/update/' }
+                    { text: 'Resource', link: '/content/studio/' },
+                    { text: 'Destroy', link: '/content/studio/destroy/' },
+                    { text: 'Force Delete', link: '/content/studio/forceDelete/' },
+                    { text: 'Index', link: '/content/studio/index/' },
+                    { text: 'Restore', link: '/content/studio/restore/' },
+                    { text: 'Show', link: '/content/studio/show/' },
+                    { text: 'Store', link: '/content/studio/store/' },
+                    { text: 'Update', link: '/content/studio/update/' }
                 ]
             },
             {
                 text: 'Studio Image',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/studioimage/' }
+                    { text: 'Resource', link: '/content/studioimage/' }
                 ]
             },
             {
                 text: 'Studio Resource',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/studioresource/' }
+                    { text: 'Resource', link: '/content/studioresource/' }
                 ]
             },
             {
                 text: 'Video',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/video/' },
-                    { text: 'Destroy', link: '/wiki/video/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/video/forceDelete/' },
-                    { text: 'Index', link: '/wiki/video/index/' },
-                    { text: 'Restore', link: '/wiki/video/restore/' },
-                    { text: 'Show', link: '/wiki/video/show/' },
-                    { text: 'Store', link: '/wiki/video/store/' },
-                    { text: 'Update', link: '/wiki/video/update/' }
+                    { text: 'Resource', link: '/content/video/' },
+                    { text: 'Destroy', link: '/content/video/destroy/' },
+                    { text: 'Force Delete', link: '/content/video/forceDelete/' },
+                    { text: 'Index', link: '/content/video/index/' },
+                    { text: 'Restore', link: '/content/video/restore/' },
+                    { text: 'Show', link: '/content/video/show/' },
+                    { text: 'Store', link: '/content/video/store/' },
+                    { text: 'Update', link: '/content/video/update/' }
                 ]
             },
             {
                 text: 'Video Script',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/wiki/videoscript/' },
-                    { text: 'Destroy', link: '/wiki/videoscript/destroy/' },
-                    { text: 'Force Delete', link: '/wiki/videoscript/forceDelete/' },
-                    { text: 'Index', link: '/wiki/videoscript/index/' },
-                    { text: 'Restore', link: '/wiki/videoscript/restore/' },
-                    { text: 'Show', link: '/wiki/videoscript/show/' },
-                    { text: 'Store', link: '/wiki/videoscript/store/' },
-                    { text: 'Update', link: '/wiki/videoscript/update/' }
+                    { text: 'Resource', link: '/content/videoscript/' },
+                    { text: 'Destroy', link: '/content/videoscript/destroy/' },
+                    { text: 'Force Delete', link: '/content/videoscript/forceDelete/' },
+                    { text: 'Index', link: '/content/videoscript/index/' },
+                    { text: 'Restore', link: '/content/videoscript/restore/' },
+                    { text: 'Show', link: '/content/videoscript/show/' },
+                    { text: 'Store', link: '/content/videoscript/store/' },
+                    { text: 'Update', link: '/content/videoscript/update/' }
                 ]
             }
         ]
@@ -598,7 +598,7 @@ export default {
             '/document/': referenceSidebarItems,
             '/list/': referenceSidebarItems,
             '/search/': referenceSidebarItems,
-            '/wiki/': referenceSidebarItems,
+            '/content/': referenceSidebarItems,
         }
     },
     rewrites: {

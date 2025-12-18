@@ -31,7 +31,7 @@ features:
   - icon: 📻
     title: Media Links
     details: Embed or download audio and video using links provided by resources
-    link: /wiki/video/show/#response
+    link: /content/video/show/#response
     linkText: JSON:API Example
   - icon: 🕸️
     title: External Mappings

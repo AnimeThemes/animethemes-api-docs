@@ -534,6 +534,10 @@ export default {
                         text: 'GraphiQL',
                         link: 'https://graphql.animethemes.moe/graphiql',
                     },
+                    {
+                        text: 'Sandbox',
+                        link: 'https://graphql.animethemes.moe/sandbox',
+                    },
                 ]
             },
             {

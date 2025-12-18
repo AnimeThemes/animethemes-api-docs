@@ -17,6 +17,9 @@ hero:
           text: GraphiQL
           link: https://graphql.animethemes.moe/graphiql
         - theme: alt
+          text: Sandbox
+          link: https://graphql.animethemes.moe/sandbox
+        - theme: alt
           text: Get Started with JSON:API
           link: /intro
 features:

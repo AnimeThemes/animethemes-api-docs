@@ -29,11 +29,11 @@ None
 
 ## Parameters
 
-| Name  | Type          | Description                                                       |
-| :---: | :-----------: | :---------------------------------------------------------------- |
-| site  | ResourceSite! | The site enum used to filter                                      |
-| id    | Int           | The id of the anime in the external site                          |
-| link  | String        | The URL of the external resource. Required if no `id` provided.   |
+| Name  | Type          | Description                                                               |
+| :---: | :-----------: | :------------------------------------------------------------------------ |
+| site  | ResourceSite! | The site enum used to filter.                                             |
+| id    | Int           | The id of the anime in the external site. Required if no `link` provided. |
+| link  | String        | The URL of the external resource. Required if no `id` provided.           |
 
 ## Response
 

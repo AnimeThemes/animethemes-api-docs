@@ -64,6 +64,29 @@ query {
 }
 ```
 
+## Pivot Sorting
+
+It is possible to sort results using pivot fields.
+All pivot fields are exposed with the `PIVOT_` prefix and can be used in the sort argument.
+
+```graphql
+query {
+    animePagination {
+        data {
+            name
+            images(sort: PIVOT_DEPTH) {
+                edges {
+                    node {
+                        link
+                    }
+                    depth
+                }
+            }
+        }
+    }
+}
+```
+
 ## Multiple Sorting
 
 By providing a list of enum cases, the sort will be applied in the order of the values provided by the client.

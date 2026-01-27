@@ -50,7 +50,7 @@ None
 | Name         | Type     | Description                    |
 | :----------: | :------: | :----------------------------- |
 | page         | Int      | Index of the current page      |
-| perPage      | Int      | Number of items per page       |
+| first        | Int!     | Number of items per page       |
 | search       | String!  | The term used for the search   |
 
 ## Response

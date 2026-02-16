@@ -10,31 +10,20 @@ The AnimeThemes API implements relationships for most types, previously known as
 
 The many-to-many relationships apply connections. The one-to-many relationships apply simple pagination.
 
-## One-to-Many (HasMany)
+## One-to-Many
 
 A one-to-many relationship has a list of objects that reference the related type.
-
-```graphql
-query {
-    anime(slug: "hibike_euphonium") {
-        name
-        animethemes(first: 2, type: OP) {
-            sequence
-        }
-    }
-}
-```
-
-## Inverse One-to-Many (BelongsTo)
-
-An inverse one-to-many relationship has an object that references the foreign type.
+And an inverse one-to-many relationship has a unique object that references the related type.
 
 ```graphql
 query {
     animethemePagination {
         data {
             sequence
-            anime {
+            animethemeentries(first: 1, version: 1) { # Inverse One-to-Many
+                version
+            }
+            anime { # One-to-Many
                 name
             }
         }
@@ -42,7 +31,7 @@ query {
 }
 ```
 
-## Many-to-Many (BelongsToMany)
+## Many-to-Many
 
 Every many-to-many relationship applies connection pagination and has three top fields.
 Read about it in the [graphql.org](https://graphql.org/learn/pagination/#pagination-and-edges)
@@ -112,7 +101,7 @@ will return the JSON:
 }
 ```
 
-## Polymorphic One-to-Many (MorphMany)
+## Polymorphic One-to-Many
 
 The relationship of polymorphic one-to-many. Applies simple pagination.
 
@@ -129,7 +118,7 @@ query {
 }
 ```
 
-## Polymorphic inverse One-to-Many (MorphTo)
+## Polymorphic inverse One-to-Many
 
 The inverse type of polymorphic one-to-many.
 A union type indicates that a field might have multiple object types.
@@ -139,6 +128,7 @@ query {
     performancePagination {
         data {
             artist {
+                __typename
                 ... on Artist {
                     name
                 }
@@ -156,7 +146,7 @@ query {
 }
 ```
 
-## Polymorphic Many-to-Many (MorphToMany)
+## Polymorphic Many-to-Many
 
 The polymorphic many-to-many relationship uses the same strategy as the usual [many-to-many](#many-to-many-belongstomany).
 

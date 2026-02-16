@@ -44,7 +44,7 @@ For more information, see the [wiki section on performances and memberships](htt
 
 It is easy to confuse what a group is. They can be a group of animethemes (e.g. "English Version") or a group of artists (e.g. "Aqours").
 
-The `group` query/type does not exist. For a group of animethemes, the query is `themegroups`. For a group of artists, they are included globally in the `artists` query.
+The `group` query/type does not exist. For a group of animethemes, the query is `themegroupPagination`. For a group of artists, they are included globally in the `artistPagination` query.
 
 ## Views Count Field Deprecated
 

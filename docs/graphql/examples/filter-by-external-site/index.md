@@ -13,7 +13,7 @@ An external resource may be linked to multiple anime.
 ## Query Example
 
 ```graphql
-query ($id: Int!) {
+query ($id: [Int!]) {
     findAnimeByExternalSite(site: ANILIST, id: $id) {
         name
         mediaFormat
@@ -29,11 +29,11 @@ None
 
 ## Parameters
 
-| Name  | Type          | Description                                                               |
-| :---: | :-----------: | :------------------------------------------------------------------------ |
-| site  | ResourceSite! | The site enum used to filter.                                             |
-| id    | Int           | The id of the anime in the external site. Required if no `link` provided. |
-| link  | String        | The URL of the external resource. Required if no `id` provided.           |
+| Name  | Type          | Description                                                                |
+| :---: | :-----------: | :------------------------------------------------------------------------- |
+| site  | ResourceSite! | The site enum used to filter.                                              |
+| id    | [Int!]        | The ids of the anime on the external site. Required if no `link` provided. |
+| link  | String        | The URL of the external resource. Required if no `id` provided.            |
 
 ## Response
 

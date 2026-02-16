@@ -31,6 +31,10 @@ That's it! The local development server should be running at `localhost:5173`.
 
 Please review the [**Contributing Guide**](https://github.com/AnimeThemes/animethemes-api-docs/blob/main/.github/CONTRIBUTING.md) for detailed instructions.
 
+## Deployment
+
+Please review the [**Deployment Guide**](https://github.com/AnimeThemes/animethemes-api-docs/blob/main/.github/DEPLOYMENT.md) for detailed instructions.
+
 ## Resources
 
 For API support, please make use of the **#api** channel in the [**Discord Server**](https://discordapp.com/invite/m9zbVyQ).

@@ -1,6 +1,3 @@
-This project uses **VitePress** and generates a static site.
-Deployment on a VPS simply requires building the files and serving them with a web server like Nginx.
-
 ## Requirements
 
 * Nginx
@@ -61,7 +58,7 @@ sudo systemctl reload nginx
 sudo systemctl restart nginx
 ```
 
-## Install the Certificates
+## Install Certificates
 
 To install HTTPS certificates using Let's Encrypt, follow the official [guide from DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04).
 

@@ -12,14 +12,14 @@ Here we will provide an overview of managing request quotas.
 
 ## Response Headers
 
-The AnimeThemes GraphQL API limits queries to 80 per minute.
+The AnimeThemes GraphQL API limits queries to 90 per minute.
 
 The AnimeThemes API will return `X-RateLimit-Limit` and `X-RateLimit-Remaining` headers in the response.
 
 ```sh
 ...
-X-RateLimit-Limit: 80
-X-RateLimit-Remaining: 79
+X-RateLimit-Limit: 90
+X-RateLimit-Remaining: 89
 ...
 ```
 
@@ -29,7 +29,7 @@ If the rate limit is exceeded, the AnimeThemes API will return `Retry-After` and
 
 ```sh
 ...
-X-RateLimit-Limit: 80
+X-RateLimit-Limit: 90
 X-RateLimit-Remaining: 0
 Retry-After: 60
 X-RateLimit-Reset: 1625073463180

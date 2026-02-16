@@ -19,17 +19,21 @@ This project is powered by [**VitePress**](https://vitepress.vuejs.org/), a Vite
 
 In the project root directory, install dependencies.
 
-`npm install`
+`bun install`
 
 In the project root directory, start the local development server.
 
-`npm run docs:dev`
+`bun run docs:dev`
 
 That's it! The local development server should be running at `localhost:5173`.
 
 ## Contributing
 
-Please review the [**Contributing Guide**](https://github.com/AnimeThemes/animethemes-api-docs/blob/main/.github/CONTRIBUTING.md) for detailed instructions.
+Please review the [**Contributing Guide**](https://github.com/AnimeThemes/animethemes-api-docs/blob/main/CONTRIBUTING.md) for detailed instructions.
+
+## Deployment
+
+Please review the [**Deployment Guide**](https://github.com/AnimeThemes/animethemes-api-docs/blob/main/DEPLOYMENT.md) for detailed instructions.
 
 ## Resources
 

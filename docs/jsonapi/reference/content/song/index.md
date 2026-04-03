@@ -26,6 +26,9 @@ For example, Staple Stable is the song for the Bakemonogatari OP1 AnimeTheme.
 * animethemes.anime
 * animethemes.group
 * artists
+* peformances
+* performances.artist
+* performances.member
 * resources
 
 ## Allowed Pivots

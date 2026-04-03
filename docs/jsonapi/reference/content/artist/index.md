@@ -27,6 +27,10 @@ For example, Chiwa Saitou is the musical performer of the Bakemonogatari OP1 the
 * groups
 * images
 * members
+* memberPerformances
+* memberPerformances.song
+* performances
+* performances.song
 * resources
 * songs
 * songs.animethemes

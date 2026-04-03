@@ -101,51 +101,6 @@ will return the JSON:
 }
 ```
 
-## Polymorphic One-to-Many
-
-The relationship of polymorphic one-to-many. Applies simple pagination.
-
-```graphql
-query {
-    membershipPagination {
-        data {
-            performances {
-                alias
-                as
-            }
-        }
-    }
-}
-```
-
-## Polymorphic inverse One-to-Many
-
-The inverse type of polymorphic one-to-many.
-A union type indicates that a field might have multiple object types.
-
-```graphql
-query {
-    performancePagination {
-        data {
-            artist {
-                __typename
-                ... on Artist {
-                    name
-                }
-                ... on Membership {
-                    group {
-                        name
-                    }
-                    member {
-                        name
-                    }
-                }
-            }
-        }
-    }
-}
-```
-
 ## Polymorphic Many-to-Many
 
 The polymorphic many-to-many relationship uses the same strategy as the usual [many-to-many](#many-to-many-belongstomany).

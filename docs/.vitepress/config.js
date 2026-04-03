@@ -206,6 +206,15 @@ const referenceSidebarItems = [
                 ]
             },
             {
+                text: 'Performance',
+                collapsed: true,
+                items: [
+                    { text: 'Resource', link: '/content/performance/' },
+                    { text: 'Index', link: '/content/performance/index/' },
+                    { text: 'Show', link: '/content/performance/show/' },
+                ]
+            },
+            {
                 text: 'Resource',
                 collapsed: true,
                 items: [

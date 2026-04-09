@@ -155,12 +155,7 @@ const referenceSidebarItems = [
                 text: 'Artist Song',
                 collapsed: true,
                 items: [
-                    { text: 'Resource', link: '/content/artistsong/' },
-                    { text: 'Destroy', link: '/content/artistsong/destroy/' },
-                    { text: 'Index', link: '/content/artistsong/index/' },
-                    { text: 'Show', link: '/content/artistsong/show/' },
-                    { text: 'Store', link: '/content/artistsong/store/' },
-                    { text: 'Update', link: '/content/artistsong/update/' }
+                    { text: 'Resource', link: '/content/artistsong/' }
                 ]
             },
             {

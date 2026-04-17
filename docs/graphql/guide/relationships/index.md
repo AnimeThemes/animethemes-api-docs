@@ -16,9 +16,9 @@ A one-to-many relationship has a list of objects that reference the related type
 And an inverse one-to-many relationship has a unique object that references the related type.
 
 ```graphql
-query {
-    animethemePagination {
-        data {
+query($slug: String!) {
+    anime(slug: $slug) {
+        animethemes {
             sequence
             animethemeentries(first: 1, version: 1) { # Inverse One-to-Many
                 version

@@ -31,30 +31,6 @@ query {
 }
 ```
 
-## Trashed Filter
-
-Queries that return a type implementing soft deletes have a `trashed` filter.
-
-The argument is `trashed: TrashedFilter`, which allows filtering to determine if trashed elements should be fetched.
-
-`TrashedFilter` is an enum with the following values:
-
-| Value        | Description                                  |
-| :----------: | :------------------------------------------- |
-| ONLY         | Only return trashed results.                 |
-| WITH         | Return both trashed and non-trashed results. |
-| WITHOUT      | Only return non-trashed results.             |
-
-```graphql
-query {
-    animePagination(trashed: ONLY) {
-        data {
-            name
-        }
-    }
-}
-```
-
 ## Relationship Filtering
 
 Filtering in relationships is applied **ONLY** to the relationship and does not affect the previous root.

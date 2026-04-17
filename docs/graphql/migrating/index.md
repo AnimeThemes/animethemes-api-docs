@@ -18,12 +18,12 @@ Affected Fields:
 * end_at -> endAt
 * email_verified_at -> emailVerifiedAt
 * two_factor_confirmed_at -> twoFactorConfirmedAt
-* guard_name -> guardName
-* media_format -> mediaFormat
+* guard_name -> guardName (removed)
+* media_format -> format
 * external_id -> externalId
 * created_at -> createdAt
 * updated_at -> updatedAt
-* deleted_at -> deletedAt
+* deleted_at -> deletedAt (removed)
 
 ## Artists to Performances
 

@@ -16,7 +16,7 @@ An external resource may be linked to multiple anime.
 query ($id: [Int!]) {
     findAnimeByExternalSite(site: ANILIST, id: $id) {
         name
-        mediaFormat
+        format
         season
         year
     }
@@ -43,7 +43,7 @@ None
         "findAnimeByExternalSite": [
             {
                 "name": "Hibike! Euphonium 3",
-                "mediaFormat": "TV",
+                "format": "TV",
                 "season": "SPRING",
                 "year": 2024
             }

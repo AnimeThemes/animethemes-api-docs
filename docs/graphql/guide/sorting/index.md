@@ -7,7 +7,7 @@ title: Sorting
 ---
 
 Most queries provide a unique `sort` argument to manage resource sorting.
-This argument accepts a list of `{type}SortableColumns` enum cases.
+This argument accepts a list of `{type}Sort` enum cases.
 
 To sort in ascending order, the field name is enough.
 
@@ -66,20 +66,19 @@ query {
 
 ## Pivot Sorting
 
-It is possible to sort results using pivot fields.
-All pivot fields are exposed with the `PIVOT_` prefix and can be used in the sort argument.
+Sometimes, it is possible to sort results using pivot fields.
 
 ```graphql
 query {
-    animePagination {
+    artistPagination {
         data {
             name
-            images(sort: PIVOT_DEPTH) {
+            members(sort: MEMBER_RELEVANCE) {
                 edges {
                     node {
-                        link
+                        name
                     }
-                    depth
+                    relevance
                 }
             }
         }

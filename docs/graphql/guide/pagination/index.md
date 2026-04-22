@@ -26,7 +26,7 @@ The following query
 ```graphql
 query {
     animePagination(first: 2, page: 1) {
-        paginationInfo {
+        paginatorInfo {
             count
             currentPage
             firstItem

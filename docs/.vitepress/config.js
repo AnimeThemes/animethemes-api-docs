@@ -567,6 +567,7 @@ export default {
                         { text: 'Filtering', link: '/graphql/guide/filtering/' },
                         { text: 'Sorting', link: '/graphql/guide/sorting/' },
                         { text: 'Relationships', link: '/graphql/guide/relationships/' },
+                        { text: 'Validation', link: '/graphql/guide/validation' },
                     ],
                 },
                 {

@@ -55,7 +55,14 @@ query {
         name
         series {
             pageInfo { # Pagination
+                hasNextPage
+                hasPreviousPage
+                startCursor
+                endCursor
                 total
+                count
+                currentPage
+                lastPage
             }
             nodes { # Without pivot fields
                 name
@@ -79,7 +86,14 @@ will return the JSON:
             "name": "Hibike! Euphonium",
             "series": {
                 "pageInfo": {
-                    "total": 1
+                    "hasNextPage": false,
+                    "hasPreviousPage": false,
+                    "startCursor": "MQ==",
+                    "endCursor": "MQ==",
+                    "total": 1,
+                    "count": 1,
+                    "currentPage": 1,
+                    "lastPage": 1
                 },
                 "nodes": [
                     {
@@ -112,7 +126,14 @@ query {
         name
         resources {
             pageInfo { # Pagination
+                hasNextPage
+                hasPreviousPage
+                startCursor
+                endCursor
                 total
+                count
+                currentPage
+                lastPage
             }
             nodes { # Without pivot fields
                 link
@@ -137,7 +158,14 @@ will return the JSON:
             "name": "Hibike! Euphonium",
             "resources": {
                 "pageInfo": {
-                    "total": 9
+                    "hasNextPage": false,
+                    "hasPreviousPage": false,
+                    "startCursor": "MQ==",
+                    "endCursor": "OQ==",
+                    "total": 9,
+                    "count": 9,
+                    "currentPage": 1,
+                    "lastPage": 1
                 },
                 "nodes": [
                     {

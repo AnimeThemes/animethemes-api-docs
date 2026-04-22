@@ -6,19 +6,7 @@ title: Filtering
 
 ---
 
-Most queries provide filtering arguments using the AND operator. Filtering arguments are built using the `{field}_{filter}` pattern.
-
-## Filter Arguments
-
-| Name    | Fields                                         | Example    | Description                                     |
-| :-----: | :--------------------------------------------: | :--------: | ----------------------------------------------- |
-| Eq      | String, Int, Float, Boolean, enums, DateTimeTz | name       | Add an `equal` conditim to the query            |
-| Like    | String                                         | name_like  | Add a `like` condition to the query             |
-| In      | Int, Float, enums                              | id_in      | Add an `in` condition to the query              |
-| Not in  | Int, Float, enums                              | id_not_in  | Add a `not in` condition to the query           |
-| Greater | Int, Float, DateTimeTz                         | id_greater | Add a `greater than` condition to the query     |
-| Lesser  | Int, Float, DateTimeTz                         | id_lesser  | Add a `less than` condition to the query        |
-
+Most queries provide some filtering arguments using the AND operator. Filtering arguments are built using the `{field}_{filter}` case pattern.
 
 Query example:
 ```graphql
@@ -56,8 +44,8 @@ It supports single conditions, logical operators, and nested filters.
 query {
     animePagination(
         where: {
-            field: SEASON,
-            operator: NE,
+            column: SEASON,
+            operator: NEQ,
             value: FALL
         }
     ) {
@@ -81,12 +69,12 @@ query {
         where: {
             OR: [
                 {
-                    field: SEASON,
+                    column: SEASON,
                     operator: EQ,
                     value: WINTER,
                 },
                 {
-                    field: SEASON,
+                    column: SEASON,
                     operator: EQ,
                     value: FALL,
                 }
@@ -101,19 +89,21 @@ query {
 }
 ```
 
-::: info
-Aggregate filters (such as count/exists) do not work when combined with logical operators.
-:::
-
 ### Comparison Operators
 
-| Value   | Description                                                                    |
-| :-----: | :----------------------------------------------------------------------------- |
-| EQ      | Matches values that are exactly equal to the given value.                      |
-| NE      | Matches values that are not equal to the given value.                          |
-| LT      | Matches values less than the given value.                                      |
-| GT      | Matches values greater than the given value.                                   |
-| LTE     | Matches values less than or equal to the given value.                          |
-| GTE     | Matches values greater than or equal to the given value.                       |
-| LIKE    | Matches values that partially match the given pattern (using wildcard search). |
-| NOTLIKE | Matches values that do not match the given pattern.                            |
+| Value       | Description                                                                    |
+| :---------: | :----------------------------------------------------------------------------- |
+| EQ          | Matches values that are exactly equal to the given value.                      |
+| NEQ         | Matches values that are not equal to the given value.                          |
+| LT          | Matches values less than the given value.                                      |
+| GT          | Matches values greater than the given value.                                   |
+| LTE         | Matches values less than or equal to the given value.                          |
+| GTE         | Matches values greater than or equal to the given value.                       |
+| LIKE        | Matches values that partially match the given pattern (using wildcard search). |
+| NOT_LIKE    | Matches values that do not match the given pattern.                            |
+| IN          | Matches values that are within the given values.                               |
+| NOT_IN      | Matches values that are not within the given values.                           |
+| BETWEEN     | Matches values that are within a range of the given values.                    |
+| NOT_BETWEEN | Matches values that are not within a range of the given values.                |
+| IS_NULL     | Matches values that are null.                                                  |
+| IS_NOT_NULL | Matches values that are not null.                                              |

@@ -55,17 +55,3 @@ will return the JSON:
     }
 }
 ```
-
-### Singular Query
-
-In case you want to return a single object, there are a few types that allow it.
-The following example returns the first anime with the slug hibike_euphonium.
-
-```graphql
-query {
-    anime(slug: "hibike_euphonium") {
-        name
-        slug
-    }
-}
-```

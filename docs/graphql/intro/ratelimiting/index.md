@@ -66,7 +66,7 @@ If your query exceeds this limit, the API will return a 200 status code with the
 
 Clients can request a lot of fields, which can quickly result in a lot of heavy logic.
 
-The AnimeThemes GraphQL API enforces a maximum of 250 fields per request.
+The AnimeThemes GraphQL API enforces a maximum of 10000 of complexity value.
 
 If your query exceeds this limit, the API will return a 200 status code with the following error response:
 
@@ -74,8 +74,12 @@ If your query exceeds this limit, the API will return a 200 status code with the
 {
     "errors": [
         {
-            "message": "Max query complexity should be 250 but got 300."
+            "message": "Max query complexity should be 10000 but got 15000."
         }
     ]
 }
 ```
+
+::: warning
+The current complexity value is experimental and debatable. It may change.
+:::

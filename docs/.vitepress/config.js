@@ -343,18 +343,6 @@ const referenceSidebarItems = [
                 ]
             },
             {
-                text: 'Dump',
-                collapsed: true,
-                items: [
-                    { text: 'Resource', link: '/admin/dump/' },
-                    { text: 'Destroy', link: '/admin/dump/destroy/' },
-                    { text: 'Index', link: '/admin/dump/index/' },
-                    { text: 'Show', link: '/admin/dump/show/' },
-                    { text: 'Store', link: '/admin/dump/store/' },
-                    { text: 'Update', link: '/admin/dump/update/' }
-                ]
-            },
-            {
                 text: 'Feature',
                 collapsed: true,
                 items: [

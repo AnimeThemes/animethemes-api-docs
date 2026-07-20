@@ -136,10 +136,6 @@ Admin API resources pertain to the administration of the site by the moderation 
 
 An announcement API resource represents a site-wide message to be broadcasted on the homepage.
 
-**[Dump](/admin/dump/)**
-
-A dump API resource represents a database dump of selected tables at a given point in time.
-
 **[Feature](/admin/feature/)**
 
 A feature API resource represents a feature flag that enable/disable site functionalities.

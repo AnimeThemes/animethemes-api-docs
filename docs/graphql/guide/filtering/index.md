@@ -11,9 +11,11 @@ Most queries provide some filtering arguments using the AND operator. Filtering 
 Query example:
 ```graphql
 query {
-    animePagination(name_like: "%monogatari%") {
+    animePagination(titleRomaji_like: "%monogatari%") {
         data {
-            name
+            title {
+                romaji
+            }
         }
     }
 }
@@ -26,7 +28,9 @@ Filtering in relationships is applied **ONLY** to the relationship and does not 
 ```graphql
 query {
     anime(slug: "hibike_euphonium") {
-        name
+        title {
+            romaji
+        }
         animethemes(type: OP) {
             type
             sequence
@@ -50,7 +54,9 @@ query {
         }
     ) {
         data {
-            name
+            title {
+                romaji
+            }
             season
         }
     }
@@ -82,7 +88,9 @@ query {
         }
     ) {
         data {
-            name
+            title {
+                romaji
+            }
             season
         }
     }

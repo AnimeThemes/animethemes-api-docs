@@ -17,15 +17,19 @@ To sort in descending order, append `_DESC` to the field name.
 
 ```graphql
 query {
-    animePagination(sort: NAME) { # Sorting in ascending direction.
+    animePagination(sort: TITLE_ROMAJI) { # Sorting in ascending direction.
         data {
-            name
+            title {
+                romaji
+            }
         }
     }
 
-    animePagination(sort: NAME_DESC) { # Sorting in descending direction.
+    animePagination(sort: TITLE_ROMAJI_DESC) { # Sorting in descending direction.
         data {
-            name
+            title {
+                romaji
+            }
         }
     }
 }
@@ -39,9 +43,11 @@ For example, sort animethemes by their song title.
 ```graphql
 query {
     anime(slug: "hibike_euphonium") {
-        animethemes(sort: SONG_TITLE) {
+        animethemes(sort: SONG_TITLE_ROMAJI) {
             song {
-                title
+                title {
+                    romaji
+                }
             }
         }
     }
@@ -72,11 +78,15 @@ Sometimes, it is possible to sort results using pivot fields.
 query {
     artistPagination {
         data {
-            name
+            name {
+                main
+            }
             members(sort: MEMBER_RELEVANCE) {
                 edges {
                     node {
-                        name
+                        name {
+                            main
+                        }
                     }
                     relevance
                 }

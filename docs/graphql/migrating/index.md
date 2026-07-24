@@ -14,16 +14,20 @@ Fields in the JSON:API are snake_case, but now it is camelCase instead.
 
 Affected Fields:
 
-* start_at -> startAt
-* end_at -> endAt
-* email_verified_at -> emailVerifiedAt
-* two_factor_confirmed_at -> twoFactorConfirmedAt
+* featured_theme.start_at -> FeaturedTheme.startAt
+* featured_theme.end_at -> FeaturedTheme.endAt
+* me.email_verified_at -> Me.emailVerifiedAt
+* me.two_factor_confirmed_at -> Me.twoFactorConfirmedAt
 * guard_name -> guardName (removed)
-* media_format -> format
-* external_id -> externalId
+* anime.media_format -> Anime.format
+* anime.name -> Anime.title.romaji
+* artist.name -> Artist.name.main
+* external_resource.external_id -> ExternalResource.externalId
+* series.name -> Series.title.romaji
+* song.title -> Song.title.romaji
 * created_at -> createdAt
 * updated_at -> updatedAt
-* deleted_at -> deletedAt (removed)
+* deleted_at (removed)
 
 ## Artists to Performances
 

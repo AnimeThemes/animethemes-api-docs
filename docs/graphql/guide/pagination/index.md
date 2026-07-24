@@ -37,7 +37,9 @@ query {
             total
         }
         data {
-            name
+            title {
+                romaji
+            }
         }
     }
 }
@@ -59,10 +61,14 @@ will return the JSON:
             },
             "data": [
                 {
-                    "name": ".hack//Liminality"
+                    "title": {
+                        "romaji": ".hack//Liminality"
+                    }
                 },
                 {
-                    "name": ".hack//roots"
+                    "title": {
+                        "romaji": ".hack//roots"
+                    }
                 }
             ]
         }

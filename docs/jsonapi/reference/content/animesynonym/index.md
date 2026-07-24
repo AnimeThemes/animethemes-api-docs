@@ -16,7 +16,6 @@ For example, the anime Bakemonogatari has the anime synonym "Monstory".
 | :--------: | :-----: | :------: | :-----: | :----------------------------------------------------- |
 | id         | Integer | No       | Yes     | The primary key of the resource                        |
 | text       | String  | Yes      | Yes     | The alternate title or common abbreviations            |
-| type       | Enum    | No       | Yes     | The type of the synonym [Other, Native, English Short] |
 | created_at | Date    | No       | No      | The date that the resource was created                 |
 | updated_at | Date    | No       | No      | The date that the resource was last modified           |
 | deleted_at | Date    | Yes      | No      | The date that the resource was deleted                 |

@@ -20,7 +20,7 @@ The AnimeThemes API needs a `Content-Type` header.
 # A simple curl request works like this.
 curl -X POST
     -H "Content-Type: application/json"
-    -d "{\"query\": \"{ animePagination { data { name } } }\"}"
+    -d "{\"query\": \"{ animePagination { data { title { romaji } } } }\"}"
     https://graphql.animethemes.moe/
 ```
 
@@ -35,7 +35,9 @@ The following query
 query {
     animePagination {
         data {
-            name
+            title {
+                romaji
+            }
         }
     }
 }
@@ -47,7 +49,9 @@ will return the JSON:
         "animePagination": {
             "data": [
                 {
-                    "name": ".hack//Liminality"
+                    "title" {
+                        "romaji": ".hack//Liminality"
+                    }
                 },
                 ...
             ]

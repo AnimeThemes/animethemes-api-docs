@@ -26,7 +26,6 @@ POST /animesynonym
 | :------: | :------: | :---------------------------------------- |
 | anime_id | Yes      | integer, Anime ID exists                  |
 | text     | Yes      | string, max:192                           |
-| type     | Yes      | EnumValue [Other, Native, English, Short] |
 
 ## Response
 
@@ -35,7 +34,6 @@ POST /animesynonym
     animesynonym: {
         id: id,
         text: "text",
-        type: "type",
         created_at: "created_at",
         updated_at: "updated_at",
         deleted_at: "deleted_at"

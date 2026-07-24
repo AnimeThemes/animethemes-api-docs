@@ -14,10 +14,14 @@ The global search query returns a listing of resources that match a given search
 query ($search: String!) {
     search(search: $search) {
         anime {
-            name
+            title {
+                romaji
+            }
         }
         artists {
-            name
+            name {
+                main
+            }
         }
         animethemes {
             type
@@ -26,10 +30,14 @@ query ($search: String!) {
             name
         }
         series {
-            name
+            title {
+                romaji
+            }
         }
         songs {
-            title
+            title {
+                romaji
+            }
         }
         studios {
             name
@@ -57,40 +65,48 @@ None
 
 ```json
 {
-    search: {
-        anime: [
+    "search": {
+        "anime": [
             {
-                name: "name"
+                "title": {
+                    "romaji": "romaji"
+                }
             }
         ],
-        animethemes: [
+        "animethemes": [
             {
-                type: "type"
+                "type": "type"
             }
         ],
-        artists: [
+        "artists": [
             {
-                name: "name"
+                "name": {
+                    "main": "main"
+                }
             }
         ],
-        playlists: [
+        "playlists": [
             {
-                name: "name"
+                "name": "name"
             }
         ],
-        series: [
+        "series": [
             {
-                name: "name"
+                "title": {
+                    "romaji": "romaji"
+                }
             }
         ],
-        songs: [
+        "songs": [
             {
-                title: "title"
+                "title": {
+                    "romaji": "romaji"
+                }
             }
         ],
-        videos: [
+        "videos": [
             {
-                basename: "basename"
+                "basename": "basename"
             }
         ]
     }

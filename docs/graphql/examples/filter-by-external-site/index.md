@@ -15,7 +15,9 @@ An external resource may be linked to multiple anime.
 ```graphql
 query ($id: [Int!]) {
     findAnimeByExternalSite(site: ANILIST, id: $id) {
-        name
+        title {
+            romaji
+        }
         format
         season
         year
@@ -42,7 +44,9 @@ None
     "data": {
         "findAnimeByExternalSite": [
             {
-                "name": "Hibike! Euphonium 3",
+                "title": {
+                    "romaji": "Hibike! Euphonium 3"
+                },
                 "format": "TV",
                 "season": "SPRING",
                 "year": 2024

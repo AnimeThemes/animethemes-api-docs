@@ -24,7 +24,9 @@ query($slug: String!) {
                 version
             }
             anime { # One-to-Many
-                name
+                title {
+                    romaji
+                }
             }
         }
     }
@@ -52,7 +54,9 @@ The following query
 ```graphql
 query {
     anime(slug: "hibike_euphonium") {
-        name
+        title {
+            romaji
+        }
         series {
             pageInfo { # Pagination
                 hasNextPage
@@ -65,11 +69,13 @@ query {
                 lastPage
             }
             nodes { # Without pivot fields
-                name
+                title {
+                    romaji
+                }
             }
             edges { # With pivot fields
-                node {
-                    name
+                title {
+                    romaji
                 }
                 createdAt
                 updatedAt
@@ -83,7 +89,9 @@ will return the JSON:
 {
     "data": {
         "anime": {
-            "name": "Hibike! Euphonium",
+            "title": {
+                "romaji": "Hibike! Euphonium"
+            },
             "series": {
                 "pageInfo": {
                     "hasNextPage": false,
@@ -97,13 +105,17 @@ will return the JSON:
                 },
                 "nodes": [
                     {
-                        "name": "Hibike! Euphonium"
+                        "title": {
+                            "romaji": "Hibike! Euphonium"
+                        }
                     }
                 ],
                 "edges": [
                     {
                         "node": {
-                            "name": "Hibike! Euphonium"
+                            "title": {
+                                "romaji": "Hibike! Euphonium"
+                            }
                         },
                         "createdAt": "2021-03-27 01:58:45",
                         "updatedAt": "2021-03-27 01:58:45"
@@ -123,7 +135,9 @@ The following query
 ```graphql
 query {
     anime(slug: "hibike_euphonium") {
-        name
+        title {
+            romaji
+        }
         resources {
             pageInfo { # Pagination
                 hasNextPage
@@ -155,7 +169,9 @@ will return the JSON:
 {
     "data": {
         "anime": {
-            "name": "Hibike! Euphonium",
+            "title": {
+                "romaji": "Hibike! Euphonium"
+            },
             "resources": {
                 "pageInfo": {
                     "hasNextPage": false,

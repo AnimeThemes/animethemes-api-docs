@@ -1,18 +1,18 @@
 import path from "path";
 
-export default function graphqlWarnPlugin() {
+export default function jsonapiWarnPlugin() {
     return {
-        name: "graphql-warn-plugin",
+        name: "jsonapi-warn-plugin",
         enforce: "pre",
         transform(code, id) {
             if (!id.endsWith(".md")) return;
 
             const relativePath = path.relative(process.cwd(), id);
-            if (!relativePath.includes("graphql")) return;
+            if (!relativePath.includes("jsonapi")) return;
 
             const warningBlock = [
                 "::: warning",
-                "⚠️ The GraphQL API is experimental and subject to change without notice.",
+                "⚠️ The JSON:API is deprecated and it will be removed.",
                 ":::",
                 "",
             ].join("\n");

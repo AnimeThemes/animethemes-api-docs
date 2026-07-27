@@ -23,19 +23,19 @@ hero:
           text: Get Started with JSON:API
           link: /intro
 features:
-  - icon: 🔍
+  - icon: 🧠
     title: Advanced Querying
     details: Support for randomization, searching and filtering by direct fields and relation fields out of the box
     link: /graphql/guide/filtering/
     linkText: GraphQL Example
-  - icon: 📻
-    title: Media Links
-    details: Embed or download audio and video using links provided by resources
-    link: /content/video/show/#response
-    linkText: JSON:API Example
+  - icon: 🔍
+    title: Search
+    details: Search for resources based on user terms
+    link: /graphql/examples/search
+    linkText: GraphQL Example
   - icon: 🕸️
     title: External Mappings
     details: Find resources based on their mappings to sites like MyAnimeList or AniList
-    link: /intro/jsonapi/#has-filter
-    linkText: JSON:API Example
+    link: /graphql/examples/filter-by-external-site
+    linkText: GraphQL Example
 ---

@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import graphqlWarnPlugin from './theme/graphql-warn-plugin';
+import jsonapiWarnPlugin from './theme/jsonapi-warn-plugin';
 
 const referenceSidebarItems = [
     {
@@ -468,7 +468,7 @@ const referenceSidebarItems = [
 
 export default {
     vite: {
-        plugins: [graphqlWarnPlugin()],
+        plugins: [jsonapiWarnPlugin()],
     },
     base: process.env.VITEPRESS_BASE,
     lang: 'en-US',

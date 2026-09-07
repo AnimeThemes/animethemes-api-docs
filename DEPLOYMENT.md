@@ -71,7 +71,7 @@ sudo git clone git@github.com:AnimeThemes/animethemes-api-docs.git
 cd animethemes-api-docs
 
 # Build the Docker image
-docker compose up -d
+sudo docker compose up -d
 
 # Give permissions to Nginx
 sudo setfacl -m u:www-data:--x /app /app/animethemes-api-docs /app/animethemes-api-docs/docs /app/animethemes-api-docs/docs/.vitepress

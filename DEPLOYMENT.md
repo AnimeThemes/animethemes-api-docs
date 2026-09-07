@@ -22,7 +22,7 @@ server {
 }
 
 server {
-    root /var/www/html/animethemes-api-docs/docs/.vitepress/dist;
+    root /app/animethemes-api-docs/docs/.vitepress/dist;
 
     # Add index.php to the list if you are using PHP
     index index.html index.htm index.nginx-debian.html;
@@ -66,13 +66,15 @@ To install HTTPS certificates using Let's Encrypt, follow the official [guide fr
 
 ```sh
 # Go to the web directory and clone repository from Github
-cd /var/www/html
+cd /app
 sudo git clone git@github.com:AnimeThemes/animethemes-api-docs.git
 cd animethemes-api-docs
 
-# Install the dependencies using Bun
-bun install
+# Build the Docker image
+docker compose up -d
 
-# Build the static files
-bun run docs:build
+# Give permissions to Nginx
+sudo setfacl -m u:www-data:--x /app /app/animethemes-api-docs /app/animethemes-api-docs/docs /app/animethemes-api-docs/docs/.vitepress
+sudo setfacl -R -m u:www-data:rX /app/animethemes-api-docs/docs/.vitepress/dist
+sudo setfacl -m d:u:www-data:rX /app/animethemes-api-docs/docs/.vitepress/dist
 ```

@@ -1,0 +1,9 @@
+services:
+  api-docs:
+    build:
+      context: .
+    container_name: api-docs
+    working_dir: /app
+    restart: "no"
+    volumes:
+        - ./docs/.vitepress/dist:/app/docs/.vitepress/dist

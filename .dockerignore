@@ -4,6 +4,13 @@ docs/.vitepress/dist
 
 .git
 .gitignore
+.github
 
 Dockerfile*
 docker-compose*
+
+*.md
+LICENSE
+
+.prettierignore
+.prettierrc

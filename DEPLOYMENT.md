@@ -1,8 +1,8 @@
 ## Requirements
 
-* Nginx
 * Certbot
-* Bun
+* Docker
+* Nginx
 
 ## Nginx
 
@@ -65,13 +65,17 @@ To install HTTPS certificates using Let's Encrypt, follow the official [guide fr
 ## Application Setup
 
 ```sh
-# Go to the web directory and clone repository from Github
+# Go to the directory
 cd /app
-sudo git clone git@github.com:AnimeThemes/animethemes-api-docs.git
-cd animethemes-api-docs
 
-# Build the Docker image
-sudo docker compose up -d
+# Open the docker-compose.yml file and update the content
+sudo nano docker-compose.yml
+
+# Pull the latest Docker image
+docker compose pull
+
+# Start the Docker containers
+docker compose up -d
 
 # Give permissions to Nginx
 sudo setfacl -m u:www-data:--x /app /app/animethemes-api-docs /app/animethemes-api-docs/docs /app/animethemes-api-docs/docs/.vitepress

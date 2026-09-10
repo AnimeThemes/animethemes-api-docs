@@ -1,7 +1,6 @@
 services:
   api-docs:
-    build:
-      context: .
+    image: ghcr.io/animethemes/animethemes-api-docs:main
     container_name: api-docs
     working_dir: /app
     restart: "no"

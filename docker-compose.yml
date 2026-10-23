@@ -1,8 +1,8 @@
 services:
-  api-docs:
-    image: ghcr.io/animethemes/animethemes-api-docs:main
-    container_name: api-docs
-    working_dir: /app
-    restart: "no"
-    volumes:
-        - ./docs/.vitepress/dist:/app/docs/.vitepress/dist
+    api-docs:
+        image: ghcr.io/animethemes/animethemes-api-docs:main
+        container_name: animethemes-api-docs
+        working_dir: /app
+        restart: "no"
+        volumes:
+            - ./docs/.vitepress/dist:/app/docs/.vitepress/dist

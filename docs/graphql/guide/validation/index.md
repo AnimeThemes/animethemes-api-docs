@@ -18,7 +18,7 @@ Validation can fail for several reasons, including:
 
 ### Example
 
-Consider the `findAnimeByExternalSite` query. This query requires at least one of the following arguments to function properly: `id` or `link`.
+Consider the `filterAnimeByExternalSite` query. This query requires at least one of the following arguments to function properly: `id` or `link`.
 
 If neither argument is provided, the API will return an HTTP 200 response with an errors array describing the validation issue, similar to the following JSON:
 
@@ -26,7 +26,7 @@ If neither argument is provided, the API will return an HTTP 200 response with a
 {
     "errors": [
         {
-            "message": "The id field is required when link is not present. (and 1 more error)",
+            "message": "Validation",
             "locations": [
                 {
                     "line": 2,
@@ -34,9 +34,10 @@ If neither argument is provided, the API will return an HTTP 200 response with a
                 }
             ],
             "path": [
-                "findAnimeByExternalSite"
+                "filterAnimeByExternalSite"
             ],
             "extensions": {
+                "code": 422,
                 "validation": {
                     "id": [
                         "The id field is required when link is not present."

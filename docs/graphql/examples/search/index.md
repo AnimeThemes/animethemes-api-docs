@@ -14,36 +14,52 @@ The global search query returns a listing of resources that match a given search
 query ($search: String!) {
     search(search: $search) {
         anime {
-            title {
-                romaji
+            data {
+                title {
+                    romaji
+                }
             }
         }
         artists {
-            name {
-                main
+            data {
+                name {
+                    main
+                }
             }
         }
-        animethemes {
-            type
+        themes {
+            data {
+                type
+            }
         }
         playlists {
-            name
+            data {
+                name
+            }
         }
         series {
-            title {
-                romaji
+            data {
+                title {
+                    romaji
+                }
             }
         }
         songs {
-            title {
-                romaji
+            data {
+                title {
+                    romaji
+                }
             }
         }
         studios {
-            name
+            data {
+                name
+            }
         }
         videos {
-            basename
+            data {
+                basename
+            }
         }
     }
 }
@@ -57,7 +73,7 @@ None
 
 | Name         | Type     | Description                    |
 | :----------: | :------: | :----------------------------- |
-| page         | Int      | Index of the current page      |
+| page         | Int!     | Index of the current page      |
 | first        | Int!     | Number of items per page       |
 | search       | String!  | The term used for the search   |
 
@@ -66,49 +82,54 @@ None
 ```json
 {
     "search": {
-        "anime": [
-            {
-                "title": {
-                    "romaji": "romaji"
+        "anime": {
+            "data": [
+                {
+                    "title": {
+                        "romaji": "romaji"
+                    }
                 }
-            }
-        ],
-        "animethemes": [
-            {
-                "type": "type"
-            }
-        ],
-        "artists": [
-            {
-                "name": {
-                    "main": "main"
+            ]
+        },
+        "artists": {
+            "data": [
+                {
+                    "name": {
+                        "main": "main"
+                    }
                 }
-            }
-        ],
-        "playlists": [
-            {
-                "name": "name"
-            }
-        ],
-        "series": [
-            {
-                "title": {
-                    "romaji": "romaji"
+            ]
+        },
+        "themes": {
+            "data": [
+                {
+                    "type": "type"
                 }
-            }
-        ],
-        "songs": [
-            {
-                "title": {
-                    "romaji": "romaji"
+            ]
+        },
+        "playlists": {
+            "data": [
+                {
+                    "name": "name"
                 }
-            }
-        ],
-        "videos": [
-            {
-                "basename": "basename"
-            }
-        ]
+            ]
+        },
+        "songs": {
+            "data": [
+                {
+                    "title": {
+                        "romaji": "romaji"
+                    }
+                }
+            ]
+        },
+        "videos": {
+            "data": [
+                {
+                    "basename": "basename"
+                }
+            ]
+        }
     }
 }
 ```

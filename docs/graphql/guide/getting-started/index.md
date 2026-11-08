@@ -14,27 +14,27 @@ It is recommended that you learn how to wrap a [GraphQL API](https://graphql.org
 
 ## Content Negotiation
 
-The AnimeThemes API needs a `Content-Type` header.
+The AnimeThemes API needs `Content-Type: application/json` and `User-Agent` headers.
 
 ```powershell
-# A simple curl request works like this.
+# A simple curl request works like this. Note: curl automatically sets a User-Agent header.
 curl -X POST
     -H "Content-Type: application/json"
-    -d "{\"query\": \"{ animePagination { data { title { romaji } } } }\"}"
-    https://graphql.animethemes.moe/
+    -d "{\"query\": \"{ animeConnection { nodes { title { romaji } } } }\"}"
+    https://rs.animethemes.moe/graphql
 ```
 
 ## Document Structure
 
 ### Top Level
 
-The AnimeThemes API specifies a custom `data` wrap for top-level members that use pagination.
+The AnimeThemes API specifies a custom `nodes` wrap for top-level members that use pagination.
 
 The following query
 ```graphql
 query {
-    animePagination {
-        data {
+    animeConnection {
+        nodes {
             title {
                 romaji
             }
@@ -46,8 +46,8 @@ will return the JSON:
 ```json
 {
     "data": {
-        "animePagination": {
-            "data": [
+        "animeConnection": {
+            "nodes": [
                 {
                     "title" {
                         "romaji": ".hack//Liminality"

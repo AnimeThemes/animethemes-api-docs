@@ -6,8 +6,6 @@ title: Rate Limiting
 
 ---
 
-The AnimeThemes GraphQL API applies the standard named rate limiter of the Laravel Framework.
-
 Here we will provide an overview of managing request quotas.
 
 ## Response Headers
@@ -40,7 +38,7 @@ Additionally, the AnimeThemes API will return an error message in the response b
 
 ```json
 {
-    message: "Too Many Attempts."
+    message: "Too Many Requests."
 }
 ```
 

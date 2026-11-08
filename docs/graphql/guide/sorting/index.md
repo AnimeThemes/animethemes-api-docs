@@ -17,79 +17,18 @@ To sort in descending order, append `_DESC` to the field name.
 
 ```graphql
 query {
-    animePagination(sort: TITLE_ROMAJI) { # Sorting in ascending direction.
-        data {
+    animeConnection(sort: TITLE_ROMAJI) { # Sorting in ascending direction.
+        nodes {
             title {
                 romaji
             }
         }
     }
 
-    animePagination(sort: TITLE_ROMAJI_DESC) { # Sorting in descending direction.
-        data {
+    animeConnection(sort: TITLE_ROMAJI_DESC) { # Sorting in descending direction.
+        nodes {
             title {
                 romaji
-            }
-        }
-    }
-}
-```
-
-## Nested Sorting
-
-In one-to-many relationships, it is possible to sort the through a relation.
-For example, sort animethemes by their song title.
-
-```graphql
-query {
-    anime(slug: "hibike_euphonium") {
-        animethemes(sort: SONG_TITLE_ROMAJI) {
-            song {
-                title {
-                    romaji
-                }
-            }
-        }
-    }
-}
-```
-
-## Relationship Sorting
-
-It is possible to sort the relationships of the parent type.
-
-```graphql
-query {
-    anime(slug: "hibike_euphonium") {
-        resources(sort: EXTERNAL_ID) {
-            nodes {
-                externalId
-            }
-        }
-    }
-}
-```
-
-## Pivot Sorting
-
-Sometimes, it is possible to sort results using pivot fields.
-
-```graphql
-query {
-    artistPagination {
-        data {
-            name {
-                main
-            }
-            members(sort: MEMBER_RELEVANCE) {
-                edges {
-                    node {
-                        name {
-                            main
-                        }
-                    }
-                    relevance
-                }
             }
         }
     }
@@ -102,8 +41,8 @@ By providing a list of enum cases, the sort will be applied in the order of the 
 
 ```graphql
 {
-    animePagination(sort: [YEAR_DESC, SEASON]) {
-        data {
+    animeConnection(sort: [YEAR_DESC, SEASON]) {
+        nodes {
             year
             season
         }

@@ -34,19 +34,11 @@ X-RateLimit-Reset: 1625073463180
 ...
 ```
 
-Additionally, the AnimeThemes API will return an error message in the response body.
-
-```json
-{
-    message: "Too Many Requests."
-}
-```
-
 ## Query Depth Limit
 
 Clients can nest fields within other fields, which can quickly result in deeply nested queries.
 
-The AnimeThemes GraphQL API enforces a maximum query depth of 13.
+The AnimeThemes GraphQL API enforces a maximum query depth of 15.
 
 If your query exceeds this limit, the API will return a 200 status code with the following error response:
 
@@ -54,7 +46,7 @@ If your query exceeds this limit, the API will return a 200 status code with the
 {
     "errors": [
         {
-            "message": "Max query depth should be 13 but got 16."
+            "message": "Query is nested too deep."
         }
     ]
 }
@@ -64,7 +56,7 @@ If your query exceeds this limit, the API will return a 200 status code with the
 
 Clients can request a lot of fields, which can quickly result in a lot of heavy logic.
 
-The AnimeThemes GraphQL API enforces a maximum of 10000 of complexity value.
+The AnimeThemes GraphQL API enforces a maximum of 200 of complexity value.
 
 If your query exceeds this limit, the API will return a 200 status code with the following error response:
 
@@ -72,7 +64,7 @@ If your query exceeds this limit, the API will return a 200 status code with the
 {
     "errors": [
         {
-            "message": "Max query complexity should be 10000 but got 15000."
+            "message": "Query is too complex."
         }
     ]
 }

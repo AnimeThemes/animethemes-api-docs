@@ -30,6 +30,6 @@ The AnimeThemes API applies the [**AnimeThemes Terms of Service**](https://anime
 
 For API support, please make use of the **#api** channel in the [**Discord Server**](https://discordapp.com/invite/m9zbVyQ).
 
-To report an issue with or request a new feature for the API, please make use of the [**animethemes-server**](https://github.com/AnimeThemes/animethemes-server) Github.
+To report an issue with or request a new feature for the API, please make use of the [**animethemes-server-rust**](https://github.com/AnimeThemes/animethemes-server-rust) Github.
 
 To report an issue with or request a new feature for this documentation, please make use of the [**animethemes-api-docs**](https://github.com/AnimeThemes/animethemes-api-docs) Github.

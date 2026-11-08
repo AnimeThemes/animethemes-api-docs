@@ -18,9 +18,9 @@ And an inverse one-to-many relationship has a unique object that references the 
 ```graphql
 query($slug: String!) {
     anime(slug: $slug) {
-        animethemes {
+        themes {
             sequence
-            animethemeentries(first: 1, version: 1) { # Inverse One-to-Many
+            entries { # Inverse One-to-Many
                 version
             }
             anime { # One-to-Many
@@ -36,8 +36,6 @@ query($slug: String!) {
 ## Many-to-Many
 
 Every many-to-many relationship applies connection pagination and has three top fields.
-Read about it in the [graphql.org](https://graphql.org/learn/pagination/#pagination-and-edges)
-and [relay.dev](https://relay.dev/graphql/connections.htm) documentations if you don't know what it is.
 
 The `pageInfo` field provides pagination information.
 
@@ -47,8 +45,6 @@ Use this field if you don't care about the pivot fields of the relationship.
 The `edges` field returns a list of `edge` objects.
 The `edge` object always contains a `node` field that returns a singular object of the related type,
 and the pivot fields of the relationship.
-
-Both fields `createdAt` and `updatedAt` are available for every many-to-many relationship.
 
 The following query
 ```graphql
@@ -63,10 +59,6 @@ query {
                 hasPreviousPage
                 startCursor
                 endCursor
-                total
-                count
-                currentPage
-                lastPage
             }
             nodes { # Without pivot fields
                 title {
@@ -74,8 +66,10 @@ query {
                 }
             }
             edges { # With pivot fields
-                title {
-                    romaji
+                node {
+                    title {
+                        romaji
+                    }
                 }
                 createdAt
                 updatedAt
@@ -96,12 +90,8 @@ will return the JSON:
                 "pageInfo": {
                     "hasNextPage": false,
                     "hasPreviousPage": false,
-                    "startCursor": "MQ==",
-                    "endCursor": "MQ==",
-                    "total": 1,
-                    "count": 1,
-                    "currentPage": 1,
-                    "lastPage": 1
+                    "startCursor": "68",
+                    "endCursor": "68",
                 },
                 "nodes": [
                     {
@@ -117,8 +107,8 @@ will return the JSON:
                                 "romaji": "Hibike! Euphonium"
                             }
                         },
-                        "createdAt": "2021-03-27 01:58:45",
-                        "updatedAt": "2021-03-27 01:58:45"
+                        "createdAt": "2021-03-27T04:58:45.326449+00:00",
+                        "updatedAt": "2021-03-27T04:58:45.326449+00:00"
                     }
                 ]
             }
@@ -144,10 +134,6 @@ query {
                 hasPreviousPage
                 startCursor
                 endCursor
-                total
-                count
-                currentPage
-                lastPage
             }
             nodes { # Without pivot fields
                 link
@@ -176,12 +162,8 @@ will return the JSON:
                 "pageInfo": {
                     "hasNextPage": false,
                     "hasPreviousPage": false,
-                    "startCursor": "MQ==",
-                    "endCursor": "OQ==",
-                    "total": 9,
-                    "count": 9,
-                    "currentPage": 1,
-                    "lastPage": 1
+                    "startCursor": "2008",
+                    "endCursor": "32353",
                 },
                 "nodes": [
                     {
@@ -195,8 +177,8 @@ will return the JSON:
                             "link": "https://myanimelist.net/anime/27989"
                         },
                         "as": null,
-                        "createdAt": "2021-03-26T21:49:16+00:00",
-                        "updatedAt": "2021-03-26T21:49:16+00:00"
+                        "createdAt": "2021-03-27T00:49:16.206425+00:00",
+                        "updatedAt": "2021-03-27T00:49:16.206425+00:00"
                     }
                     ...
                 ]
